@@ -1,0 +1,60 @@
+{
+  "complete": true,
+  "scope": "Experiment reports, configs and all evaluation/training traces; full model weights remain remote",
+  "files": {
+    "reports/day8_acceptance.json": {
+      "bytes": 13547,
+      "sha256": "e3f661e9d63052746be3bb868c0c5e6023d74916c252c4f4c1ef3f5616756aef"
+    },
+    "reports/day8_baseline_comparison.json": {
+      "bytes": 44212,
+      "sha256": "b4b70542c07f8677ba5b0b5e42acb1a1ee60deee786b0532956a0ae7271d6d99"
+    },
+    "reports/day8_training_report.json": {
+      "bytes": 2886,
+      "sha256": "06625a6016dfb0b79b67cc7b786cb72da99c54f8a51556239cbe022844dd5670"
+    },
+    "reports/day8_checkpoint_verification.json": {
+      "bytes": 2590,
+      "sha256": "be7c2e4bc5fefbb16ac59d82b0416ed94ac85bfb73a2016b5c3d0c380a3eded4"
+    },
+    "reports/day8_checkpoint_manifest.json": {
+      "bytes": 1691,
+      "sha256": "c46204011468168f2bafc98c7be111715803f2f815534d920ad6b205ab76d042"
+    },
+    "reports/day8_export_precision.json": {
+      "bytes": 307,
+      "sha256": "ffdcbf535e9618480d2d2f14c6dd1a652fb9193b768277d304cdae85edbb92d0"
+    },
+    "reports/day8_cleanup.json": {
+      "bytes": 353,
+      "sha256": "c24b6bb2ef5db3e151304feb50ed43a49323f4443cff0709bb94df8767d9e130"
+    },
+    "training/day8/evaluation_protocol.json": {
+      "bytes": 4217,
+      "sha256": "078b36f56a85e1ef800da548ba042e7296fe6e79cb3b10dfb3c2d492f3338635"
+    },
+    "training/day8/resolved_config.yaml": {
+      "bytes": 20255,
+      "sha256": "0115ed298f17fd9a296f651f87959525ef70931226d21da9f796f306c71a93b6"
+    },
+    "training/day8/launch_train.json": {
+      "bytes": 7739,
+      "sha256": "965316383cb654f54a841a81ce834bebcf2fd0df3cc6ffd957bd70df10768998"
+    },
+    "runs/day8/day8-baseline-results.tar.gz": {
+      "bytes": 53394,
+      "sha256": "41389d16d13a652b09dc88ea5eeded205f7884c42b0d7f9dddbb0e8227d26f3d"
+    },
+    "runs/day8/day8-training-results.tar.gz": {
+      "bytes": 203063,
+      "sha256": "010637800f5462e443bb5f5c3502dd9f9b7685a1ddf399571925f085d7306251"
+    },
+    "runs/day8/day8-checkpoint-results.tar.gz": {
+      "bytes": 2687,
+      "sha256": "f0e1f4e23dd3590a493aff78248d41fece0ccc209728f7b3b6ba5054b7f9f4f7"
+    }
+  },
+  "full_grpo_weights_backed_up_locally": false,
+  "optimizer_state_saved": false
+}

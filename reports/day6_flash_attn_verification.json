@@ -1,0 +1,8 @@
+{
+  "wheel_sha256_verified": true,
+  "flash_attn": "2.8.1",
+  "torch": "2.8.0+cu128",
+  "cpp_abi": true,
+  "bf16_cuda_forward_matches_torch": true,
+  "complete": true
+}

@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "formal_training_performed": false,
+  "train_tasks": 300,
+  "train_sources": 74,
+  "dev_tasks": 32,
+  "dev_sources": 14,
+  "dev_model_inputs_unchanged": true,
+  "private_tests_exported": false,
+  "reference_code_exported": false,
+  "mutation_metadata_exported": false,
+  "public_files": 997,
+  "dataset_manifest_sha256": "37b846babd6d9949e2247752042c3669d618d0f367212b65ba32e39717da9555",
+  "input_identity_sha256": "16bf234e820ea88cd9210b6a88899a35009630d259e123422e072ec775be30e4",
+  "test_executed": false
+}

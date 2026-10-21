@@ -1,0 +1,38 @@
+{
+  "task_id": "mbpp-952-x02",
+  "source_id": "mbpp-952",
+  "split": "train",
+  "entrypoint": "nCr_mod_p",
+  "instruction": "Write a function to compute the value of ncr mod p.\n\n精确输入域与验收约定：整数0<=r<=n<=30、2<=p<=100；返回二项式系数C(n,r)模p，p不要求为素数。\n修复 solution.py 中的 nCr_mod_p 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "value",
+      "generators",
+      0,
+      "iter",
+      "args",
+      0
+    ],
+    "line": 4,
+    "column": 26,
+    "before": "BinOp(left=Name(id='r', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "after": "BinOp(left=BinOp(left=Name(id='r', ctx=Load()), op=Add(), right=Constant(value=1)), op=Sub(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 952,
+    "raw_code_sha256": "d849b854a26a0a7f29aa6f873dfce3ff72a7acd43f59b21c84d67a6a472b5e3c",
+    "reference_sha256": "7b518ebb69178e0af078153f92f8810dff4c882d9ed0c4b967def3cf7ed432a7"
+  },
+  "domain": "整数0<=r<=n<=30、2<=p<=100；返回二项式系数C(n,r)模p，p不要求为素数。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

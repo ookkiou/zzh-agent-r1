@@ -1,0 +1,42 @@
+{
+  "task_id": "mbpp-697-x02",
+  "source_id": "mbpp-697",
+  "split": "train",
+  "entrypoint": "count_even",
+  "instruction": "Write a function to find number of even elements in the given list using lambda function.\n\n精确输入域与验收约定：整数列表，长度<=30；返回偶数个数，零和负偶数也计入。\n修复 solution.py 中的 count_even 函数，保留签名。",
+  "bug_type": "numeric_constant",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "args",
+      0,
+      "args",
+      0,
+      "args",
+      0,
+      "body",
+      "left",
+      "right"
+    ],
+    "line": 2,
+    "column": 47,
+    "before": "Constant(value=2)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 697,
+    "raw_code_sha256": "a19a9ca83e6773f3c93e9892be15a14bf5b9d02389377bf34cfa7d4c55db612f",
+    "reference_sha256": "ddcabe977fb8654a87d5770ca32ce36bc0f3ca39914d3dcaaf4f93e361aacf4a"
+  },
+  "domain": "整数列表，长度<=30；返回偶数个数，零和负偶数也计入。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

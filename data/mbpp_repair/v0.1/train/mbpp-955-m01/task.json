@@ -1,0 +1,41 @@
+{
+  "task_id": "mbpp-955-m01",
+  "source_id": "mbpp-955",
+  "split": "train",
+  "entrypoint": "is_abundant",
+  "instruction": "Write a function to find out, if the given number is abundant.\n\n精确输入域与验收约定：整数 1<=n<=100；真因子为小于 n 的正因子；真因子之和严格大于 n 时返回 True。\n修复 solution.py 中的 is_abundant 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "args",
+      0,
+      "generators",
+      0,
+      "ifs",
+      0,
+      "ops",
+      0
+    ],
+    "line": 2,
+    "column": 51,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 955,
+    "raw_code_sha256": "08252f15ba479adc5396685f333f7f784d8f18142aefac04a6331aaaf83cfe34",
+    "reference_sha256": "b5cf8d6ea868e7a223a6445b19b69503d8fae0d207d49aa50a2875640c42f845"
+  },
+  "domain": "整数 1<=n<=100；真因子为小于 n 的正因子；真因子之和严格大于 n 时返回 True。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

@@ -1,0 +1,34 @@
+{
+  "complete": true,
+  "stage": "single",
+  "ability_improvement_evaluated": false,
+  "updates": {
+    "1": {
+      "actor/pg_loss": 0.015296779572963715,
+      "actor/kl_loss": 0.0,
+      "actor/grad_norm": 0.963516354560852,
+      "critic/score/mean": 0.375
+    },
+    "2": {
+      "actor/pg_loss": -0.05002468824386597,
+      "actor/kl_loss": 0.00023421156765834894,
+      "actor/grad_norm": 1.381282925605774,
+      "critic/score/mean": 0.5
+    }
+  },
+  "merged_path": "/root/autodl-tmp/agent-r1-day6/runs/day6-smoke/single/merged-step2",
+  "tied_weight_alias_verified": "lm_head.weight == model.embed_tokens.weight",
+  "weight_comparison": {
+    "checked_tensors": 338,
+    "changed_tensors": 261,
+    "checked_elements": 1543714304,
+    "changed_elements": 29771678,
+    "all_checkpoint_weights_finite": true,
+    "original_revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a"
+  },
+  "checkpoint_reload": {
+    "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+    "generated_text": "7",
+    "nonempty": true
+  }
+}

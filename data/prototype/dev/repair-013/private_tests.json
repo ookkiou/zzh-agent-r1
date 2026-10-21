@@ -1,0 +1,63 @@
+[
+  {
+    "id": "private-01",
+    "args": [
+      [
+        -5
+      ]
+    ],
+    "expected": 0
+  },
+  {
+    "id": "private-02",
+    "args": [
+      [
+        0,
+        0
+      ]
+    ],
+    "expected": 0
+  },
+  {
+    "id": "private-03",
+    "args": [
+      [
+        1
+      ]
+    ],
+    "expected": 1
+  },
+  {
+    "id": "private-04",
+    "args": [
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "expected": 6
+  },
+  {
+    "id": "private-05",
+    "args": [
+      [
+        -3,
+        4,
+        -2,
+        6
+      ]
+    ],
+    "expected": 10
+  },
+  {
+    "id": "private-06",
+    "args": [
+      [
+        10,
+        -10
+      ]
+    ],
+    "expected": 10
+  }
+]

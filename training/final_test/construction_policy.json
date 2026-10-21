@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "version": "mbpp-repair-test@0.1.0",
+  "frozen_before_test_fixture_execution": true,
+  "candidate_freeze_sha256": "ce5af7ebbcdb850d5e5e9951224acf365a27336ec6cd8e81bfc09702d84d3822",
+  "candidate_model_sha256": "40915da114c198d947b2b99482fdb3b96ba8bade9cb0b7fb33c53e79e1bb986d",
+  "test_source_lock_sha256": "b57cf92f19aeade1674b0e6517d772ad560ef04cd1744e4cfcbc3f77b41a2263",
+  "cohort_sources": 50,
+  "maximum_variants_per_source": 1,
+  "mutation_order": "sorted bug category, round-robin category depth; first candidate with completed public and private failures",
+  "public_cases": "first two original upstream literal assertions",
+  "private_cases": "third original assertion plus at least six independently authored regressions; remove duplicate inputs",
+  "minimum_unique_private_cases": 5,
+  "reference_policy": "reference must pass every original public and private case with the frozen strict comparator; do not patch reference",
+  "model_independent_exclusion_policy": [
+    "ambiguous operation or contradictory semantics",
+    "reference violates supported native JSON type/strict comparator or stated boundary requirements",
+    "no completed public/private-failing single-location mutation"
+  ],
+  "replacement_sources_allowed": false,
+  "generation_uses_model_scores": false,
+  "contract_validation_repairs_allowed_before_any_model_test": true,
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "max_steps": 6,
+  "max_prompt_length": 4096,
+  "max_response_length": 512,
+  "episode_timeout": 240,
+  "test_timeout": 10,
+  "infra_retries": 2,
+  "generation_backend": "Transformers SDPA BF16; sequential single-episode generation",
+  "models": [
+    "SFT-only",
+    "GRPO-step70"
+  ],
+  "primary_metric": "mean single-episode private acceptance; not pass@3",
+  "model_test_executed": false
+}

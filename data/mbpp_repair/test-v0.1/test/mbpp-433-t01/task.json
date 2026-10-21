@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-433-t01",
+  "source_id": "mbpp-433",
+  "split": "test",
+  "entrypoint": "check_greater",
+  "instruction": "Write a function to check whether the entered number is greater than the elements of the given array.\n\n精确输入域与验收约定：非空整数列表arr，number为整数；严格大于所有元素返回字符串'Yes, the entered number is greater than those in the array'，否则返回'No, entered number is less than those in the array'，允许修改列表。\n修复 solution.py 中的 check_greater 函数，保留签名。",
+  "domain": "非空整数列表arr，number为整数；严格大于所有元素返回字符串'Yes, the entered number is greater than those in the array'，否则返回'No, entered number is less than those in the array'，允许修改列表。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "test",
+      "comparators",
+      0,
+      "slice"
+    ],
+    "line": 3,
+    "column": 20,
+    "before": "UnaryOp(op=USub(), operand=Constant(value=1))",
+    "after": "BinOp(left=UnaryOp(op=USub(), operand=Constant(value=1)), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 433,
+    "raw_code_sha256": "c2cf688aa5518f53e9a518e61ba9408989fbe4473b074041533f15dbcd4a1c26",
+    "reference_sha256": "5248e711732f26751bc5fb3c07f86d279943032ddb0690d389e47d14c9f766a7"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

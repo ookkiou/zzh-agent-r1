@@ -1,0 +1,38 @@
+{
+  "task_id": "mbpp-901-x01",
+  "source_id": "mbpp-901",
+  "split": "train",
+  "entrypoint": "smallest_multiple",
+  "instruction": "Write a function to find the smallest multiple of the first n numbers.\n\n精确输入域与验收约定：整数1<=n<=13；返回可被1..n所有正整数整除的最小正整数。\n修复 solution.py 中的 smallest_multiple 函数，保留签名。",
+  "bug_type": "boolean_logic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      3,
+      "body",
+      0,
+      "body",
+      1,
+      "test",
+      "op"
+    ],
+    "line": 11,
+    "column": 15,
+    "before": "And()",
+    "after": "Or()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 901,
+    "raw_code_sha256": "0fde5e58c0065db94f36d9ee62f488f51a0099d1599dbb22e87a8a1c90c0bf1f",
+    "reference_sha256": "4d2867a77b2678807210d491ee341664312af9f9805804a60b4aac425b93bb78"
+  },
+  "domain": "整数1<=n<=13；返回可被1..n所有正整数整除的最小正整数。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

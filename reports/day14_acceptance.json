@@ -1,0 +1,117 @@
+{
+  "complete": true,
+  "checked_at": "2026-10-21T06:29:14.714878+00:00",
+  "scope": "restricted ZzhClaw CLI repair profile and paired application dev migration",
+  "checks": [
+    {
+      "name": "current_application_and_evaluation_code_match_frozen_recipe",
+      "passed": true
+    },
+    {
+      "name": "original_final_test_protocol_unchanged",
+      "passed": true
+    },
+    {
+      "name": "scripted_http_zzhclaw_and_real_docker_acceptance",
+      "passed": true
+    },
+    {
+      "name": "real_model_api_smoke_complete",
+      "passed": true
+    },
+    {
+      "name": "recorded_merged_weight_hashes_and_server_version_match",
+      "passed": true
+    },
+    {
+      "name": "both_models_have_identical_frozen_initial_prompt_fingerprints",
+      "passed": true
+    },
+    {
+      "name": "generation_defaults_equal_between_models",
+      "passed": true
+    },
+    {
+      "name": "sft_complete_unique_96_valid_episodes",
+      "passed": true
+    },
+    {
+      "name": "sft_decision_and_token_budgets_preserved",
+      "passed": true
+    },
+    {
+      "name": "sft_raw_action_contracts_and_terminal_rewards_recomputed",
+      "passed": true
+    },
+    {
+      "name": "step70_complete_unique_96_valid_episodes",
+      "passed": true
+    },
+    {
+      "name": "step70_decision_and_token_budgets_preserved",
+      "passed": true
+    },
+    {
+      "name": "step70_raw_action_contracts_and_terminal_rewards_recomputed",
+      "passed": true
+    },
+    {
+      "name": "same_application_inference_and_evaluator_origins",
+      "passed": true
+    },
+    {
+      "name": "paired_summary_and_source_report_hashes_recomputed",
+      "passed": true
+    }
+  ],
+  "metrics": {
+    "sft": {
+      "successes": 69,
+      "episodes": 96,
+      "invalid_attempts": 0,
+      "invalid_model_actions": 0,
+      "decisions": 483,
+      "prompt_tokens": 490756,
+      "response_tokens": 13968,
+      "episode_seconds": 491.1561582959257,
+      "termination_reasons": {
+        "agent_final": 96
+      },
+      "source_report_sha256": "ac83981b0b0ccb4a25a624d824e4cd295705e5937854df31cb34712b77dab50d"
+    },
+    "step70": {
+      "successes": 75,
+      "episodes": 96,
+      "invalid_attempts": 1,
+      "invalid_model_actions": 1,
+      "decisions": 481,
+      "prompt_tokens": 488353,
+      "response_tokens": 14122,
+      "episode_seconds": 467.5069481258979,
+      "termination_reasons": {
+        "agent_final": 96
+      },
+      "source_report_sha256": "bb6000e3ed9938b405ab1344931770bd9ffb48d74a967f2db2e8e8b683bdb203"
+    }
+  },
+  "training_performed": false,
+  "final_test_reexecuted": false,
+  "formal_225_updates_complete": false,
+  "model_weight_backup_complete": false,
+  "statistical_significance_evaluated": false,
+  "limitations": [
+    "32 dev variants from 14 original sources, with correlated repeated seeds",
+    "vLLM backend/random stream differ from the earlier Transformers evaluation",
+    "CLI-only restricted repair profile; general tools and UI were not evaluated",
+    "Source FSDP weights were not rehashed or reloaded by this audit; merged-model identity uses recorded full hashes"
+  ],
+  "protocol_sha256": "ae96b0f262c0facf3a034198e605ff50af852ceb49df6cd5d21809089cee2818",
+  "paired_application_dev_complete": true,
+  "comparison_sha256": "392cf9aeb669c20bbdd073fc99a3149fb121669e58265c5b48e069547db6d5a2",
+  "source_count": 14,
+  "task_count": 32,
+  "valid_episodes": 192,
+  "paired_improved": 9,
+  "paired_regressed": 3,
+  "delta_percentage_points": 6.25
+}

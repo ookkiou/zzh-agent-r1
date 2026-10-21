@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-751-x01",
+  "source_id": "mbpp-751",
+  "split": "train",
+  "entrypoint": "check_min_heap",
+  "instruction": "Write a function to check if the given array represents min heap or not.\n\n精确输入域与验收约定：整数数组，长度<=30，i=0；检查完整二叉树数组表示是否满足每个父节点<=子节点，允许空数组。\n修复 solution.py 中的 check_min_heap 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "left",
+      "op"
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "Add()",
+    "after": "Sub()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 751,
+    "raw_code_sha256": "5ba4033a73cc96677dde5d0c318d63c583293cba5f2ff10b027d495e44130eaa",
+    "reference_sha256": "728b0fabbe3c7b40aedb9e5dc92b66c62dccba5ddee2d943d174c5f0e8523ec1"
+  },
+  "domain": "整数数组，长度<=30，i=0；检查完整二叉树数组表示是否满足每个父节点<=子节点，允许空数组。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

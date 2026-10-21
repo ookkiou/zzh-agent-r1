@@ -1,0 +1,86 @@
+{
+  "observed_at": "2026-10-21T04:56:23.697700+00:00",
+  "pid": 14419,
+  "running": false,
+  "stages": {
+    "sft": {
+      "completed": 126,
+      "target": 126,
+      "complete": true,
+      "successes_so_far": 90,
+      "invalid_attempts": 0,
+      "episode_seconds": 575.0903418324888
+    },
+    "step70": {
+      "completed": 126,
+      "target": 126,
+      "complete": true,
+      "successes_so_far": 93,
+      "invalid_attempts": 0,
+      "episode_seconds": 573.2435917332768
+    }
+  },
+  "comparison": {
+    "complete": true,
+    "sft_successes": 90,
+    "step70_successes": 93,
+    "sft_success_rate": 0.7142857142857143,
+    "step70_success_rate": 0.7380952380952381,
+    "delta_percentage_points": 2.3809523809523836,
+    "paired_improved_episodes": 7,
+    "paired_regressed_episodes": 4,
+    "statistical_significance_evaluated": false,
+    "test_executed": true,
+    "formal_225_updates_complete": false,
+    "by_seed": {
+      "17": {
+        "sft": 31,
+        "step70": 31
+      },
+      "29": {
+        "sft": 30,
+        "step70": 31
+      },
+      "43": {
+        "sft": 29,
+        "step70": 31
+      }
+    }
+  },
+  "log_tail": [
+    "{\"stage\": \"step70\", \"completed\": 120, \"total\": 126, \"task_id\": \"mbpp-469-t01\", \"seed\": 43, \"reward\": 0.0}",
+    "{\"stage\": \"step70\", \"completed\": 121, \"total\": 126, \"task_id\": \"mbpp-504-t01\", \"seed\": 17, \"reward\": 1.0}",
+    "{\"stage\": \"step70\", \"completed\": 122, \"total\": 126, \"task_id\": \"mbpp-504-t01\", \"seed\": 29, \"reward\": 1.0}",
+    "{\"stage\": \"step70\", \"completed\": 123, \"total\": 126, \"task_id\": \"mbpp-504-t01\", \"seed\": 43, \"reward\": 1.0}",
+    "{\"stage\": \"step70\", \"completed\": 124, \"total\": 126, \"task_id\": \"mbpp-506-t01\", \"seed\": 17, \"reward\": 1.0}",
+    "{\"stage\": \"step70\", \"completed\": 125, \"total\": 126, \"task_id\": \"mbpp-506-t01\", \"seed\": 29, \"reward\": 1.0}",
+    "{\"stage\": \"step70\", \"completed\": 126, \"total\": 126, \"task_id\": \"mbpp-506-t01\", \"seed\": 43, \"reward\": 1.0}",
+    "PAIRED FINAL TEST COMPARISON {\"complete\": true, \"inputs\": {\"protocol_sha256\": \"4b5fde7d02ac238d26fc4ed4cebcbb4d882ddfc0e85a530ab333cadc311742eb\", \"dataset_manifest_sha256\": \"46de09ae5b37c40a2a06f2a40ddf455b9195628ae96e0840a31955de8a7ea109\", \"public_manifest_sha256\": \"01fd9f254ca2b6f8032078a31922f517e32445e9a64e9c7ba29c59c94ec487ee\", \"candidate_freeze_sha256\": \"ce5af7ebbcdb850d5e5e9951224acf365a27336ec6cd8e81bfc09702d84d3822\", \"model_sha256\": {\"sft\": \"f507ccbddb9881ae7bdd841cd2ba8fdf02e54661d04e83fad7e97d2f545be346\", \"step70\": \"40915da114c198d947b2b99482fdb3b96ba8bade9cb0b7fb33c53e79e1bb986d\"}, \"script_sha256\": \"7531cff27fe68ef2a80e43f79af2ee8fbed0b4430783c23c16a27abe48418445\", \"test_loader_sha256\": \"d27be636b5de2f6b59dadeddec720c7f6d2ec107b4f9fbcb137d6d7ca808cf07\", \"tasks\": 42, \"episodes_per_model\": 126}, \"task_count\": 42, \"source_count\": 42, \"seeds\": [17, 29, 43], \"sft_successes\": 90, \"step70_successes\": 93, \"sft_success_rate\": 0.7142857142857143, \"step70_success_rate\": 0.7380952380952381, \"delta_percentage_points\": 2.3809523809523836, \"paired_improved_episodes\": 7, \"paired_regressed_episodes\": 4, \"metric\": \"126 single episodes per model, not pass@3\", \"statistical_significance_evaluated\": false, \"test_executed\": true, \"formal_225_updates_complete\": false, \"elapsed_seconds\": 1160.2615673113614, \"by_seed\": {\"17\": {\"sft\": 31, \"step70\": 31}, \"29\": {\"sft\": 30, \"step70\": 31}, \"43\": {\"sft\": 29, \"step70\": 31}}}"
+  ],
+  "gpu": "1 MiB, 32760 MiB, 0 %",
+  "test_executed": true,
+  "final_test_complete": true,
+  "formal_225_updates_complete": false,
+  "previous_observation": {
+    "observed_at": "2026-10-21T04:46:25.536165+00:00",
+    "pid": 14419,
+    "stages": {
+      "sft": {
+        "completed": 126,
+        "target": 126,
+        "complete": true,
+        "successes_so_far": 90,
+        "invalid_attempts": 0,
+        "episode_seconds": 575.0903418324888
+      },
+      "step70": {
+        "completed": 36,
+        "target": 126,
+        "complete": false,
+        "successes_so_far": 29,
+        "invalid_attempts": 0,
+        "episode_seconds": 158.6835291646421
+      }
+    }
+  }
+}

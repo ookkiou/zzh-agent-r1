@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-627-x02",
+  "source_id": "mbpp-627",
+  "split": "train",
+  "entrypoint": "find_First_Missing",
+  "instruction": "Write a python function to find the smallest missing number from the given array.\n\n精确输入域与验收约定：严格递增的非负整数数组，长度<=30；start=0、end=len(array)-1；返回最小缺失非负整数，允许空数组。\n修复 solution.py 中的 find_First_Missing 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "test",
+      "comparators",
+      0,
+      "slice"
+    ],
+    "line": 4,
+    "column": 22,
+    "before": "Name(id='start', ctx=Load())",
+    "after": "BinOp(left=Name(id='start', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 627,
+    "raw_code_sha256": "4ead5bb638edb05ab499c37a96bfece321d74d95a29afb8b8dff1a238903c3a5",
+    "reference_sha256": "dff2c23979bca62e2e582130654f53a36239eee8cc8fb34352db1ae47d8ce86a"
+  },
+  "domain": "严格递增的非负整数数组，长度<=30；start=0、end=len(array)-1；返回最小缺失非负整数，允许空数组。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

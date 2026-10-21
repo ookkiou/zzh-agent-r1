@@ -1,0 +1,39 @@
+{
+  "task_id": "mbpp-863-x01",
+  "source_id": "mbpp-863",
+  "split": "train",
+  "entrypoint": "find_longest_conseq_subseq",
+  "instruction": "Write a function to find the length of the longest sub-sequence such that elements in the subsequences are consecutive integers.\n\n精确输入域与验收约定：非空整数数组，n=len(arr)<=30；忽略重复值和原顺序，返回最长连续整数集合的长度；允许修改输入。\n修复 solution.py 中的 find_longest_conseq_subseq 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      5,
+      "body",
+      0,
+      "test",
+      "comparators",
+      0,
+      "slice",
+      "op"
+    ],
+    "line": 8,
+    "column": 25,
+    "before": "Sub()",
+    "after": "Add()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 863,
+    "raw_code_sha256": "722f47e331649e3900ca1a67edce5ad39e301c8e69bccd0d063540df5b283ad9",
+    "reference_sha256": "73be777f6a29784d52b5a6cba0e1faf01a74e4261d2b80631acf1df41c97efdf"
+  },
+  "domain": "非空整数数组，n=len(arr)<=30；忽略重复值和原顺序，返回最长连续整数集合的长度；允许修改输入。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

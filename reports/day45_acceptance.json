@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "stage": "days4-5",
+  "checks": {
+    "real_docker_isolation": true,
+    "digest_pinned_same_image": true,
+    "all_124_tasks_covered": true,
+    "correct_patches_reward_one": true,
+    "wrong_patches_reward_zero": true,
+    "no_duplicate_rewards": true,
+    "workspaces_removed": true,
+    "parallel_isolation": true,
+    "private_material_server_side": true,
+    "authenticated_service": true,
+    "service_acceptance_complete": true,
+    "dataset_manifests_unchanged": true,
+    "regression_suite_no_skips": true,
+    "model_free_acceptance": true
+  },
+  "evidence_sha256": {
+    "SANDBOX_LOCK.json": "f4caf4ba840f52ad57fcb311274a5368809403016c1a3af96ff5e409a06c274e",
+    "reports/sandbox_verification.json": "edaf5c1c2a86267dc162f0b82d18e8886e489214501a3c9360bd70b067bcd9ba",
+    "reports/service_verification.json": "7556ce7b55b49e5dc37fdf2d262535d85002fd1f4af1e49296ed233e1c0e7e4a"
+  },
+  "regression": {
+    "tests": 60,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "complete": true,
+  "uses_gpu": false,
+  "uses_model": false
+}

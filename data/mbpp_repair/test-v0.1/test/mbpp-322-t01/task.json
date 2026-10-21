@@ -1,0 +1,38 @@
+{
+  "task_id": "mbpp-322-t01",
+  "source_id": "mbpp-322",
+  "split": "test",
+  "entrypoint": "position_min",
+  "instruction": "Write a function to find all index positions of the minimum values in a given list.\n\n精确输入域与验收约定：非空整数列表，长度<=30；返回所有最小值位置的0-based下标，按升序。\n修复 solution.py 中的 position_min 函数，保留签名。",
+  "domain": "非空整数列表，长度<=30；返回所有最小值位置的0-based下标，按升序。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "value",
+      "generators",
+      0,
+      "ifs",
+      0,
+      "ops",
+      0
+    ],
+    "line": 3,
+    "column": 52,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 322,
+    "raw_code_sha256": "453acaf1f8ca170d5bc2fd5b5c6210f7d46e8247aaa38852e1fb641b86764de4",
+    "reference_sha256": "f37b0bcf3ce550dc5d9bade3942d46efaae3585f951fb4244aa527877f4d9816"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

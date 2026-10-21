@@ -1,0 +1,32 @@
+{
+  "task_id": "mbpp-331-t01",
+  "source_id": "mbpp-331",
+  "split": "test",
+  "entrypoint": "count_unset_bits",
+  "instruction": "Write a python function to count unset bits of a given number.\n\n精确输入域与验收约定：非负整数n<=1000000；统计从最高有效位到最低位的0个数；约定n=0时返回0。\n修复 solution.py 中的 count_unset_bits 函数，保留签名。",
+  "domain": "非负整数n<=1000000；统计从最高有效位到最低位的0个数；约定n=0时返回0。",
+  "bug_type": "initialization",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value"
+    ],
+    "line": 2,
+    "column": 12,
+    "before": "Constant(value=0)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 331,
+    "raw_code_sha256": "5c59c9686efa36d2062f79f72e6a3bdd8f999f5ed078eb5ef6fc28c71beb7fbc",
+    "reference_sha256": "b54493cbc9bea59d936158d4dd94612c2d234fa41682bfbdbeda3925427dca95"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 9
+}

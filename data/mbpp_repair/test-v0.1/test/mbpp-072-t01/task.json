@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-072-t01",
+  "source_id": "mbpp-072",
+  "split": "test",
+  "entrypoint": "dif_Square",
+  "instruction": "Write a python function to check whether the given number can be represented as difference of two squares or not.\n\n精确输入域与验收约定：非负整数n<=1000000；判断是否存在整数a,b使n=a*a-b*b，允许a=b。返回bool。\n修复 solution.py 中的 dif_Square 函数，保留签名。",
+  "domain": "非负整数n<=1000000；判断是否存在整数a,b使n=a*a-b*b，允许a=b。返回bool。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "NotEq()",
+    "after": "Eq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 72,
+    "raw_code_sha256": "45e841f936754ea98f34f367aaa75a596737c496e200c428743ee73ef3e99c93",
+    "reference_sha256": "a1c2a1f927f9981d1f5ae3d670c63a4958efc8d5f6c8e0dd8bdc66422f22efbe"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

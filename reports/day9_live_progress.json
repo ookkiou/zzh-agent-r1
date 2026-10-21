@@ -1,0 +1,44 @@
+{
+  "observed_at": "2026-10-21T02:42:29.665268+00:00",
+  "attempt": "b4968969",
+  "run_fingerprint": "b9f93ec5dadf42c1199427e5ba425cc2a864daad30caae599aa27d22a6092f32",
+  "running": false,
+  "pid": 1975,
+  "reported_completed_step": 74,
+  "target_steps": 225,
+  "progress_line": "Training Progress:  33%|███▎      | 74/225 [1:24:12<3:21:49, 80.20s/it]",
+  "latest_metrics": {
+    "training/global_step": 74.0,
+    "timing_s/step": 78.24303951114416,
+    "actor/grad_norm": 0.0003809276095125824,
+    "actor/kl_loss": 0.0007396452649564428,
+    "critic/score/trajectory/mean": 0.75
+  },
+  "completed_checkpoint_steps": [
+    60,
+    70
+  ],
+  "pending_or_invalid_checkpoints": [],
+  "returncode": 1,
+  "log": "/root/autodl-tmp/agent-r1-day6/reports/day9_formal_execute_b4968969.log",
+  "log_modified_at": "2026-10-21T02:39:01.573369+00:00",
+  "errors": [
+    "Traceback (most recent call last):",
+    "    raise RuntimeError('Repeated batches lack relative reward signal; stop and inspect, keep latest completed checkpoint')",
+    "RuntimeError: Repeated batches lack relative reward signal; stop and inspect, keep latest completed checkpoint"
+  ],
+  "gpu_memory_used_total_and_utilization": "1 MiB, 32760 MiB, 0 %",
+  "checkpoint_disk_free_gib": 16.58,
+  "evaluator": {
+    "ok": true,
+    "task_count": 332
+  },
+  "checkpoint_check": "completion marker and file sizes; no weight hashing",
+  "ability_improvement_verified": false,
+  "previous_observation": {
+    "observed_at": "2026-10-21T02:32:26.318515+00:00",
+    "attempt": "b4968969",
+    "reported_completed_step": 69,
+    "running": true
+  }
+}

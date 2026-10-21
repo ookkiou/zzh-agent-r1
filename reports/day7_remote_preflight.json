@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "training_performed": false,
+  "steps": [
+    {
+      "name": "day6_preflight.py",
+      "returncode": 0
+    },
+    {
+      "name": "day7_prepare.py",
+      "returncode": 0
+    },
+    {
+      "name": "day7_trainer_probe.py",
+      "returncode": 0
+    }
+  ]
+}

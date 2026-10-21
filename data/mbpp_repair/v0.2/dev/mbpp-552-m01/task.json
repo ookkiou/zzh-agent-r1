@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-552-m01",
+  "source_id": "mbpp-552",
+  "split": "dev",
+  "entrypoint": "Seq_Linear",
+  "instruction": "Write a python function to check whether a given sequence is linear or not.\n\n精确输入域与验收约定：长度 2–30 的整数列表；相邻差都相等返回 'Linear Sequence'，否则 'Non Linear Sequence'。\n修复 solution.py 中的 Seq_Linear 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 3,
+    "column": 7,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 552,
+    "raw_code_sha256": "25eb8256779e8814f6c47d895f17adc67871ee4bb9075ffabd1585cddf3311cf",
+    "reference_sha256": "52982fd29ae307134d4e50a4d0e9012211afe9ba4c5da8bc34239cb41fd3531f"
+  },
+  "domain": "长度 2–30 的整数列表；相邻差都相等返回 'Linear Sequence'，否则 'Non Linear Sequence'。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

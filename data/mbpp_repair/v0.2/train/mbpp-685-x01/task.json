@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-685-x01",
+  "source_id": "mbpp-685",
+  "split": "train",
+  "entrypoint": "sum_Of_Primes",
+  "instruction": "Write a python function to find sum of prime numbers between 1 to n.\n\n精确输入域与验收约定：整数 0<=n<=100；返回闭区间 [1,n] 内所有素数之和。\n修复 solution.py 中的 sum_Of_Primes 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "op"
+    ],
+    "line": 2,
+    "column": 12,
+    "before": "Mult()",
+    "after": "Add()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 685,
+    "raw_code_sha256": "2d7c3345d5d993913d56ccd834e37b79bd26e5dd45da7c6be204e7b05631ee5d",
+    "reference_sha256": "323d45c40e0e2347a334530515bca112d8ceb34140ca528cacf06bc222afa74f"
+  },
+  "domain": "整数 0<=n<=100；返回闭区间 [1,n] 内所有素数之和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

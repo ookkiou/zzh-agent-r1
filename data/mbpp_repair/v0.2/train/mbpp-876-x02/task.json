@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-876-x02",
+  "source_id": "mbpp-876",
+  "split": "train",
+  "entrypoint": "lcm",
+  "instruction": "Write a python function to find lcm of two positive integers.\n\n精确输入域与验收约定：正整数1<=x,y<=100；返回最小公倍数。\n修复 solution.py 中的 lcm 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      1,
+      "op"
+    ],
+    "line": 10,
+    "column": 8,
+    "before": "Add()",
+    "after": "Sub()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 876,
+    "raw_code_sha256": "612242d92e530e66f1c04390f3c670ed5b13e857532c276330d1b8d6731807ca",
+    "reference_sha256": "bd8ac81d4a6fb7a0f1d5db3b3428cc0e538bf624a21f81d8064f62b34605eb44"
+  },
+  "domain": "正整数1<=x,y<=100；返回最小公倍数。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

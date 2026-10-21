@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "running": false,
+  "pipeline_status": "paused_by_user",
+  "local_services_stopped": true,
+  "instance_shutdown_or_released": false,
+  "local_full_weight_copy_complete": false
+}

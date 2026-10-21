@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-714-x04",
+  "source_id": "mbpp-714",
+  "split": "train",
+  "entrypoint": "count_Fac",
+  "instruction": "Write a python function to count the number of distinct power of prime factor of given number.\n\n精确输入域与验收约定：整数 1<=n<=10**6；将n分解为互不相同的素数幂的乘积，返回最多能有多少个因子；n=1返回0。\n修复 solution.py 中的 count_Fac 函数，保留签名。",
+  "bug_type": "initialization",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      3,
+      "body",
+      0,
+      "value"
+    ],
+    "line": 6,
+    "column": 16,
+    "before": "Constant(value=0)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 714,
+    "raw_code_sha256": "3f2598d3a6f3c2d3b960ca86277fe4d272e03a142f960ea5d4756b71998e1824",
+    "reference_sha256": "5904181942792374637a9c31ebc98b0c0cdc7ac0b03880977b751d69155279b0"
+  },
+  "domain": "整数 1<=n<=10**6；将n分解为互不相同的素数幂的乘积，返回最多能有多少个因子；n=1返回0。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

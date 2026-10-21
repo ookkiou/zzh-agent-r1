@@ -1,0 +1,39 @@
+{
+  "task_id": "mbpp-895-x03",
+  "source_id": "mbpp-895",
+  "split": "train",
+  "entrypoint": "max_sum_subseq",
+  "instruction": "Write a function to find the maximum sum of subsequences of given array with no adjacent elements.\n\n精确输入域与验收约定：非空整数数组，长度<=30；选择至少一个元素，选取下标两两不相邻，返回最大元素和。\n修复 solution.py 中的 max_sum_subseq 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      5,
+      "body",
+      0,
+      "value",
+      "args",
+      0,
+      "slice",
+      "op"
+    ],
+    "line": 9,
+    "column": 33,
+    "before": "Sub()",
+    "after": "Add()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 895,
+    "raw_code_sha256": "5f801a3b6e2cffe122cc0a6dd79cadd3dabfe1bf39f101b5839c79fa8fcec259",
+    "reference_sha256": "2a58818e3a83ca114fe3acac0ab6db00c10a9d26b9409853f2f3283f506022d6"
+  },
+  "domain": "非空整数数组，长度<=30；选择至少一个元素，选取下标两两不相邻，返回最大元素和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

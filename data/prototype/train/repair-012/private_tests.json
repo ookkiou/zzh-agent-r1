@@ -1,0 +1,44 @@
+[
+  {
+    "id": "private-01",
+    "args": [
+      " "
+    ],
+    "expected": 0
+  },
+  {
+    "id": "private-02",
+    "args": [
+      "hello"
+    ],
+    "expected": 1
+  },
+  {
+    "id": "private-03",
+    "args": [
+      " a  b "
+    ],
+    "expected": 2
+  },
+  {
+    "id": "private-04",
+    "args": [
+      "a\tb\nc"
+    ],
+    "expected": 3
+  },
+  {
+    "id": "private-05",
+    "args": [
+      "你好 世界"
+    ],
+    "expected": 2
+  },
+  {
+    "id": "private-06",
+    "args": [
+      "a,b"
+    ],
+    "expected": 1
+  }
+]

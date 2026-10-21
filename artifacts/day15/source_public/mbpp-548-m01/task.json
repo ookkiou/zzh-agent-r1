@@ -1,0 +1,7 @@
+{
+  "task_id": "mbpp-548-m01",
+  "source_id": "mbpp-548",
+  "split": "dev",
+  "entrypoint": "longest_increasing_subsequence",
+  "instruction": "Write a function to find the length of the longest increasing subsequence of the given sequence.\n\n精确输入域与验收约定：非空整数列表，长度<=30；返回严格递增子序列的最大长度，子序列不要求连续。\n修复 solution.py 中的 longest_increasing_subsequence 函数，保留签名。"
+}

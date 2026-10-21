@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-974-x02",
+  "source_id": "mbpp-974",
+  "split": "train",
+  "entrypoint": "min_sum_path",
+  "instruction": "Write a function to find the minimum total path sum in the given triangle.\n\n精确输入域与验收约定：非空整数三角形，第i行有i+1项，行数<=8；从顶到底每次取下一行相邻下标，返回最小路径和。\n修复 solution.py 中的 min_sum_path 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "iter",
+      "args",
+      0
+    ],
+    "line": 4,
+    "column": 19,
+    "before": "Call(func=Name(id='len', ctx=Load()), args=[Subscript(value=Name(id='A', ctx=Load()), slice=Name(id='n', ctx=Load()), ctx=Load())])",
+    "after": "BinOp(left=Call(func=Name(id='len', ctx=Load()), args=[Subscript(value=Name(id='A', ctx=Load()), slice=Name(id='n', ctx=Load()), ctx=Load())]), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 974,
+    "raw_code_sha256": "3e46baf99f4220facfdf6b60150399fba9e8ea7be7928a391e5991e322189723",
+    "reference_sha256": "c06594f2bdc2eecfedbcab4747a59e7107f3e7e01c19c0da6d08dce2291ca4f5"
+  },
+  "domain": "非空整数三角形，第i行有i+1项，行数<=8；从顶到底每次取下一行相邻下标，返回最小路径和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

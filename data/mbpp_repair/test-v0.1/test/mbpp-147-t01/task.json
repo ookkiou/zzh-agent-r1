@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-147-t01",
+  "source_id": "mbpp-147",
+  "split": "test",
+  "entrypoint": "max_path_sum",
+  "instruction": "Write a function to find the maximum total path sum in the given triangle.\n\n精确输入域与验收约定：tri为方形补零表示的整数三角形，行数1..5，m=n=行数-1；从顶到底每步下一行同列或右一列，返回最大路径和，允许修改输入。\n修复 solution.py 中的 max_path_sum 函数，保留签名。",
+  "domain": "tri为方形补零表示的整数三角形，行数1..5，m=n=行数-1；从顶到底每步下一行同列或右一列，返回最大路径和，允许修改输入。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "iter",
+      "args",
+      1
+    ],
+    "line": 2,
+    "column": 26,
+    "before": "UnaryOp(op=USub(), operand=Constant(value=1))",
+    "after": "BinOp(left=UnaryOp(op=USub(), operand=Constant(value=1)), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 147,
+    "raw_code_sha256": "1f4ce9b35da2ff546a160248707dcbf621b548d159a7a1e5793af886005a0dd1",
+    "reference_sha256": "0084bc5916d157a5543b6805bc1191998cc771c9721c5473044a7c5b66169f2d"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

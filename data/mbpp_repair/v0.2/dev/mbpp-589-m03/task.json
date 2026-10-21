@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-589-m03",
+  "source_id": "mbpp-589",
+  "split": "dev",
+  "entrypoint": "perfect_squares",
+  "instruction": "Write a function to find perfect squares between two given numbers.\n\n精确输入域与验收约定：整数 1<=a<=b<=200；返回闭区间 [a,b] 的所有完全平方数，升序排列。\n修复 solution.py 中的 perfect_squares 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "iter",
+      "args",
+      1
+    ],
+    "line": 3,
+    "column": 22,
+    "before": "BinOp(left=Name(id='b', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "after": "BinOp(left=BinOp(left=Name(id='b', ctx=Load()), op=Add(), right=Constant(value=1)), op=Sub(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 589,
+    "raw_code_sha256": "98582d105093d3e4b03bcf83aeecbff063030a0d22fb449f3c4084b7382e5946",
+    "reference_sha256": "4b1ac078b16a1ac76d89fb8fe72243193ea753403f1bd67ad59dc40042e82e71"
+  },
+  "domain": "整数 1<=a<=b<=200；返回闭区间 [a,b] 的所有完全平方数，升序排列。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

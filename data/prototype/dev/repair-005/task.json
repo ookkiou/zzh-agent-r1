@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-005",
+  "source_id": "authored-prototype-005",
+  "split": "dev",
+  "title": "判断闭区间交集",
+  "instruction": "输入整数 a_start、a_end、b_start、b_end，保证每段起点不大于终点。两个闭区间有公共点时返回布尔 True；只接触端点也算相交。",
+  "entrypoint": "ranges_overlap",
+  "signature": "ranges_overlap(a_start, a_end, b_start, b_end)",
+  "bug_type": "boundary",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

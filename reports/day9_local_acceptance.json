@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-15T10:12:18.141390+00:00",
+  "local_preparation_complete": true,
+  "checks": {
+    "expanded_300_train_32_dev_74_14_sources": true,
+    "all_104_parent_tasks_and_frozen_test_unchanged": true,
+    "current_v02_assets_and_pipeline_match_frozen_manifest": true,
+    "all_332_independent_reference_and_starter_checks_passed": true,
+    "all_332_real_docker_fixture_checks_passed": true,
+    "deterministic_offline_rebuild_passed": true,
+    "public_export_exactly_997_allowed_files": true,
+    "all_dev_model_inputs_preserved": true,
+    "fourteen_targeted_tests_passed": true,
+    "public_overlay_verified_on_server": true,
+    "actual_pinned_hydra_lightweight_config_resolved": true,
+    "all_39_server_cpu_checks_passed": true,
+    "lightweight_checkpoint_storage_budget_passed": true,
+    "day8_runtime_and_protocol_remain_frozen": true
+  },
+  "day9_complete": false,
+  "formal_225_updates_complete": false,
+  "optimizer_state_saved": false,
+  "optimizer_continuation_verified": false,
+  "test_executed": false,
+  "grpo_ability_improvement_proven": false,
+  "run_fingerprint": "b9f93ec5dadf42c1199427e5ba425cc2a864daad30caae599aa27d22a6092f32",
+  "cpu_checks": 39,
+  "gpu_phase_status": "See day9_training_snapshot.json and individual phase status reports; this file verifies preparation only."
+}

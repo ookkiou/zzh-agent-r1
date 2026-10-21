@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "command": "python3 scripts/build_mbpp_v2.py --check",
+  "exitcode": 0,
+  "byte_identical_to_frozen_v02": true,
+  "manifest_sha256": "37b846babd6d9949e2247752042c3669d618d0f367212b65ba32e39717da9555"
+}

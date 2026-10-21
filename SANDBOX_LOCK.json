@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-12",
+  "image": "python@sha256:a6e34c598f2467ed0e9a8d349809fcd8b5c603269512df273a0bb1784edc11b1",
+  "source_tag_at_pull": "python:3.12-slim",
+  "python_version": "3.12.15",
+  "local_platform": "linux/arm64/v8",
+  "docker_desktop_version": "4.93.0 (240920)",
+  "docker_engine_version": "29.8.1",
+  "host": "macOS arm64; Docker Desktop Linux VM",
+  "uses_gpu": false,
+  "scope": "CPU sandbox acceptance; repeat on the eventual Linux training host"
+}

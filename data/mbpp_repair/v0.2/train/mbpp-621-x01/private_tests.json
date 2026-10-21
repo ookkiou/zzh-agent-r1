@@ -1,0 +1,104 @@
+[
+  {
+    "id": "upstream_holdout",
+    "args": [
+      [
+        "Flutter",
+        "451",
+        "is",
+        "44",
+        "96",
+        "Magnificent",
+        "12"
+      ],
+      33
+    ],
+    "expected": [
+      "Flutter",
+      "484",
+      "is",
+      "77",
+      "129",
+      "Magnificent",
+      "45"
+    ]
+  },
+  {
+    "id": "regression_01",
+    "args": [
+      [],
+      1
+    ],
+    "expected": []
+  },
+  {
+    "id": "regression_02",
+    "args": [
+      [
+        "0",
+        "a"
+      ],
+      2
+    ],
+    "expected": [
+      "2",
+      "a"
+    ]
+  },
+  {
+    "id": "regression_03",
+    "args": [
+      [
+        "01",
+        "-1"
+      ],
+      1
+    ],
+    "expected": [
+      "2",
+      "-1"
+    ]
+  },
+  {
+    "id": "regression_04",
+    "args": [
+      [
+        "12",
+        ""
+      ],
+      -2
+    ],
+    "expected": [
+      "10",
+      ""
+    ]
+  },
+  {
+    "id": "regression_05",
+    "args": [
+      [
+        "3",
+        "x3"
+      ],
+      0
+    ],
+    "expected": [
+      "3",
+      "x3"
+    ]
+  },
+  {
+    "id": "regression_06",
+    "args": [
+      [
+        "9",
+        "10"
+      ],
+      1
+    ],
+    "expected": [
+      "10",
+      "11"
+    ]
+  }
+]

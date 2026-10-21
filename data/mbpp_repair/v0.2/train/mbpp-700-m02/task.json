@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-700-m02",
+  "source_id": "mbpp-700",
+  "split": "train",
+  "entrypoint": "count_range_in_list",
+  "instruction": "Write a function to count the number of elements in a list which are within a specific range.\n\n精确输入域与验收约定：li 是同类型整数或单字符字符串列表，min/max 与元素同类型且 min<=max；返回闭区间内元素个数。\n修复 solution.py 中的 count_range_in_list 函数，保留签名。",
+  "bug_type": "initialization",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value"
+    ],
+    "line": 2,
+    "column": 10,
+    "before": "Constant(value=0)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 700,
+    "raw_code_sha256": "d5dcbaa7e69d566355e120335a96f3e131c9a38b698548db5c4cd2e4b099d1f0",
+    "reference_sha256": "7abe38f06437be13740dc5ae59b950d3ec0a00eaa7f7d75a7f6e60a3e9db4862"
+  },
+  "domain": "li 是同类型整数或单字符字符串列表，min/max 与元素同类型且 min<=max；返回闭区间内元素个数。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

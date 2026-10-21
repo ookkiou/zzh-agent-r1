@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "stage": "day6",
+  "recorded_at": "2026-10-14T14:51:24.647511+00:00",
+  "checks": {
+    "all_required_reports_present": true,
+    "linux_gpu_cuda_and_core_imports": true,
+    "dependency_install_and_pip_check": true,
+    "actual_environment_lock_matches": true,
+    "flash_attention_bf16_gpu_checked": true,
+    "fixed_model_all_files_verified": true,
+    "genuine_guided_model_three_tool_roundtrip": true,
+    "official_hermes_parser_after_explicit_normalization": true,
+    "actual_ray_worker_evaluator_reachable": true,
+    "unreachable_service_episode_invalid": true,
+    "official_diagnostic_not_repair_test_data": true,
+    "single_two_finite_nonzero_updates": true,
+    "single_weights_changed_and_checkpoint_reloaded": true,
+    "tool_two_finite_nonzero_updates": true,
+    "tool_weights_changed_and_checkpoint_reloaded": true,
+    "frozen_repair_pipeline_and_resources_unchanged": true
+  },
+  "complete": true,
+  "missing_reports": [],
+  "evidence_sha256": {
+    "reports/day6_server_inventory.json": "49113b106c3c891fd407d5d1187bfc4ae5f9e883a50855374d61054f66fc0cbf",
+    "reports/day6_preflight.json": "9f918000fa37401da96f45d45005d932fd6981dad6aee734bde929cd4a2af417",
+    "reports/day6_install_status.json": "d5b222aeb7e17c747d76621e3c00d81351319d9b545cf40f4e0a1a9c55e7c6b0",
+    "reports/day6_flash_attn_verification.json": "5fdc8edefe5a2f40b231532c4dfd14598396eff1a15977e990b31626e37c05fb",
+    "reports/day6_model_download_status.json": "fa9bd6f32f86a05893d86aa0c3a578d37628c1b9b476f5b4856ccf4705db203a",
+    "reports/day6_environment.lock.json": "8c766720eca31188ba4651780b1c1972385917241dcaacf24dba733b0ae31826",
+    "reports/day6_model_protocol.json": "aa6b96866964d7dfdb4d0b3ed6a38fceccec08b55aa027e37b20f14b3679aadd",
+    "reports/day6_hermes_adapter.json": "8d3cd620eb86b975564e104a17d1b6f49251b533eb42e9d05900c9eaaa462dd7",
+    "reports/day6_ray_evaluator_health.json": "9d0ff726dff586f5f0df57e8fcb2ac6e494043da1d6ec1df4912a671f9ac6d3c",
+    "reports/day6_evaluator_failure.json": "e8126959a41e87d11fb6fe655db4a1ab8f51de975e8cda00bbf06092890e69c8",
+    "reports/day6_gsm8k_preparation.json": "25c8ada4f6b8cb3467be22fbbfac08ea41a283452d24dc3d7584d159f0e9a1a9",
+    "reports/day6_single_smoke_status.json": "0b19da78a0115bb8aeb01d5d31834bfa27a2e6a6116fbdaac3f623fc4e125329",
+    "reports/day6_single_checkpoint_verification.json": "f5d42b81e036b15bab86723d2e9c1ee88c6aa1f03ad360d25b1544eada2e641f",
+    "reports/day6_tool_smoke_status.json": "0b19da78a0115bb8aeb01d5d31834bfa27a2e6a6116fbdaac3f623fc4e125329",
+    "reports/day6_tool_checkpoint_verification.json": "9da0b0b7e93b200d15c8ce2b9cba4dd6961c3afca56ef6c80057c31b9f780375"
+  },
+  "model_ability_improvement_proven": false,
+  "code_repair_training_performed": false,
+  "limitations": [
+    "Three-tool run is guided, tool order constrained and controller terminated; not an ability benchmark.",
+    "The genuine model emits fenced JSON; official Hermes parser was checked after explicit normalization.",
+    "Guided repair terminal reward is 0; no repair improvement demonstrated.",
+    "Official tool-config training is not evidence that the model autonomously used a tool.",
+    "Custom code-repair recipe, baseline, multi-turn training and effectiveness evaluation remain future work.",
+    "Checkpoint saves model and extra state; optimizer-state resume is not covered.",
+    "All logged official tool-config trajectories had one generation step; no multi-turn tool interaction observed."
+  ]
+}

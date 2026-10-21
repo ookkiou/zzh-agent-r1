@@ -1,0 +1,40 @@
+{
+  "task_id": "mbpp-239-t01",
+  "source_id": "mbpp-239",
+  "split": "test",
+  "entrypoint": "get_total_number_of_sequences",
+  "instruction": "Write a function to find the number of possible sequences of length n such that each of the next element is greater than or equal to twice of the previous element but less than or equal to m.\n\n精确输入域与验收约定：整数0<=m<=30、0<=n<=6；统计长度n的正整数序列，值<=m且后项>=前项两倍；约定n=0或m=0返回0。\n修复 solution.py 中的 get_total_number_of_sequences 函数，保留签名。",
+  "domain": "整数0<=m<=30、0<=n<=6；统计长度n的正整数序列，值<=m且后项>=前项两倍；约定n=0或m=0返回0。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "values",
+      0,
+      "ops",
+      0
+    ],
+    "line": 5,
+    "column": 15,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 239,
+    "raw_code_sha256": "ca7b27565004cee7e4020c49f58dcd89abb51265b496947fb30d57acee81c4f3",
+    "reference_sha256": "4607611662aa8c28974bafbc161cb12d9d6f22e844cf53b791163ba4e2d089d2"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-013",
+  "source_id": "authored-prototype-013",
+  "split": "dev",
+  "title": "累加正整数",
+  "instruction": "输入整数列表 values，只对严格大于 0 的元素求和；空列表或没有正数时返回 0。",
+  "entrypoint": "sum_positive",
+  "signature": "sum_positive(values)",
+  "bug_type": "initialization",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

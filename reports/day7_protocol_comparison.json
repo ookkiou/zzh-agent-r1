@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "original_baseline_to_sft_diagnostic_protocol_unchanged": true,
+  "checks": {
+    "code_repair/__init__.py": true,
+    "code_repair/agent_protocol.py": true,
+    "code_repair/agent_r1_env.py": true,
+    "code_repair/agent_r1_flow.py": true,
+    "code_repair/agent_session.py": true,
+    "code_repair/contracts.py": true,
+    "code_repair/dataset.py": true,
+    "code_repair/environment.py": true,
+    "code_repair/evaluation.py": true,
+    "code_repair/execution.py": true,
+    "code_repair/public_data.py": true,
+    "code_repair/service.py": true,
+    "code_repair/tasks.py": true,
+    "runs/day7/selection.json": true,
+    "training/code_repair/base.yaml": true
+  },
+  "generation_driver_change": "Only model path and separate output paths/model-kind metadata added for SFT; generation settings and episode loop retained.",
+  "initial_prompt_token_ids_identical": {
+    "mbpp-602-m01": true,
+    "mbpp-608-m01": true,
+    "mbpp-610-m01": true,
+    "mbpp-619-m01": true,
+    "mbpp-526-m01": true,
+    "mbpp-527-m01": true,
+    "mbpp-537-m01": true,
+    "mbpp-543-m01": true
+  }
+}

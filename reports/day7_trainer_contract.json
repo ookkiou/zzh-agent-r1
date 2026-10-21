@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "scripted": true,
+  "uses_model_generation": false,
+  "training_performed": false,
+  "actual_pinned_agent_r1_tensor_path": true,
+  "steps": 3,
+  "tool_observations_only_in_prompts": true,
+  "response_mask_generated_one_padding_zero": true,
+  "terminal_reward": 0.0,
+  "note": "Current defective formal task; no reference or private resources loaded by client"
+}

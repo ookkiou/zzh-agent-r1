@@ -1,0 +1,3309 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-12T09:53:42.833081+00:00",
+  "backend": "remote-docker",
+  "image": "python@sha256:a6e34c598f2467ed0e9a8d349809fcd8b5c603269512df273a0bb1784edc11b1",
+  "uses_model": false,
+  "uses_reference_patches": true,
+  "public_only_client": true,
+  "datasets": [
+    {
+      "dataset": "data/prototype",
+      "manifest_sha256": "cc31fd28104121a63ac866387694b43598955d4443b029fa836f1758d5d955e3",
+      "tasks": [
+        {
+          "task_id": "repair-001",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-002",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-003",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-004",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-005",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-006",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-007",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-008",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-009",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-010",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-011",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-012",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-013",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-014",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-015",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-016",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-017",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-018",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-019",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "repair-020",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        }
+      ],
+      "total_tasks": 20,
+      "total_episodes": 40,
+      "valid_tasks": 20
+    },
+    {
+      "dataset": "data/mbpp_repair/v0.1",
+      "manifest_sha256": "beec8194a427209447791e4ff4708b47a898e08bea436531f0ea70f86caafec2",
+      "tasks": [
+        {
+          "task_id": "mbpp-526-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-526-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-527-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-527-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-527-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-537-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-543-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-546-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-546-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-546-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-547-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-547-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-548-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-548-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-548-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-552-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-552-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-552-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-564-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-564-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-564-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-566-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-566-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-568-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-568-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-572-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-577-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-577-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-577-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-589-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-589-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-589-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-602-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-602-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-608-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-608-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-608-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-610-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-610-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-610-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-619-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-621-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-625-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-625-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-626-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-632-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-632-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-632-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-633-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-633-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-633-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-634-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-634-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-639-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-649-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-649-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-649-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-655-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-655-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-656-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-656-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-656-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-659-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-659-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-659-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-677-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-677-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-680-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-680-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-681-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-681-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-681-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-683-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-683-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-687-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-687-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-687-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-690-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-690-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-697-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-700-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-700-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-700-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-701-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-701-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-706-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-706-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-706-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-734-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-734-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-734-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-741-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-741-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-741-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-745-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-745-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-745-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-955-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-958-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-958-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-958-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-961-m01",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-961-m02",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        },
+        {
+          "task_id": "mbpp-961-m03",
+          "original": {
+            "reward": 0.0,
+            "terminal_reward": 0.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "repaired": {
+            "reward": 1.0,
+            "terminal_reward": 1.0,
+            "repeated_terminal_reward": 0.0,
+            "done": true,
+            "valid_episode": true,
+            "termination_reason": "agent_final",
+            "public_initial_failed": true,
+            "workspace_removed": true,
+            "valid": true
+          },
+          "valid": true
+        }
+      ],
+      "total_tasks": 104,
+      "total_episodes": 208,
+      "valid_tasks": 104
+    }
+  ],
+  "parallel_episodes": [
+    {
+      "expected_reward": 1.0,
+      "reward": 1.0,
+      "public_failed": 0,
+      "valid_episode": true,
+      "repeat_reward": 0.0,
+      "public_only_client": true,
+      "no_private_material_in_trace": true,
+      "private_response_minimized": true,
+      "workspace_removed": true
+    },
+    {
+      "expected_reward": 0.0,
+      "reward": 0.0,
+      "public_failed": 1,
+      "valid_episode": true,
+      "repeat_reward": 0.0,
+      "public_only_client": true,
+      "no_private_material_in_trace": true,
+      "private_response_minimized": true,
+      "workspace_removed": true
+    },
+    {
+      "expected_reward": 0.0,
+      "reward": 0.0,
+      "public_failed": 1,
+      "valid_episode": true,
+      "repeat_reward": 0.0,
+      "public_only_client": true,
+      "no_private_material_in_trace": true,
+      "private_response_minimized": true,
+      "workspace_removed": true
+    },
+    {
+      "expected_reward": 1.0,
+      "reward": 1.0,
+      "public_failed": 0,
+      "valid_episode": true,
+      "repeat_reward": 0.0,
+      "public_only_client": true,
+      "no_private_material_in_trace": true,
+      "private_response_minimized": true,
+      "workspace_removed": true
+    }
+  ],
+  "checks": {
+    "docker_service_healthy": true,
+    "unauthorized_rejected": true,
+    "parallel_episodes_independent": true,
+    "private_material_kept_server_side": true,
+    "all_scripted_episodes_passed": true
+  },
+  "total_tasks": 124,
+  "total_episodes": 252,
+  "complete": true
+}

@@ -1,0 +1,112 @@
+{
+  "recorded_at": "2026-10-15T06:19:44.330437+00:00",
+  "checks": {
+    "original_diagnostic_execution_passed": true,
+    "same_frozen_diagnostic_selection": true,
+    "train_only_source_disjoint_supervision": true,
+    "supervision_hash_matches_training": true,
+    "all_teachers_docker_validated": true,
+    "exactly_80_finite_nonzero_updates": true,
+    "changed_weights_and_gpu_reload": true,
+    "paired_32_autonomous_valid_attempts": true,
+    "all_post_sft_traces_consistent": true,
+    "eight_post_sft_groups": true
+  },
+  "diagnostic_and_sft_execution_complete": true,
+  "complete": true,
+  "ready_for_grpo_smoke": true,
+  "protocol_and_initial_prompt_token_equality_verified": true,
+  "adapter_backup_verified": true,
+  "train_group_reward_variation_present": true,
+  "sft_training_performed": true,
+  "code_repair_grpo_performed": false,
+  "base": {
+    "train": {
+      "valid_episodes": 16,
+      "success_rate": 0.0,
+      "parsed_action_rate": 0.6805555555555556,
+      "contract_valid_action_rate": 0.5694444444444444,
+      "mixed_reward_groups": 0,
+      "groups": 4
+    },
+    "dev": {
+      "valid_episodes": 16,
+      "success_rate": 0.0,
+      "parsed_action_rate": 0.6964285714285714,
+      "contract_valid_action_rate": 0.625,
+      "mixed_reward_groups": 0,
+      "groups": 4
+    }
+  },
+  "sft_only": {
+    "train": {
+      "valid_episodes": 16,
+      "success_rate": 0.75,
+      "parsed_action_rate": 0.9875,
+      "contract_valid_action_rate": 0.9875,
+      "mixed_reward_groups": 2,
+      "groups": 4
+    },
+    "dev": {
+      "valid_episodes": 16,
+      "success_rate": 0.75,
+      "parsed_action_rate": 1.0,
+      "contract_valid_action_rate": 1.0,
+      "mixed_reward_groups": 0,
+      "groups": 4
+    }
+  },
+  "sft_tool_counts": {
+    "requested/read_file": 64,
+    "successful/read_file": 64,
+    "requested/write_file": 32,
+    "successful/write_file": 30,
+    "requested/run_tests": 31,
+    "successful/run_tests": 31
+  },
+  "sft_error_counts": {
+    "invalid_action": 1,
+    "invalid_source": 2
+  },
+  "trace_sha256": {
+    "runs/day7/diagnostic_sft/mbpp-602-m01-17.json": "59820b0aa8c765583741673e75a5ab462a6987ef013656d40ce3adca5075fe6d",
+    "runs/day7/diagnostic_sft/mbpp-602-m01-29.json": "b2ed982fe4710e4d5b38c2c71ae718935e22e7230a540ffc3e0259e40a2228be",
+    "runs/day7/diagnostic_sft/mbpp-602-m01-43.json": "291cf6d50a64728865e0368b171fa7105ea55f357af6d1431b5fb8cb8dd64910",
+    "runs/day7/diagnostic_sft/mbpp-602-m01-59.json": "87bcd0ac4c5b00f5131b38e39107ad8065b8ef88c0bf95d4d0fd299faf564394",
+    "runs/day7/diagnostic_sft/mbpp-608-m01-17.json": "2541442752c0b6e1c37d7b0ff5f1c4aa8262a144efadea23bb7ec6fecf5e1871",
+    "runs/day7/diagnostic_sft/mbpp-608-m01-29.json": "6164d833dc29ddffeca169679400f1f0ecaa1286f716f34a1e962cf02dc68c6a",
+    "runs/day7/diagnostic_sft/mbpp-608-m01-43.json": "e996dc1c31594ebbfd253e8432d6b4e29cdbb57060f1b10f4e1608f07b66aa3f",
+    "runs/day7/diagnostic_sft/mbpp-608-m01-59.json": "01f9108ce4d5b2959f75a3cf95e24e46380644a576e71cf1d14d00b97e6ffd81",
+    "runs/day7/diagnostic_sft/mbpp-610-m01-17.json": "c9d941f7a08595d760b97de794983f31d43ed30e023e46813432bda563423fa9",
+    "runs/day7/diagnostic_sft/mbpp-610-m01-29.json": "c6be65f76a1e7cf70bca885c2ab70e82db9f2e34c184e0b3f1f033c8ffce946f",
+    "runs/day7/diagnostic_sft/mbpp-610-m01-43.json": "00ac7ffb2da946e7e8ff8cfd5acfab54a02798e678db93c1eccfa6220ef8c1e6",
+    "runs/day7/diagnostic_sft/mbpp-610-m01-59.json": "eb706db67fc70d6e90d568cfff36208d5fe0d52d6eb093470c04a152b4863b7a",
+    "runs/day7/diagnostic_sft/mbpp-619-m01-17.json": "f42d2bec1fef13668e145ec62ec7e0bfb779ba90ba9b75d6eccba37bdfb45be6",
+    "runs/day7/diagnostic_sft/mbpp-619-m01-29.json": "7909c578424dfea964bfa632ee16ff669c980f93f22a4ebb9795e9e13172288f",
+    "runs/day7/diagnostic_sft/mbpp-619-m01-43.json": "efa6554687a30cf29e8d4376ff7273959c3dae93d313ada7a982d75af745a60c",
+    "runs/day7/diagnostic_sft/mbpp-619-m01-59.json": "eab50a688ab445c718ea98b45b0674b465deafcf8b0b333ce23367de3ea91742",
+    "runs/day7/diagnostic_sft/mbpp-526-m01-17.json": "ec3f0c3ea389c5bcf07cebc7c72d01497b36260bdf81366ab98d510c0333a57e",
+    "runs/day7/diagnostic_sft/mbpp-526-m01-29.json": "580db87abc117da5eed908fb2013c66713ed19f1afecd7d206d8b628b02bca77",
+    "runs/day7/diagnostic_sft/mbpp-526-m01-43.json": "c8b86b647da503bc013fecb84e1bc852bb41885ee56fdba067248e2e8a3ac08f",
+    "runs/day7/diagnostic_sft/mbpp-526-m01-59.json": "0ff3bc26cdad2bcf375732cbc6f7dfc18845fa57614fe657bd907adc7c8e182a",
+    "runs/day7/diagnostic_sft/mbpp-527-m01-17.json": "fa3e48f988fb80f0ef9fc7c6a248de0ab66f88b2eeeadb5de2b875bb39704acd",
+    "runs/day7/diagnostic_sft/mbpp-527-m01-29.json": "d1567ca4a605943b7bf8402d96145978b87c432ae57c2e61b2f0a1446a27d535",
+    "runs/day7/diagnostic_sft/mbpp-527-m01-43.json": "b5ebf633bfeb0c8edf285ccde849c8d86419a43a89605d6101c4a6a5998d06ab",
+    "runs/day7/diagnostic_sft/mbpp-527-m01-59.json": "a12b43922018e0890b8b3fe426c5401c4d164e04fda3712f5b1d2fd6d8213e2e",
+    "runs/day7/diagnostic_sft/mbpp-537-m01-17.json": "0fbfd1a79f91a87938409549dd80ced12a237a91434261c8a3bc77bd78810e8a",
+    "runs/day7/diagnostic_sft/mbpp-537-m01-29.json": "ff35141e17cba733da580b568edf830ef6ae4a49720c011dac6312fda610372d",
+    "runs/day7/diagnostic_sft/mbpp-537-m01-43.json": "f7c759e73a6541ca5184d040829138b4c641229fb535ac6e648fa3029a9fd23f",
+    "runs/day7/diagnostic_sft/mbpp-537-m01-59.json": "8caac687092da88136e7dc8f4f7aefabd9e316e51c391d23f502ff29ac02bb7b",
+    "runs/day7/diagnostic_sft/mbpp-543-m01-17.json": "882b5f77f47eb6fc81c4ea4c14eaa8b6bcbc80ed783b7a1a0222af684a156fd5",
+    "runs/day7/diagnostic_sft/mbpp-543-m01-29.json": "30bc8e7e7f7a3566a020cd5baa6bfc200937b820d25767970f65486d4569c48e",
+    "runs/day7/diagnostic_sft/mbpp-543-m01-43.json": "ccce43f4b80ce61cf20b9b7786acb775672b8fe02606a36631a9b26fc68d6165",
+    "runs/day7/diagnostic_sft/mbpp-543-m01-59.json": "2504456948d3a5d98b8a8c270ef6d774a490a8e74991c914d77a3a283262c9df"
+  },
+  "next_step_decision": "Full dev Base/SFT-only baselines, then bounded custom GRPO smoke.",
+  "limitations": [
+    "Eight-source diagnostic sample only; no full dev or final test result.",
+    "Supervision includes train repair labels as well as tool formatting; gains cannot be attributed to GRPO.",
+    "Transformers diagnostics and scripted real trainer tensor probe do not prove vLLM multi-turn optimization.",
+    "Merged model weights remain on remote data disk; exact LoRA adapter is backed up locally."
+  ]
+}

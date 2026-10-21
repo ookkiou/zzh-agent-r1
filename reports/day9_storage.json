@@ -1,0 +1,1707 @@
+{
+  "read_only": false,
+  "before": {
+    "/root/autodl-tmp/agent-r1-day6": {
+      "total": 53687091200,
+      "used": 49072226304,
+      "free": 4614864896
+    },
+    "/root": {
+      "total": 32212254720,
+      "used": 62455808,
+      "free": 32149798912
+    }
+  },
+  "cache_candidates": [],
+  "removed_download_cache_files": [
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-00lr7edt/starlette-1.8.0-py3-none-any.whl",
+      "bytes": 79612
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-073bbiu_/fastapi_cli-0.0.32-py3-none-any.whl",
+      "bytes": 14670
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-088397rz/mathruler-0.1.0-py3-none-any.whl",
+      "bytes": 15190
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-0b1xc0os/ray-2.48.0-cp312-cp312-manylinux2014_x86_64.whl",
+      "bytes": 70124265
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-0h4oiyl6/aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 1919630
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-0ho5cv81/pytz-2026.5-py2.py3-none-any.whl",
+      "bytes": 506342
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-1b1i3w7w/regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 807783
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-1cetzenq/typing_inspection-0.4.4-py3-none-any.whl",
+      "bytes": 14750
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-1dg5u74z/pandas-2.3.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 12362693
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-1ge9l8p2/tensordict-0.10.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 449961
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-1kgb5u41/zipp-4.1.1-py3-none-any.whl",
+      "bytes": 10582
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-1rzwpe69/opencv_python_headless-4.13.0.90-cp37-abi3-manylinux_2_28_x86_64.whl",
+      "bytes": 62535926
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-1sgcong2/datasets-4.2.0-py3-none-any.whl",
+      "bytes": 506316
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-1tsroksj/ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 183365
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-1vavaq1p/email_validator-2.3.0-py3-none-any.whl",
+      "bytes": 35604
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-1whyl64y/msgpack-1.2.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 472998
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-2151th9x/pyarrow-21.0.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 42829529
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-27_q9k70/multiprocess-0.70.16-py312-none-any.whl",
+      "bytes": 146741
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-2llq2qm4/liger_kernel-0.8.4-py3-none-any.whl",
+      "bytes": 900182
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-2urdeun3/llvmlite-0.44.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 42361901
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-2vtbtyz0/annotated_types-0.8.0-py3-none-any.whl",
+      "bytes": 13427
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-2wyzb5nw/opentelemetry_sdk-1.45.1-py3-none-any.whl",
+      "bytes": 140063
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-36aujjbk/pyarrow-21.0.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 42829529
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-36d1o8x8/starlette-1.8.0-py3-none-any.whl",
+      "bytes": 79612
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-38m8hw06/torchdata-0.11.0-py3-none-any.whl",
+      "bytes": 61968
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-3go6k7dw/interegular-0.3.3-py37-none-any.whl",
+      "bytes": 23635
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-3n43rtyu/mistral_common-1.12.0-py3-none-any.whl",
+      "bytes": 6580267
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-3nts4a5x/fastar-0.12.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 808091
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-3s_d5ndk/peft-0.17.1-py3-none-any.whl",
+      "bytes": 504896
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-3umo8ps2/tensordict-0.10.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 449961
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-46_biarx/tzdata-2026.5-py2.py3-none-any.whl",
+      "bytes": 347996
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-46gpkfo2/accelerate-1.15.0-py3-none-any.whl",
+      "bytes": 394295
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-47_3akqb/virtualenv-21.14.5-py3-none-any.whl",
+      "bytes": 5487482
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-4bjl7uyz/propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 250424
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-4er4_2ls/msgspec-0.22.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 230377
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-4eytdum8/tiktoken-0.14.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 1204197
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-4h2t1c_k/opentelemetry_exporter_prometheus-0.66b1-py3-none-any.whl",
+      "bytes": 13222
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-4ib5i158/cloudpickle-3.1.2-py3-none-any.whl",
+      "bytes": 22228
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-4k7bj4xi/outlines_core-0.2.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 2287677
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-4la1xei2/gguf-0.19.0-py3-none-any.whl",
+      "bytes": 118475
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-4ntddwlk/click-8.5.0-py3-none-any.whl",
+      "bytes": 125251
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-4ojriae8/smart_open-8.0.3-py3-none-any.whl",
+      "bytes": 73451
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-4zxb3d6w/pydantic_settings-2.15.0-py3-none-any.whl",
+      "bytes": 69413
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-575lyb1q/setuptools-79.0.1-py3-none-any.whl",
+      "bytes": 1256281
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-59fozy1x/blake3-1.0.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 381348
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-5_o1qr3a/fastapi-0.143.0-py3-none-any.whl",
+      "bytes": 144665
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-5cf0rj9i/prometheus_fastapi_instrumentator-8.1.0-py3-none-any.whl",
+      "bytes": 19649
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-5f0un0fs/pydantic_extra_types-2.11.1-py3-none-any.whl",
+      "bytes": 79526
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-5njdky6i/opencv_python_headless-4.14.0.94-cp37-abi3-manylinux_2_28_x86_64.whl",
+      "bytes": 61960165
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-5nuxvm01/httpcore2-2.13.1-py3-none-any.whl",
+      "bytes": 83423
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-5ppb2s7k/opentelemetry_api-1.45.1-py3-none-any.whl",
+      "bytes": 60256
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-5qs8lwhp/omegaconf-2.3.0-py3-none-any.whl",
+      "bytes": 79500
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-5yh89fn2/ray-2.48.0-cp312-cp312-manylinux2014_x86_64.whl",
+      "bytes": 70124265
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-5yokx33p/ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 183365
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-64cvyabe/importlib_metadata-9.0.1-py3-none-any.whl",
+      "bytes": 27920
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-68pcqmgf/multidict-7.1.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 483000
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-6ayfndh7/virtualenv-21.14.7-py3-none-any.whl",
+      "bytes": 5487587
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-6f9jrvl9/typing_extensions-4.16.0-py3-none-any.whl",
+      "bytes": 45571
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-6n6v25ou/typing_inspection-0.4.4-py3-none-any.whl",
+      "bytes": 14750
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-6p_uaq9c/requests-2.34.2-py3-none-any.whl",
+      "bytes": 73075
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-6zynqtrw/depyf-0.19.0-py3-none-any.whl",
+      "bytes": 39034
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-731ftrlb/opentelemetry_sdk-1.45.1-py3-none-any.whl",
+      "bytes": 140063
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-73i79uxi/cupy_cuda12x-14.1.1-cp312-cp312-manylinux2014_x86_64.whl",
+      "bytes": 79964160
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-7cmj06ap/watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 458353
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-7fhr_ur9/tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 3396193
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-7m0faj__/numba-0.61.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 3885928
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-7ntxairh/aiohappyeyeballs-2.7.1-py3-none-any.whl",
+      "bytes": 15038
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-7o7clbee/vllm-0.11.0-cp38-abi3-manylinux1_x86_64.whl",
+      "bytes": 438217982
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-7uwsy1n8/lm_format_enforcer-0.11.3-py3-none-any.whl",
+      "bytes": 45418
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-7x_n7yda/tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 3396193
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-82lpoxuv/cachetools-7.2.1-py3-none-any.whl",
+      "bytes": 17006
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-867y2pqt/tzdata-2026.5-py2.py3-none-any.whl",
+      "bytes": 347996
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-8avcgnj1/peft-0.17.1-py3-none-any.whl",
+      "bytes": 504896
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-8khlu00d/pydantic-2.14.1-py3-none-any.whl",
+      "bytes": 488106
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-8mwe1hd6/interegular-0.3.3-py37-none-any.whl",
+      "bytes": 23635
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-8om1rmot/scipy-1.18.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 35287115
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-8pu29yw2/llvmlite-0.44.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 42361901
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-8t9cp4es/opencv_python_headless-4.13.0.92-cp37-abi3-manylinux_2_28_x86_64.whl",
+      "bytes": 60391106
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-934n526e/dill-0.4.1-py3-none-any.whl",
+      "bytes": 120019
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-93y4re2s/rich_toolkit-0.20.6-py3-none-any.whl",
+      "bytes": 39466
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-94w3i7tm/cachetools-7.2.1-py3-none-any.whl",
+      "bytes": 17006
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-95r5qtaw/tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 3274982
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-9pa6vjnt/opentelemetry_exporter_otlp_common-0.66b1-py3-none-any.whl",
+      "bytes": 12385
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-9q_g68ks/multidict-7.1.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 483000
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-9qgcgmfz/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 516040
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-9qy1t0zg/msgspec-0.22.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 230377
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-9th7qqlo/opentelemetry_api-1.45.1-py3-none-any.whl",
+      "bytes": 60256
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-_02wz1ig/partial_json_parser-0.2.1.1.post7-py3-none-any.whl",
+      "bytes": 10877
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-_0vcbpv8/importlib_metadata-9.0.1-py3-none-any.whl",
+      "bytes": 27920
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-_7rpy_61/colorful-0.5.8-py2.py3-none-any.whl",
+      "bytes": 201334
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-_85andit/cbor2-6.1.5-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 463316
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-_p7cvw36/uvicorn-0.54.0-py3-none-any.whl",
+      "bytes": 87427
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-_waa8hqp/uvloop-0.23.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 4532597
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-_xyfvep7/annotated_doc-0.0.5-py3-none-any.whl",
+      "bytes": 5302
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-_yx65od0/py_cpuinfo-9.0.0-py3-none-any.whl",
+      "bytes": 22335
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-a89z51qo/propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 250424
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-a_4_g6u_/requests-2.34.2-py3-none-any.whl",
+      "bytes": 73075
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-aidllosr/sentencepiece-0.2.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 1397736
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-aszrsxiy/proto_plus-1.29.0-py3-none-any.whl",
+      "bytes": 50786
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-b1wk88bu/fastar-0.12.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 808091
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-b356hlag/einops-0.8.2-py3-none-any.whl",
+      "bytes": 65638
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-bacsasp5/filelock-4.1.1-py3-none-any.whl",
+      "bytes": 132460
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-badl2ru4/pylatexenc-2.11-py2.py3-none-any.whl",
+      "bytes": 137533
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-baesz8xw/xformers-0.0.32.post1-cp39-abi3-manylinux_2_28_x86_64.whl",
+      "bytes": 117199943
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-bdtr7jih/xxhash-4.0.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 261812
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-bgc7wn89/openai-3.31.0-py3-none-any.whl",
+      "bytes": 2235454
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-bgldmfda/gguf-0.19.0-py3-none-any.whl",
+      "bytes": 118475
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-bzh80lcn/dill-0.4.0-py3-none-any.whl",
+      "bytes": 119668
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-c4ehda86/liger_kernel-0.8.4-py3-none-any.whl",
+      "bytes": 900182
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-cbq98wp1/omegaconf-2.3.0-py3-none-any.whl",
+      "bytes": 79500
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-ccd7ak0z/depyf-0.19.0-py3-none-any.whl",
+      "bytes": 39034
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-cp9dk1z0/einops-0.8.2-py3-none-any.whl",
+      "bytes": 65638
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-cr02vhh5/pyarrow-21.0.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 42829529
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-d0a7x4rl/aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 1919630
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-d0prviir/aiohttp_cors-0.8.1-py3-none-any.whl",
+      "bytes": 25231
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-d1xn6trc/vllm-0.11.0-cp38-abi3-manylinux1_x86_64.whl",
+      "bytes": 438217982
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-danyawok/yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 117050
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-dhsok0la/torchaudio-2.8.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 4014607
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-dn9pdy3v/google_api_core-2.42.0-py3-none-any.whl",
+      "bytes": 221364
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-drs0cenp/lm_format_enforcer-0.11.3-py3-none-any.whl",
+      "bytes": 45418
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-ed62zmzh/pybase64-1.5.1-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 94689
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-ej645jg2/blake3-1.0.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 381348
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-eouir4ok/pylatexenc-2.11-py2.py3-none-any.whl",
+      "bytes": 137533
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-eqjrvqz_/accelerate-1.15.0-py3-none-any.whl",
+      "bytes": 394295
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-f5ra0d7j/dill-0.4.0-py3-none-any.whl",
+      "bytes": 119668
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-f7dh8j1e/setproctitle-1.3.8-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 32929
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-f8nwqife/py_cpuinfo-9.0.0-py3-none-any.whl",
+      "bytes": 22335
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-f_mblwz4/httptools-0.9.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 552848
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-fh1pnjf9/protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl",
+      "bytes": 343223
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-fmr8y4tc/transformers-4.57.1-py3-none-any.whl",
+      "bytes": 11990925
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-fqulo009/pandas-2.3.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 12362693
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-frvvgefy/xgrammar-0.1.25-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 8712184
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-fufmtsg9/orjson-3.13.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 130612
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-g7h74l2h/pytz-2026.5-py2.py3-none-any.whl",
+      "bytes": 506342
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-g9h_gbse/pyvers-0.1.0-py3-none-any.whl",
+      "bytes": 10092
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-gapmfprz/opentelemetry_exporter_otlp_proto_common-1.45.1-py3-none-any.whl",
+      "bytes": 15393
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-gg8con7q/tensordict-0.10.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 449961
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-gm2y7sic/datasets-4.2.0-py3-none-any.whl",
+      "bytes": 506316
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-gylj0c8q/prometheus_fastapi_instrumentator-8.1.0-py3-none-any.whl",
+      "bytes": 19649
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-h554zxte/mathruler-0.1.0-py3-none-any.whl",
+      "bytes": 15190
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-h8rlcyw8/packaging-25.0-py3-none-any.whl",
+      "bytes": 66469
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-h_xolbh7/frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 242411
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-hg5kte4_/diskcache-5.6.3-py3-none-any.whl",
+      "bytes": 45550
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-hhiuz61q/llguidance-0.7.30-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 15004926
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-hqxurpjm/frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 242411
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-hshjt7lv/pybind11-3.1.0-py3-none-any.whl",
+      "bytes": 319402
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-i_innqli/setproctitle-1.3.8-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 32929
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-i_qb0efc/datasets-4.2.0-py3-none-any.whl",
+      "bytes": 506316
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-ibssd7t1/msgpack-1.2.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 472998
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-ifobyd3j/numba-0.61.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 3885928
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-iwtifs5s/pylatexenc-2.11-py2.py3-none-any.whl",
+      "bytes": 137533
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-jnwlmj2s/fastapi_cli-0.0.32-py3-none-any.whl",
+      "bytes": 14670
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-jqd7301t/click-8.5.0-py3-none-any.whl",
+      "bytes": 125251
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-jze5bilv/astor-0.8.1-py2.py3-none-any.whl",
+      "bytes": 27488
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-jzh8lrwk/mistral_common-1.12.0-py3-none-any.whl",
+      "bytes": 6580267
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-k4ma3ku3/colorful-0.5.8-py2.py3-none-any.whl",
+      "bytes": 201334
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-k731wong/opencv_python_headless-4.12.0.88-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 19742720
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-k8m21utt/fastapi-0.143.0-py3-none-any.whl",
+      "bytes": 144665
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-kaetjcyc/smart_open-8.0.3-py3-none-any.whl",
+      "bytes": 73451
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-kl4qk_t6/tqdm-4.70.1-py3-none-any.whl",
+      "bytes": 80199
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-kobhq5rl/openai_harmony-0.0.8-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 2953260
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-kw0mrmk4/opencensus-0.11.4-py2.py3-none-any.whl",
+      "bytes": 128225
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-kwyy3l4q/httpx2-2.13.1-py3-none-any.whl",
+      "bytes": 95597
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-l0rvi1yo/virtualenv-21.14.6-py3-none-any.whl",
+      "bytes": 5487469
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-l6zr3g6f/wrapt-2.5.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 250438
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-l9ej5g71/hydra_core-1.3.2-py3-none-any.whl",
+      "bytes": 154547
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-lfhwqugq/llguidance-0.7.30-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 15004926
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-loihebgb/google_auth-2.62.0-py3-none-any.whl",
+      "bytes": 267911
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-lrrigl88/dill-0.4.1-py3-none-any.whl",
+      "bytes": 120019
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-m2oz00rk/opentelemetry_proto-1.45.1-py3-none-any.whl",
+      "bytes": 72488
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-m4mb6xtd/websockets-17.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 225299
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-m9y9v3ma/codetiming-1.4.0-py3-none-any.whl",
+      "bytes": 7165
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-matk7hd4/hydra_core-1.3.2-py3-none-any.whl",
+      "bytes": 154547
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-mbd3xvhj/huggingface_hub-0.36.2-py3-none-any.whl",
+      "bytes": 566395
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-mnckf2_5/setuptools-79.0.1-py3-none-any.whl",
+      "bytes": 1256281
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-n1i_1cu8/pydantic-2.14.1-py3-none-any.whl",
+      "bytes": 488106
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-n512yv23/scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 35344199
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-n9b3u8b6/openai-3.31.0-py3-none-any.whl",
+      "bytes": 2235454
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-nbag1ql2/codetiming-1.4.0-py3-none-any.whl",
+      "bytes": 7165
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-nh761oiv/aiosignal-1.4.0-py3-none-any.whl",
+      "bytes": 7490
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-nidmscbe/pydantic_extra_types-2.11.1-py3-none-any.whl",
+      "bytes": 79526
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-nzk3ghnj/astor-0.8.1-py2.py3-none-any.whl",
+      "bytes": 27488
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-o8k403xh/codetiming-1.4.0-py3-none-any.whl",
+      "bytes": 7165
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-of_lgjep/opencensus_context-0.1.3-py2.py3-none-any.whl",
+      "bytes": 5060
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-oiujok73/py_spy-0.4.2-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
+      "bytes": 2936518
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-olb0vttf/truststore-0.10.5-py3-none-any.whl",
+      "bytes": 19017
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-onbta6sj/cloudpickle-3.1.2-py3-none-any.whl",
+      "bytes": 22228
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-oxjw_xgn/torchdata-0.11.0-py3-none-any.whl",
+      "bytes": 61968
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-p1pn3nav/huggingface_hub-0.36.2-py3-none-any.whl",
+      "bytes": 566395
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-pe39pikl/pandas-2.3.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 12362693
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-pg1vodg9/cupy_cuda12x-14.2.0-cp312-cp312-manylinux2014_x86_64.whl",
+      "bytes": 136111459
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-ph1au01x/httpx2-2.13.1-py3-none-any.whl",
+      "bytes": 95597
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-ps7muxn9/python_discovery-1.6.2-py3-none-any.whl",
+      "bytes": 38912
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-pvy3olfx/wandb-0.30.0-py3-none-manylinux_2_28_x86_64.whl",
+      "bytes": 26105520
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-pw1o8l1y/xformers-0.0.32.post1-cp39-abi3-manylinux_2_28_x86_64.whl",
+      "bytes": 117199943
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-q1_bz4ls/openai_harmony-0.0.8-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 2953260
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-q1yzyh0y/opentelemetry_semantic_conventions-0.66b1-py3-none-any.whl",
+      "bytes": 206279
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-q6e5td5o/wandb-0.30.0-py3-none-manylinux_2_28_x86_64.whl",
+      "bytes": 26105520
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-qevgjgiy/pybind11-3.1.0-py3-none-any.whl",
+      "bytes": 319402
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-qn9wgx44/omegaconf-2.3.0-py3-none-any.whl",
+      "bytes": 79500
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-qwks7tth/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 17950613
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-qxg1kdy6/tqdm-4.70.1-py3-none-any.whl",
+      "bytes": 80199
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-qxqhs61l/vllm-0.11.0-cp38-abi3-manylinux1_x86_64.whl",
+      "bytes": 438217982
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-qy4z2zr4/distlib-0.4.3-py2.py3-none-any.whl",
+      "bytes": 470628
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-qzu3pru4/liger_kernel-0.8.4-py3-none-any.whl",
+      "bytes": 900182
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-r1we_8xi/pycountry-26.2.16-py3-none-any.whl",
+      "bytes": 8044600
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-r2vrb83_/jiter-0.17.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 345025
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-r7c5692n/accelerate-1.15.0-py3-none-any.whl",
+      "bytes": 394295
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-rd6n92dz/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 516040
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-rmxy7l8c/opentelemetry_exporter_otlp_proto_http-1.45.1-py3-none-any.whl",
+      "bytes": 22180
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-rv57lhb4/fastapi_cloud_cli-0.26.0-py3-none-any.whl",
+      "bytes": 108653
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-s9cq2j4w/scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 35344199
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-s_6c7hyc/partial_json_parser-0.2.1.1.post7-py3-none-any.whl",
+      "bytes": 10877
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-sdczlr32/compressed_tensors-0.11.0-py3-none-any.whl",
+      "bytes": 179951
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-sidzp550/pydantic_settings-2.15.0-py3-none-any.whl",
+      "bytes": 69413
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-slvnj39k/pybase64-1.5.1-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 94689
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-smmxyevo/opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl",
+      "bytes": 61204038
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-soyvyz8e/torchaudio-2.8.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 4014607
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-t74_19lm/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 17950613
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-t_y213i9/opencensus-0.11.4-py2.py3-none-any.whl",
+      "bytes": 128225
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-tafvk_bz/tiktoken-0.14.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 1204197
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-tlxj5fde/python_multipart-0.0.32-py3-none-any.whl",
+      "bytes": 30042
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-tzmsz2og/typer-0.27.3-py3-none-any.whl",
+      "bytes": 123312
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-uci3ub1c/idna-3.20-py3-none-any.whl",
+      "bytes": 69583
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-uei_yxm9/tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 3274982
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-uf56sygm/annotated_doc-0.0.5-py3-none-any.whl",
+      "bytes": 5302
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-ufzrmpin/outlines_core-0.2.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 2287677
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-ul2csjtk/py_spy-0.4.2-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
+      "bytes": 2936518
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-umols3hh/opentelemetry_exporter_prometheus-0.66b1-py3-none-any.whl",
+      "bytes": 13222
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-ur3by9mh/pybind11-3.1.0-py3-none-any.whl",
+      "bytes": 319402
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-uz8ckpou/wandb-0.30.0-py3-none-manylinux_2_28_x86_64.whl",
+      "bytes": 26105520
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-v4w5ridt/hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 4212180
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-v88gm66t/cbor2-6.1.5-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 463316
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-v_3ooaj5/regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 807783
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-vfc91hy9/pyvers-0.1.0-py3-none-any.whl",
+      "bytes": 10092
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-vghc1kj6/frozendict-2.4.7-py3-none-any.whl",
+      "bytes": 16264
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-vh70nxlj/opentelemetry_exporter_http_transport-0.66b1-py3-none-any.whl",
+      "bytes": 12155
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-vpj3vy1f/xgrammar-0.1.25-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 8712184
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-vw_11bzm/torchdata-0.11.0-py3-none-any.whl",
+      "bytes": 61968
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-vxl8fmaj/frozendict-2.4.7-py3-none-any.whl",
+      "bytes": 16264
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-vz7yg9_f/sentencepiece-0.2.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 1397736
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-w06ztfq2/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 17950613
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-w_3d_qms/email_validator-2.3.0-py3-none-any.whl",
+      "bytes": 35604
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-whk_99oj/hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 4212180
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-wjuzteea/pydantic_core-2.50.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 2160157
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-wsgftqud/hydra_core-1.3.2-py3-none-any.whl",
+      "bytes": 154547
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-wvzcz6u2/virtualenv-21.14.7-py3-none-any.whl",
+      "bytes": 5487587
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-wx3ieogg/ray-2.48.0-cp312-cp312-manylinux2014_x86_64.whl",
+      "bytes": 70124265
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-x287a_md/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 49969856
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-x2dnjvnz/scipy-1.17.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 35235890
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-x4faozt8/googleapis_common_protos-1.75.5-py3-none-any.whl",
+      "bytes": 307737
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-xe2lcnyc/dnspython-2.9.0-py3-none-any.whl",
+      "bytes": 354822
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-xrejls5i/aiohappyeyeballs-2.7.1-py3-none-any.whl",
+      "bytes": 15038
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-xsogklyq/orjson-3.13.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 130612
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-xtc9q6e8/aiohttp_cors-0.8.1-py3-none-any.whl",
+      "bytes": 25231
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-xugta06n/opentelemetry_proto-1.45.1-py3-none-any.whl",
+      "bytes": 72488
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-xxljo2g_/dill-0.4.1-py3-none-any.whl",
+      "bytes": 120019
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-xzwoq1wc/compressed_tensors-0.11.0-py3-none-any.whl",
+      "bytes": 179951
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-y7pensq1/python_multipart-0.0.32-py3-none-any.whl",
+      "bytes": 30042
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-y8exuci3/watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 458353
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-ygy7ogc2/opentelemetry_exporter_otlp_proto_http-1.45.1-py3-none-any.whl",
+      "bytes": 22180
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-yhen1a_d/python_dotenv-1.2.4-py3-none-any.whl",
+      "bytes": 23266
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-yif6bdvg/jiter-0.17.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 345025
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-yocarogh/yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 117050
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-yt9fz6na/peft-0.17.1-py3-none-any.whl",
+      "bytes": 504896
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-yx654zlx/transformers-4.57.1-py3-none-any.whl",
+      "bytes": 11990925
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-z5__997y/xxhash-4.0.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 261812
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-z7hsejfh/diskcache-5.6.3-py3-none-any.whl",
+      "bytes": 45550
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-z9qe8sup/multiprocess-0.70.16-py312-none-any.whl",
+      "bytes": 146741
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-zracr8jj/aiosignal-1.4.0-py3-none-any.whl",
+      "bytes": 7490
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-zs_9fpoy/transformers-4.57.1-py3-none-any.whl",
+      "bytes": 11990925
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/.tmp/pip-unpack-zyn7h_yt/uvicorn-0.54.0-py3-none-any.whl",
+      "bytes": 87427
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/accelerate-1.15.0-py3-none-any.whl",
+      "bytes": 394295
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/aiohappyeyeballs-2.7.1-py3-none-any.whl",
+      "bytes": 15038
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 1919630
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/aiohttp_cors-0.8.1-py3-none-any.whl",
+      "bytes": 25231
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/aiosignal-1.4.0-py3-none-any.whl",
+      "bytes": 7490
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/annotated_doc-0.0.5-py3-none-any.whl",
+      "bytes": 5302
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/annotated_types-0.8.0-py3-none-any.whl",
+      "bytes": 13427
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/astor-0.8.1-py2.py3-none-any.whl",
+      "bytes": 27488
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/blake3-1.0.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 381348
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/cachetools-7.2.1-py3-none-any.whl",
+      "bytes": 17006
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/cbor2-6.1.5-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 463316
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/click-8.5.0-py3-none-any.whl",
+      "bytes": 125251
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/cloudpickle-3.1.2-py3-none-any.whl",
+      "bytes": 22228
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/codetiming-1.4.0-py3-none-any.whl",
+      "bytes": 7165
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/colorful-0.5.8-py2.py3-none-any.whl",
+      "bytes": 201334
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/compressed_tensors-0.11.0-py3-none-any.whl",
+      "bytes": 179951
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/cupy_cuda12x-14.2.0-cp312-cp312-manylinux2014_x86_64.whl",
+      "bytes": 136111459
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/datasets-4.2.0-py3-none-any.whl",
+      "bytes": 506316
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/depyf-0.19.0-py3-none-any.whl",
+      "bytes": 39034
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/dill-0.4.0-py3-none-any.whl",
+      "bytes": 119668
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/dill-0.4.1-py3-none-any.whl",
+      "bytes": 120019
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/diskcache-5.6.3-py3-none-any.whl",
+      "bytes": 45550
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/distlib-0.4.3-py2.py3-none-any.whl",
+      "bytes": 470628
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/dnspython-2.9.0-py3-none-any.whl",
+      "bytes": 354822
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/einops-0.8.2-py3-none-any.whl",
+      "bytes": 65638
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/email_validator-2.3.0-py3-none-any.whl",
+      "bytes": 35604
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/fastapi-0.143.0-py3-none-any.whl",
+      "bytes": 144665
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/fastapi_cli-0.0.32-py3-none-any.whl",
+      "bytes": 14670
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/fastapi_cloud_cli-0.26.0-py3-none-any.whl",
+      "bytes": 108653
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/fastar-0.12.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 808091
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/filelock-4.1.1-py3-none-any.whl",
+      "bytes": 132460
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/flash_attn-2.8.1+cu12torch2.8cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "bytes": 126136893
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/frozendict-2.4.7-py3-none-any.whl",
+      "bytes": 16264
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 242411
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/gguf-0.19.0-py3-none-any.whl",
+      "bytes": 118475
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/google_api_core-2.42.0-py3-none-any.whl",
+      "bytes": 221364
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/google_auth-2.62.0-py3-none-any.whl",
+      "bytes": 267911
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/googleapis_common_protos-1.75.5-py3-none-any.whl",
+      "bytes": 307737
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 4212180
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/httpcore2-2.13.1-py3-none-any.whl",
+      "bytes": 83423
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/httptools-0.9.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 552848
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/httpx2-2.13.1-py3-none-any.whl",
+      "bytes": 95597
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/huggingface_hub-0.36.2-py3-none-any.whl",
+      "bytes": 566395
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/hydra_core-1.3.2-py3-none-any.whl",
+      "bytes": 154547
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/idna-3.20-py3-none-any.whl",
+      "bytes": 69583
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/importlib_metadata-9.0.1-py3-none-any.whl",
+      "bytes": 27920
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/interegular-0.3.3-py37-none-any.whl",
+      "bytes": 23635
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/jiter-0.17.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 345025
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/liger_kernel-0.8.4-py3-none-any.whl",
+      "bytes": 900182
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/llguidance-0.7.30-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 15004926
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/llvmlite-0.44.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 42361901
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/lm_format_enforcer-0.11.3-py3-none-any.whl",
+      "bytes": 45418
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/mathruler-0.1.0-py3-none-any.whl",
+      "bytes": 15190
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/mistral_common-1.12.0-py3-none-any.whl",
+      "bytes": 6580267
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/msgpack-1.2.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 472998
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/msgspec-0.22.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 230377
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/multidict-7.1.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 483000
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/multiprocess-0.70.16-py312-none-any.whl",
+      "bytes": 146741
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 183365
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/numba-0.61.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 3885928
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 17950613
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/omegaconf-2.3.0-py3-none-any.whl",
+      "bytes": 79500
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/openai-3.31.0-py3-none-any.whl",
+      "bytes": 2235454
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/openai_harmony-0.0.8-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 2953260
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opencensus-0.11.4-py2.py3-none-any.whl",
+      "bytes": 128225
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opencensus_context-0.1.3-py2.py3-none-any.whl",
+      "bytes": 5060
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 49969856
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opencv_python_headless-4.13.0.90-cp37-abi3-manylinux_2_28_x86_64.whl",
+      "bytes": 62535926
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opencv_python_headless-4.13.0.92-cp37-abi3-manylinux_2_28_x86_64.whl",
+      "bytes": 60391106
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opencv_python_headless-4.14.0.94-cp37-abi3-manylinux_2_28_x86_64.whl",
+      "bytes": 61960165
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl",
+      "bytes": 61204038
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opentelemetry_api-1.45.1-py3-none-any.whl",
+      "bytes": 60256
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opentelemetry_exporter_http_transport-0.66b1-py3-none-any.whl",
+      "bytes": 12155
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opentelemetry_exporter_otlp_common-0.66b1-py3-none-any.whl",
+      "bytes": 12385
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opentelemetry_exporter_otlp_proto_common-1.45.1-py3-none-any.whl",
+      "bytes": 15393
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opentelemetry_exporter_otlp_proto_http-1.45.1-py3-none-any.whl",
+      "bytes": 22180
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opentelemetry_exporter_prometheus-0.66b1-py3-none-any.whl",
+      "bytes": 13222
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opentelemetry_proto-1.45.1-py3-none-any.whl",
+      "bytes": 72488
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opentelemetry_sdk-1.45.1-py3-none-any.whl",
+      "bytes": 140063
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/opentelemetry_semantic_conventions-0.66b1-py3-none-any.whl",
+      "bytes": 206279
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/orjson-3.13.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 130612
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/outlines_core-0.2.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 2287677
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/packaging-25.0-py3-none-any.whl",
+      "bytes": 66469
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pandas-2.3.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 12362693
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/partial_json_parser-0.2.1.1.post7-py3-none-any.whl",
+      "bytes": 10877
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/peft-0.17.1-py3-none-any.whl",
+      "bytes": 504896
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/prometheus_fastapi_instrumentator-8.1.0-py3-none-any.whl",
+      "bytes": 19649
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 250424
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/proto_plus-1.29.0-py3-none-any.whl",
+      "bytes": 50786
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl",
+      "bytes": 343223
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/py_cpuinfo-9.0.0-py3-none-any.whl",
+      "bytes": 22335
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/py_spy-0.4.2-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
+      "bytes": 2936518
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pyarrow-21.0.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 42829529
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pybase64-1.5.1-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 94689
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pybind11-3.1.0-py3-none-any.whl",
+      "bytes": 319402
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pycountry-26.2.16-py3-none-any.whl",
+      "bytes": 8044600
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pydantic-2.14.1-py3-none-any.whl",
+      "bytes": 488106
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pydantic_core-2.50.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 2160157
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pydantic_extra_types-2.11.1-py3-none-any.whl",
+      "bytes": 79526
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pydantic_settings-2.15.0-py3-none-any.whl",
+      "bytes": 69413
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pylatexenc-2.11-py2.py3-none-any.whl",
+      "bytes": 137533
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/python_discovery-1.6.2-py3-none-any.whl",
+      "bytes": 38912
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/python_dotenv-1.2.4-py3-none-any.whl",
+      "bytes": 23266
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/python_multipart-0.0.32-py3-none-any.whl",
+      "bytes": 30042
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pytz-2026.5-py2.py3-none-any.whl",
+      "bytes": 506342
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/pyvers-0.1.0-py3-none-any.whl",
+      "bytes": 10092
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/ray-2.48.0-cp312-cp312-manylinux2014_x86_64.whl",
+      "bytes": 70124265
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 807783
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/requests-2.34.2-py3-none-any.whl",
+      "bytes": 73075
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/rich_toolkit-0.20.6-py3-none-any.whl",
+      "bytes": 39466
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 516040
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/scipy-1.17.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 35235890
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/scipy-1.18.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 35287115
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 35344199
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/sentencepiece-0.2.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 1397736
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/setproctitle-1.3.8-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 32929
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/setuptools-79.0.1-py3-none-any.whl",
+      "bytes": 1256281
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/smart_open-8.0.3-py3-none-any.whl",
+      "bytes": 73451
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/starlette-1.8.0-py3-none-any.whl",
+      "bytes": 79612
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/tensordict-0.10.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 449961
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/tiktoken-0.14.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 1204197
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 3274982
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 3396193
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/torchaudio-2.8.0-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 4014607
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/torchdata-0.11.0-py3-none-any.whl",
+      "bytes": 61968
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/tqdm-4.70.1-py3-none-any.whl",
+      "bytes": 80199
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/transformers-4.57.1-py3-none-any.whl",
+      "bytes": 11990925
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/truststore-0.10.5-py3-none-any.whl",
+      "bytes": 19017
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/typer-0.27.3-py3-none-any.whl",
+      "bytes": 123312
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/typing_extensions-4.16.0-py3-none-any.whl",
+      "bytes": 45571
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/typing_inspection-0.4.4-py3-none-any.whl",
+      "bytes": 14750
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/tzdata-2026.5-py2.py3-none-any.whl",
+      "bytes": 347996
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/uvicorn-0.54.0-py3-none-any.whl",
+      "bytes": 87427
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/uvloop-0.23.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 4532597
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/virtualenv-21.14.5-py3-none-any.whl",
+      "bytes": 5487482
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/virtualenv-21.14.6-py3-none-any.whl",
+      "bytes": 5487469
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/virtualenv-21.14.7-py3-none-any.whl",
+      "bytes": 5487587
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/vllm-0.11.0-cp38-abi3-manylinux1_x86_64.whl",
+      "bytes": 438217982
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/wandb-0.30.0-py3-none-manylinux_2_28_x86_64.whl",
+      "bytes": 26105520
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 458353
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/websockets-17.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 225299
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/wrapt-2.5.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "bytes": 250438
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/xformers-0.0.32.post1-cp39-abi3-manylinux_2_28_x86_64.whl",
+      "bytes": 117199943
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/xgrammar-0.1.25-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 8712184
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/xxhash-4.0.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 261812
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 117050
+    },
+    {
+      "path": "/root/autodl-tmp/agent-r1-day6/wheels/zipp-4.1.1-py3-none-any.whl",
+      "bytes": 10582
+    }
+  ],
+  "removed_models_or_checkpoints": false,
+  "after": {
+    "/root/autodl-tmp/agent-r1-day6": {
+      "total": 53687091200,
+      "used": 44458127360,
+      "free": 9228963840
+    },
+    "/root": {
+      "total": 32212254720,
+      "used": 62455808,
+      "free": 32149798912
+    }
+  }
+}

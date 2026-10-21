@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "inputs": {
+    "protocol_sha256": "078b36f56a85e1ef800da548ba042e7296fe6e79cb3b10dfb3c2d492f3338635",
+    "run_fingerprint": "b9f93ec5dadf42c1199427e5ba425cc2a864daad30caae599aa27d22a6092f32",
+    "dataset_manifest_sha256": "37b846babd6d9949e2247752042c3669d618d0f367212b65ba32e39717da9555",
+    "dev_starter_and_test_files_byte_identical": 64,
+    "dev_model_messages_equal": 32,
+    "dev_model_visible_metadata_equal": 32,
+    "checkpoint_step": 70,
+    "checkpoint_marker_sha256": "caf0f9336751fcea97f72b91c0866146cf374e6d8f117f7f1693c138438b5395",
+    "sft_model_sha256": "f507ccbddb9881ae7bdd841cd2ba8fdf02e54661d04e83fad7e97d2f545be346",
+    "step70_model_sha256": "40915da114c198d947b2b99482fdb3b96ba8bade9cb0b7fb33c53e79e1bb986d",
+    "script_sha256": "c69f4e3b145518b61329ed4ed8a05ee77627d133d67d9e0ab2fb04b09b376227",
+    "test_executed": false,
+    "checkpoint_check": "marker and sizes; merged model hashed; source weight hash not checked"
+  },
+  "task_count": 32,
+  "source_count": 14,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "sft_successes": 63,
+  "step70_successes": 72,
+  "sft_success_rate": 0.65625,
+  "step70_success_rate": 0.75,
+  "delta_percentage_points": 9.375,
+  "paired_improved_episodes": 11,
+  "paired_regressed_episodes": 2,
+  "metric": "96 single episodes per model, not pass@3",
+  "statistical_significance_evaluated": false,
+  "test_executed": false,
+  "formal_225_updates_complete": false,
+  "elapsed_seconds": 872.6525151152164
+}

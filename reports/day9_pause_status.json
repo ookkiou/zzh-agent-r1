@@ -1,0 +1,37 @@
+{
+  "user_requested_pause": true,
+  "complete": true,
+  "run_fingerprint": "b9f93ec5dadf42c1199427e5ba425cc2a864daad30caae599aa27d22a6092f32",
+  "latest_complete_checkpoint": 11,
+  "supervisor_pid": 19218,
+  "wrapper_pid": 19285,
+  "driver_pid": 19290,
+  "optimizer_state_saved": false,
+  "instance_shutdown_or_released": false,
+  "training_stopped": true,
+  "gpu_compute_processes": [],
+  "next_update_on_resume": 12,
+  "native_completed_updates_in_interrupted_formal_attempt": [
+    12,
+    13,
+    14
+  ],
+  "uncheckpointed_completed_updates": [
+    12,
+    13,
+    14
+  ],
+  "audit_archive": "runs/day9/pauses/pause-20261015-step11",
+  "original_audit_sha256": "eb1a88ffe7dedcdd282dfb418d1d260cf59de2686682c47231f084b2f3ef00ae",
+  "active_audit_rebased_to_checkpoint": true,
+  "driver_termination_returncode": -6,
+  "classification": "Explicit user pause; no automatic restart",
+  "weight_reload_verified": true,
+  "recorded_at": "2026-10-15T09:37:07.722122+00:00",
+  "safe_to_shutdown_mac": true,
+  "automatic_restart": false,
+  "remote_compressed_backup_complete": true,
+  "local_small_states_verified": true,
+  "local_full_weights_backed_up": false,
+  "local_execution_service_and_tunnel_stopped": true
+}

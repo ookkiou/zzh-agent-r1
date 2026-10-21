@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-680-m01",
+  "source_id": "mbpp-680",
+  "split": "train",
+  "entrypoint": "increasing_trend",
+  "instruction": "Write a python function to check whether a sequence of numbers has an increasing trend or not.\n\n精确输入域与验收约定：整数列表，长度<=30；列表非递减时返回 True，包括相等元素和空列表。\n修复 solution.py 中的 increasing_trend 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 680,
+    "raw_code_sha256": "2fd3a831f0d7678d8933004b80a308056dbd4a4de8c7bba34325e4771696e3ec",
+    "reference_sha256": "36c46c36e57b7c715b14ee6419e7d113093971789ec64a38441ffcac4e3dbe41"
+  },
+  "domain": "整数列表，长度<=30；列表非递减时返回 True，包括相等元素和空列表。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

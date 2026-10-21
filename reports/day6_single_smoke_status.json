@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "process_completed": true,
+  "training_attempted": true,
+  "training_acceptance_complete": false,
+  "note": "Exit status alone does not prove nonzero updates or checkpoint reload"
+}

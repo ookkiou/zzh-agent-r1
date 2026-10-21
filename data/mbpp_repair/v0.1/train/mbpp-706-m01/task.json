@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-706-m01",
+  "source_id": "mbpp-706",
+  "split": "train",
+  "entrypoint": "is_subset",
+  "instruction": "Write a function to find whether an array is subset of another array.\n\n精确输入域与验收约定：整数列表 arr1/arr2，m/n 分别为完整列表长度且<=30；按集合包含判断 arr2 是否是 arr1 子集，忽略重复次数。\n修复 solution.py 中的 is_subset 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "iter",
+      "args",
+      1
+    ],
+    "line": 3,
+    "column": 22,
+    "before": "Name(id='m', ctx=Load())",
+    "after": "BinOp(left=Name(id='m', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 706,
+    "raw_code_sha256": "29ca5ecd1a0c85ead46640a5339882411b8479de31abeaaf7441740bd0a7d782",
+    "reference_sha256": "ebe696db90bf6e1f287aeed76d49a2586f51d992a447fa1a345e86166d5a6df7"
+  },
+  "domain": "整数列表 arr1/arr2，m/n 分别为完整列表长度且<=30；按集合包含判断 arr2 是否是 arr1 子集，忽略重复次数。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

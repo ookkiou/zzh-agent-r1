@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-468-t01",
+  "source_id": "mbpp-468",
+  "split": "test",
+  "entrypoint": "max_product",
+  "instruction": "Write a function to find the maximum product formed by multiplying numbers of an increasing subsequence of that array.\n\n精确输入域与验收约定：非空正整数数组arr，n=len(arr)<=20；返回严格递增子序列的最大乘积，允许只取一个元素。\n修复 solution.py 中的 max_product 函数，保留签名。",
+  "domain": "非空正整数数组arr，n=len(arr)<=20；返回严格递增子序列的最大乘积，允许只取一个元素。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "iter",
+      "args",
+      0
+    ],
+    "line": 3,
+    "column": 19,
+    "before": "Name(id='n', ctx=Load())",
+    "after": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 468,
+    "raw_code_sha256": "ce8fc837c9ce47b9881922fbbe9f22fb03473f4f54bb7e4cffabdf0d63e38486",
+    "reference_sha256": "796441774b67427c52fffc558607fda545d3f28e7c099a2194ee23b9d7ab22d9"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

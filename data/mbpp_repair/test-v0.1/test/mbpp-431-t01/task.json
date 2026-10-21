@@ -1,0 +1,38 @@
+{
+  "task_id": "mbpp-431-t01",
+  "source_id": "mbpp-431",
+  "split": "test",
+  "entrypoint": "common_element",
+  "instruction": "Write a function that takes two lists and returns true if they have at least one common element.\n\n精确输入域与验收约定：整数或字符串列表；存在至少一个相同元素返回True，否则返回None（遵循上游示例，不返回False）。\n修复 solution.py 中的 common_element 函数，保留签名。",
+  "domain": "整数或字符串列表；存在至少一个相同元素返回True，否则返回None（遵循上游示例，不返回False）。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 5,
+    "column": 15,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 431,
+    "raw_code_sha256": "04ed3e623f74645801a3cef675af221b270093f39bd42ac1338b18ce886afbdb",
+    "reference_sha256": "747e35022a6e411887aa8bde88b90e61bdf7622735bce4f2cd24ce43edf99e2b"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

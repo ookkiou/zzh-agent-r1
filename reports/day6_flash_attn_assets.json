@@ -1,0 +1,7 @@
+{
+  "source_url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.1/flash_attn-2.8.1+cu12torch2.8cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+  "sha256": "55331d797171973c8babf2b5e5fce5f78859b1cd298d54a136e8994147fe9e95",
+  "bytes": 126136893,
+  "matches": "torch2.8 ABI true Python3.12 linux_x86_64",
+  "verified": true
+}

@@ -1,0 +1,38 @@
+{
+  "task_id": "mbpp-633-x04",
+  "source_id": "mbpp-633",
+  "split": "train",
+  "entrypoint": "pair_OR_Sum",
+  "instruction": "Write a python function to find the sum of xor of all pairs of numbers in the given array.\n\n精确输入域与验收约定：非负整数列表 arr，n=len(arr)<=30；返回所有 i<j 的 arr[i] XOR arr[j] 之和。\n修复 solution.py 中的 pair_OR_Sum 函数，保留签名。",
+  "bug_type": "numeric_constant",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "iter",
+      "args",
+      0,
+      "right"
+    ],
+    "line": 4,
+    "column": 27,
+    "before": "Constant(value=1)",
+    "after": "Constant(value=2)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 633,
+    "raw_code_sha256": "6a8803846bf41b11a51e1ae58e34dcdb52abfb976856ad8491c37196599fceb2",
+    "reference_sha256": "74a36e58c8f82baa37c1d1adc5943ae9f1c90ea73e7bbfe2478d26467ad30dd4"
+  },
+  "domain": "非负整数列表 arr，n=len(arr)<=30；返回所有 i<j 的 arr[i] XOR arr[j] 之和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

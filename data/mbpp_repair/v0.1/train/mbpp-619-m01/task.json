@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-619-m01",
+  "source_id": "mbpp-619",
+  "split": "train",
+  "entrypoint": "move_num",
+  "instruction": "Write a function to move all the numbers in it to the given string.\n\n精确输入域与验收约定：ASCII 字符串；将所有数字字符移到末尾，数字和非数字各自保持原顺序。\n修复 solution.py 中的 move_num 函数，保留签名。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      0,
+      "test"
+    ],
+    "line": 5,
+    "column": 11,
+    "before": "Call(func=Attribute(value=Name(id='ele', ctx=Load()), attr='isdigit', ctx=Load()))",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 619,
+    "raw_code_sha256": "2f92f5401244fa2a4a445afb4d3aad5e3cb3bc40225c656068f14c229828f6ae",
+    "reference_sha256": "e1cfb74e08df06fe8fa3f35bfd4614df56dd887d85d6e5aabf82120d46d5004c"
+  },
+  "domain": "ASCII 字符串；将所有数字字符移到末尾，数字和非数字各自保持原顺序。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

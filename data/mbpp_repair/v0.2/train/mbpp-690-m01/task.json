@@ -1,0 +1,40 @@
+{
+  "task_id": "mbpp-690-m01",
+  "source_id": "mbpp-690",
+  "split": "train",
+  "entrypoint": "mul_consecutive_nums",
+  "instruction": "Write a function to multiply consecutive numbers of a given list.\n\n精确输入域与验收约定：整数列表，长度<=30；返回相邻元素的乘积列表，长度不足 2 返回空列表。\n修复 solution.py 中的 mul_consecutive_nums 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "generators",
+      0,
+      "iter",
+      "args",
+      0,
+      "slice",
+      "upper"
+    ],
+    "line": 2,
+    "column": 42,
+    "before": "UnaryOp(op=USub(), operand=Constant(value=1))",
+    "after": "BinOp(left=UnaryOp(op=USub(), operand=Constant(value=1)), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 690,
+    "raw_code_sha256": "89b76304b69e58c1ade7c74b777f4bd1230802228f046e105c72691cf7bfc066",
+    "reference_sha256": "3c25c87318a90dd231289761998dba2bbbfcdc568e516dfd29104614eda0a925"
+  },
+  "domain": "整数列表，长度<=30；返回相邻元素的乘积列表，长度不足 2 返回空列表。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-566-m02",
+  "source_id": "mbpp-566",
+  "split": "dev",
+  "entrypoint": "sum_digits",
+  "instruction": "Write a function to get the sum of a non-negative integer.\n\n精确输入域与验收约定：整数 0<=n<=10**9；返回十进制各位数字之和。\n修复 solution.py 中的 sum_digits 函数，保留签名。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test"
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "Compare(left=Name(id='n', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 566,
+    "raw_code_sha256": "a1a65a1be9b1f912ae59e64bad2581eefd168f5dcfa5bdb9db5536c36192e7a5",
+    "reference_sha256": "54b9fe8f136aafb38a3863e2647a2c7727cdac11ff7d7c83b222ec14a989526a"
+  },
+  "domain": "整数 0<=n<=10**9；返回十进制各位数字之和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

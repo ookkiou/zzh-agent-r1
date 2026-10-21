@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "valid_log_accepted": true,
+  "zero_gradient_reload_probe_allowed": true,
+  "invalid_cases_rejected": [
+    "missing update",
+    "missing gradient",
+    "nonfinite gradient",
+    "duplicate update",
+    "all-zero training gradients"
+  ]
+}

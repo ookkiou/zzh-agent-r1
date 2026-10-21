@@ -1,0 +1,62 @@
+{
+  "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+  "machine": "x86_64",
+  "python": "3.12.3",
+  "python_executable": "/root/miniconda3/bin/python",
+  "cpu_count": 128,
+  "meminfo": [
+    "MemTotal:       527978516 kB",
+    "MemFree:        153867588 kB",
+    "MemAvailable:   456865476 kB"
+  ],
+  "cgroup_limits": {
+    "/sys/fs/cgroup/memory.max": "66571993088",
+    "/sys/fs/cgroup/cpu.max": "1600000 100000"
+  },
+  "disk": {
+    "/": {
+      "total": 32212254720,
+      "used": 54632448,
+      "free": 32157622272
+    },
+    "/root/autodl-tmp": {
+      "total": 53687091200,
+      "used": 32768,
+      "free": 53687058432
+    },
+    "/dev/shm": {
+      "total": 33285996544,
+      "used": 0,
+      "free": 33285996544
+    }
+  },
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "vllm": null,
+    "verl": null,
+    "transformers": null,
+    "ray": null,
+    "datasets": null,
+    "pandas": null,
+    "pyarrow": null,
+    "flash-attn": null,
+    "tensordict": null,
+    "hydra-core": null,
+    "omegaconf": null
+  },
+  "nvidia_smi": {
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 4080 SUPER, 32760 MiB, 32230 MiB, 595.71.05, 8.9\n",
+    "stderr": ""
+  },
+  "nvcc": {
+    "returncode": 0,
+    "stdout": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Fri_Feb_21_20:23:50_PST_2025\nCuda compilation tools, release 12.8, V12.8.93\nBuild cuda_12.8.r12.8/compiler.35583870_0\n",
+    "stderr": ""
+  },
+  "pip_check": {
+    "returncode": 0,
+    "stdout": "No broken requirements found.\n",
+    "stderr": ""
+  }
+}

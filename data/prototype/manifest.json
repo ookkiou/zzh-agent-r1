@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "name": "code-repair-prototype",
+  "version": "0.1.0",
+  "purpose": "development fixtures, not a final evaluation benchmark",
+  "tasks": [
+    {
+      "task_id": "repair-001",
+      "path": "train/repair-001"
+    },
+    {
+      "task_id": "repair-002",
+      "path": "train/repair-002"
+    },
+    {
+      "task_id": "repair-003",
+      "path": "dev/repair-003"
+    },
+    {
+      "task_id": "repair-004",
+      "path": "dev/repair-004"
+    },
+    {
+      "task_id": "repair-005",
+      "path": "dev/repair-005"
+    },
+    {
+      "task_id": "repair-006",
+      "path": "train/repair-006"
+    },
+    {
+      "task_id": "repair-007",
+      "path": "train/repair-007"
+    },
+    {
+      "task_id": "repair-008",
+      "path": "train/repair-008"
+    },
+    {
+      "task_id": "repair-009",
+      "path": "dev/repair-009"
+    },
+    {
+      "task_id": "repair-010",
+      "path": "dev/repair-010"
+    },
+    {
+      "task_id": "repair-011",
+      "path": "train/repair-011"
+    },
+    {
+      "task_id": "repair-012",
+      "path": "train/repair-012"
+    },
+    {
+      "task_id": "repair-013",
+      "path": "dev/repair-013"
+    },
+    {
+      "task_id": "repair-014",
+      "path": "dev/repair-014"
+    },
+    {
+      "task_id": "repair-015",
+      "path": "dev/repair-015"
+    },
+    {
+      "task_id": "repair-016",
+      "path": "train/repair-016"
+    },
+    {
+      "task_id": "repair-017",
+      "path": "train/repair-017"
+    },
+    {
+      "task_id": "repair-018",
+      "path": "train/repair-018"
+    },
+    {
+      "task_id": "repair-019",
+      "path": "dev/repair-019"
+    },
+    {
+      "task_id": "repair-020",
+      "path": "dev/repair-020"
+    }
+  ],
+  "files": {
+    "dev/repair-003/private_tests.json": "f625ccd45800fd9d0148453ad142bed23ce8e91ecced54cc601ba97becc02778",
+    "dev/repair-003/public_tests.py": "f3eb3f23fa19564207bb52e6e80d966110ece64cd55731459d4b2116d6945ba9",
+    "dev/repair-003/reference/solution.py": "8aad16e609b38b8425304d00c79390e6defa8e62926ffe9d8e670f88f5ac8e36",
+    "dev/repair-003/starter/solution.py": "c56b556d9d3bab4e42215f5a1b675a05bea21a404ee34e6c2288060ecbd17695",
+    "dev/repair-003/task.json": "b3f3206aa8f3382ddfd6f7756a22f9603c30d18fb3eea3fad4e7235322c15b39",
+    "dev/repair-004/private_tests.json": "cd6bfc819aab0076f99dbfa0f884bb19febabcd10c0c81f76a8e4c9ad9b25281",
+    "dev/repair-004/public_tests.py": "3ed2e82be0a49f9392467833f26fc26e293947a8603ba9804a2b62c627a353f9",
+    "dev/repair-004/reference/solution.py": "f59376e0bc7bc0e40cac280540dcf97334b89b833bde1e04a62cee7b814fbfff",
+    "dev/repair-004/starter/solution.py": "da47376ef365ff43df9f41c9e7064d50b09fa3f503573071fc80a5fec27746eb",
+    "dev/repair-004/task.json": "caf300b954447b9c85605a33264af9735d96dfe2966e78bbcd6716d818a127b6",
+    "dev/repair-005/private_tests.json": "7dacead3a269779bdb4c230e437d03ed770d20fa45cbc77d4769cea1198643a9",
+    "dev/repair-005/public_tests.py": "8a52aeb6bb2b692901bee72dce66f6a61b3abe7f659bf4a4130b5162a48cf080",
+    "dev/repair-005/reference/solution.py": "2c9b80b4b3326516c45899d968f482accd4fcf10b706fd2a25dc2e8a7c5a3267",
+    "dev/repair-005/starter/solution.py": "948221cd4ce12a94afa6ee0909ee3da9652133191bf151d744428bbbcd02ee6a",
+    "dev/repair-005/task.json": "1e59a5169d2288ad6462a7b08925d1ed0b9e866e935706094db199f7241eda33",
+    "dev/repair-009/private_tests.json": "0992b6d8653dc1b20c63db854998989c9f8d06d9fea66a26c590e16dfccd33d2",
+    "dev/repair-009/public_tests.py": "c6e9df37c51da328a8c401cb1a649201e0415665456bb9659200b38d9a2df62f",
+    "dev/repair-009/reference/solution.py": "26cdc95497df8c1f4dc6656282753cf49581338d46c0580e77a32b52c64a5e1b",
+    "dev/repair-009/starter/solution.py": "83efcd231b594b4deaef15f12ec00b1dcf8c8b6ebc8da76d5a9b0aea967f3707",
+    "dev/repair-009/task.json": "2550da3325d6dfef9d4f75e846775a3601c07e62480be9bcaad8391e8188dce8",
+    "dev/repair-010/private_tests.json": "2e289aae6aa814edc5367c1d11020722648b6e4c6fc703c5fd1cc87f636b62a9",
+    "dev/repair-010/public_tests.py": "b7572ff98662466ad8b59890732a7eb44e3250e29bb920f51e96e319610b5322",
+    "dev/repair-010/reference/solution.py": "592f005a0cb701ac9c8a98abb1945dfc847d3e621c26f241d2c9461d6b665372",
+    "dev/repair-010/starter/solution.py": "0848dcb87668afd8d8df4c7121fd5313893ff27192228760a3bad483a47433a6",
+    "dev/repair-010/task.json": "fe40e15ad7d6f661de041d1441ef914b0c71f2227a4589cbe6288c483ec5c789",
+    "dev/repair-013/private_tests.json": "dcf49ad80984790fea2d54b46c72b32ace72fe3e8976f3a758f02645d3d54170",
+    "dev/repair-013/public_tests.py": "22ad2bf22463f8dcff2a141ac2a7fc0a38e3e99910dc2aa27590d3f758d8daeb",
+    "dev/repair-013/reference/solution.py": "24ab1e75700010614c5a559b98c1da0bf876654b241e3cbeef6cf811b8d7704b",
+    "dev/repair-013/starter/solution.py": "1029c300aa09a1f51d5e9ad7ca7e2a82a8aecff5ac538d01c3071cd7e584c1ea",
+    "dev/repair-013/task.json": "79cc408dcefb5404734f66035f7a6ca566f639982119d686cd571fc0b2ef6160",
+    "dev/repair-014/private_tests.json": "ab74aed3c142d7179b64464ccf312094d28c2458aeeab1a8c808078457ba743c",
+    "dev/repair-014/public_tests.py": "2ccf3e3681e191d508b3ad65fa8ebf4ce065023054c0d22a132d683eaf89098b",
+    "dev/repair-014/reference/solution.py": "9317bb6e587eaf6308df56386e45d618dd8921799102187e6187de44afdcc41e",
+    "dev/repair-014/starter/solution.py": "ba0cd39eeaa26c524944357cf96bb78d85cda350ad249469bff575d827379ed3",
+    "dev/repair-014/task.json": "7a214bfd7394f77da3bb045cae2192f2623eb22dc7e4d69a8f979381eb9a33c1",
+    "dev/repair-015/private_tests.json": "1768e1426af3216bdc66fc171ae975b33956da36db8ae720f5d85ff7fd6e2d41",
+    "dev/repair-015/public_tests.py": "a87d77001b1d0d1ebc2a915ae64f5b8a997d3950d354d58cb85e8615cd3ad6ca",
+    "dev/repair-015/reference/solution.py": "5906ea053c218b4807870b087841fdb37aacb5485e0be58d7243087ec7f1dd72",
+    "dev/repair-015/starter/solution.py": "0051a0dbcf49f8a55591192f30bb12175c8cf7fe362935c04612f18ed29c048d",
+    "dev/repair-015/task.json": "fabd32a87ff5ed160f6ca721f4130114031f3daf409308bae645405c6c35d1ac",
+    "dev/repair-019/private_tests.json": "8cf1f40076c034b044968afb7a97e18b1001808d0155aab5ee62fcd1a12c84e2",
+    "dev/repair-019/public_tests.py": "bbd6290647e9743d3c0a4e403f21ef124e85157e9a295a4dec9a62b0de33125b",
+    "dev/repair-019/reference/solution.py": "c002059976a22f2b3b8699706f754955b91dc6606031d3d1079097c72c2bca4e",
+    "dev/repair-019/starter/solution.py": "5f5c524e6a960f7d1b9a0a590a773a357971d403f27e044fc4a29a959abfe1bc",
+    "dev/repair-019/task.json": "24d03342bbfde7355f8d34f2fc83edcab2114b3a5145875560eb161e19c38055",
+    "dev/repair-020/private_tests.json": "2af7b2b791bb0b924a6ec09c3377c221f950ec191c5661b180fc4da55f459e19",
+    "dev/repair-020/public_tests.py": "6b6fa34276dfc2181d0947da0e68546c4e51f923f803fd943b9c465728d3900a",
+    "dev/repair-020/reference/solution.py": "aa3f4427e63e84a76ab4a281557c10ab72fdd5fe26b8274f72cb968f8394ea78",
+    "dev/repair-020/starter/solution.py": "b466263abec5fe11e3c9868df0c07f74fc2fa4a42489ac74b13dd00a64ad9586",
+    "dev/repair-020/task.json": "56b64ffaaf2a7f0eb3660b716d945c852ed7410da55c2a1c49b95211c9b2603e",
+    "train/repair-001/private_tests.json": "778fc87c253b97336d7c098df94a4fc3ada469e5c30bdfc93243b581805cead1",
+    "train/repair-001/public_tests.py": "8be94d0d3aad986789843d814880f7cd37b21dcef18cc8ea2945c42386379931",
+    "train/repair-001/reference/solution.py": "51bd87c44087331d5cc20dc7a064499067902dec5f49e3ccba7fc3cbb8affd08",
+    "train/repair-001/starter/solution.py": "5ef459fb1cd78c0715fa7d83faf27818f5aade300b1ce38837c256a97f30b795",
+    "train/repair-001/task.json": "d576bf06aae5a161e334170260ad057fcfc097b9337d2fca46329f155377f041",
+    "train/repair-002/private_tests.json": "74fd2e01fbb49e71e4bcae1f801f93944fb7cce0bf23c93818b9267471699f1f",
+    "train/repair-002/public_tests.py": "742abbdc46d0bb06f51175f68b39da8aaa99f89237d32cb5d7c2d35edaa06e83",
+    "train/repair-002/reference/solution.py": "eb5d2806b1b3adc59987017fed83be2cb9d91170d58f90dfdf595a254411c11e",
+    "train/repair-002/starter/solution.py": "f34f024a521464b1d11daa5806b94f1fea0fd5d409ddf5a58eb0b3e82828e1ae",
+    "train/repair-002/task.json": "87870414a1137f02d0554c69594265158388a5aa6930fde0dccead6cba598581",
+    "train/repair-006/private_tests.json": "aac1b741b291f66bf12f8d63a918184a522695b85e539b942d54eb5c2ba5437f",
+    "train/repair-006/public_tests.py": "0ddbfa7b912b2ab3843d043e8acae7abee96880b137c4a56e9ae165a0dd83472",
+    "train/repair-006/reference/solution.py": "c8c9b41c388b052d7186019e7e8996467c50621af222a3cb5adb0a61d9f48785",
+    "train/repair-006/starter/solution.py": "f3725901420209a9bacddbed526f27a811b27c21bb530544ec5de96904fd606e",
+    "train/repair-006/task.json": "89fdb7bf7455ed59197eb3ece93e0286b4b245e118c2f86c97360b2ef2382f7f",
+    "train/repair-007/private_tests.json": "f6540727e92878207bede96525c3c67e67ee3253d891cf5033f9be1208a4c223",
+    "train/repair-007/public_tests.py": "7881f4b873323da82870f06d5e6b99bb1601a61c2faa2741d804463b86797367",
+    "train/repair-007/reference/solution.py": "51adc042f25cd8141bbfcea537bee4a30d3a11bf10a9eabf9de76dc9c10286e4",
+    "train/repair-007/starter/solution.py": "9c7474f87014438548fa0315b603d14a21bc5a08818e9e08395b54fa83a8a22a",
+    "train/repair-007/task.json": "c1da40775d6b31a9323bd06e5e00f109af08639c463a32ea7121fcc980d4bfff",
+    "train/repair-008/private_tests.json": "caa81c78db94086a813dd4fb256f0e4d039ba264fa3be0c63a873f6b5d2ea69c",
+    "train/repair-008/public_tests.py": "09a17900236d8906f0e065b216456577dc620b20abd1eefae2bda51da0e5cfb7",
+    "train/repair-008/reference/solution.py": "79692f8795927c4f8306b5b92c24d78655f9740a40760a0d4274cf228935b98b",
+    "train/repair-008/starter/solution.py": "d15191a90ab1f6e37fa339043aa08d46ca9a6a6ec95c45fa46507f1197b79ddc",
+    "train/repair-008/task.json": "70041f098094bbbdbbb8bc87e0dae7c7c4cf96465740b2a66b4c97950a74ea83",
+    "train/repair-011/private_tests.json": "5d2554778aa4d3ed79c08a5d2ce53af7846542db5f7dc0e71a26bb4c03084912",
+    "train/repair-011/public_tests.py": "79176c0dbabc86db91e99a02bc5ac84f7ef038932071050f3e0dbf4f455700ca",
+    "train/repair-011/reference/solution.py": "cc868cedf70ceaa27851430aae5bebba8b6db18a1f5f66aac1db80570036f56a",
+    "train/repair-011/starter/solution.py": "187a82876dc2373ba4671b3dc25d333fe7c3423b33052c70bbb3b55f76e66427",
+    "train/repair-011/task.json": "c517d732b94cbf84a11e1db2f9b8806c1795df97338a7289410ceb57bd6bff5a",
+    "train/repair-012/private_tests.json": "076340996c0787149092fad80c6452faa883cd1e19b75f163436cac2082f45be",
+    "train/repair-012/public_tests.py": "339b99141e39a99a16fc2736075cb5a9e6aa67437c25cbb6d307bc05300eeaf0",
+    "train/repair-012/reference/solution.py": "81fc204424248d56b2c7e66009357834fda4184bdc7eac5fb1049f7265f0c0fa",
+    "train/repair-012/starter/solution.py": "109afd6ff5b4c4203dba50007d45d2aa78918ea7004bfa65e08ff923f0070abe",
+    "train/repair-012/task.json": "2ef0c39c9e173c1a2bd329df743261557d14ae5cfb8df64fa35fd5d6a59b9e89",
+    "train/repair-016/private_tests.json": "8a90543edcf758245200b62fc9aed8ae08e9b6f7354894caa727a39bd0380b53",
+    "train/repair-016/public_tests.py": "40037d539d07d233d88a146aefe343017a55427bc686f9f23067e6192c4c3094",
+    "train/repair-016/reference/solution.py": "600ce16506bd99c070849e3aa09855b33c6a9a55ea53a8d48d74e046b08390eb",
+    "train/repair-016/starter/solution.py": "d0eea1dff2dd0f278cfd9f434f2288deecc0683d323ad4241e3c83c0ada35289",
+    "train/repair-016/task.json": "138faeae0b1c434c620e87264beccdc92bee25e7bc3e94686a9ae2814d7bbcaf",
+    "train/repair-017/private_tests.json": "b1f1104c85a74d875a579547d5ee63e03b87506b309b55da159494122784daa1",
+    "train/repair-017/public_tests.py": "0abb436504ad270d92a0035aedad61ddffeafe333b76a0bf8a1e8f1ca71f4d46",
+    "train/repair-017/reference/solution.py": "57ee510bc2065dff405efa9f209c79f3777de53b56a5533054ea0a52c1ff474b",
+    "train/repair-017/starter/solution.py": "f2c485ab32e945d6dba0372271bbd25634953fa10718a7ce2dcb1867990d6ba4",
+    "train/repair-017/task.json": "a8c726d4998f36243b5ef2b8f7c0b8e9439a1aa30018baa40715d05b181c6436",
+    "train/repair-018/private_tests.json": "512a2112b48202ad5169b4d371ab9ffebfeb47f46057633d09b76913bf45c139",
+    "train/repair-018/public_tests.py": "7385c7b9901a6bf937b65fc642527e1764b7683a24da29f86cdbe1a185bbe58c",
+    "train/repair-018/reference/solution.py": "8e5f5bff87f99d7151fc9eee85852c40c1868f8ec156b800c0f735c29043b0ca",
+    "train/repair-018/starter/solution.py": "ea7e2e39b3213832e8525f87cc8f3c1d03391433459cc0d13f36306545a15558",
+    "train/repair-018/task.json": "afc7801bd42e7db2b2695819e7b9f97536e0724de42befdae1c69090743ddd30"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "complete": true,
+  "is_replay": true,
+  "new_model_generation": false,
+  "native_hermes_generation_verified": false,
+  "source_model_trace_sha256": "aa6b96866964d7dfdb4d0b3ed6a38fceccec08b55aa027e37b20f14b3679aadd",
+  "steps": [
+    {
+      "tool": "read_file",
+      "native_wire_format": "fenced_json",
+      "official_hermes_parser_roundtrip": true,
+      "tool_response_ok": true
+    },
+    {
+      "tool": "write_file",
+      "native_wire_format": "fenced_json",
+      "official_hermes_parser_roundtrip": true,
+      "tool_response_ok": true
+    },
+    {
+      "tool": "run_tests",
+      "native_wire_format": "fenced_json",
+      "official_hermes_parser_roundtrip": true,
+      "tool_response_ok": true
+    }
+  ],
+  "terminal_reward": 0.0,
+  "terminal_info": {
+    "termination_reason": "agent_final",
+    "step_index": 4,
+    "valid_episode": true,
+    "backend": "remote-docker",
+    "acceptance": {
+      "status": "completed",
+      "tests": 6,
+      "passed": 2,
+      "failed": 4
+    }
+  }
+}

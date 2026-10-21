@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-007",
+  "source_id": "authored-prototype-007",
+  "split": "train",
+  "title": "取奇数长度列表中项",
+  "instruction": "输入非空、长度为奇数的整数列表 items，返回正中间的一个元素。",
+  "entrypoint": "middle_item",
+  "signature": "middle_item(items)",
+  "bug_type": "index_slice",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

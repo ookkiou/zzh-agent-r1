@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-871-x01",
+  "source_id": "mbpp-871",
+  "split": "train",
+  "entrypoint": "are_Rotations",
+  "instruction": "Write a python function to check whether the given strings are rotations of each other or not.\n\n精确输入域与验收约定：两个ASCII字符串，允许空串；判断第二个是否能由第一个循环旋转得到，空串互为旋转。\n修复 solution.py 中的 are_Rotations 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      4,
+      "value",
+      "op"
+    ],
+    "line": 7,
+    "column": 11,
+    "before": "Add()",
+    "after": "Sub()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 871,
+    "raw_code_sha256": "18aa88e28a6b4183c6c883fe482b42c216f530d382fc22cb711f79328a4e912c",
+    "reference_sha256": "37b28ad357a1650d0f6a45a212cf0176e6f8767ed6257a873bb4ed04d5dd9b71"
+  },
+  "domain": "两个ASCII字符串，允许空串；判断第二个是否能由第一个循环旋转得到，空串互为旋转。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

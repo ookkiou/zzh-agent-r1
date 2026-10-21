@@ -1,0 +1,42 @@
+{
+  "task_id": "mbpp-392-t01",
+  "source_id": "mbpp-392",
+  "split": "test",
+  "entrypoint": "get_max_sum",
+  "instruction": "Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n).\n\n精确输入域与验收约定：整数0<=n<=100；f(0)=0，f(1)=1，f(n)=max(n,f(n//2)+f(n//3)+f(n//4)+f(n//5))，返回f(n)。\n修复 solution.py 中的 get_max_sum 函数，保留签名。",
+  "domain": "整数0<=n<=100；f(0)=0，f(1)=1，f(n)=max(n,f(n//2)+f(n//3)+f(n//4)+f(n//5))，返回f(n)。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      4,
+      "body",
+      0,
+      "value",
+      "args",
+      0,
+      "args",
+      1,
+      "left",
+      "left",
+      "left",
+      "slice"
+    ],
+    "line": 7,
+    "column": 30,
+    "before": "Call(func=Name(id='int', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Div(), right=Constant(value=2))])",
+    "after": "BinOp(left=Call(func=Name(id='int', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Div(), right=Constant(value=2))]), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 392,
+    "raw_code_sha256": "08033701e250b81ef0a191ebf27e444bc7f81428b9ef417d6756a8665fb67c4f",
+    "reference_sha256": "8d5d2cfef7dbbf5c7c1fc594070644b16e9a458078ec16a2b812c8f3e350ca0b"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-681-x03",
+  "source_id": "mbpp-681",
+  "split": "train",
+  "entrypoint": "smallest_Divisor",
+  "instruction": "Write a python function to find the smallest prime divisor of a number.\n\n精确输入域与验收约定：整数 2<=n<=1000；返回最小的正素因子；素数返回其自身。\n修复 solution.py 中的 smallest_Divisor 函数，保留签名。",
+  "bug_type": "numeric_constant",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "left",
+      "right"
+    ],
+    "line": 2,
+    "column": 11,
+    "before": "Constant(value=2)",
+    "after": "Constant(value=3)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 681,
+    "raw_code_sha256": "e6ff8eb6ecef59331320e3f25d25878d4caeaf7e2a20b69e799cd485afac2136",
+    "reference_sha256": "deafa5214bb515f6aa1c22c3299e65827a2f69f4aeb16746eaaa9ffa89365b09"
+  },
+  "domain": "整数 2<=n<=1000；返回最小的正素因子；素数返回其自身。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

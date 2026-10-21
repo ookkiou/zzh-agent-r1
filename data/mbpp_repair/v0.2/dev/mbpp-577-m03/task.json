@@ -1,0 +1,41 @@
+{
+  "task_id": "mbpp-577-m03",
+  "source_id": "mbpp-577",
+  "split": "dev",
+  "entrypoint": "last_Digit_Factorial",
+  "instruction": "Write a python function to find the last digit in factorial of a given number.\n\n精确输入域与验收约定：整数 0<=n<=100；返回 n! 的十进制最后一位，0!=1。\n修复 solution.py 中的 last_Digit_Factorial 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "orelse",
+      0,
+      "orelse",
+      0,
+      "orelse",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 8,
+    "column": 9,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 577,
+    "raw_code_sha256": "a2c57d52394eb5bf516c1d1383e16471bd858ed257f363dfa3ded93295838a60",
+    "reference_sha256": "07f9ed7195421bd3a963cb5e28adf851969a92a17d39b037b1717e2c69006cf6"
+  },
+  "domain": "整数 0<=n<=100；返回 n! 的十进制最后一位，0!=1。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

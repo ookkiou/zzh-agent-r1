@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-020",
+  "source_id": "authored-prototype-020",
+  "split": "dev",
+  "title": "按首次出现顺序去重",
+  "instruction": "输入整数列表 items，返回每个不同整数首次出现时组成的新列表，保持原顺序；空列表返回空列表。",
+  "entrypoint": "unique_in_order",
+  "signature": "unique_in_order(items)",
+  "bug_type": "missing_branch",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

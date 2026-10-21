@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-804-x01",
+  "source_id": "mbpp-804",
+  "split": "train",
+  "entrypoint": "is_Product_Even",
+  "instruction": "Write a python function to check whether the product of numbers is even or not.\n\n精确输入域与验收约定：整数数组，n=len(arr)<=30；存在偶数时积为偶数，返回True；空数组的积约定为1，返回False。\n修复 solution.py 中的 is_Product_Even 函数，保留签名。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "body",
+      0,
+      "test"
+    ],
+    "line": 3,
+    "column": 11,
+    "before": "Compare(left=BinOp(left=Subscript(value=Name(id='arr', ctx=Load()), slice=Name(id='i', ctx=Load()), ctx=Load()), op=BitAnd(), right=Constant(value=1)), ops=[Eq()], comparators=[Constant(value=0)])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 804,
+    "raw_code_sha256": "de599940278c0861ed74d7cb13620434e6a6051f9f663233c64162284e6c92f4",
+    "reference_sha256": "a320ec4bd2f43c5ff2ec9d9276fe90d70f28a9fbf4dd6df590dbc3a18b0b826a"
+  },
+  "domain": "整数数组，n=len(arr)<=30；存在偶数时积为偶数，返回True；空数组的积约定为1，返回False。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

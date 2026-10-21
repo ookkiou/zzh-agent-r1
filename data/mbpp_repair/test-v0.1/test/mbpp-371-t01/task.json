@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-371-t01",
+  "source_id": "mbpp-371",
+  "split": "test",
+  "entrypoint": "smallest_missing",
+  "instruction": "Write a function to find the smallest missing element in a sorted array.\n\n精确输入域与验收约定：严格递增非负整数数组A，left_element=0，right_element=len(A)-1；返回缺失的最小非负整数，允许空数组。\n修复 solution.py 中的 smallest_missing 函数，保留签名。",
+  "domain": "严格递增非负整数数组A，left_element=0，right_element=len(A)-1；返回缺失的最小非负整数，允许空数组。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "Gt()",
+    "after": "GtE()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 371,
+    "raw_code_sha256": "5c1ad9b0ccd805b3dd620684efa90bbb381720f4a593d2d36ca62604b68a66f1",
+    "reference_sha256": "b18a121985acaf4a4e1aebeeaf464fe1b008ebe1d25c66d0482ab36909f681ff"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

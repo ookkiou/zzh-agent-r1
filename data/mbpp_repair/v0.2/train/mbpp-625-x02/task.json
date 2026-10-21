@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-625-x02",
+  "source_id": "mbpp-625",
+  "split": "train",
+  "entrypoint": "swap_List",
+  "instruction": "Write a python function to interchange first and last elements in a given list.\n\n精确输入域与验收约定：长度 1–30 的整数列表；交换首尾元素，允许修改输入，返回交换后的列表。\n修复 solution.py 中的 swap_List 函数，保留签名。",
+  "bug_type": "numeric_constant",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "value",
+      "slice",
+      "right"
+    ],
+    "line": 4,
+    "column": 32,
+    "before": "Constant(value=1)",
+    "after": "Constant(value=2)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 625,
+    "raw_code_sha256": "e39f05e9f47bbe40495cb798db72547b254c960c5a3837e40dca60a9b8753b2b",
+    "reference_sha256": "ddc81fff5484daa7d03eddbe8b8c889d447fd2838c47bb9742c6d4612c7e7d7d"
+  },
+  "domain": "长度 1–30 的整数列表；交换首尾元素，允许修改输入，返回交换后的列表。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

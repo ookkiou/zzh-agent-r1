@@ -1,0 +1,39 @@
+{
+  "task_id": "mbpp-683-m02",
+  "source_id": "mbpp-683",
+  "split": "train",
+  "entrypoint": "sum_Square",
+  "instruction": "Write a python function to check whether the given number can be represented by sum of two squares or not.\n\n精确输入域与验收约定：整数 0<=n<=100；判断 n 能否表示为两个严格正整数平方之和，返回布尔值。\n修复 solution.py 中的 sum_Square 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      1,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 6,
+    "column": 15,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 683,
+    "raw_code_sha256": "1fe53750191d0f3af3d10b848f9dd25ea6efeef92297e1c011961947fd126b9f",
+    "reference_sha256": "9155b8fa0cf309de9118aac4539ef348733319c7e43aafc0223893942c4f7aca"
+  },
+  "domain": "整数 0<=n<=100；判断 n 能否表示为两个严格正整数平方之和，返回布尔值。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

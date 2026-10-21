@@ -1,0 +1,37 @@
+{
+  "task_id": "mbpp-849-x02",
+  "source_id": "mbpp-849",
+  "split": "train",
+  "entrypoint": "Sum",
+  "instruction": "Write a python function to find sum of all prime divisors of a given number.\n\n精确输入域与验收约定：整数1<=N<=100；返回所有不同素因子的和，每个素因子只计一次，N=1返回0。\n修复 solution.py 中的 Sum 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 4,
+    "column": 11,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 849,
+    "raw_code_sha256": "f9f658b81c09fb540a0823891c2d07ffbaf8ab43b8d7c1c7983be92cf86fc003",
+    "reference_sha256": "5aac223e487b7fcb9a4b7436cd2a27c3d4f0fb271000954e0ae629248e35fef1"
+  },
+  "domain": "整数1<=N<=100；返回所有不同素因子的和，每个素因子只计一次，N=1返回0。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

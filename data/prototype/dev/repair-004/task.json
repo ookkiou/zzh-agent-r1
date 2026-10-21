@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-004",
+  "source_id": "authored-prototype-004",
+  "split": "dev",
+  "title": "检查额度是否足够",
+  "instruction": "输入非负整数 amount 和 limit；amount 不超过 limit 时返回布尔 True，包括相等的情况，否则返回 False。",
+  "entrypoint": "within_limit",
+  "signature": "within_limit(amount, limit)",
+  "bug_type": "boundary",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

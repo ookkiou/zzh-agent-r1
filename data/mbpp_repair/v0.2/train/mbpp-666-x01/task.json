@@ -1,0 +1,38 @@
+{
+  "task_id": "mbpp-666-x01",
+  "source_id": "mbpp-666",
+  "split": "train",
+  "entrypoint": "count_char",
+  "instruction": "Write a function to count occurrence of a character in a string.\n\n精确输入域与验收约定：ASCII 字符串与单个 ASCII 字符，区分大小写；返回字符出现次数，允许空串。\n修复 solution.py 中的 count_char 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "op"
+    ],
+    "line": 5,
+    "column": 20,
+    "before": "Add()",
+    "after": "Sub()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 666,
+    "raw_code_sha256": "b440fd9fa2c093e3cd89ea88d716e5ee043b9b0235024f3ee2f6eb6ea910e716",
+    "reference_sha256": "4d9c37bf5d9c6977fcf222ac8ac1a0ad1ef25460ca03e2aeb4abd0617f29c297"
+  },
+  "domain": "ASCII 字符串与单个 ASCII 字符，区分大小写；返回字符出现次数，允许空串。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-768-x02",
+  "source_id": "mbpp-768",
+  "split": "train",
+  "entrypoint": "check_Odd_Parity",
+  "instruction": "Write a python function to check for odd parity of a given number.\n\n精确输入域与验收约定：整数0<=x<=10**9；二进制表示中1的个数为奇数时返回True；x=0返回False。\n修复 solution.py 中的 check_Odd_Parity 函数，保留签名。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "test"
+    ],
+    "line": 6,
+    "column": 7,
+    "before": "Compare(left=BinOp(left=Name(id='parity', ctx=Load()), op=Mod(), right=Constant(value=2)), ops=[Eq()], comparators=[Constant(value=1)])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 768,
+    "raw_code_sha256": "d3161d674aaf261da9b215d2819e0ffbdcef8e3e58e15f0abe93e9e3b7c849b2",
+    "reference_sha256": "1fa80eb77c1ebf4da380ba25317439d5d41fe1fafa6a3432b5a11d510aaa9ec7"
+  },
+  "domain": "整数0<=x<=10**9；二进制表示中1的个数为奇数时返回True；x=0返回False。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

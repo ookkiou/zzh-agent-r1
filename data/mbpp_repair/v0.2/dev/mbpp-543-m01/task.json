@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-543-m01",
+  "source_id": "mbpp-543",
+  "split": "dev",
+  "entrypoint": "count_digits",
+  "instruction": "Write a function to add two numbers and print number of digits of sum.\n\n精确输入域与验收约定：非负整数 num1、num2，1<=num1+num2<=10**12；返回和的十进制位数。\n修复 solution.py 中的 count_digits 函数，保留签名。",
+  "bug_type": "initialization",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "value"
+    ],
+    "line": 3,
+    "column": 12,
+    "before": "Constant(value=0)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 543,
+    "raw_code_sha256": "2ab4ed2938209155f6701a538355eec0ea45977c9638b62ffc9e51f0bda3c0a2",
+    "reference_sha256": "b56aa90a68648526814d2fda7778c5d1da97b4ff23e4e891cf70e16ac8213778"
+  },
+  "domain": "非负整数 num1、num2，1<=num1+num2<=10**12；返回和的十进制位数。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

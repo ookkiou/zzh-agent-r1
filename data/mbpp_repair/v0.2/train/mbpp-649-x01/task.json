@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-649-x01",
+  "source_id": "mbpp-649",
+  "split": "train",
+  "entrypoint": "sum_Range_list",
+  "instruction": "Write a python function to calculate the sum of the numbers in a list between the indices of a specified range.\n\n精确输入域与验收约定：非空整数列表，0<=m<=n<len(nums)<=30；返回下标闭区间 [m,n] 的元素之和。\n修复 solution.py 中的 sum_Range_list 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "iter",
+      "args",
+      1,
+      "op"
+    ],
+    "line": 3,
+    "column": 22,
+    "before": "Add()",
+    "after": "Sub()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 649,
+    "raw_code_sha256": "86118d2956b9ed89222b2e803a0984e177dcdc65d76f19883481c39609118aaf",
+    "reference_sha256": "040eb5f8e928d297f686e5150d7aaf0d235489af2573de78ff59fc17099a6cfb"
+  },
+  "domain": "非空整数列表，0<=m<=n<len(nums)<=30；返回下标闭区间 [m,n] 的元素之和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

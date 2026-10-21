@@ -1,0 +1,2436 @@
+{
+  "complete": true,
+  "stage": "step70",
+  "model_path": "/root/zzh-day9-eval/merged-step70",
+  "inputs": {
+    "protocol_sha256": "078b36f56a85e1ef800da548ba042e7296fe6e79cb3b10dfb3c2d492f3338635",
+    "run_fingerprint": "b9f93ec5dadf42c1199427e5ba425cc2a864daad30caae599aa27d22a6092f32",
+    "dataset_manifest_sha256": "37b846babd6d9949e2247752042c3669d618d0f367212b65ba32e39717da9555",
+    "dev_starter_and_test_files_byte_identical": 64,
+    "dev_model_messages_equal": 32,
+    "dev_model_visible_metadata_equal": 32,
+    "checkpoint_step": 70,
+    "checkpoint_marker_sha256": "caf0f9336751fcea97f72b91c0866146cf374e6d8f117f7f1693c138438b5395",
+    "sft_model_sha256": "f507ccbddb9881ae7bdd841cd2ba8fdf02e54661d04e83fad7e97d2f545be346",
+    "step70_model_sha256": "40915da114c198d947b2b99482fdb3b96ba8bade9cb0b7fb33c53e79e1bb986d",
+    "script_sha256": "c69f4e3b145518b61329ed4ed8a05ee77627d133d67d9e0ab2fb04b09b376227",
+    "test_executed": false,
+    "checkpoint_check": "marker and sizes; merged model hashed; source weight hash not checked"
+  },
+  "training_performed": false,
+  "guided": false,
+  "final_test": false,
+  "started_at": "2026-10-21T03:06:59.241439+00:00",
+  "expected_attempts": 96,
+  "episodes": [
+    {
+      "task_id": "mbpp-526-m01",
+      "source_id": "mbpp-526",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 141,
+      "elapsed_seconds": 4.316548839211464,
+      "timings": {
+        "generate_sequences": 3.522667670622468,
+        "tool_calls": 0.7648868728429079
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-526-m01",
+      "source_id": "mbpp-526",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 143,
+      "elapsed_seconds": 4.314786644652486,
+      "timings": {
+        "generate_sequences": 3.5269867442548275,
+        "tool_calls": 0.7613636013120413
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-526-m01",
+      "source_id": "mbpp-526",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 143,
+      "elapsed_seconds": 4.373018944635987,
+      "timings": {
+        "generate_sequences": 3.5339165050536394,
+        "tool_calls": 0.8166171573102474
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-526-m02",
+      "source_id": "mbpp-526",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 144,
+      "elapsed_seconds": 4.390217620879412,
+      "timings": {
+        "generate_sequences": 3.611179895699024,
+        "tool_calls": 0.7560433205217123
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-526-m02",
+      "source_id": "mbpp-526",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 153,
+      "elapsed_seconds": 4.57260999828577,
+      "timings": {
+        "generate_sequences": 3.7840720992535353,
+        "tool_calls": 0.7642733678221703
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-526-m02",
+      "source_id": "mbpp-526",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 144,
+      "elapsed_seconds": 4.3790550753474236,
+      "timings": {
+        "generate_sequences": 3.6056673768907785,
+        "tool_calls": 0.749458871781826
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-527-m01",
+      "source_id": "mbpp-527",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 144,
+      "elapsed_seconds": 4.341867171227932,
+      "timings": {
+        "generate_sequences": 3.602178880944848,
+        "tool_calls": 0.7123567666858435
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-527-m01",
+      "source_id": "mbpp-527",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 144,
+      "elapsed_seconds": 4.461830299347639,
+      "timings": {
+        "generate_sequences": 3.517985114827752,
+        "tool_calls": 0.9178278148174286
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-527-m01",
+      "source_id": "mbpp-527",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 144,
+      "elapsed_seconds": 4.823083337396383,
+      "timings": {
+        "generate_sequences": 3.5068900287151337,
+        "tool_calls": 1.2922806926071644
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-527-m02",
+      "source_id": "mbpp-527",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 144,
+      "elapsed_seconds": 4.256907671689987,
+      "timings": {
+        "generate_sequences": 3.485850691795349,
+        "tool_calls": 0.7476341556757689
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-527-m02",
+      "source_id": "mbpp-527",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 144,
+      "elapsed_seconds": 4.817206198349595,
+      "timings": {
+        "generate_sequences": 3.496980808675289,
+        "tool_calls": 1.2970014810562134
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-527-m02",
+      "source_id": "mbpp-527",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 144,
+      "elapsed_seconds": 4.288974843919277,
+      "timings": {
+        "generate_sequences": 3.539300102740526,
+        "tool_calls": 0.724586671218276
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-527-m03",
+      "source_id": "mbpp-527",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 144,
+      "elapsed_seconds": 4.242919817566872,
+      "timings": {
+        "generate_sequences": 3.500007461756468,
+        "tool_calls": 0.7191045619547367
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-527-m03",
+      "source_id": "mbpp-527",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 144,
+      "elapsed_seconds": 4.206751042976975,
+      "timings": {
+        "generate_sequences": 3.456906657665968,
+        "tool_calls": 0.7274412531405687
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-527-m03",
+      "source_id": "mbpp-527",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 144,
+      "elapsed_seconds": 4.2316153682768345,
+      "timings": {
+        "generate_sequences": 3.4880704432725906,
+        "tool_calls": 0.7206244245171547
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-537-m01",
+      "source_id": "mbpp-537",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 132,
+      "elapsed_seconds": 3.9056375920772552,
+      "timings": {
+        "generate_sequences": 3.17573026008904,
+        "tool_calls": 0.709217069670558
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-537-m01",
+      "source_id": "mbpp-537",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 132,
+      "elapsed_seconds": 3.938366327434778,
+      "timings": {
+        "generate_sequences": 3.1855274587869644,
+        "tool_calls": 0.728539239615202
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-537-m01",
+      "source_id": "mbpp-537",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 132,
+      "elapsed_seconds": 3.8996902368962765,
+      "timings": {
+        "generate_sequences": 3.1571490671485662,
+        "tool_calls": 0.7203899752348661
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-543-m01",
+      "source_id": "mbpp-543",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 134,
+      "elapsed_seconds": 3.9587335903197527,
+      "timings": {
+        "generate_sequences": 3.1986124515533447,
+        "tool_calls": 0.7372376266866922
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-543-m01",
+      "source_id": "mbpp-543",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 134,
+      "elapsed_seconds": 4.031842535361648,
+      "timings": {
+        "generate_sequences": 3.279905678704381,
+        "tool_calls": 0.726551778614521
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-543-m01",
+      "source_id": "mbpp-543",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 132,
+      "elapsed_seconds": 4.012264296412468,
+      "timings": {
+        "generate_sequences": 3.228798819705844,
+        "tool_calls": 0.7588105946779251
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-546-m01",
+      "source_id": "mbpp-546",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 143,
+      "elapsed_seconds": 4.218159465119243,
+      "timings": {
+        "generate_sequences": 3.4814860466867685,
+        "tool_calls": 0.7130124028772116
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-546-m01",
+      "source_id": "mbpp-546",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 147,
+      "elapsed_seconds": 4.317143004387617,
+      "timings": {
+        "generate_sequences": 3.5481377206742764,
+        "tool_calls": 0.7476896643638611
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-546-m01",
+      "source_id": "mbpp-546",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 143,
+      "elapsed_seconds": 4.576651455834508,
+      "timings": {
+        "generate_sequences": 3.476593617349863,
+        "tool_calls": 1.073115138337016
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-546-m02",
+      "source_id": "mbpp-546",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 143,
+      "elapsed_seconds": 4.783826338127255,
+      "timings": {
+        "generate_sequences": 3.454023290425539,
+        "tool_calls": 1.3047733195126057
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-546-m02",
+      "source_id": "mbpp-546",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 143,
+      "elapsed_seconds": 4.276866300031543,
+      "timings": {
+        "generate_sequences": 3.4791624899953604,
+        "tool_calls": 0.7718829438090324
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-546-m02",
+      "source_id": "mbpp-546",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 143,
+      "elapsed_seconds": 4.437033602967858,
+      "timings": {
+        "generate_sequences": 3.462427804246545,
+        "tool_calls": 0.9497863203287125
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-546-m03",
+      "source_id": "mbpp-546",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 143,
+      "elapsed_seconds": 4.264211969450116,
+      "timings": {
+        "generate_sequences": 3.5250442046672106,
+        "tool_calls": 0.7134726941585541
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-546-m03",
+      "source_id": "mbpp-546",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 143,
+      "elapsed_seconds": 4.2583489045500755,
+      "timings": {
+        "generate_sequences": 3.523406211286783,
+        "tool_calls": 0.7111429665237665
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-546-m03",
+      "source_id": "mbpp-546",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 143,
+      "elapsed_seconds": 4.298897648230195,
+      "timings": {
+        "generate_sequences": 3.5152647849172354,
+        "tool_calls": 0.7585475761443377
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-547-m01",
+      "source_id": "mbpp-547",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 133,
+      "elapsed_seconds": 4.096810003742576,
+      "timings": {
+        "generate_sequences": 3.287558017298579,
+        "tool_calls": 0.7817075420171022
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-547-m01",
+      "source_id": "mbpp-547",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 133,
+      "elapsed_seconds": 4.689705682918429,
+      "timings": {
+        "generate_sequences": 3.3115522358566523,
+        "tool_calls": 1.3536321334540844
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-547-m01",
+      "source_id": "mbpp-547",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 133,
+      "elapsed_seconds": 4.094414059072733,
+      "timings": {
+        "generate_sequences": 3.311914486810565,
+        "tool_calls": 0.759964644908905
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-547-m02",
+      "source_id": "mbpp-547",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 133,
+      "elapsed_seconds": 4.083798682317138,
+      "timings": {
+        "generate_sequences": 3.333380702883005,
+        "tool_calls": 0.7260552924126387
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-547-m02",
+      "source_id": "mbpp-547",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 133,
+      "elapsed_seconds": 4.063505968078971,
+      "timings": {
+        "generate_sequences": 3.2967259027063847,
+        "tool_calls": 0.7411799300462008
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-547-m02",
+      "source_id": "mbpp-547",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 133,
+      "elapsed_seconds": 4.282866504043341,
+      "timings": {
+        "generate_sequences": 3.307133112102747,
+        "tool_calls": 0.9524943567812443
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-548-m01",
+      "source_id": "mbpp-548",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 215,
+      "elapsed_seconds": 6.109805099666119,
+      "timings": {
+        "generate_sequences": 5.324324537068605,
+        "tool_calls": 0.7558986134827137
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-548-m01",
+      "source_id": "mbpp-548",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 215,
+      "elapsed_seconds": 6.1119160279631615,
+      "timings": {
+        "generate_sequences": 5.3180012963712215,
+        "tool_calls": 0.7697516176849604
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-548-m01",
+      "source_id": "mbpp-548",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 215,
+      "elapsed_seconds": 6.050429983064532,
+      "timings": {
+        "generate_sequences": 5.29769347794354,
+        "tool_calls": 0.7302634119987488
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-548-m02",
+      "source_id": "mbpp-548",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 206,
+      "elapsed_seconds": 5.844153428450227,
+      "timings": {
+        "generate_sequences": 5.0899163987487555,
+        "tool_calls": 0.7261390201747417
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-548-m02",
+      "source_id": "mbpp-548",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 206,
+      "elapsed_seconds": 6.13717445358634,
+      "timings": {
+        "generate_sequences": 5.098731484264135,
+        "tool_calls": 1.0177145507186651
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-548-m02",
+      "source_id": "mbpp-548",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 206,
+      "elapsed_seconds": 6.430564859881997,
+      "timings": {
+        "generate_sequences": 5.058989265933633,
+        "tool_calls": 1.3521691467612982
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-548-m03",
+      "source_id": "mbpp-548",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 215,
+      "elapsed_seconds": 5.9799211379140615,
+      "timings": {
+        "generate_sequences": 5.236113658174872,
+        "tool_calls": 0.7213097419589758
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-548-m03",
+      "source_id": "mbpp-548",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 215,
+      "elapsed_seconds": 5.952381860464811,
+      "timings": {
+        "generate_sequences": 5.222402619197965,
+        "tool_calls": 0.7108649928122759
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-548-m03",
+      "source_id": "mbpp-548",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 215,
+      "elapsed_seconds": 6.037029208615422,
+      "timings": {
+        "generate_sequences": 5.241122866049409,
+        "tool_calls": 0.7759957872331142
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-552-m01",
+      "source_id": "mbpp-552",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 149,
+      "elapsed_seconds": 4.429771438241005,
+      "timings": {
+        "generate_sequences": 3.652258589863777,
+        "tool_calls": 0.7581712361425161
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-552-m01",
+      "source_id": "mbpp-552",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 149,
+      "elapsed_seconds": 4.373240644112229,
+      "timings": {
+        "generate_sequences": 3.6400835141539574,
+        "tool_calls": 0.7134554032236338
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-552-m01",
+      "source_id": "mbpp-552",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 149,
+      "elapsed_seconds": 4.9791333600878716,
+      "timings": {
+        "generate_sequences": 3.6394942719489336,
+        "tool_calls": 1.3196271676570177
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-552-m02",
+      "source_id": "mbpp-552",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 156,
+      "elapsed_seconds": 4.768695950508118,
+      "timings": {
+        "generate_sequences": 3.8030141722410917,
+        "tool_calls": 0.9470875263214111
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-552-m02",
+      "source_id": "mbpp-552",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 149,
+      "elapsed_seconds": 4.6000319719314575,
+      "timings": {
+        "generate_sequences": 3.6211999133229256,
+        "tool_calls": 0.9598776288330555
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-552-m02",
+      "source_id": "mbpp-552",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 156,
+      "elapsed_seconds": 4.552575772628188,
+      "timings": {
+        "generate_sequences": 3.8200651556253433,
+        "tool_calls": 0.712870005518198
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-552-m03",
+      "source_id": "mbpp-552",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 154,
+      "elapsed_seconds": 4.906214876100421,
+      "timings": {
+        "generate_sequences": 3.716061959043145,
+        "tool_calls": 1.1713355481624603
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-552-m03",
+      "source_id": "mbpp-552",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 154,
+      "elapsed_seconds": 4.478619737550616,
+      "timings": {
+        "generate_sequences": 3.7513361629098654,
+        "tool_calls": 0.7081020064651966
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-552-m03",
+      "source_id": "mbpp-552",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 151,
+      "elapsed_seconds": 4.714125297963619,
+      "timings": {
+        "generate_sequences": 3.6842022463679314,
+        "tool_calls": 1.0117617081850767
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-564-m01",
+      "source_id": "mbpp-564",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 137,
+      "elapsed_seconds": 4.1079620365053415,
+      "timings": {
+        "generate_sequences": 3.3230928741395473,
+        "tool_calls": 0.7660325523465872
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-564-m01",
+      "source_id": "mbpp-564",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 137,
+      "elapsed_seconds": 4.1217395309358835,
+      "timings": {
+        "generate_sequences": 3.3296230379492044,
+        "tool_calls": 0.7743792403489351
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-564-m01",
+      "source_id": "mbpp-564",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 137,
+      "elapsed_seconds": 4.1180553287267685,
+      "timings": {
+        "generate_sequences": 3.360069213435054,
+        "tool_calls": 0.7378168515861034
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-564-m02",
+      "source_id": "mbpp-564",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 137,
+      "elapsed_seconds": 4.046195263043046,
+      "timings": {
+        "generate_sequences": 3.3124232180416584,
+        "tool_calls": 0.7149523682892323
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-564-m02",
+      "source_id": "mbpp-564",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 137,
+      "elapsed_seconds": 4.071304809302092,
+      "timings": {
+        "generate_sequences": 3.305796544998884,
+        "tool_calls": 0.7479154579341412
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-564-m02",
+      "source_id": "mbpp-564",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 137,
+      "elapsed_seconds": 4.342834671959281,
+      "timings": {
+        "generate_sequences": 3.3215284682810307,
+        "tool_calls": 1.0034110695123672
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-564-m03",
+      "source_id": "mbpp-564",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 137,
+      "elapsed_seconds": 4.071766881272197,
+      "timings": {
+        "generate_sequences": 3.3214231971651316,
+        "tool_calls": 0.7318763043731451
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-564-m03",
+      "source_id": "mbpp-564",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 137,
+      "elapsed_seconds": 4.170107111334801,
+      "timings": {
+        "generate_sequences": 3.368820298463106,
+        "tool_calls": 0.7756187878549099
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-564-m03",
+      "source_id": "mbpp-564",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 137,
+      "elapsed_seconds": 4.140200078487396,
+      "timings": {
+        "generate_sequences": 3.393808238208294,
+        "tool_calls": 0.7230649832636118
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-566-m01",
+      "source_id": "mbpp-566",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 122,
+      "elapsed_seconds": 3.77084425650537,
+      "timings": {
+        "generate_sequences": 3.0204745307564735,
+        "tool_calls": 0.724894255399704
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-566-m01",
+      "source_id": "mbpp-566",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 122,
+      "elapsed_seconds": 3.7586809881031513,
+      "timings": {
+        "generate_sequences": 2.982676839455962,
+        "tool_calls": 0.7546251583844423
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-566-m01",
+      "source_id": "mbpp-566",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 122,
+      "elapsed_seconds": 3.768318384885788,
+      "timings": {
+        "generate_sequences": 2.9898499846458435,
+        "tool_calls": 0.7562453057616949
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-566-m02",
+      "source_id": "mbpp-566",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 122,
+      "elapsed_seconds": 4.097610384225845,
+      "timings": {
+        "generate_sequences": 3.009182905778289,
+        "tool_calls": 1.0635257083922625
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-566-m02",
+      "source_id": "mbpp-566",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 122,
+      "elapsed_seconds": 3.80075616016984,
+      "timings": {
+        "generate_sequences": 2.9965527150779963,
+        "tool_calls": 0.7828162498772144
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-566-m02",
+      "source_id": "mbpp-566",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 122,
+      "elapsed_seconds": 3.897909179329872,
+      "timings": {
+        "generate_sequences": 2.98054538667202,
+        "tool_calls": 0.8972835000604391
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-568-m01",
+      "source_id": "mbpp-568",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 105,
+      "elapsed_seconds": 3.3687340561300516,
+      "timings": {
+        "generate_sequences": 2.5882030446082354,
+        "tool_calls": 0.75930998288095
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-568-m01",
+      "source_id": "mbpp-568",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 105,
+      "elapsed_seconds": 3.3865769244730473,
+      "timings": {
+        "generate_sequences": 2.580013582482934,
+        "tool_calls": 0.7862994857132435
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-568-m01",
+      "source_id": "mbpp-568",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 105,
+      "elapsed_seconds": 3.4501717928797007,
+      "timings": {
+        "generate_sequences": 2.5878204703330994,
+        "tool_calls": 0.8438109513372183
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-568-m02",
+      "source_id": "mbpp-568",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 105,
+      "elapsed_seconds": 3.33555456623435,
+      "timings": {
+        "generate_sequences": 2.5479523073881865,
+        "tool_calls": 0.7676100116223097
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-568-m02",
+      "source_id": "mbpp-568",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 100,
+      "elapsed_seconds": 3.278285723179579,
+      "timings": {
+        "generate_sequences": 2.460416926071048,
+        "tool_calls": 0.8001611735671759
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-568-m02",
+      "source_id": "mbpp-568",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 100,
+      "elapsed_seconds": 3.5137583892792463,
+      "timings": {
+        "generate_sequences": 2.4470357038080692,
+        "tool_calls": 1.0489222202450037
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-572-m01",
+      "source_id": "mbpp-572",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 105,
+      "elapsed_seconds": 3.295913625508547,
+      "timings": {
+        "generate_sequences": 2.5557504277676344,
+        "tool_calls": 0.7213979996740818
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-572-m01",
+      "source_id": "mbpp-572",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 105,
+      "elapsed_seconds": 3.35413521528244,
+      "timings": {
+        "generate_sequences": 2.5565134305506945,
+        "tool_calls": 0.7798554841428995
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-572-m01",
+      "source_id": "mbpp-572",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 105,
+      "elapsed_seconds": 3.3241544123739004,
+      "timings": {
+        "generate_sequences": 2.581035453826189,
+        "tool_calls": 0.7249953411519527
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-577-m01",
+      "source_id": "mbpp-577",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 158,
+      "elapsed_seconds": 4.600219847634435,
+      "timings": {
+        "generate_sequences": 3.8115103151649237,
+        "tool_calls": 0.7696592938154936
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-577-m01",
+      "source_id": "mbpp-577",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "step_limit",
+      "steps": 6,
+      "parsed_actions": 6,
+      "contract_valid_actions": 6,
+      "generated_tokens": 445,
+      "elapsed_seconds": 10.999219296500087,
+      "timings": {
+        "generate_sequences": 10.554675661027431,
+        "tool_calls": 0.420774320140481
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 4
+      },
+      "error_counts": {
+        "invalid_source": 4
+      }
+    },
+    {
+      "task_id": "mbpp-577-m01",
+      "source_id": "mbpp-577",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 220,
+      "elapsed_seconds": 6.416286239400506,
+      "timings": {
+        "generate_sequences": 5.30690217204392,
+        "tool_calls": 1.0909189488738775
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-577-m02",
+      "source_id": "mbpp-577",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 153,
+      "elapsed_seconds": 4.412286411970854,
+      "timings": {
+        "generate_sequences": 3.6509838476777077,
+        "tool_calls": 0.7408678084611893
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-577-m02",
+      "source_id": "mbpp-577",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 150,
+      "elapsed_seconds": 4.5727882366627455,
+      "timings": {
+        "generate_sequences": 3.582646805793047,
+        "tool_calls": 0.9712151680141687
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-577-m02",
+      "source_id": "mbpp-577",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 167,
+      "elapsed_seconds": 4.792464140802622,
+      "timings": {
+        "generate_sequences": 4.029023157432675,
+        "tool_calls": 0.7451859153807163
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-577-m03",
+      "source_id": "mbpp-577",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 137,
+      "elapsed_seconds": 4.030810499563813,
+      "timings": {
+        "generate_sequences": 3.286173913627863,
+        "tool_calls": 0.7250154614448547
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-577-m03",
+      "source_id": "mbpp-577",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 6,
+      "parsed_actions": 6,
+      "contract_valid_actions": 6,
+      "generated_tokens": 261,
+      "elapsed_seconds": 7.059541391208768,
+      "timings": {
+        "generate_sequences": 6.209807641804218,
+        "tool_calls": 0.8248734194785357
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 2,
+        "run_tests": 1
+      },
+      "error_counts": {
+        "invalid_source": 2
+      }
+    },
+    {
+      "task_id": "mbpp-577-m03",
+      "source_id": "mbpp-577",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 0.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 153,
+      "elapsed_seconds": 4.458345243707299,
+      "timings": {
+        "generate_sequences": 3.702035842463374,
+        "tool_calls": 0.7379830107092857
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-589-m01",
+      "source_id": "mbpp-589",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 158,
+      "elapsed_seconds": 4.633727973327041,
+      "timings": {
+        "generate_sequences": 3.82124937325716,
+        "tool_calls": 0.7918621581047773
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-589-m01",
+      "source_id": "mbpp-589",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 158,
+      "elapsed_seconds": 4.561197491362691,
+      "timings": {
+        "generate_sequences": 3.794066958129406,
+        "tool_calls": 0.7487625405192375
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-589-m01",
+      "source_id": "mbpp-589",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 161,
+      "elapsed_seconds": 4.955016311258078,
+      "timings": {
+        "generate_sequences": 3.8868833873420954,
+        "tool_calls": 1.0483488254249096
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-589-m02",
+      "source_id": "mbpp-589",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 158,
+      "elapsed_seconds": 4.616143336519599,
+      "timings": {
+        "generate_sequences": 3.8539335504174232,
+        "tool_calls": 0.7432724963873625
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-589-m02",
+      "source_id": "mbpp-589",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 161,
+      "elapsed_seconds": 4.618482083082199,
+      "timings": {
+        "generate_sequences": 3.8747509587556124,
+        "tool_calls": 0.724211260676384
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-589-m02",
+      "source_id": "mbpp-589",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 161,
+      "elapsed_seconds": 4.752448098734021,
+      "timings": {
+        "generate_sequences": 3.8670027274638414,
+        "tool_calls": 0.8660594075918198
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-589-m03",
+      "source_id": "mbpp-589",
+      "split": "dev",
+      "seed": 17,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 158,
+      "elapsed_seconds": 4.531660849228501,
+      "timings": {
+        "generate_sequences": 3.808985833078623,
+        "tool_calls": 0.7048963010311127
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-589-m03",
+      "source_id": "mbpp-589",
+      "split": "dev",
+      "seed": 29,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 158,
+      "elapsed_seconds": 4.863878436386585,
+      "timings": {
+        "generate_sequences": 3.8398561161011457,
+        "tool_calls": 1.0062466096132994
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    },
+    {
+      "task_id": "mbpp-589-m03",
+      "source_id": "mbpp-589",
+      "split": "dev",
+      "seed": 43,
+      "retry": 0,
+      "reward": 1.0,
+      "valid_episode": true,
+      "termination_reason": "agent_final",
+      "steps": 5,
+      "parsed_actions": 5,
+      "contract_valid_actions": 5,
+      "generated_tokens": 158,
+      "elapsed_seconds": 4.9280884731560946,
+      "timings": {
+        "generate_sequences": 3.858260452747345,
+        "tool_calls": 1.0519292149692774
+      },
+      "tool_counts": {
+        "read_file": 2,
+        "write_file": 1,
+        "run_tests": 1
+      },
+      "error_counts": {}
+    }
+  ],
+  "invalid_attempts": [],
+  "task_count": 32,
+  "source_count": 14,
+  "successes": 72,
+  "success_rate": 0.75,
+  "finished_at": "2026-10-21T03:14:19.149326+00:00"
+}

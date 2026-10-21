@@ -1,0 +1,39 @@
+{
+  "task_id": "mbpp-639-x01",
+  "source_id": "mbpp-639",
+  "split": "train",
+  "entrypoint": "sample_nam",
+  "instruction": "Write a function to sum the length of the names of a given list of names after removing the names that start with a lowercase letter.\n\n精确输入域与验收约定：长度>=2 的 ASCII 字母名字列表；仅保留首字母大写且其余字母全小写的名字，返回保留名字长度之和。\n修复 solution.py 中的 sample_nam 函数，保留签名。",
+  "bug_type": "boolean_logic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "args",
+      0,
+      "args",
+      0,
+      "body",
+      "op"
+    ],
+    "line": 2,
+    "column": 42,
+    "before": "And()",
+    "after": "Or()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 639,
+    "raw_code_sha256": "b020f1f7892c66af91d08063bd4de236fecf7cff0903a46011620c73454579ae",
+    "reference_sha256": "6f4c3f8354a877cb47ac2949a3ad9b482b28497a084b940ed6c29a966ebe7c64"
+  },
+  "domain": "长度>=2 的 ASCII 字母名字列表；仅保留首字母大写且其余字母全小写的名字，返回保留名字长度之和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

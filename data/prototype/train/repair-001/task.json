@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-001",
+  "source_id": "authored-prototype-001",
+  "split": "train",
+  "title": "统计达到阈值的元素",
+  "instruction": "输入整数列表 values 和整数 threshold，返回大于或等于阈值的元素数量；空列表返回 0。",
+  "entrypoint": "count_at_least",
+  "signature": "count_at_least(values, threshold)",
+  "bug_type": "boundary",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

@@ -1,0 +1,40 @@
+{
+  "task_id": "mbpp-656-x03",
+  "source_id": "mbpp-656",
+  "split": "train",
+  "entrypoint": "find_Min_Sum",
+  "instruction": "Write a python function to find the minimum sum of absolute differences of two arrays.\n\n精确输入域与验收约定：等长整数列表 a、b，n=len(a)=len(b)<=30；允许重新排列匹配，返回各对绝对差之和的最小值。\n修复 solution.py 中的 find_Min_Sum 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      3,
+      "body",
+      0,
+      "value",
+      "right",
+      "args",
+      0,
+      "left",
+      "slice"
+    ],
+    "line": 6,
+    "column": 26,
+    "before": "Name(id='i', ctx=Load())",
+    "after": "BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 656,
+    "raw_code_sha256": "610907f9937d89a9cb067972f5b1e7fcbe413c2357577527031b1cc01a6062a4",
+    "reference_sha256": "927983df01b729862d68c7185a2423baa8be3c9ad4e49684fb2d85eec359749d"
+  },
+  "domain": "等长整数列表 a、b，n=len(a)=len(b)<=30；允许重新排列匹配，返回各对绝对差之和的最小值。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

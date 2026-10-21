@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "evidence_archive_sha256": "80ad0ff2184bccc39e93ee241560eede47efe8cd62f5ae98dac39ff73dc33359",
+  "isolated_temporary_extraction": true,
+  "python_site_packages_disabled": true,
+  "standard_library_only": true,
+  "external_zzhclaw_repo_required": false,
+  "model_inference_performed": false,
+  "training_performed": false,
+  "checks": [
+    {
+      "command": "python -S scripts/build_day15_delivery.py --skip-plots",
+      "returncode": 0
+    },
+    {
+      "command": "python -S scripts/day15_demo.py --case improvement",
+      "returncode": 0
+    },
+    {
+      "command": "python -S scripts/day15_demo.py --case regression",
+      "returncode": 0
+    },
+    {
+      "command": "python -S scripts/day15_demo.py --case shared-failure",
+      "returncode": 0
+    },
+    {
+      "command": "python -S scripts/check_day15.py --archive /Users/zzh/Documents/ChatGPT/agent-r1/artifacts/day15/zzh-repair-evidence.tar.gz",
+      "returncode": 0
+    }
+  ]
+}

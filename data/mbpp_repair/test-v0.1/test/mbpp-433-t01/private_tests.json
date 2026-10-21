@@ -1,0 +1,80 @@
+[
+  {
+    "id": "upstream_holdout",
+    "args": [
+      [
+        9,
+        7,
+        4,
+        8,
+        6,
+        1
+      ],
+      11
+    ],
+    "expected": "Yes, the entered number is greater than those in the array"
+  },
+  {
+    "id": "regression_01",
+    "args": [
+      [
+        0
+      ],
+      0
+    ],
+    "expected": "No, entered number is less than those in the array"
+  },
+  {
+    "id": "regression_02",
+    "args": [
+      [
+        0
+      ],
+      1
+    ],
+    "expected": "Yes, the entered number is greater than those in the array"
+  },
+  {
+    "id": "regression_03",
+    "args": [
+      [
+        0
+      ],
+      -1
+    ],
+    "expected": "No, entered number is less than those in the array"
+  },
+  {
+    "id": "regression_04",
+    "args": [
+      [
+        -3,
+        -2
+      ],
+      -1
+    ],
+    "expected": "Yes, the entered number is greater than those in the array"
+  },
+  {
+    "id": "regression_05",
+    "args": [
+      [
+        2,
+        1
+      ],
+      2
+    ],
+    "expected": "No, entered number is less than those in the array"
+  },
+  {
+    "id": "regression_06",
+    "args": [
+      [
+        2,
+        1
+      ],
+      3
+    ],
+    "expected": "Yes, the entered number is greater than those in the array"
+  }
+]

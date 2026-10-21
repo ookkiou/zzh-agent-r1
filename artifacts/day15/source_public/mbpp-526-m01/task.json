@@ -1,0 +1,7 @@
+{
+  "task_id": "mbpp-526-m01",
+  "source_id": "mbpp-526",
+  "split": "dev",
+  "entrypoint": "capitalize_first_last_letters",
+  "instruction": "Write a python function to capitalize first and last letters of each word of a given string.\n\n精确输入域与验收约定：ASCII 单词字符串，允许空串和空白；按空白分词，以单个空格连接，首尾字母大写，其余字母小写。\n修复 solution.py 中的 capitalize_first_last_letters 函数，保留签名。"
+}

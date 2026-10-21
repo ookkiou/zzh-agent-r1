@@ -1,0 +1,207 @@
+{
+  "attempt": "b4968969",
+  "returncode": 1,
+  "audit_steps": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+  ],
+  "duplicate_audit_steps": {},
+  "phases": {
+    "retained_1_70": {
+      "batches": 70,
+      "groups": {
+        "all_pass": 187,
+        "mixed": 56,
+        "all_fail": 37
+      },
+      "unique_token_trajectories_per_group": {
+        "1": 175,
+        "2": 66,
+        "3": 27,
+        "4": 12
+      },
+      "terminal_reasons": {
+        "agent_final": 1120
+      },
+      "failed_episode_tool_errors": {
+        "execution_timeout": 5,
+        "invalid_source": 5,
+        "invalid_action": 3
+      }
+    },
+    "unsaved_71_74": {
+      "batches": 4,
+      "groups": {
+        "all_pass": 13,
+        "all_fail": 3
+      },
+      "unique_token_trajectories_per_group": {
+        "1": 12,
+        "3": 3,
+        "4": 1
+      },
+      "terminal_reasons": {
+        "agent_final": 64
+      },
+      "failed_episode_tool_errors": {}
+    }
+  },
+  "last_batches": [
+    {
+      "step": 63,
+      "mixed_groups": 0,
+      "successes": 16,
+      "episodes": 16
+    },
+    {
+      "step": 64,
+      "mixed_groups": 0,
+      "successes": 16,
+      "episodes": 16
+    },
+    {
+      "step": 65,
+      "mixed_groups": 1,
+      "successes": 14,
+      "episodes": 16
+    },
+    {
+      "step": 66,
+      "mixed_groups": 2,
+      "successes": 8,
+      "episodes": 16
+    },
+    {
+      "step": 67,
+      "mixed_groups": 1,
+      "successes": 14,
+      "episodes": 16
+    },
+    {
+      "step": 68,
+      "mixed_groups": 1,
+      "successes": 14,
+      "episodes": 16
+    },
+    {
+      "step": 69,
+      "mixed_groups": 0,
+      "successes": 16,
+      "episodes": 16
+    },
+    {
+      "step": 70,
+      "mixed_groups": 1,
+      "successes": 15,
+      "episodes": 16
+    },
+    {
+      "step": 71,
+      "mixed_groups": 0,
+      "successes": 12,
+      "episodes": 16
+    },
+    {
+      "step": 72,
+      "mixed_groups": 0,
+      "successes": 12,
+      "episodes": 16
+    },
+    {
+      "step": 73,
+      "mixed_groups": 0,
+      "successes": 16,
+      "episodes": 16
+    },
+    {
+      "step": 74,
+      "mixed_groups": 0,
+      "successes": 12,
+      "episodes": 16
+    }
+  ],
+  "baseline_files": [
+    "reports/day8_baseline_base.json",
+    "reports/day8_baseline_pid.json",
+    "reports/day8_baseline_sft.json"
+  ],
+  "evaluation_protocol_exists": true,
+  "evaluation_does_not_require_resuming_training": true,
+  "read_only_remote_diagnosis": true,
+  "training_restarted": false,
+  "scope_note": "Steps 1-70 include pilot/reload and formal phases; aggregate is not a single uninterrupted optimizer run. Adam moments reset on restart.",
+  "zero_signal_stop_note": "The fifth consecutive zero-signal batch raises before the inherited audit writer. Saved audits contain completed updates through 74; no optimizer update 75 is claimed.",
+  "recommendation": "Keep checkpoint 70; export without resuming training and evaluate on frozen dev protocol before changing sampling, tasks, or stop threshold. Test remains untouched."
+}

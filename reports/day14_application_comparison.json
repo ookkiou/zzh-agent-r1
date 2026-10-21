@@ -1,0 +1,41 @@
+{
+  "complete": true,
+  "split": "dev",
+  "profile": "code-repair-v1",
+  "protocol_sha256": "ae96b0f262c0facf3a034198e605ff50af852ceb49df6cd5d21809089cee2818",
+  "episodes_per_model": 96,
+  "sft_successes": 69.0,
+  "step70_successes": 75.0,
+  "sft_success_rate": 0.71875,
+  "step70_success_rate": 0.78125,
+  "delta_percentage_points": 6.25,
+  "paired_improved": 9,
+  "paired_regressed": 3,
+  "by_seed": {
+    "17": {
+      "sft": 23.0,
+      "step70": 24.0
+    },
+    "29": {
+      "sft": 21.0,
+      "step70": 23.0
+    },
+    "43": {
+      "sft": 25.0,
+      "step70": 28.0
+    }
+  },
+  "invalid_attempts": {
+    "sft": 0,
+    "step70": 1
+  },
+  "source_reports_sha256": {
+    "sft": "ac83981b0b0ccb4a25a624d824e4cd295705e5937854df31cb34712b77dab50d",
+    "step70": "bb6000e3ed9938b405ab1344931770bd9ffb48d74a967f2db2e8e8b683bdb203"
+  },
+  "statistical_significance_evaluated": false,
+  "final_test": false,
+  "formal_225_updates_complete": false,
+  "training_performed": false,
+  "caveat": "Backend and random stream differ from Transformers; both app models use this same recipe"
+}

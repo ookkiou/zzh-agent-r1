@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-546-m02",
+  "source_id": "mbpp-546",
+  "split": "dev",
+  "entrypoint": "last_occurence_char",
+  "instruction": "Write a function to find the last occurrence of a character in a string.\n\n精确输入域与验收约定：字符串 string 和单个字符 char，区分大小写；返回最后出现的 1-based 位置，未出现返回 None。\n修复 solution.py 中的 last_occurence_char 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "iter",
+      "args",
+      0
+    ],
+    "line": 3,
+    "column": 19,
+    "before": "Call(func=Name(id='len', ctx=Load()), args=[Name(id='string', ctx=Load())])",
+    "after": "BinOp(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='string', ctx=Load())]), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 546,
+    "raw_code_sha256": "e8cd036b7ad47abc9cd2a7e5bffef6b6a038abcb44715fe9d9e09c2b65532be4",
+    "reference_sha256": "caf9293d5792cd5f422de304d78648048eedc329c4a5254079e5f2b176171077"
+  },
+  "domain": "字符串 string 和单个字符 char，区分大小写；返回最后出现的 1-based 位置，未出现返回 None。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

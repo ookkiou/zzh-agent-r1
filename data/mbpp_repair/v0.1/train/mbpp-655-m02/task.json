@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-655-m02",
+  "source_id": "mbpp-655",
+  "split": "train",
+  "entrypoint": "fifth_Power_Sum",
+  "instruction": "Write a python function to find the sum of fifth power of n natural numbers.\n\n精确输入域与验收约定：整数 0<=n<=8；返回前 n 个正整数的五次方之和。\n修复 solution.py 中的 fifth_Power_Sum 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "iter",
+      "args",
+      1
+    ],
+    "line": 3,
+    "column": 22,
+    "before": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "after": "BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1)), op=Sub(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 655,
+    "raw_code_sha256": "db3097db413cef6009d5a3c501485e9142a83260c81ce378f564bcdaf20b8392",
+    "reference_sha256": "ab72c356b754d4f50ab5e4364fb04268a3eee321274a64194bb3d429f0cbc9e6"
+  },
+  "domain": "整数 0<=n<=8；返回前 n 个正整数的五次方之和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

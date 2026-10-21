@@ -1,0 +1,38 @@
+{
+  "task_id": "mbpp-621-x01",
+  "source_id": "mbpp-621",
+  "split": "train",
+  "entrypoint": "increment_numerics",
+  "instruction": "Write a function to increment the numeric values in the given strings by k.\n\n精确输入域与验收约定：ASCII 字符串列表和整数 K；纯数字非空字符串按十进制转整数加 K 后转字符串，其他字符串不变。\n修复 solution.py 中的 increment_numerics 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "elt",
+      "body",
+      "args",
+      0,
+      "op"
+    ],
+    "line": 2,
+    "column": 15,
+    "before": "Add()",
+    "after": "Sub()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 621,
+    "raw_code_sha256": "fcb2d63f2de72ad25db0e8b05d16e4dfaedf07e8ad00e8058239c5e798f06b26",
+    "reference_sha256": "e536341000604a73d6f220648603b099aa80410650dc1f8f1a63eef6a34fb9ad"
+  },
+  "domain": "ASCII 字符串列表和整数 K；纯数字非空字符串按十进制转整数加 K 后转字符串，其他字符串不变。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

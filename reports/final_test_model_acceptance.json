@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "independent_test_evaluation_complete": true,
+  "model_parameter_updates_performed": false,
+  "task_count": 42,
+  "frozen_source_cohort": 50,
+  "excluded_sources": 8,
+  "episodes_per_model": 126,
+  "models": 2,
+  "valid_episodes": 252,
+  "invalid_attempts": 0,
+  "candidate_and_protocol_identity_verified": true,
+  "paired_results_recomputed": true,
+  "statistical_significance_evaluated": false,
+  "formal_225_updates_complete": false,
+  "model_weight_backup_complete": false,
+  "raw_report_sha256": {
+    "final_test_eval_inputs.json": "d576af2b569e46df5237ca32e070c81299c0ac09bb765db985177550fcc8b7af",
+    "final_test_eval_sft.json": "4715f42728de6f79954f80f7b07b5f2ba8838dbca000dbc6056a0e291fcd8a75",
+    "final_test_eval_step70.json": "e3fe3ef4bbc14103cf41e4ee68713790310dc34df5a1f3eb65e1f124454af0b1",
+    "final_test_eval_comparison.json": "40f5397239b8392e25d23ef5dd179473fe1646907ae03a97c7da70fb1fec5170"
+  }
+}

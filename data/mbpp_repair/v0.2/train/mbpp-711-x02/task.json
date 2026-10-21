@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-711-x02",
+  "source_id": "mbpp-711",
+  "split": "train",
+  "entrypoint": "product_Equal",
+  "instruction": "Write a python function to check whether the product of digits of a number at even and odd places is equal or not.\n\n精确输入域与验收约定：整数 0<=n<=10**9；个位算第1位，比较奇数位数字乘积与偶数位数字乘积；不足两位返回False。\n修复 solution.py 中的 product_Equal 函数，保留签名。",
+  "bug_type": "initialization",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "value"
+    ],
+    "line": 4,
+    "column": 14,
+    "before": "Constant(value=1)",
+    "after": "Constant(value=0)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 711,
+    "raw_code_sha256": "b973438f1bf74f2aa50c6458ebb70c7cbdc25dc7c2ba16ef3c887d9e5ffeb359",
+    "reference_sha256": "ce49c0773dd73dc3dd2e1a7d74885f6bf16c4d11c30a993c463b044df278b485"
+  },
+  "domain": "整数 0<=n<=10**9；个位算第1位，比较奇数位数字乘积与偶数位数字乘积；不足两位返回False。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

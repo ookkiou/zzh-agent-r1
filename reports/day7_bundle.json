@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "day7_complete": false,
+  "files": 337,
+  "bytes": 83627,
+  "sha256": "1a11f1daf3b35ec5a20dabd8d5fd12c0839e3d6c9016c26ce354e031ba2fd291",
+  "archive": "runs/day7/day7-overlay.tar.gz",
+  "contains_credentials": false,
+  "contains_private_or_reference_resources": false,
+  "gpu_runtime_verified": false
+}

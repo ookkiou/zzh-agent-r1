@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-782-x04",
+  "source_id": "mbpp-782",
+  "split": "train",
+  "entrypoint": "Odd_Length_Sum",
+  "instruction": "Write a python function to find the sum of all odd length subarrays.\n\n精确输入域与验收约定：整数数组，长度<=20，允许空数组；返回所有奇数长度连续子数组的元素和之和。\n修复 solution.py 中的 Odd_Length_Sum 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      0,
+      "value",
+      "op"
+    ],
+    "line": 5,
+    "column": 15,
+    "before": "Mult()",
+    "after": "Add()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 782,
+    "raw_code_sha256": "123f51d77c0512abdd6fa7c16180cee534825aa399880c146d42254a79811ffd",
+    "reference_sha256": "2b54c3882d9e2e1f829cfd6ba1544b09b8d21ad3f293b38a62cba4a4542a940f"
+  },
+  "domain": "整数数组，长度<=20，允许空数组；返回所有奇数长度连续子数组的元素和之和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

@@ -1,0 +1,6 @@
+[project]
+name = "zzh-code-repair-prototype"
+version = "0.1.0"
+description = "Offline prototype tasks and tool contracts for Agent-R1 code repair"
+requires-python = ">=3.10"
+dependencies = []

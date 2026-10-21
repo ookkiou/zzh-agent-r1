@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "tests": 14,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "checkpoint_policy": "model+extra+data, optimizer excluded"
+}

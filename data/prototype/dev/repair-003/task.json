@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-003",
+  "source_id": "authored-prototype-003",
+  "split": "dev",
+  "title": "按年龄划分票种",
+  "instruction": "输入 0 至 120 的整数 age；年龄达到 18 岁返回字符串 adult，未达到返回 child。",
+  "entrypoint": "ticket_category",
+  "signature": "ticket_category(age)",
+  "bug_type": "boundary",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

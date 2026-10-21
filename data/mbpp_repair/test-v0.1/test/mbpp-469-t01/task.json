@@ -1,0 +1,40 @@
+{
+  "task_id": "mbpp-469-t01",
+  "source_id": "mbpp-469",
+  "split": "test",
+  "entrypoint": "max_profit",
+  "instruction": "Write a function to find the maximum profit earned from a maximum of k stock transactions\n\n精确输入域与验收约定：非空非负整数价格列表，长度<=20；0<=k<=5，最多k次先买后卖且不重叠交易，返回最大利润。\n修复 solution.py 中的 max_profit 函数，保留签名。",
+  "domain": "非空非负整数价格列表，长度<=20；0<=k<=5，最多k次先买后卖且不重叠交易，返回最大利润。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "values",
+      0,
+      "ops",
+      0
+    ],
+    "line": 6,
+    "column": 15,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 469,
+    "raw_code_sha256": "5bcdc6d37dc98734f73cbf41900e4bc1e7857f25e15a4f6b447346b7d263d3ce",
+    "reference_sha256": "23f4e942cb25928e5ddb18d233f0d0de5906505925cb4e1235284afe20048830"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

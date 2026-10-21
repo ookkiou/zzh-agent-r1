@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-228-t01",
+  "source_id": "mbpp-228",
+  "split": "test",
+  "entrypoint": "all_Bits_Set_In_The_Given_Range",
+  "instruction": "Write a python function to check whether all the bits are unset in the given range or not.\n\n精确输入域与验收约定：非负整数n<=65535，1<=l<=r<=16；位编号从最低位的1开始，闭区间[l,r]全为0返回True，否则False。\n修复 solution.py 中的 all_Bits_Set_In_The_Given_Range 函数，保留签名。",
+  "domain": "非负整数n<=65535，1<=l<=r<=16；位编号从最低位的1开始，闭区间[l,r]全为0返回True，否则False。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 4,
+    "column": 7,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 228,
+    "raw_code_sha256": "2e531d0f96c670d40156c93261f9d53c3c9994ecd02140f4ce324640cb8e8a04",
+    "reference_sha256": "9a8add934bc50b88f11f67fee878a2ef8d8e1529f9ac91fb1c156d1812ec9f31"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

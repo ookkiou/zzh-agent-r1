@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-014",
+  "source_id": "authored-prototype-014",
+  "split": "dev",
+  "title": "求非空列表最大值",
+  "instruction": "输入非空整数列表 values，返回最大元素；必须正确处理所有元素均为负数的列表。",
+  "entrypoint": "max_value",
+  "signature": "max_value(values)",
+  "bug_type": "initialization",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "files": 1034,
+  "bytes": 193743,
+  "sha256": "8c7fb47d0df80f2c21d2a99fb5c7b461358e8950c1b7c84208504635a99b56db",
+  "archive": "runs/day9/day9-overlay.tar.gz",
+  "contains_credentials_or_private_cases_or_reference_sources": false,
+  "gpu_runtime_verified": false
+}

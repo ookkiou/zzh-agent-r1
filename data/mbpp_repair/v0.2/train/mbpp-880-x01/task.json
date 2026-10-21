@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-880-x01",
+  "source_id": "mbpp-880",
+  "split": "train",
+  "entrypoint": "Check_Solution",
+  "instruction": "Write a python function to find number of solutions in quadratic equation.\n\n精确输入域与验收约定：整数a,b,c，a非零、绝对值<=100；按判别式返回实根数量字符串：2 solutions、1 solution、No solutions。\n修复 solution.py 中的 Check_Solution 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "left",
+      "op"
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "Sub()",
+    "after": "Add()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 880,
+    "raw_code_sha256": "8f8fb7dd651b859c408aba39d3e160f3bc665d4591f2d4f4ec5adb756fe41670",
+    "reference_sha256": "5fa537bf4eea05cd5e351916aedf193cc45b2899e28b05b4f063f32388f549ba"
+  },
+  "domain": "整数a,b,c，a非零、绝对值<=100；按判别式返回实根数量字符串：2 solutions、1 solution、No solutions。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

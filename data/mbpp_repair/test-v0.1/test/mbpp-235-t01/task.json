@@ -1,0 +1,32 @@
+{
+  "task_id": "mbpp-235-t01",
+  "source_id": "mbpp-235",
+  "split": "test",
+  "entrypoint": "even_bit_set_number",
+  "instruction": "Write a python function to set all even bits of a given number.\n\n精确输入域与验收约定：非负整数n<=65535；在n当前二进制位长内，把从最低位1开始编号的所有偶数位设为1，保留其他位；n=0返回0。\n修复 solution.py 中的 even_bit_set_number 函数，保留签名。",
+  "domain": "非负整数n<=65535；在n当前二进制位长内，把从最低位1开始编号的所有偶数位设为1，保留其他位；n=0返回0。",
+  "bug_type": "initialization",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value"
+    ],
+    "line": 2,
+    "column": 12,
+    "before": "Constant(value=0)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 235,
+    "raw_code_sha256": "7c8ff53ad6b589f6f7dc93506a0879f7b57a8d30929686009cf9dc69adf62b59",
+    "reference_sha256": "1c0161ab0037405b96a1307cf9fb53fcdf56505c4087f77abbe69abadf341caf"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

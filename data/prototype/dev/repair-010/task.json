@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-010",
+  "source_id": "authored-prototype-010",
+  "split": "dev",
+  "title": "取列表前缀",
+  "instruction": "输入整数列表 items 和非负整数 n，返回前 n 个元素；n 为 0 返回空列表，n 超过长度时返回整个列表。",
+  "entrypoint": "prefix_items",
+  "signature": "prefix_items(items, n)",
+  "bug_type": "index_slice",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-934-x03",
+  "source_id": "mbpp-934",
+  "split": "train",
+  "entrypoint": "dealnnoy_num",
+  "instruction": "Write a function to find the nth delannoy number.\n\n精确输入域与验收约定：整数0<=n,m<=5；从(0,0)到(n,m)每步向右、向上或右上，返回路径数Delannoy(n,m)。\n修复 solution.py 中的 dealnnoy_num 函数，保留签名。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test"
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "BoolOp(op=Or(), values=[Compare(left=Name(id='m', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='n', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 934,
+    "raw_code_sha256": "523f6bbe3d1f6255ad7f4b5afcdbd31013d375bb0a67f2e238dee674a11abbab",
+    "reference_sha256": "dd127489c8d141009a6c11e5b760546a4e367eeea58531b11ca9db1b69719d91"
+  },
+  "domain": "整数0<=n,m<=5；从(0,0)到(n,m)每步向右、向上或右上，返回路径数Delannoy(n,m)。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

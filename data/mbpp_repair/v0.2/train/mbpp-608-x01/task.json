@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-608-x01",
+  "source_id": "mbpp-608",
+  "split": "train",
+  "entrypoint": "bell_Number",
+  "instruction": "Write a python function to find nth bell number.\n\n精确输入域与验收约定：整数 0<=n<=8；返回 n 个不同元素集合的划分数量 Bell(n)，Bell(0)=1。\n修复 solution.py 中的 bell_Number 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "iter",
+      "args",
+      1,
+      "op"
+    ],
+    "line": 4,
+    "column": 22,
+    "before": "Add()",
+    "after": "Sub()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 608,
+    "raw_code_sha256": "dc8f8615a32b355d8f327b6333b55433181107fc38adad97bc5889c8b6a4d841",
+    "reference_sha256": "6942ca484016458456b9758750341f483014e2bad543d9ee90812798f3cc2133"
+  },
+  "domain": "整数 0<=n<=8；返回 n 个不同元素集合的划分数量 Bell(n)，Bell(0)=1。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

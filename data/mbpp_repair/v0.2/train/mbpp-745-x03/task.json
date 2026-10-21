@@ -1,0 +1,47 @@
+{
+  "task_id": "mbpp-745-x03",
+  "source_id": "mbpp-745",
+  "split": "train",
+  "entrypoint": "divisible_by_digits",
+  "instruction": "Write a function to find numbers within a given range where every number is divisible by every digit it contains.\n\n精确输入域与验收约定：整数 1<=startnum<=endnum<=100；返回闭区间内能被自身每个十进制数字整除的数，含零数字的数排除。\n修复 solution.py 中的 divisible_by_digits 函数，保留签名。",
+  "bug_type": "numeric_constant",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "generators",
+      0,
+      "ifs",
+      0,
+      "operand",
+      "args",
+      0,
+      "args",
+      0,
+      "body",
+      "values",
+      0,
+      "comparators",
+      0
+    ],
+    "line": 2,
+    "column": 86,
+    "before": "Constant(value=0)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 745,
+    "raw_code_sha256": "1e338c5fe7a4a195ff36d9f13c1ed1dcb9360cf65a92e9e1bfeeb8903e71e833",
+    "reference_sha256": "0ecead25db05155cd2b37230a973ef4b5eede1f58178cafbcf8929dbbbe796c2"
+  },
+  "domain": "整数 1<=startnum<=endnum<=100；返回闭区间内能被自身每个十进制数字整除的数，含零数字的数排除。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

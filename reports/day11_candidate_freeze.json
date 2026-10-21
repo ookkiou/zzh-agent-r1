@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "decision": "checkpoint70_candidate_for_independent_test",
+  "recorded_date": "2026-10-21",
+  "checkpoint_step": 70,
+  "merged_model_path": "/root/zzh-day9-eval/merged-step70",
+  "merged_model_sha256": "40915da114c198d947b2b99482fdb3b96ba8bade9cb0b7fb33c53e79e1bb986d",
+  "sft_baseline_sha256": "f507ccbddb9881ae7bdd841cd2ba8fdf02e54661d04e83fad7e97d2f545be346",
+  "training_run_fingerprint": "b9f93ec5dadf42c1199427e5ba425cc2a864daad30caae599aa27d22a6092f32",
+  "checkpoint_marker_sha256": "caf0f9336751fcea97f72b91c0866146cf374e6d8f117f7f1693c138438b5395",
+  "selection_basis": "Paired frozen dev evaluation; candidate chosen before test generation or execution. This does not mark the original 225-update target complete.",
+  "dev_comparison_sha256": "9d6c06c533ff00ebe27f6b5a05d6a29cb2d28bce3c2dfe332fc748917bfcf017",
+  "dev_protocol_sha256": "078b36f56a85e1ef800da548ba042e7296fe6e79cb3b10dfb3c2d492f3338635",
+  "dev_successes": {
+    "sft_only": 63,
+    "step70": 72,
+    "episodes_per_model": 96
+  },
+  "dev_delta_percentage_points": 9.375,
+  "seed_success_counts": {
+    "17": {
+      "sft": 19,
+      "step70": 24
+    },
+    "29": {
+      "sft": 23,
+      "step70": 24
+    },
+    "43": {
+      "sft": 21,
+      "step70": 24
+    }
+  },
+  "source_level_summary": {
+    "improved": 5,
+    "regressed": 1,
+    "unchanged": 8
+  },
+  "test_source_lock_sha256": "b57cf92f19aeade1674b0e6517d772ad560ef04cd1744e4cfcbc3f77b41a2263",
+  "test_sources": 50,
+  "test_tasks_generated": false,
+  "test_executed": false,
+  "formal_225_updates_complete": false,
+  "training_completed_update": 74,
+  "latest_saved_update": 70,
+  "not_a_full_optimizer_continuation": true,
+  "model_weights_backed_up_to_mac": false
+}

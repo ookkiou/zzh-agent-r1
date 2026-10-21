@@ -1,0 +1,1163 @@
+{
+  "complete": true,
+  "checks": {
+    "base_complete_96": true,
+    "base_valid_all": true,
+    "base_same_protocol": true,
+    "base_all_traces_match": true,
+    "sft_complete_96": true,
+    "sft_valid_all": true,
+    "sft_same_protocol": true,
+    "sft_all_traces_match": true
+  },
+  "evaluation_protocol_sha256": "078b36f56a85e1ef800da548ba042e7296fe6e79cb3b10dfb3c2d492f3338635",
+  "metrics": {
+    "base": {
+      "model_kind": "Base",
+      "task_count": 32,
+      "source_count": 14,
+      "successes": 2,
+      "success_rate": 0.020833333333333332,
+      "valid_coverage": 1.0,
+      "parsed_action_rate": 0.560126582278481,
+      "contract_valid_action_rate": 0.5031645569620253,
+      "generated_tokens": 28129,
+      "invalid_attempts": 0,
+      "elapsed_seconds_sum": 552.1386344572529,
+      "error_counts": {
+        "invalid_action": 139,
+        "invalid_arguments": 18,
+        "invalid_source": 10
+      },
+      "tool_counts": {
+        "read_file": 30,
+        "write_file": 50,
+        "final": 12,
+        "run_tests": 10,
+        "count_digits": 2,
+        "empty_list": 4
+      },
+      "termination_counts": {
+        "agent_final": 69,
+        "step_limit": 27
+      },
+      "source_successes_attempts": {
+        "mbpp-526": [
+          0,
+          6
+        ],
+        "mbpp-527": [
+          0,
+          9
+        ],
+        "mbpp-537": [
+          0,
+          3
+        ],
+        "mbpp-543": [
+          0,
+          3
+        ],
+        "mbpp-546": [
+          0,
+          9
+        ],
+        "mbpp-547": [
+          0,
+          6
+        ],
+        "mbpp-548": [
+          1,
+          9
+        ],
+        "mbpp-552": [
+          0,
+          9
+        ],
+        "mbpp-564": [
+          1,
+          9
+        ],
+        "mbpp-566": [
+          0,
+          6
+        ],
+        "mbpp-568": [
+          0,
+          6
+        ],
+        "mbpp-572": [
+          0,
+          3
+        ],
+        "mbpp-577": [
+          0,
+          9
+        ],
+        "mbpp-589": [
+          0,
+          9
+        ]
+      }
+    },
+    "sft": {
+      "model_kind": "SFT-only",
+      "task_count": 32,
+      "source_count": 14,
+      "successes": 63,
+      "success_rate": 0.65625,
+      "valid_coverage": 1.0,
+      "parsed_action_rate": 1.0,
+      "contract_valid_action_rate": 1.0,
+      "generated_tokens": 14078,
+      "invalid_attempts": 0,
+      "elapsed_seconds_sum": 360.5467005921528,
+      "error_counts": {
+        "invalid_source": 7
+      },
+      "tool_counts": {
+        "read_file": 192,
+        "write_file": 98,
+        "run_tests": 93
+      },
+      "termination_counts": {
+        "agent_final": 96
+      },
+      "source_successes_attempts": {
+        "mbpp-526": [
+          0,
+          6
+        ],
+        "mbpp-527": [
+          9,
+          9
+        ],
+        "mbpp-537": [
+          3,
+          3
+        ],
+        "mbpp-543": [
+          3,
+          3
+        ],
+        "mbpp-546": [
+          4,
+          9
+        ],
+        "mbpp-547": [
+          2,
+          6
+        ],
+        "mbpp-548": [
+          7,
+          9
+        ],
+        "mbpp-552": [
+          4,
+          9
+        ],
+        "mbpp-564": [
+          7,
+          9
+        ],
+        "mbpp-566": [
+          6,
+          6
+        ],
+        "mbpp-568": [
+          3,
+          6
+        ],
+        "mbpp-572": [
+          3,
+          3
+        ],
+        "mbpp-577": [
+          3,
+          9
+        ],
+        "mbpp-589": [
+          9,
+          9
+        ]
+      }
+    }
+  },
+  "paired_outcomes": {
+    "both_fail": 32,
+    "sft_only_success": 62,
+    "base_only_success": 1,
+    "both_success": 1
+  },
+  "paired_episodes": [
+    {
+      "task_id": "mbpp-526-m01",
+      "source_id": "mbpp-526",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-526-m01",
+      "source_id": "mbpp-526",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-526-m01",
+      "source_id": "mbpp-526",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-526-m02",
+      "source_id": "mbpp-526",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-526-m02",
+      "source_id": "mbpp-526",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-526-m02",
+      "source_id": "mbpp-526",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-527-m01",
+      "source_id": "mbpp-527",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-527-m01",
+      "source_id": "mbpp-527",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-527-m01",
+      "source_id": "mbpp-527",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-527-m02",
+      "source_id": "mbpp-527",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-527-m02",
+      "source_id": "mbpp-527",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-527-m02",
+      "source_id": "mbpp-527",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-527-m03",
+      "source_id": "mbpp-527",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-527-m03",
+      "source_id": "mbpp-527",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-527-m03",
+      "source_id": "mbpp-527",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-537-m01",
+      "source_id": "mbpp-537",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-537-m01",
+      "source_id": "mbpp-537",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-537-m01",
+      "source_id": "mbpp-537",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-543-m01",
+      "source_id": "mbpp-543",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-543-m01",
+      "source_id": "mbpp-543",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-543-m01",
+      "source_id": "mbpp-543",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-546-m01",
+      "source_id": "mbpp-546",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-546-m01",
+      "source_id": "mbpp-546",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-546-m01",
+      "source_id": "mbpp-546",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-546-m02",
+      "source_id": "mbpp-546",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-546-m02",
+      "source_id": "mbpp-546",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-546-m02",
+      "source_id": "mbpp-546",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-546-m03",
+      "source_id": "mbpp-546",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-546-m03",
+      "source_id": "mbpp-546",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-546-m03",
+      "source_id": "mbpp-546",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-547-m01",
+      "source_id": "mbpp-547",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-547-m01",
+      "source_id": "mbpp-547",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-547-m01",
+      "source_id": "mbpp-547",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-547-m02",
+      "source_id": "mbpp-547",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-547-m02",
+      "source_id": "mbpp-547",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-547-m02",
+      "source_id": "mbpp-547",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-548-m01",
+      "source_id": "mbpp-548",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-548-m01",
+      "source_id": "mbpp-548",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-548-m01",
+      "source_id": "mbpp-548",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-548-m02",
+      "source_id": "mbpp-548",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-548-m02",
+      "source_id": "mbpp-548",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-548-m02",
+      "source_id": "mbpp-548",
+      "seed": 43,
+      "base_reward": 1.0,
+      "sft_reward": 0.0,
+      "outcome": "base_only_success"
+    },
+    {
+      "task_id": "mbpp-548-m03",
+      "source_id": "mbpp-548",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-548-m03",
+      "source_id": "mbpp-548",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-548-m03",
+      "source_id": "mbpp-548",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-552-m01",
+      "source_id": "mbpp-552",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-552-m01",
+      "source_id": "mbpp-552",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-552-m01",
+      "source_id": "mbpp-552",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-552-m02",
+      "source_id": "mbpp-552",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-552-m02",
+      "source_id": "mbpp-552",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-552-m02",
+      "source_id": "mbpp-552",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-552-m03",
+      "source_id": "mbpp-552",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-552-m03",
+      "source_id": "mbpp-552",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-552-m03",
+      "source_id": "mbpp-552",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-564-m01",
+      "source_id": "mbpp-564",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-564-m01",
+      "source_id": "mbpp-564",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-564-m01",
+      "source_id": "mbpp-564",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-564-m02",
+      "source_id": "mbpp-564",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-564-m02",
+      "source_id": "mbpp-564",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-564-m02",
+      "source_id": "mbpp-564",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-564-m03",
+      "source_id": "mbpp-564",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-564-m03",
+      "source_id": "mbpp-564",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-564-m03",
+      "source_id": "mbpp-564",
+      "seed": 43,
+      "base_reward": 1.0,
+      "sft_reward": 1.0,
+      "outcome": "both_success"
+    },
+    {
+      "task_id": "mbpp-566-m01",
+      "source_id": "mbpp-566",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-566-m01",
+      "source_id": "mbpp-566",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-566-m01",
+      "source_id": "mbpp-566",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-566-m02",
+      "source_id": "mbpp-566",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-566-m02",
+      "source_id": "mbpp-566",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-566-m02",
+      "source_id": "mbpp-566",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-568-m01",
+      "source_id": "mbpp-568",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-568-m01",
+      "source_id": "mbpp-568",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-568-m01",
+      "source_id": "mbpp-568",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-568-m02",
+      "source_id": "mbpp-568",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-568-m02",
+      "source_id": "mbpp-568",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-568-m02",
+      "source_id": "mbpp-568",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-572-m01",
+      "source_id": "mbpp-572",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-572-m01",
+      "source_id": "mbpp-572",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-572-m01",
+      "source_id": "mbpp-572",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-577-m01",
+      "source_id": "mbpp-577",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-577-m01",
+      "source_id": "mbpp-577",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-577-m01",
+      "source_id": "mbpp-577",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-577-m02",
+      "source_id": "mbpp-577",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-577-m02",
+      "source_id": "mbpp-577",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-577-m02",
+      "source_id": "mbpp-577",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-577-m03",
+      "source_id": "mbpp-577",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-577-m03",
+      "source_id": "mbpp-577",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-577-m03",
+      "source_id": "mbpp-577",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 0.0,
+      "outcome": "both_fail"
+    },
+    {
+      "task_id": "mbpp-589-m01",
+      "source_id": "mbpp-589",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-589-m01",
+      "source_id": "mbpp-589",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-589-m01",
+      "source_id": "mbpp-589",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-589-m02",
+      "source_id": "mbpp-589",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-589-m02",
+      "source_id": "mbpp-589",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-589-m02",
+      "source_id": "mbpp-589",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-589-m03",
+      "source_id": "mbpp-589",
+      "seed": 17,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-589-m03",
+      "source_id": "mbpp-589",
+      "seed": 29,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    },
+    {
+      "task_id": "mbpp-589-m03",
+      "source_id": "mbpp-589",
+      "seed": 43,
+      "base_reward": 0.0,
+      "sft_reward": 1.0,
+      "outcome": "sft_only_success"
+    }
+  ],
+  "trace_sha256": {
+    "runs/day8/baseline/base/mbpp-526-m01-17.json": "1b5a6bdc83e165d742a6a45577089b6685c751bcd91d8c60228a50c53bffac97",
+    "runs/day8/baseline/base/mbpp-526-m01-29.json": "6a6b37e528b2b66d9939d7d99d6dad7b683ce92457bc318f6bb893d3dbdfbb6d",
+    "runs/day8/baseline/base/mbpp-526-m01-43.json": "9e8ff3ceb1d4604dfcc655c67a60b9e6ada4ca2f5e644d71a7bba668e2066197",
+    "runs/day8/baseline/base/mbpp-526-m02-17.json": "c0105f0140b912725f02aef4067abf52a4bdc651038954d7f9bc1a908ed8d563",
+    "runs/day8/baseline/base/mbpp-526-m02-29.json": "2751e74d43c85d607b7154b09d8c25f48809b055b338a130d5720b8c2960c7d4",
+    "runs/day8/baseline/base/mbpp-526-m02-43.json": "84d9b904056dedbcc5a852a39f90c468fc30026a53dcb0008169b240026c578b",
+    "runs/day8/baseline/base/mbpp-527-m01-17.json": "3e028c3dd7be588bd19687a1a1a14c403519d1efb2a2992c5605fffb43810dba",
+    "runs/day8/baseline/base/mbpp-527-m01-29.json": "78550378bb98bc00866556fd0ab9892e9ee025709cf85b9b9b328a3e952374b0",
+    "runs/day8/baseline/base/mbpp-527-m01-43.json": "5a52d3b86f1de470689ef867586e59e11c97abb9838c425605ff513b7d13a50c",
+    "runs/day8/baseline/base/mbpp-527-m02-17.json": "e3eb626b7f5f56161669a2784c92b0fb23f1095f794bdcae5a4f6842597a3ff0",
+    "runs/day8/baseline/base/mbpp-527-m02-29.json": "3b3d4f78ecc002332b3ecff48c6d3ee5a46054550c18801f60ffbe732bfa5fad",
+    "runs/day8/baseline/base/mbpp-527-m02-43.json": "efa8986284baef14322140352f30ab58506d5c96ef29ebb5a59841f46aaa804b",
+    "runs/day8/baseline/base/mbpp-527-m03-17.json": "7d550f0ae618c28151b33c2c983649e66de6cf4b6c35576783e0f9753cf200cc",
+    "runs/day8/baseline/base/mbpp-527-m03-29.json": "4a10fdc61c5a550698fd8b038d8ee68cd1a52b913a8ae28c94c61e2a6864bb35",
+    "runs/day8/baseline/base/mbpp-527-m03-43.json": "2c38c1e79074d13f9ce610c70b8e23f2e64788b2136996cae34ee084bae7672b",
+    "runs/day8/baseline/base/mbpp-537-m01-17.json": "e969044e577875b15a9d02363d2a89e1af726f53f28b989aa201b781c68c1a81",
+    "runs/day8/baseline/base/mbpp-537-m01-29.json": "bfca924575868d93ba6c78408ce5c5052a626ccb4336a495a0c78535a6aced18",
+    "runs/day8/baseline/base/mbpp-537-m01-43.json": "2583533d0b6417406c879cb8912c08a6722b6f3a2d67941bf05f3d498e898f03",
+    "runs/day8/baseline/base/mbpp-543-m01-17.json": "a169ac95384d76481bccd64e58122017239f8b0671a2793380cf440c6d0b5f14",
+    "runs/day8/baseline/base/mbpp-543-m01-29.json": "2aa48ea27dbd8c6c2bff84459b4cd85157330dd1c997f9f5c367a2fa605b2e7b",
+    "runs/day8/baseline/base/mbpp-543-m01-43.json": "85dc497fb1639a2ab3284350ffbc1920cd85fbfed09a5961061627230dde3d55",
+    "runs/day8/baseline/base/mbpp-546-m01-17.json": "9fc8cd915fa03335cd44f0a46c2430e240319e12ecb0c57970300dbc48e8ee5a",
+    "runs/day8/baseline/base/mbpp-546-m01-29.json": "4f39104e6826e52d6aff1ea63660258df90fc426d21e0eaf0e20d8f01c4fe0d9",
+    "runs/day8/baseline/base/mbpp-546-m01-43.json": "def906941e6e219d49f54ef5f8411689ad104485bd610c70f0fa063e438940fc",
+    "runs/day8/baseline/base/mbpp-546-m02-17.json": "f6478fc41577640eac97f0e174bca8542e6803eaccbc8caed316d00c4416bde9",
+    "runs/day8/baseline/base/mbpp-546-m02-29.json": "3379da5b0af2b617e078bdd7491baf1d860bf5ad0b884dd21b88302d4f60a67f",
+    "runs/day8/baseline/base/mbpp-546-m02-43.json": "c829eaffa017e9c3b2a2781965eb46a4277410161503f97173cc7a7911af6358",
+    "runs/day8/baseline/base/mbpp-546-m03-17.json": "362b83aab1256f3da912cf8f9698e95b25c9fa80e02535198c0ef456bf69e1cd",
+    "runs/day8/baseline/base/mbpp-546-m03-29.json": "798e583cbc48d1c16eb19c4e392ea0102e551e747a270d9b2065c0ff67a51545",
+    "runs/day8/baseline/base/mbpp-546-m03-43.json": "268d027304a790e5709d8f69753de220237bc89b092b5d4c5e56a1c5d7350787",
+    "runs/day8/baseline/base/mbpp-547-m01-17.json": "809e90845d2775573834a27340ab38f048c715fb32e17a70c16f1cc674a96fb2",
+    "runs/day8/baseline/base/mbpp-547-m01-29.json": "2e6fa1de138e519b91afad56da9de259007b4f77f63ceb55cc9465c75ecdcd48",
+    "runs/day8/baseline/base/mbpp-547-m01-43.json": "8cbfab1024cfd9bdc37d0badfb723801894e9b8fe1b65b1cfdd3315386e35208",
+    "runs/day8/baseline/base/mbpp-547-m02-17.json": "d2573df599fa5721c582790f9dc11e7ebd00dbb4ccd9ce3461a7253d0204bad2",
+    "runs/day8/baseline/base/mbpp-547-m02-29.json": "3439ce235bceb611222c428cec3f40f73a4ceabdd37c80346bc3db33cd3e2451",
+    "runs/day8/baseline/base/mbpp-547-m02-43.json": "d8021fc1b091e1026fa19bd7495f09564a382b59a2822afa8f3ce3c202b129e4",
+    "runs/day8/baseline/base/mbpp-548-m01-17.json": "d00cbcef3f67e55ff0c0c884e46af8fce80176b340101be3ab8c32837817893a",
+    "runs/day8/baseline/base/mbpp-548-m01-29.json": "12edfcd8c03b0ba2a9f779d5f2e87d31eaf0e223390f1f7e4d809c33179a37a8",
+    "runs/day8/baseline/base/mbpp-548-m01-43.json": "ea5be3451a6c5f85c3f0d255d3cd5e55f4b92ce5fb4914f2be1ce9d968fab464",
+    "runs/day8/baseline/base/mbpp-548-m02-17.json": "b032d9d8c39b3ea8445327c94aace881e2b5cac5d73fdfba94665e273d93c0dd",
+    "runs/day8/baseline/base/mbpp-548-m02-29.json": "e5f2359f78546edf1476a15a26fe63ae8211ea7174efe96b68f5bd488b5471b3",
+    "runs/day8/baseline/base/mbpp-548-m02-43.json": "060254622bcd7ccde245922b9a71aa371ac19c7e889682d8d4a5e0f8bdc7b75c",
+    "runs/day8/baseline/base/mbpp-548-m03-17.json": "ee81c78a46b484f498c31fa876dc8c9549eaea76204846999713e2646f6b6347",
+    "runs/day8/baseline/base/mbpp-548-m03-29.json": "213864cac68c8d37fe3a9d9f8312e2f83bcb1c2d3470727a3f56811fb74d830c",
+    "runs/day8/baseline/base/mbpp-548-m03-43.json": "2a36508037368205a69b1468b2eec0d904f08fc936aa33b0ff012a1df1c31441",
+    "runs/day8/baseline/base/mbpp-552-m01-17.json": "c95130e7bccc43ded1d852131329fa98b1de22b6b9f6438ae08b72b19903af85",
+    "runs/day8/baseline/base/mbpp-552-m01-29.json": "3d96d5825f0d1ffe6885dbe1fec8c102812c22915c886e2ebf064d7acfdcf3b7",
+    "runs/day8/baseline/base/mbpp-552-m01-43.json": "65b0856cc045cd20b24fbc59519ec4ea6004ac874928f5b9c598f480aabef54d",
+    "runs/day8/baseline/base/mbpp-552-m02-17.json": "673f2bda362192e2cb454360d32c8e7c7d65b43af21e507f544783bad1bab3d5",
+    "runs/day8/baseline/base/mbpp-552-m02-29.json": "850c8a979a82bbaca4ad03d8281b468d1feb2e3abb73b5d06ec18f508d809bb2",
+    "runs/day8/baseline/base/mbpp-552-m02-43.json": "9671a93c4aa8cc2142dc6073c63fcc739f8fd6ce6718466a1cb66848886412a2",
+    "runs/day8/baseline/base/mbpp-552-m03-17.json": "15e61a2e370603a9f1f0aec16245a51a9ffd15d24f2d79784c14938fca063457",
+    "runs/day8/baseline/base/mbpp-552-m03-29.json": "5ae77e9a0896e57a6a858dd02947ee495a7479ec9da0d73efac9ff7fb4438215",
+    "runs/day8/baseline/base/mbpp-552-m03-43.json": "749ac4f439eb8f19cb84044def3a43c24e727cf0496c94b8e4b1c12a89e736ad",
+    "runs/day8/baseline/base/mbpp-564-m01-17.json": "b3417a75244d838a8d2567fdab5c2d19f2382df10b3081ea418762296bbbb0b3",
+    "runs/day8/baseline/base/mbpp-564-m01-29.json": "4cc7c926d9e1b55776338eae13eae32f45c35c012cc97d7985e9dd8b674dd8e1",
+    "runs/day8/baseline/base/mbpp-564-m01-43.json": "e288784bc68d4cf29d8a86df7d358c7f1e921becfd52f452fee9ac47a6f203cc",
+    "runs/day8/baseline/base/mbpp-564-m02-17.json": "a134186466b232a2daee73d293c0c318dcdd565c23dd8bee6c77f8f2ddde4bba",
+    "runs/day8/baseline/base/mbpp-564-m02-29.json": "54868a033e2c7e97861515ee2a016937dd8020cfb2696c635ebb8a90d037f771",
+    "runs/day8/baseline/base/mbpp-564-m02-43.json": "61989ff6c343e6ca1c057ccc8c6f005dccb2eb6533f0d4ad848368ce27ca89b5",
+    "runs/day8/baseline/base/mbpp-564-m03-17.json": "4892bd5dfa6cf50792918185ab8be3d8d20b9f4434b8c5d9b67c598bfa2bd3db",
+    "runs/day8/baseline/base/mbpp-564-m03-29.json": "0595ad3f950a2e5c353b37e7bf0a40e1323058bb13c6b99562d99eca0e438941",
+    "runs/day8/baseline/base/mbpp-564-m03-43.json": "8d723219dc44359dbea31cda8ce3350807a789b7e1847cec0965099fdbab3779",
+    "runs/day8/baseline/base/mbpp-566-m01-17.json": "7bb1b924df6e602288ac4e00edcdab3dfda7e1c99b3fee3e954bfee6962ae32f",
+    "runs/day8/baseline/base/mbpp-566-m01-29.json": "cf392de97f9918f08cea32ffffd0f2ad73cea92aa089f530d0415afc61ab3aaf",
+    "runs/day8/baseline/base/mbpp-566-m01-43.json": "651a708b9437571ef25fd1cb966f18eacf7eb0332f1b20104e142617960978e2",
+    "runs/day8/baseline/base/mbpp-566-m02-17.json": "a61cdaea8802a1bba963cee4f1581b28abbf495d3dc39d4e6518efa6ca6c8322",
+    "runs/day8/baseline/base/mbpp-566-m02-29.json": "b74299ec0255cbdb8c138d48b27f8f9ed2afceab5f53977045239e485ab2f8b8",
+    "runs/day8/baseline/base/mbpp-566-m02-43.json": "ab8a913ce92fb556d6d392127661b10f77af5ae1c582dc85c95ada27be265eac",
+    "runs/day8/baseline/base/mbpp-568-m01-17.json": "29d9607a38929e260450bbc149396b4ddc97b404c4ccf0adafeca243330058e4",
+    "runs/day8/baseline/base/mbpp-568-m01-29.json": "e9d0209b9e65b963a049dbe12fc479ee8392558cb89c0988b41cc7845c70decb",
+    "runs/day8/baseline/base/mbpp-568-m01-43.json": "187dcd2ff62fbdf8680c7cddc506801bd453f29279599d4907f50931f8657728",
+    "runs/day8/baseline/base/mbpp-568-m02-17.json": "c0c2acdfdcebc4e93383ea2179734659c69f9fc862f6e1a2f9973b96103a4521",
+    "runs/day8/baseline/base/mbpp-568-m02-29.json": "c1dc4c4963ad23c270180811b641b6f28bad433643e901c7468d565b8be57158",
+    "runs/day8/baseline/base/mbpp-568-m02-43.json": "ee0c27a425ea9c14effb8f3c49c5e19b072709dda987470d77e7f993c14e9bcd",
+    "runs/day8/baseline/base/mbpp-572-m01-17.json": "0c8a655d3eda2bc6635038757da4c1955054501c8755272fac92b40cae4c9723",
+    "runs/day8/baseline/base/mbpp-572-m01-29.json": "90ecbe0f7aea559f6d424a44dd22d348175938e97d974f9f659b4fb6cc733bbc",
+    "runs/day8/baseline/base/mbpp-572-m01-43.json": "2b2acab526ecd175b88f0e627de257a92fa77f2193578b02fee0413097fbc988",
+    "runs/day8/baseline/base/mbpp-577-m01-17.json": "a3402dff9ec2d09a39e11b3b836be5624892bbd9840421d1f884443f92bf2dcc",
+    "runs/day8/baseline/base/mbpp-577-m01-29.json": "4e5d9ece91a0bdd8a0b63417ccdc53df7e980dd7f94a94749fbc8d49d55a7754",
+    "runs/day8/baseline/base/mbpp-577-m01-43.json": "3b6bdd4a60b6b0bdd1c8bba13954c1249c6e7465d246e41b26ce2c70ae324b01",
+    "runs/day8/baseline/base/mbpp-577-m02-17.json": "2a3612c05e37d5933bb186dd30ce6f81f0672c082581076e25b3b46b617a031c",
+    "runs/day8/baseline/base/mbpp-577-m02-29.json": "cdd25df64c0c8b6fbcdd87ad5081ebc8c973087adb65a122252f3866ac89cce7",
+    "runs/day8/baseline/base/mbpp-577-m02-43.json": "958f87eba0c49cc31ed0b648b8d6a1d35c6ff57b7daaabcb4ce9bd79483f0db8",
+    "runs/day8/baseline/base/mbpp-577-m03-17.json": "8277519733aaab0ec577946b79fb3f6a90739dd7a519b767772083aa26f594fa",
+    "runs/day8/baseline/base/mbpp-577-m03-29.json": "624a9fcfa0342e79462a7879cb330778220cf362481765f8f520d2696e80252d",
+    "runs/day8/baseline/base/mbpp-577-m03-43.json": "b697a290c386bbf7b0fc355016e31949e8c563a9abcc4db1a359e4e290e4503e",
+    "runs/day8/baseline/base/mbpp-589-m01-17.json": "1b9a3cc03362e63048b11305f9e74826766b589a4fedf0ffd2355e52314f7f29",
+    "runs/day8/baseline/base/mbpp-589-m01-29.json": "4d2819a8f1ef90f164b66768675d4c2f1f3d7ca1aeb4dc61c0d25c367e82e50d",
+    "runs/day8/baseline/base/mbpp-589-m01-43.json": "879ca4d72d512818fa3675feec688ff3f2f997a2675d1fced553671a48f63a55",
+    "runs/day8/baseline/base/mbpp-589-m02-17.json": "b119be259f84eeed4480fb1795ba9d3308e402dad543f4dc944141ad3165847d",
+    "runs/day8/baseline/base/mbpp-589-m02-29.json": "26c40e5b482c7a3dbd4aef0a78f4862bfe8d326bcaabff6e1bd1835486c9b8b4",
+    "runs/day8/baseline/base/mbpp-589-m02-43.json": "da2cdf51d6fdbf1643b13e724fc05b6e0a2924b0390a6973f67ed9dce37dd956",
+    "runs/day8/baseline/base/mbpp-589-m03-17.json": "ba5d11a91dc3737a4a291a867177a659bf1d393ce3fb1525f14b61de58c6a2c9",
+    "runs/day8/baseline/base/mbpp-589-m03-29.json": "5199f78365b5e23f4ff29ac2a9ad388f9de2d32239385a1383cfbb03d21bb2b1",
+    "runs/day8/baseline/base/mbpp-589-m03-43.json": "3cdb983baebe64c18b3b88b57bc325cf53afeaf00c587dd2cf4c733ed7846669",
+    "runs/day8/baseline/sft/mbpp-526-m01-17.json": "87b835611b30abb1808ef74163bff26f24b1149d1180b145032c00901b207e06",
+    "runs/day8/baseline/sft/mbpp-526-m01-29.json": "6d6c3f328dc19245fc58ec558a583cf42f6c3cf0227fd97033cae03788718a70",
+    "runs/day8/baseline/sft/mbpp-526-m01-43.json": "57e26682aa666fdffdc3c727f400cd610b4d930c492b09301c44dc62ff036d29",
+    "runs/day8/baseline/sft/mbpp-526-m02-17.json": "84576d0c980e4410b42a9072b2de9770601ba8374b834580b964e8ba7e42f9df",
+    "runs/day8/baseline/sft/mbpp-526-m02-29.json": "dc24c1d9553eee6820797208f30ac481f1be2fdd04a5c373844383d254b36f17",
+    "runs/day8/baseline/sft/mbpp-526-m02-43.json": "e22a47d4e49391b8d5e98e93cd75fc20f9817ce0fc93464b0a5ecfc1059975e1",
+    "runs/day8/baseline/sft/mbpp-527-m01-17.json": "1fe1594f7e5576c83f20078f93228d3baeb8eb5d3631280ced63a7aa1ef65dd5",
+    "runs/day8/baseline/sft/mbpp-527-m01-29.json": "cbf432752362c379995ad269518a661c01fafe4e88de65e87eb00e1170003e5e",
+    "runs/day8/baseline/sft/mbpp-527-m01-43.json": "ad47afef978bdda8bc63ccad8494ec659a493fb9a4f80ef955b9f1187d07968b",
+    "runs/day8/baseline/sft/mbpp-527-m02-17.json": "1d2cb8cad7f69e8ff14af47ff54f222b35f8bc50a0ac60dae5a93729b7896a37",
+    "runs/day8/baseline/sft/mbpp-527-m02-29.json": "46f31c42f489d0c68264f270dcd8997da62dc5a31cc84c5137ad0a6fdd0230f7",
+    "runs/day8/baseline/sft/mbpp-527-m02-43.json": "50f977df9fcd9761f4b8ff17f068d31327718ebaeabd1fe745d9ee6996209b6f",
+    "runs/day8/baseline/sft/mbpp-527-m03-17.json": "33a04395894238a301b34841a31b46bc55e761400ebdf17c8f01e17a8f984202",
+    "runs/day8/baseline/sft/mbpp-527-m03-29.json": "a88c02ea43cb38153180e02843df2e18b13df6e2e5d3525038e2c0ab55539ab9",
+    "runs/day8/baseline/sft/mbpp-527-m03-43.json": "8b3a05b9d2d0dcf949f9f3b1cd4894fe7d3a1d9c5dfd3af3af936a9e6166a4a3",
+    "runs/day8/baseline/sft/mbpp-537-m01-17.json": "bb1a6f24a97895a068f7af67081dc5f3e00e40d1275355a32f3edba85f238cd2",
+    "runs/day8/baseline/sft/mbpp-537-m01-29.json": "d11cb8ee59255b55587b4d2fd1e65e8b95f584e04af01200dd5a78525c2143ab",
+    "runs/day8/baseline/sft/mbpp-537-m01-43.json": "a91a09d8484c6f538ab7a1484f4f654a7c4887402370fc7b44ddcabef97c4b62",
+    "runs/day8/baseline/sft/mbpp-543-m01-17.json": "3b25fdd5361b6c44513cff707f5da8dd50bf117984a9d62529c6d5ac8440c714",
+    "runs/day8/baseline/sft/mbpp-543-m01-29.json": "4d1cde6fd6deb5a86c360596e2e1d856629e929fa865a9a48700cc5aa5903cf9",
+    "runs/day8/baseline/sft/mbpp-543-m01-43.json": "6e922c2fdf9691d102d17ac8d0be45da71a0358e3fa26f44edcf9001f14f6729",
+    "runs/day8/baseline/sft/mbpp-546-m01-17.json": "09f24c7672a6e33de81c99687ee021965a3b790a346cb79f9b88e4481fc6c36b",
+    "runs/day8/baseline/sft/mbpp-546-m01-29.json": "9fc60a2c901b3a3c148a9458569da9277aa758dd7be7106f93d4c4d5bbc0b87a",
+    "runs/day8/baseline/sft/mbpp-546-m01-43.json": "db18708d1267ab7287cabd34d307ab7b7e64a1334d3c12295cdf2bf1a7fd611e",
+    "runs/day8/baseline/sft/mbpp-546-m02-17.json": "9902e925cef6b345ede68043d3013cb4dd9be69874d552bdf6522a6bfa73e7b4",
+    "runs/day8/baseline/sft/mbpp-546-m02-29.json": "4b913a6113cd5ada5ef90e8cdc9019dc79073858970d1ec4504c1428ec8f6d76",
+    "runs/day8/baseline/sft/mbpp-546-m02-43.json": "41ae4e402ad1be54a03f936322b61bbde2c07197c6edfde33ade581b677256c3",
+    "runs/day8/baseline/sft/mbpp-546-m03-17.json": "e327ca27c853d22d5adc0a82969e309f9f197669788c0031e5cafc89db1297f9",
+    "runs/day8/baseline/sft/mbpp-546-m03-29.json": "8468decddbc35018bca1c6106303abc0d9872798f7063b9ffb28a1ccc308c72d",
+    "runs/day8/baseline/sft/mbpp-546-m03-43.json": "715358d708577f1f2bb679562005d13261e69299d6065f3b390d235ea5c8f2aa",
+    "runs/day8/baseline/sft/mbpp-547-m01-17.json": "178897e3d45114d9ce4bba9f1d0a81700c138888bdd01956a6767f13087e8da0",
+    "runs/day8/baseline/sft/mbpp-547-m01-29.json": "92ae54720bd10843df3e70454102c2a44e0afa4ee2a70fe95d3897ce9afca544",
+    "runs/day8/baseline/sft/mbpp-547-m01-43.json": "d00273b7cdc005bd71aa56158973976be8d821e4a131c674368c537ed2e2a916",
+    "runs/day8/baseline/sft/mbpp-547-m02-17.json": "c813e1b0a5ed6a941a79e906beb6ba0a5567d0d0e5489564691c293a77f833f4",
+    "runs/day8/baseline/sft/mbpp-547-m02-29.json": "a43a7e1b6b233383ac4d65be03ab6af4a8f8bf6dfcf89ed6e5df14dfa673d984",
+    "runs/day8/baseline/sft/mbpp-547-m02-43.json": "5430d51cccb10daca7614ef386b76c7b8979d9e60b3bf9c894bc78524a0d5174",
+    "runs/day8/baseline/sft/mbpp-548-m01-17.json": "440d81f16344c8d3b881ec64c7453d458958cf7677c5e0fc815593dcf493e581",
+    "runs/day8/baseline/sft/mbpp-548-m01-29.json": "cda922131212482317a12a232b6b61bcfa15ffbef95521d744913357e9222d9b",
+    "runs/day8/baseline/sft/mbpp-548-m01-43.json": "23a08e171542b4b4fd4422a9dd321d02dc86755127e67c11385decb06b5a89c0",
+    "runs/day8/baseline/sft/mbpp-548-m02-17.json": "fbc3b616eb580e838ee547c9d8a4fe022474cb999015d5297ed8bfa9116e220f",
+    "runs/day8/baseline/sft/mbpp-548-m02-29.json": "1a9eee56e19995cacde9205959d5bd38f5509fb221bdd9a57d5357d2283ff520",
+    "runs/day8/baseline/sft/mbpp-548-m02-43.json": "4cf4bf93b907123713735b3f379afbe4a94622fe84b18e3118f52f3fe7d03f2b",
+    "runs/day8/baseline/sft/mbpp-548-m03-17.json": "1267209c339b4dea90c62707730eecbfeb711524aaf4b0e926a28f159c5af2d6",
+    "runs/day8/baseline/sft/mbpp-548-m03-29.json": "9cba969ed3b0edfea2b328aa51a9dca507d531caf3362182f0939e43301c7561",
+    "runs/day8/baseline/sft/mbpp-548-m03-43.json": "3e7cf242c76b3f2604b9b625f4a9e29bc1dce440fea301aa731dd0e35f696abb",
+    "runs/day8/baseline/sft/mbpp-552-m01-17.json": "4e352d962e5b77f58cbba26acc3d23007beb478e319f8aea99e9d41fa1bc98f0",
+    "runs/day8/baseline/sft/mbpp-552-m01-29.json": "6b5d46b01cf3f052dfdd5bc37fb316682facde1195ca18b56f97a423a4122492",
+    "runs/day8/baseline/sft/mbpp-552-m01-43.json": "74c807777831e938e84425862da1502c84cc41a5155d271503b2f8cbd5ac4c07",
+    "runs/day8/baseline/sft/mbpp-552-m02-17.json": "4c03cc4e18ccfedb659652e05c294d7da45f718bbb061a711e93fa7e255d8e1b",
+    "runs/day8/baseline/sft/mbpp-552-m02-29.json": "9d0171c428519e77814b73f3e7b08cfb3de34d6f54c7d9ed50c3f949d3957150",
+    "runs/day8/baseline/sft/mbpp-552-m02-43.json": "f38b3faf7032826f8e96824633f5c777c50dcfcdd53a31ebad93314d95c8e174",
+    "runs/day8/baseline/sft/mbpp-552-m03-17.json": "044b6cdad92851eef72e67f434769666926b15b82bfdab1575418a56b3eb97aa",
+    "runs/day8/baseline/sft/mbpp-552-m03-29.json": "ca097f21abe9c5db3d3757c626f12b0496cdfe7ce0212bb56e6c4625ebc10cc1",
+    "runs/day8/baseline/sft/mbpp-552-m03-43.json": "6ede9edf68ad590ae2ce769109efd423c4aa07f43b05464f75d8be35d0b0865c",
+    "runs/day8/baseline/sft/mbpp-564-m01-17.json": "9980c6b7f645b3d38f65edf1b9d62494a310d4c69396bce8488b1ac59212d36b",
+    "runs/day8/baseline/sft/mbpp-564-m01-29.json": "d4ba870e6cff3b2c32f84cdddc6baced23724429822282d39d7a20f6f5041fdd",
+    "runs/day8/baseline/sft/mbpp-564-m01-43.json": "5a6f6abddf48d027aae77c6c6a510499ceeb50b5da3ea441801c32112272270d",
+    "runs/day8/baseline/sft/mbpp-564-m02-17.json": "f390742f216b8d248b76d6ae5082d4a6f611361b8abd1a93f977481a16e3a76e",
+    "runs/day8/baseline/sft/mbpp-564-m02-29.json": "4a7af381bf8b6bf5500109657269ba1b8f0fc78167d9b94ef70babcb7d4a9704",
+    "runs/day8/baseline/sft/mbpp-564-m02-43.json": "c82120cfc1dc14e15ce80a78c8a5d2b226aafc5f3c170f584414f9d8b1c24dc3",
+    "runs/day8/baseline/sft/mbpp-564-m03-17.json": "8bf897a5d84099363f819b1db8487d4622a020ee7d1925d364370c0599d24f95",
+    "runs/day8/baseline/sft/mbpp-564-m03-29.json": "77eef88c3c26d9d1408a2156cfab90c428646e7b98dc95b7f411d167cba0dd68",
+    "runs/day8/baseline/sft/mbpp-564-m03-43.json": "c505449fb7da05ca3c3d16060960f4c7ef81b4991dbdc131de87204a732894af",
+    "runs/day8/baseline/sft/mbpp-566-m01-17.json": "980828695d7bbbfdbe1c5a47c0add329fdaa12e1a087d5434026966de66b5254",
+    "runs/day8/baseline/sft/mbpp-566-m01-29.json": "5c39703178b47bc0794ab6de2d1aa8e5f8bef8698942a4d68b75441af9a1f0a7",
+    "runs/day8/baseline/sft/mbpp-566-m01-43.json": "cfa2083eb0c1df1299e45a5228b4a17b3c36e4bfb7b702349dc6bac9ab76c4e5",
+    "runs/day8/baseline/sft/mbpp-566-m02-17.json": "92d69a3597b0a7403b4968617f98c8db280c7b51f3d3da937a53624c2f2725af",
+    "runs/day8/baseline/sft/mbpp-566-m02-29.json": "0f52c952434aeeaca9685062525a1bcf61857bc0662ae3144d47e660b8db6a5a",
+    "runs/day8/baseline/sft/mbpp-566-m02-43.json": "0b56552eba9ad2cbaa793ef1b54af6bf8d973d6257f2ad37d580a21b4dbdb443",
+    "runs/day8/baseline/sft/mbpp-568-m01-17.json": "a0ce718ec9a8e263dc977400abba4f22b797c880f20672d1328f3348b23fe573",
+    "runs/day8/baseline/sft/mbpp-568-m01-29.json": "c888e4bb4d843a53119f8fbeac6f2ba58610a025891bb235bf1c6ae0af4d295d",
+    "runs/day8/baseline/sft/mbpp-568-m01-43.json": "40a71d81344e5894fd86b5bfbb157bed330d182fafc4528ff1131893817a512c",
+    "runs/day8/baseline/sft/mbpp-568-m02-17.json": "1c9817e6d3aa909fedf61f5f903e5dba11baf3cec3bbafc7f2f2116aa33a42f0",
+    "runs/day8/baseline/sft/mbpp-568-m02-29.json": "da960f7db8fd8a05df863b689038e9937318a8c5b278345729ec2c4474322453",
+    "runs/day8/baseline/sft/mbpp-568-m02-43.json": "4498e2ea44531f7f4d73230a9181db0bc58286b52854facbed3af773c9964d17",
+    "runs/day8/baseline/sft/mbpp-572-m01-17.json": "169bb637164516d23dfc8a166ee98dc4e3cf78a6be381e858d4c7fcb56b76b0d",
+    "runs/day8/baseline/sft/mbpp-572-m01-29.json": "4528a6a1c20c47fb68acee8a8e74cef838e87bc08295bd643234f116e8c62ff1",
+    "runs/day8/baseline/sft/mbpp-572-m01-43.json": "7b87bbf954fc2bac630dae4c5541e97371816494cf2cb39cc61077379fb814be",
+    "runs/day8/baseline/sft/mbpp-577-m01-17.json": "c1954fcd2d88033994d1118a943999c6839ca7e4431e8ec7d727c55c384f70a4",
+    "runs/day8/baseline/sft/mbpp-577-m01-29.json": "1e409bc72b3c1507ade279fdd4d87f582886106908353c589f6b30c0f127ad0b",
+    "runs/day8/baseline/sft/mbpp-577-m01-43.json": "a0663b372185554587760d9885411033c7f6269492bc1722c4daed16f2ff4f00",
+    "runs/day8/baseline/sft/mbpp-577-m02-17.json": "6f9aacdf91e537c633896845c381fe4acf0a6e9ac650774715307630cfdf0e0f",
+    "runs/day8/baseline/sft/mbpp-577-m02-29.json": "4df783f77511d2e0619a170108402c41d5a48e2e2647b94b39d0ed5874dbfa46",
+    "runs/day8/baseline/sft/mbpp-577-m02-43.json": "2a366b9d685a3f98cc4071f9e282537fcdde0ada1233a8c291ff282f919feeb2",
+    "runs/day8/baseline/sft/mbpp-577-m03-17.json": "75faeb39583287784019fe506dd1272ffc7644770759fc816ff72a95a15c18a6",
+    "runs/day8/baseline/sft/mbpp-577-m03-29.json": "1f10d428b41dfa23f17bdfed1ad8f0cbe6fca8012ba9976c1914d2e1707195c3",
+    "runs/day8/baseline/sft/mbpp-577-m03-43.json": "dea7fa5b96475b6619e5fd0b7777bc6cef274af15510bc0410a89604ee67d3ab",
+    "runs/day8/baseline/sft/mbpp-589-m01-17.json": "abef047575c40b2a0f0a6fb822168af17a9e37aa192a0911e9b443a062fb4a95",
+    "runs/day8/baseline/sft/mbpp-589-m01-29.json": "d0b03bebc92d902b8cee93f8935f1571b7094359aa44c81cd29dae12cb483489",
+    "runs/day8/baseline/sft/mbpp-589-m01-43.json": "22525ebbd1c776e010f7025ae36425115f282acee720005ed29898362af91f3c",
+    "runs/day8/baseline/sft/mbpp-589-m02-17.json": "3e00dcedf2b9a4fe5bc78c67a8997a3cfebc387ef6fd42c75548d83432bb0927",
+    "runs/day8/baseline/sft/mbpp-589-m02-29.json": "7bfee2b0630694f0d34337789e788dfc616133fde0e4009bb4cb6c5610d47e11",
+    "runs/day8/baseline/sft/mbpp-589-m02-43.json": "a199b6efe80d2574526a14a0fabecde60dc437d14e1546fb24f1e83da2dc31f9",
+    "runs/day8/baseline/sft/mbpp-589-m03-17.json": "8463a1020bc5993f124059ac2435b4707c5986f9503961c073e710351a67fc6f",
+    "runs/day8/baseline/sft/mbpp-589-m03-29.json": "d1182c581533b89a3e34f69ad292caf7691903f190f34380f32c18af933276a3",
+    "runs/day8/baseline/sft/mbpp-589-m03-43.json": "b87b254dc7adb1f1aeb7e3a812f43dd1e531ea2b0b1607fc38d97d7057e3f1a8"
+  },
+  "grpo_effect_evaluated": false,
+  "final_test": false,
+  "limitations": [
+    "Development benchmark only; 32 variants from 14 sources.",
+    "Three seeds per task are correlated repeats, not 96 independent problems.",
+    "SFT supervision contains repair labels; this comparison does not measure GRPO benefits."
+  ]
+}

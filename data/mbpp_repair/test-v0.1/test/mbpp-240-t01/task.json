@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-240-t01",
+  "source_id": "mbpp-240",
+  "split": "test",
+  "entrypoint": "replace_list",
+  "instruction": "Write a function to replace the last element of the list with another list.\n\n精确输入域与验收约定：两个整数或字符串列表；用list2整体替换list1的最后一个元素；list1为空时结果是list2的浅复制，允许修改输入。\n修复 solution.py 中的 replace_list 函数，保留签名。",
+  "domain": "两个整数或字符串列表；用list2整体替换list1的最后一个元素；list1为空时结果是list2的浅复制，允许修改输入。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "targets",
+      0,
+      "slice",
+      "lower"
+    ],
+    "line": 2,
+    "column": 10,
+    "before": "UnaryOp(op=USub(), operand=Constant(value=1))",
+    "after": "BinOp(left=UnaryOp(op=USub(), operand=Constant(value=1)), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 240,
+    "raw_code_sha256": "57354ddcca5892662be003fa88c10d99e0aef2a504db35f87dab2cc31d18baab",
+    "reference_sha256": "aaf7777b0192e43139e4fa492e5dd4c981fa2b590e295c0a51fc2dd9a8882c03"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "mbpp-286-t01",
+  "source_id": "mbpp-286",
+  "split": "test",
+  "entrypoint": "max_sub_array_sum_repeated",
+  "instruction": "Write a function to find the largest sum of contiguous array in the modified array which is formed by repeating the given array k times.\n\n精确输入域与验收约定：非空整数数组a，n=len(a)<=20、1<=k<=5；将a重复k次，返回非空连续子数组的最大和。\n修复 solution.py 中的 max_sub_array_sum_repeated 函数，保留签名。",
+  "domain": "非空整数数组a，n=len(a)<=20、1<=k<=5；将a重复k次，返回非空连续子数组的最大和。",
+  "bug_type": "initialization",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "value"
+    ],
+    "line": 3,
+    "column": 22,
+    "before": "Constant(value=0)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 286,
+    "raw_code_sha256": "6ae25a44eb5395311e9f6994813f7e605227819de474d8c33dd22895311b8df9",
+    "reference_sha256": "7c689c69398678fa6c75e2fc98128727f6706f3be1e1b3f08e4c9fd68a038e71"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

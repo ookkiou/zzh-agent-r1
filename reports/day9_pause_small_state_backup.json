@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "local_small_state_copy_complete": true,
+  "local_full_weight_copy_complete": false,
+  "resume_step": 11,
+  "files": {
+    "root_identity.json": "d6a3f800c682d9d093775690e4aa9edfbb69c945115dd21132301cd74fbb3083",
+    "global_step_11/data.pt": "4515df46589e24f4491fc71927832fa683fe0aa07928fd4958d2678695943a5d",
+    "global_step_11/actor/extra_state_world_size_1_rank_0.pt": "24941203c7cfa8cc6d65f1fc2fc6d436c8ceea91f2eda6bb419ba5fb08ba587e",
+    "global_step_11/zzh_completed_checkpoint.json": "e7d88f9adec7941d0ac5839d3799e02acd17c3107689b9f64042f067a8cc2830"
+  },
+  "remote_full_checkpoint_and_compressed_archive_preserved": true
+}

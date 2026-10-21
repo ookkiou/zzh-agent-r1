@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-687-x01",
+  "source_id": "mbpp-687",
+  "split": "train",
+  "entrypoint": "recur_gcd",
+  "instruction": "Write a function to find the greatest common divisor (gcd) of two integers by using recursion.\n\n精确输入域与验收约定：整数 0<=a,b<=1000；返回非负最大公约数，gcd(0,0)=0。\n修复 solution.py 中的 recur_gcd 函数，保留签名。",
+  "bug_type": "numeric_constant",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "test",
+      "comparators",
+      0
+    ],
+    "line": 4,
+    "column": 14,
+    "before": "Constant(value=0)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 687,
+    "raw_code_sha256": "d02876b05f4312bba6aeae64289fa886ce00b93db5c10c163a1f08524e7511f2",
+    "reference_sha256": "403d58552343d04ed5d4e0c8aa534c09ce0df10e437d48b520e8c3a5595725e8"
+  },
+  "domain": "整数 0<=a,b<=1000；返回非负最大公约数，gcd(0,0)=0。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

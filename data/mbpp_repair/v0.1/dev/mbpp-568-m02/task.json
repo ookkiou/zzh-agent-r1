@@ -1,0 +1,38 @@
+{
+  "task_id": "mbpp-568-m02",
+  "source_id": "mbpp-568",
+  "split": "dev",
+  "entrypoint": "empty_list",
+  "instruction": "Write a function to create a list of empty dictionaries.\n\n精确输入域与验收约定：整数 0<=length<=30；返回含 length 个空字典的列表；只验收返回值，不检查对象别名。\n修复 solution.py 中的 empty_list 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "generators",
+      0,
+      "iter",
+      "args",
+      0
+    ],
+    "line": 2,
+    "column": 36,
+    "before": "Name(id='length', ctx=Load())",
+    "after": "BinOp(left=Name(id='length', ctx=Load()), op=Sub(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 568,
+    "raw_code_sha256": "231c174221725f59ab7a2b4650dc1047340a1f5ecd0ec44077769978b31b8ca8",
+    "reference_sha256": "4be7d61c79f6e530705a7cfa85eee381b1aa538c1ef9369a0993e53d8cd3a4ba"
+  },
+  "domain": "整数 0<=length<=30；返回含 length 个空字典的列表；只验收返回值，不检查对象别名。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

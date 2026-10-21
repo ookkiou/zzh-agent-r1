@@ -1,0 +1,65 @@
+[
+  {
+    "id": "upstream_holdout",
+    "args": [
+      "PART OF THE JOURNEY IS PART"
+    ],
+    "expected": 9
+  },
+  {
+    "id": "regression_01",
+    "args": [
+      "a"
+    ],
+    "expected": 1
+  },
+  {
+    "id": "regression_02",
+    "args": [
+      "aa"
+    ],
+    "expected": 2
+  },
+  {
+    "id": "regression_03",
+    "args": [
+      "ab"
+    ],
+    "expected": 1
+  },
+  {
+    "id": "regression_04",
+    "args": [
+      "aba"
+    ],
+    "expected": 3
+  },
+  {
+    "id": "regression_05",
+    "args": [
+      "abcba"
+    ],
+    "expected": 5
+  },
+  {
+    "id": "regression_06",
+    "args": [
+      "abc"
+    ],
+    "expected": 1
+  },
+  {
+    "id": "regression_07",
+    "args": [
+      "bbbab"
+    ],
+    "expected": 4
+  },
+  {
+    "id": "regression_08",
+    "args": [
+      "cbbd"
+    ],
+    "expected": 2
+  }
+]

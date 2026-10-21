@@ -1,0 +1,37 @@
+{
+  "task_id": "mbpp-684-x02",
+  "source_id": "mbpp-684",
+  "split": "train",
+  "entrypoint": "count_Char",
+  "instruction": "Write a python function to count occurences of a character in a repeated string.\n\n精确输入域与验收约定：非空 ASCII 字符串 str 和单个字符 x；把 str 无限重复，统计前10个字符中 x 出现次数。\n修复 solution.py 中的 count_Char 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 4,
+    "column": 11,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 684,
+    "raw_code_sha256": "36b8214d9d769f1fe044d7611cd0259b45f48630c9909c2cd9c55d81e782e027",
+    "reference_sha256": "e995b7fed27d3232666c517c253e6e5c538091d7e91e46637ce6ccfff2261f9f"
+  },
+  "domain": "非空 ASCII 字符串 str 和单个字符 x；把 str 无限重复，统计前10个字符中 x 出现次数。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

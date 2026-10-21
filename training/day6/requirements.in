@@ -1,0 +1,32 @@
+# Initial candidate set for the actual CUDA 12.8 / torch 2.8 host.
+# Runtime compatibility must be tested; the install report and final freeze are evidence.
+vllm==0.11.0
+torch==2.8.0
+transformers==4.57.1
+ray[default]==2.48.0
+tensordict==0.10.0
+numpy==1.26.4
+cupy-cuda12x==13.6.0
+openai==1.109.1
+fastapi==0.115.12
+pydantic==2.11.10
+# Newer OpenCV wheels require NumPy 2; avoid downloading incompatible candidates.
+opencv-python-headless==4.11.0.86
+peft==0.17.1
+datasets==4.2.0
+pandas==2.3.3
+pyarrow==21.0.0
+hydra-core==1.3.2
+omegaconf==2.3.0
+accelerate
+codetiming
+dill
+pybind11
+pylatexenc
+torchdata==0.11.0
+wandb
+tensorboard
+liger-kernel
+# FlashInfer is deferred: its isolated source build pulled an unrelated torch.
+# First validate vLLM's FlashAttention path on this Ada GPU.
+mathruler

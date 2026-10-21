@@ -1,0 +1,91 @@
+[
+  {
+    "id": "upstream_holdout",
+    "args": [
+      [
+        7,
+        8,
+        9,
+        15,
+        17,
+        19,
+        45
+      ],
+      15,
+      20
+    ],
+    "expected": 3
+  },
+  {
+    "id": "regression_01",
+    "args": [
+      [],
+      0,
+      1
+    ],
+    "expected": 0
+  },
+  {
+    "id": "regression_02",
+    "args": [
+      [
+        1
+      ],
+      1,
+      1
+    ],
+    "expected": 1
+  },
+  {
+    "id": "regression_03",
+    "args": [
+      [
+        0,
+        1,
+        2
+      ],
+      0,
+      2
+    ],
+    "expected": 3
+  },
+  {
+    "id": "regression_04",
+    "args": [
+      [
+        -2,
+        -1,
+        0
+      ],
+      -1,
+      0
+    ],
+    "expected": 2
+  },
+  {
+    "id": "regression_05",
+    "args": [
+      [
+        3,
+        3,
+        4
+      ],
+      3,
+      3
+    ],
+    "expected": 2
+  },
+  {
+    "id": "regression_06",
+    "args": [
+      [
+        "a",
+        "b",
+        "c"
+      ],
+      "b",
+      "b"
+    ],
+    "expected": 1
+  }
+]

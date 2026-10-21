@@ -1,0 +1,11 @@
+{
+  "local_export_complete": true,
+  "day7_complete": false,
+  "exported_tasks": 104,
+  "diagnostic_tasks": 8,
+  "source_manifest_sha256": "beec8194a427209447791e4ff4708b47a898e08bea436531f0ea70f86caafec2",
+  "selection_sha256": "77a241b025a9d3a4deac2fd09871cc6a59ffc1cb2beb4c037fe431ebd9d788ea",
+  "private_resources_exported": false,
+  "repair_test_sources_executed": false,
+  "gpu_diagnostics_performed": false
+}

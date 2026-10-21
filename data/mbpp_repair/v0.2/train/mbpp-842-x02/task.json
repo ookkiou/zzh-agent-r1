@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-842-x02",
+  "source_id": "mbpp-842",
+  "split": "train",
+  "entrypoint": "get_odd_occurence",
+  "instruction": "Write a function to find the number which occurs for odd number of times in the given array.\n\n精确输入域与验收约定：整数数组，arr_size=len(arr)<=30；返回最先在原数组出现且总频次为奇数的值，没有则返回-1。\n修复 solution.py 中的 get_odd_occurence 函数，保留签名。",
+  "bug_type": "initialization",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "body",
+      0,
+      "value"
+    ],
+    "line": 3,
+    "column": 16,
+    "before": "Constant(value=0)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 842,
+    "raw_code_sha256": "547a5f75a13e7d85207a2c39930bce3ee8181ad1c66291e51e7aab1a2f928988",
+    "reference_sha256": "7cae52fac82ee91d7ff70791068fd0861a3d2edda49028d473375cddd2c05ed6"
+  },
+  "domain": "整数数组，arr_size=len(arr)<=30；返回最先在原数组出现且总频次为奇数的值，没有则返回-1。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-378-t01",
+  "source_id": "mbpp-378",
+  "split": "test",
+  "entrypoint": "move_first",
+  "instruction": "Write a python function to shift last element to first position in the given list.\n\n精确输入域与验收约定：整数列表，长度0..30；将最后一个元素移到开头，其余顺序不变，空列表返回空列表。\n修复 solution.py 中的 move_first 函数，保留签名。",
+  "domain": "整数列表，长度0..30；将最后一个元素移到开头，其余顺序不变，空列表返回空列表。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "left",
+      "slice",
+      "lower"
+    ],
+    "line": 2,
+    "column": 26,
+    "before": "UnaryOp(op=USub(), operand=Constant(value=1))",
+    "after": "BinOp(left=UnaryOp(op=USub(), operand=Constant(value=1)), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 378,
+    "raw_code_sha256": "3c61be1232c97cec319ff889cbf4be1df2db499683a166eeb775061b3b96ab70",
+    "reference_sha256": "4a0b2eeb68f4b5ef848c8c447c76626c1138df397984b84e0f23392dd3be75ce"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

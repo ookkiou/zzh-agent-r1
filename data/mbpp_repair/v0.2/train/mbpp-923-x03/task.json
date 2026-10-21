@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-923-x03",
+  "source_id": "mbpp-923",
+  "split": "train",
+  "entrypoint": "super_seq",
+  "instruction": "Write a function to find the length of the shortest string that has both str1 and str2 as subsequences.\n\n精确输入域与验收约定：ASCII字符串X、Y，长度各<=7，m=len(X)、n=len(Y)；返回最短公共超序列长度，允许空串。\n修复 solution.py 中的 super_seq 函数，保留签名。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test"
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "UnaryOp(op=Not(), operand=Name(id='m', ctx=Load()))",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 923,
+    "raw_code_sha256": "f1e2aa16eff279ecb5fd43d258e3ffba22ab66c9b56a9b6d155f0304aef68e0f",
+    "reference_sha256": "88d5d5b449c1c3047422c8506be834f55e28ed46d494cd69d6abdfdd53b4b130"
+  },
+  "domain": "ASCII字符串X、Y，长度各<=7，m=len(X)、n=len(Y)；返回最短公共超序列长度，允许空串。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

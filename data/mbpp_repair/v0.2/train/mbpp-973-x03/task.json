@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-973-x03",
+  "source_id": "mbpp-973",
+  "split": "train",
+  "entrypoint": "left_rotate",
+  "instruction": "Write a python function to left rotate the string.\n\n精确输入域与验收约定：ASCII字符串，0<=d<=len(s)<=30；返回左旋d个字符的结果，允许空串。\n修复 solution.py 中的 left_rotate 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "left",
+      "slice",
+      "lower"
+    ],
+    "line": 2,
+    "column": 12,
+    "before": "Name(id='d', ctx=Load())",
+    "after": "BinOp(left=Name(id='d', ctx=Load()), op=Sub(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 973,
+    "raw_code_sha256": "60bb272edc7114f61f7279e925c4533183a8a025d3b9fce5e8580e2c9eb38fff",
+    "reference_sha256": "0cc1263298fb19df7413eabc03a3868c910e31f58734a692d5fbfb36eece82c3"
+  },
+  "domain": "ASCII字符串，0<=d<=len(s)<=30；返回左旋d个字符的结果，允许空串。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

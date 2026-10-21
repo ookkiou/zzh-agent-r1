@@ -1,0 +1,38 @@
+{
+  "task_id": "mbpp-304-t01",
+  "source_id": "mbpp-304",
+  "split": "test",
+  "entrypoint": "find_Element",
+  "instruction": "Write a python function to find element at a given index after number of rotations.\n\n精确输入域与验收约定：非空数组arr和闭区间ranges，区间合法，0<=rotations<=len(ranges)；按顺序将前rotations个区间各向右循环移动1格，返回最终0-based index处元素。\n修复 solution.py 中的 find_Element 函数，保留签名。",
+  "domain": "非空数组arr和闭区间ranges，区间合法，0<=rotations<=len(ranges)；按顺序将前rotations个区间各向右循环移动1格，返回最终0-based index处元素。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "body",
+      2,
+      "test",
+      "values",
+      0,
+      "ops",
+      0
+    ],
+    "line": 5,
+    "column": 11,
+    "before": "LtE()",
+    "after": "Lt()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 304,
+    "raw_code_sha256": "1849b54b599df9c2e6c10e702090245eb057e44dac1f4cf2e506ae82856478c9",
+    "reference_sha256": "0535c93fa7f2a9fe5d8cff6bdadd94ce4f575becf95c6a0dfbd03591a405df7a"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

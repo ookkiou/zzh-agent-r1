@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-017",
+  "source_id": "authored-prototype-017",
+  "split": "train",
+  "title": "安全除法",
+  "instruction": "输入整数 numerator 和 denominator。分母为 0 返回 None，否则返回 Python / 运算产生的浮点结果。",
+  "entrypoint": "safe_divide",
+  "signature": "safe_divide(numerator, denominator)",
+  "bug_type": "missing_branch",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "case_id": "improvement",
+    "task_id": "mbpp-548-m01",
+    "seed": 29,
+    "sft_reward": 0,
+    "step70_reward": 1
+  },
+  {
+    "case_id": "regression",
+    "task_id": "mbpp-577-m02",
+    "seed": 43,
+    "sft_reward": 1,
+    "step70_reward": 0
+  },
+  {
+    "case_id": "shared-failure",
+    "task_id": "mbpp-526-m01",
+    "seed": 17,
+    "sft_reward": 0,
+    "step70_reward": 0
+  }
+]

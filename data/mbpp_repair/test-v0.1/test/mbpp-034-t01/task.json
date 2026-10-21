@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-034-t01",
+  "source_id": "mbpp-034",
+  "split": "test",
+  "entrypoint": "find_missing",
+  "instruction": "Write a python function to find the missing number in a sorted array.\n\n精确输入域与验收约定：ar为从1开始、有且仅有一个内部缺号的严格递增整数数组；2<=N<=len(ar)，缺号在2..N，前N项覆盖该缺口；返回缺号。\n修复 solution.py 中的 find_missing 函数，保留签名。",
+  "domain": "ar为从1开始、有且仅有一个内部缺号的严格递增整数数组；2<=N<=len(ar)，缺号在2..N，前N项覆盖该缺口；返回缺号。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 4,
+    "column": 10,
+    "before": "LtE()",
+    "after": "Lt()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 34,
+    "raw_code_sha256": "c5c8977b45c85eab6af7be2a65e51f60e23eb39293d900c768194d06771cdbb1",
+    "reference_sha256": "778f0ac9b5e0450b00d2736a5b15d9b6b7623ed033f612dc38461a328a814c9f"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

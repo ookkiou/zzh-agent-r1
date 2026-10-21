@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "actual_pinned_upstream_grpo": true,
+  "scripted_tensor_probe": true,
+  "positive_and_negative_advantages": true,
+  "same_advantage_across_trajectory_steps": true,
+  "padding_advantages_zero": true,
+  "repeated_reward_rejected": true,
+  "real_training": false
+}

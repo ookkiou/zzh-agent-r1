@@ -1,0 +1,10 @@
+{
+  "complete": false,
+  "local_full_weight_copy_complete": false,
+  "remote_compressed_backup_complete": true,
+  "remote_checkpoint_step": 11,
+  "remote_archive": "runs/day9/pause_backup/global_step_11.tar.gz",
+  "remote_archive_sha256": "e52e4d7264fe13d0efee103d720cc5931c2fa091971555034e0ea60eea4b7eff",
+  "reason": "User requested Mac shutdown; interrupted slow full-weight transfer. Original checkpoint and checksummed compressed backup both remain on AutoDL.",
+  "optimizer_state_saved": false
+}

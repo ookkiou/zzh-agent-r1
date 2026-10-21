@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "tests": 3,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "command": "python3 -m unittest discover -s tests -p test_day9_evidence.py -v",
+  "scope": "Native worker evidence recovery, ambiguity rejection, explicit user pause for partial formal logs"
+}

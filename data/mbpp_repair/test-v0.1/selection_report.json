@@ -1,0 +1,2423 @@
+{
+  "sources": [
+    {
+      "source_id": "mbpp-022",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          2,
+          "iter",
+          "args",
+          0
+        ],
+        "line": 4,
+        "column": 19,
+        "before": "Call(func=Name(id='len', ctx=Load()), args=[Name(id='nums', ctx=Load())])",
+        "after": "BinOp(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='nums', ctx=Load())]), op=Add(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-034",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          2,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 4,
+        "column": 10,
+        "before": "LtE()",
+        "after": "Lt()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-036",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 2,
+        "column": 10,
+        "before": "Gt()",
+        "after": "GtE()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-047",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 3,
+        "column": 7,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-072",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 2,
+        "column": 7,
+        "before": "NotEq()",
+        "after": "Eq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-090",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "body",
+          0,
+          "test"
+        ],
+        "line": 4,
+        "column": 11,
+        "before": "Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='i', ctx=Load())]), ops=[Gt()], comparators=[Name(id='max', ctx=Load())])",
+        "after": "Constant(value=False)",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              1,
+              "body",
+              0,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 4,
+            "column": 11,
+            "before": "Gt()",
+            "after": "GtE()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        },
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              0,
+              "value",
+              "args",
+              0,
+              "slice"
+            ],
+            "line": 2,
+            "column": 20,
+            "before": "Constant(value=0)",
+            "after": "BinOp(left=Constant(value=0), op=Add(), right=Constant(value=1))",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-092",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "iter",
+          "args",
+          1
+        ],
+        "line": 4,
+        "column": 22,
+        "before": "Call(func=Name(id='len', ctx=Load()), args=[Name(id='n', ctx=Load())])",
+        "after": "BinOp(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='n', ctx=Load())]), op=Add(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              0,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 2,
+            "column": 7,
+            "before": "LtE()",
+            "after": "Lt()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-096",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "body",
+          0,
+          "value",
+          "args",
+          0,
+          "generators",
+          0,
+          "iter",
+          "args",
+          1
+        ],
+        "line": 3,
+        "column": 37,
+        "before": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+        "after": "BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1)), op=Sub(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              0,
+              "iter",
+              "args",
+              0
+            ],
+            "line": 2,
+            "column": 19,
+            "before": "Name(id='n', ctx=Load())",
+            "after": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        },
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              0,
+              "iter",
+              "args",
+              0
+            ],
+            "line": 2,
+            "column": 19,
+            "before": "Name(id='n', ctx=Load())",
+            "after": "BinOp(left=Name(id='n', ctx=Load()), op=Sub(), right=Constant(value=1))",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        },
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              0,
+              "body",
+              0,
+              "value",
+              "args",
+              0,
+              "generators",
+              0,
+              "iter",
+              "args",
+              1
+            ],
+            "line": 3,
+            "column": 37,
+            "before": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+            "after": "BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1)), op=Add(), right=Constant(value=1))",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-133",
+      "included": false,
+      "reason": "no_completed_public_and_private_failing_mutation",
+      "stage": "mutation_validation",
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              0,
+              "value",
+              "args",
+              0,
+              "args",
+              0,
+              "body",
+              "ops",
+              0
+            ],
+            "line": 2,
+            "column": 47,
+            "before": "Lt()",
+            "after": "LtE()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-134",
+      "included": false,
+      "reason": "The operation repeated p times is not specified by the upstream statement.",
+      "stage": "independent_contract_review"
+    },
+    {
+      "source_id": "mbpp-147",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "iter",
+          "args",
+          1
+        ],
+        "line": 2,
+        "column": 26,
+        "before": "UnaryOp(op=USub(), operand=Constant(value=1))",
+        "after": "BinOp(left=UnaryOp(op=USub(), operand=Constant(value=1)), op=Add(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              0,
+              "body",
+              0,
+              "body",
+              0,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 4,
+            "column": 15,
+            "before": "Gt()",
+            "after": "GtE()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-149",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "body",
+          0,
+          "body",
+          0,
+          "test",
+          "values",
+          0,
+          "ops",
+          0
+        ],
+        "line": 5,
+        "column": 15,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-172",
+      "included": false,
+      "reason": "Reference indexes past the end for valid strings ending in 's' or 'st'.",
+      "stage": "independent_contract_review"
+    },
+    {
+      "source_id": "mbpp-199",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "body",
+          0,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 4,
+        "column": 11,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-202",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "body",
+          0,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 4,
+        "column": 11,
+        "before": "NotEq()",
+        "after": "Eq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-224",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "value"
+        ],
+        "line": 2,
+        "column": 12,
+        "before": "Constant(value=0)",
+        "after": "Constant(value=1)",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-228",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          2,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 4,
+        "column": 7,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-235",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "value"
+        ],
+        "line": 2,
+        "column": 12,
+        "before": "Constant(value=0)",
+        "after": "Constant(value=1)",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              3,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 5,
+            "column": 10,
+            "before": "Gt()",
+            "after": "GtE()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "timeout",
+              "tests": 2,
+              "passed": 0,
+              "failed": 2,
+              "failures": [],
+              "timed_out": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-239",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "body",
+          0,
+          "body",
+          0,
+          "test",
+          "values",
+          0,
+          "ops",
+          0
+        ],
+        "line": 5,
+        "column": 15,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-240",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "targets",
+          0,
+          "slice",
+          "lower"
+        ],
+        "line": 2,
+        "column": 10,
+        "before": "UnaryOp(op=USub(), operand=Constant(value=1))",
+        "after": "BinOp(left=UnaryOp(op=USub(), operand=Constant(value=1)), op=Add(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-241",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "value",
+          "elt",
+          "elt",
+          "generators",
+          0,
+          "iter",
+          "args",
+          0
+        ],
+        "line": 2,
+        "column": 39,
+        "before": "Name(id='m', ctx=Load())",
+        "after": "BinOp(left=Name(id='m', ctx=Load()), op=Add(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-247",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 9,
+          "passed": 9,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          3,
+          "body",
+          0,
+          "body",
+          1,
+          "test",
+          "values",
+          0,
+          "ops",
+          0
+        ],
+        "line": 9,
+        "column": 15,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-248",
+      "included": false,
+      "reason": "Floating harmonic sums have no tolerance under the frozen strict-type/exact comparator.",
+      "stage": "independent_contract_review"
+    },
+    {
+      "source_id": "mbpp-270",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          2,
+          "body",
+          0,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 5,
+        "column": 11,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-281",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 2,
+        "column": 7,
+        "before": "Gt()",
+        "after": "GtE()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-286",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "value"
+        ],
+        "line": 3,
+        "column": 22,
+        "before": "Constant(value=0)",
+        "after": "Constant(value=1)",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              2,
+              "body",
+              1,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 6,
+            "column": 11,
+            "before": "Lt()",
+            "after": "LtE()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        },
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              2,
+              "iter",
+              "args",
+              0
+            ],
+            "line": 4,
+            "column": 19,
+            "before": "BinOp(left=Name(id='n', ctx=Load()), op=Mult(), right=Name(id='k', ctx=Load()))",
+            "after": "BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Mult(), right=Name(id='k', ctx=Load())), op=Add(), right=Constant(value=1))",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-304",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "body",
+          2,
+          "test",
+          "values",
+          0,
+          "ops",
+          0
+        ],
+        "line": 5,
+        "column": 11,
+        "before": "LtE()",
+        "after": "Lt()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-309",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "test"
+        ],
+        "line": 2,
+        "column": 7,
+        "before": "Compare(left=Name(id='a', ctx=Load()), ops=[GtE()], comparators=[Name(id='b', ctx=Load())])",
+        "after": "Constant(value=False)",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              0,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 2,
+            "column": 7,
+            "before": "GtE()",
+            "after": "Gt()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-322",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "value",
+          "generators",
+          0,
+          "ifs",
+          0,
+          "ops",
+          0
+        ],
+        "line": 3,
+        "column": 52,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-325",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          2,
+          "body",
+          1,
+          "test"
+        ],
+        "line": 7,
+        "column": 11,
+        "before": "Compare(left=Name(id='temp', ctx=Load()), ops=[Gt()], comparators=[Name(id='n', ctx=Load())])",
+        "after": "Constant(value=False)",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              0,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 2,
+            "column": 7,
+            "before": "LtE()",
+            "after": "Lt()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        },
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              2,
+              "iter",
+              "args",
+              1
+            ],
+            "line": 5,
+            "column": 22,
+            "before": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+            "after": "BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1)), op=Add(), right=Constant(value=1))",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        },
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              0,
+              "test"
+            ],
+            "line": 2,
+            "column": 7,
+            "before": "Compare(left=Name(id='n', ctx=Load()), ops=[LtE()], comparators=[Constant(value=3)])",
+            "after": "Constant(value=False)",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        },
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              2,
+              "body",
+              1,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 7,
+            "column": 11,
+            "before": "Gt()",
+            "after": "GtE()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        },
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              2,
+              "iter",
+              "args",
+              1
+            ],
+            "line": 5,
+            "column": 22,
+            "before": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+            "after": "BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1)), op=Sub(), right=Constant(value=1))",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-327",
+      "included": false,
+      "reason": "Upstream treats (6,6,12) as an isosceles triangle despite violating triangle validity.",
+      "stage": "independent_contract_review"
+    },
+    {
+      "source_id": "mbpp-331",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 9,
+          "passed": 9,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "value"
+        ],
+        "line": 2,
+        "column": 12,
+        "before": "Constant(value=0)",
+        "after": "Constant(value=1)",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              2,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 4,
+            "column": 10,
+            "before": "Lt()",
+            "after": "LtE()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-334",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "test",
+          "values",
+          0,
+          "ops",
+          0
+        ],
+        "line": 2,
+        "column": 7,
+        "before": "LtE()",
+        "after": "Lt()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-346",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "test",
+          "values",
+          0,
+          "ops",
+          0
+        ],
+        "line": 2,
+        "column": 7,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-351",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          2,
+          "body",
+          0,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 10,
+        "column": 11,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-371",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 2,
+        "column": 7,
+        "before": "Gt()",
+        "after": "GtE()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-378",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "value",
+          "left",
+          "slice",
+          "lower"
+        ],
+        "line": 2,
+        "column": 26,
+        "before": "UnaryOp(op=USub(), operand=Constant(value=1))",
+        "after": "BinOp(left=UnaryOp(op=USub(), operand=Constant(value=1)), op=Add(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-392",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          4,
+          "body",
+          0,
+          "value",
+          "args",
+          0,
+          "args",
+          1,
+          "left",
+          "left",
+          "left",
+          "slice"
+        ],
+        "line": 7,
+        "column": 30,
+        "before": "Call(func=Name(id='int', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Div(), right=Constant(value=2))])",
+        "after": "BinOp(left=Call(func=Name(id='int', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Div(), right=Constant(value=2))]), op=Add(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              4,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 6,
+            "column": 10,
+            "before": "Lt()",
+            "after": "LtE()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-395",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          3,
+          "body",
+          0,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 11,
+        "column": 11,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-397",
+      "included": false,
+      "reason": "All upstream expected medians are floats but the integer-input reference returns integers; frozen comparator distinguishes types.",
+      "stage": "independent_contract_review"
+    },
+    {
+      "source_id": "mbpp-420",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "iter",
+          "args",
+          1
+        ],
+        "line": 3,
+        "column": 22,
+        "before": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+        "after": "BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1)), op=Add(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-431",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "body",
+          0,
+          "body",
+          0,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 5,
+        "column": 15,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-433",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "test",
+          "comparators",
+          0,
+          "slice"
+        ],
+        "line": 3,
+        "column": 20,
+        "before": "UnaryOp(op=USub(), operand=Constant(value=1))",
+        "after": "BinOp(left=UnaryOp(op=USub(), operand=Constant(value=1)), op=Add(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              1,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 3,
+            "column": 7,
+            "before": "Gt()",
+            "after": "GtE()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-436",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          0,
+          "body",
+          0,
+          "test"
+        ],
+        "line": 3,
+        "column": 11,
+        "before": "Compare(left=Name(id='num', ctx=Load()), ops=[Lt()], comparators=[Constant(value=0)])",
+        "after": "Constant(value=False)",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              0,
+              "body",
+              0,
+              "test",
+              "ops",
+              0
+            ],
+            "line": 3,
+            "column": 11,
+            "before": "Lt()",
+            "after": "LtE()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-452",
+      "included": false,
+      "reason": "Statement says loss, while reference and examples compute positive profit instead.",
+      "stage": "independent_contract_review"
+    },
+    {
+      "source_id": "mbpp-463",
+      "included": false,
+      "reason": "Reference is incorrect for valid maximum-product cases, e.g. [-1] should return -1.",
+      "stage": "independent_contract_review"
+    },
+    {
+      "source_id": "mbpp-468",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "iter",
+          "args",
+          0
+        ],
+        "line": 3,
+        "column": 19,
+        "before": "Name(id='n', ctx=Load())",
+        "after": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": [
+        {
+          "mutation": {
+            "ast_path": [
+              "body",
+              0,
+              "body",
+              2,
+              "body",
+              0,
+              "body",
+              0,
+              "test",
+              "values",
+              0,
+              "ops",
+              0
+            ],
+            "line": 7,
+            "column": 15,
+            "before": "Gt()",
+            "after": "GtE()",
+            "single_location": true
+          },
+          "results": {
+            "public": {
+              "status": "completed",
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "failures": [],
+              "timed_out": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "mbpp-469",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          2,
+          "body",
+          0,
+          "body",
+          0,
+          "test",
+          "values",
+          0,
+          "ops",
+          0
+        ],
+        "line": 6,
+        "column": 15,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-504",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "iter",
+          "args",
+          1
+        ],
+        "line": 3,
+        "column": 22,
+        "before": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+        "after": "BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1)), op=Add(), right=Constant(value=1))",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    },
+    {
+      "source_id": "mbpp-506",
+      "included": true,
+      "reference": {
+        "public": {
+          "status": "completed",
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        },
+        "private": {
+          "status": "completed",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "failures": [],
+          "timed_out": false
+        }
+      },
+      "chosen_mutation": {
+        "ast_path": [
+          "body",
+          0,
+          "body",
+          1,
+          "body",
+          0,
+          "body",
+          0,
+          "test",
+          "ops",
+          0
+        ],
+        "line": 5,
+        "column": 15,
+        "before": "Eq()",
+        "after": "NotEq()",
+        "single_location": true
+      },
+      "rejected_candidates": []
+    }
+  ],
+  "models_consulted": false,
+  "cohort_sources": 50,
+  "included_sources": 42,
+  "excluded_sources": 8,
+  "replacement_sources_used": false,
+  "human_review_complete": false
+}

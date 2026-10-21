@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "stage": "day-1",
+  "complete": true,
+  "criteria": {
+    "twenty_verified_tasks": true,
+    "ten_train_ten_dev": true,
+    "generated_resources_match": true,
+    "each_reference_passes_and_starter_fails": true,
+    "three_tool_schemas_fixed": true,
+    "model_and_algorithm_selected": true,
+    "upstream_commit_pinned": true
+  },
+  "dataset_sha256": "c4bc2d42db03c1734fc041520718a97f990ffa12b4d451b80098fd85336d406e",
+  "contract_sha256": "8c24abdf6442e0fa2939f88050db78bf86ee497a6fca7f310f3f5733852444da",
+  "upstream_lock": {
+    "schema_version": 1,
+    "recorded_date": "2026-10-12",
+    "agent_r1": {
+      "repository": "https://github.com/AgentR1/Agent-R1.git",
+      "ref": "refs/heads/main",
+      "commit": "b124aa46534cbf2fb8bc8af11405774984c42ac7",
+      "resolution_method": "git ls-remote",
+      "checkout_status": "not cloned or installed"
+    },
+    "model": {
+      "repository": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "selection_status": "fixed for first experiment",
+      "weights_revision": null,
+      "weights_status": "resolve immutable revision before downloading; no weights downloaded"
+    },
+    "algorithm": "grpo",
+    "prototype_dataset": "code-repair-prototype@0.1.0",
+    "tool_contract": "v0.1"
+  },
+  "verification_report": "reports/prototype_verification.json"
+}

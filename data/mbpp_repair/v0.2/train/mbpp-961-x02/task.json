@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-961-x02",
+  "source_id": "mbpp-961",
+  "split": "train",
+  "entrypoint": "roman_to_int",
+  "instruction": "Write a function to convert a roman numeral to an integer.\n\n精确输入域与验收约定：有效的大写罗马数字，允许类似 MMMM 的重复千位扩展；按标准相邻减法规则返回整数。\n修复 solution.py 中的 roman_to_int 函数，保留签名。",
+  "bug_type": "boolean_logic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      0,
+      "test",
+      "op"
+    ],
+    "line": 5,
+    "column": 11,
+    "before": "And()",
+    "after": "Or()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 961,
+    "raw_code_sha256": "32b46233e4a6be383546f285a19847de3b99ec038b660d5838f34fd19d53e24b",
+    "reference_sha256": "2ec9cf566b578d526d25cb5a78ace8c228591bf8024605bede0d5feba6531ed7"
+  },
+  "domain": "有效的大写罗马数字，允许类似 MMMM 的重复千位扩展；按标准相邻减法规则返回整数。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

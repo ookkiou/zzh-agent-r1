@@ -1,0 +1,37 @@
+{
+  "task_id": "mbpp-958-m02",
+  "source_id": "mbpp-958",
+  "split": "train",
+  "entrypoint": "int_to_roman",
+  "instruction": "Write a function to convert an integer into a roman numeral.\n\n精确输入域与验收约定：整数 1<=num<=3999；返回标准减法记法的大写罗马数字。\n修复 solution.py 中的 int_to_roman 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      4,
+      "body",
+      0,
+      "iter",
+      "args",
+      0
+    ],
+    "line": 7,
+    "column": 23,
+    "before": "BinOp(left=Name(id='num', ctx=Load()), op=FloorDiv(), right=Subscript(value=Name(id='val', ctx=Load()), slice=Name(id='i', ctx=Load()), ctx=Load()))",
+    "after": "BinOp(left=BinOp(left=Name(id='num', ctx=Load()), op=FloorDiv(), right=Subscript(value=Name(id='val', ctx=Load()), slice=Name(id='i', ctx=Load()), ctx=Load())), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 958,
+    "raw_code_sha256": "23be00c554925542e1a980b6faaae66df9e0cee6e7640ddf568115d5d7ba4a38",
+    "reference_sha256": "852182e380650bb21d538d9af124f6f17514a9fc25fca08ec6beaeb5f1a0aa6f"
+  },
+  "domain": "整数 1<=num<=3999；返回标准减法记法的大写罗马数字。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

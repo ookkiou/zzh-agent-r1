@@ -1,0 +1,1216 @@
+{
+  "schema_version": 1,
+  "dataset_version": "0.1.0",
+  "dataset_sha256": "c4bc2d42db03c1734fc041520718a97f990ffa12b4d451b80098fd85336d406e",
+  "python": "3.14.3",
+  "execution_scope": "trusted local fixtures; not a security sandbox",
+  "total": 20,
+  "valid": 20,
+  "split_counts": {
+    "train": 10,
+    "dev": 10
+  },
+  "tasks": [
+    {
+      "task_id": "repair-001",
+      "source_id": "authored-prototype-001",
+      "split": "train",
+      "bug_type": "boundary",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-p_c6w5dh/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 1 != 2\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 2,
+          "failed": 4,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-06",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-002",
+      "source_id": "authored-prototype-002",
+      "split": "train",
+      "bug_type": "boundary",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-zp18gt8w/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: True != False\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 5,
+          "failed": 1,
+          "failures": [
+            {
+              "id": "private-05",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-003",
+      "source_id": "authored-prototype-003",
+      "split": "dev",
+      "bug_type": "boundary",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-7m_vqmlu/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 'child' != 'adult'\n- child\n+ adult\n\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 5,
+          "failed": 1,
+          "failures": [
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-004",
+      "source_id": "authored-prototype-004",
+      "split": "dev",
+      "bug_type": "boundary",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-25yf_uee/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: False != True\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 4,
+          "failed": 2,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-04",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-005",
+      "source_id": "authored-prototype-005",
+      "split": "dev",
+      "bug_type": "boundary",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-u8d2y19t/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: False != True\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 3,
+          "failed": 3,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-006",
+      "source_id": "authored-prototype-006",
+      "split": "train",
+      "bug_type": "index_slice",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-xsh63hly/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: Lists differ: [1, 2, 3] != []\n\nFirst list contains 3 additional elements.\nFirst extra element 0:\n1\n\n- [1, 2, 3]\n+ []\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 5,
+          "failed": 1,
+          "failures": [
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-007",
+      "source_id": "authored-prototype-007",
+      "split": "train",
+      "bug_type": "index_slice",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 0,
+          "failed": 2,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)",
+            "test_public_02 (public_tests.PublicTests.test_public_02)"
+          ],
+          "log": "FE\n======================================================================\nERROR: test_public_02 (public_tests.PublicTests.test_public_02)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-f0lwqmx7/public_tests.py\", line 14, in test_public_02\n    actual = middle_item(*[[9]])\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-f0lwqmx7/solution.py\", line 2, in middle_item\n    return items[len(items) // 2 + 1]\n           ~~~~~^^^^^^^^^^^^^^^^^^^^^\nIndexError: list index out of range\n\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-f0lwqmx7/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 6 != 5\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (failures=1, errors=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 0,
+          "failed": 6,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "IndexError"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-04",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-05",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-06",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-008",
+      "source_id": "authored-prototype-008",
+      "split": "train",
+      "bug_type": "index_slice",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-b_rmc81l/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: Lists differ: [3, 1, 2] != [2, 3, 1]\n\nFirst differing element 0:\n3\n2\n\n- [3, 1, 2]\n+ [2, 3, 1]\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 1,
+          "failed": 5,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-05",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-06",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-009",
+      "source_id": "authored-prototype-009",
+      "split": "dev",
+      "bug_type": "index_slice",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-1zu46jeg/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: Lists differ: [2, 4] != [1, 3]\n\nFirst differing element 0:\n2\n1\n\n- [2, 4]\n+ [1, 3]\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 1,
+          "failed": 5,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-04",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-05",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-010",
+      "source_id": "authored-prototype-010",
+      "split": "dev",
+      "bug_type": "index_slice",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 0,
+          "failed": 2,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)",
+            "test_public_02 (public_tests.PublicTests.test_public_02)"
+          ],
+          "log": "FF\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-i9oa38uv/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: Lists differ: [1] != [1, 2]\n\nSecond list contains 1 additional elements.\nFirst extra element 1:\n2\n\n- [1]\n+ [1, 2]\n\n======================================================================\nFAIL: test_public_02 (public_tests.PublicTests.test_public_02)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-i9oa38uv/public_tests.py\", line 17, in test_public_02\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: Lists differ: [1] != []\n\nFirst list contains 1 additional elements.\nFirst extra element 0:\n1\n\n- [1]\n?  -\n\n+ []\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (failures=2)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 2,
+          "failed": 4,
+          "failures": [
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-05",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-06",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-011",
+      "source_id": "authored-prototype-011",
+      "split": "train",
+      "bug_type": "initialization",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 0,
+          "failed": 2,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)",
+            "test_public_02 (public_tests.PublicTests.test_public_02)"
+          ],
+          "log": "FF\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-i7x1d36o/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 0 != 6\n\n======================================================================\nFAIL: test_public_02 (public_tests.PublicTests.test_public_02)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-i7x1d36o/public_tests.py\", line 17, in test_public_02\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 0 != 1\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (failures=2)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 1,
+          "failed": 5,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-04",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-05",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-06",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-012",
+      "source_id": "authored-prototype-012",
+      "split": "train",
+      "bug_type": "initialization",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 0,
+          "failed": 2,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)",
+            "test_public_02 (public_tests.PublicTests.test_public_02)"
+          ],
+          "log": "FF\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-97i050dl/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 3 != 2\n\n======================================================================\nFAIL: test_public_02 (public_tests.PublicTests.test_public_02)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-97i050dl/public_tests.py\", line 17, in test_public_02\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 1 != 0\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (failures=2)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 0,
+          "failed": 6,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-04",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-05",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-06",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-013",
+      "source_id": "authored-prototype-013",
+      "split": "dev",
+      "bug_type": "initialization",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 0,
+          "failed": 2,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)",
+            "test_public_02 (public_tests.PublicTests.test_public_02)"
+          ],
+          "log": "FF\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-eb9dncn0/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 6 != 5\n\n======================================================================\nFAIL: test_public_02 (public_tests.PublicTests.test_public_02)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-eb9dncn0/public_tests.py\", line 17, in test_public_02\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 1 != 0\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (failures=2)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 0,
+          "failed": 6,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-04",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-05",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-06",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-014",
+      "source_id": "authored-prototype-014",
+      "split": "dev",
+      "bug_type": "initialization",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-s9s14ibc/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 0 != -2\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 4,
+          "failed": 2,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-015",
+      "source_id": "authored-prototype-015",
+      "split": "dev",
+      "bug_type": "initialization",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-im_75kgv/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 2 != 3\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 0,
+          "failed": 6,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-04",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-05",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-06",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-016",
+      "source_id": "authored-prototype-016",
+      "split": "train",
+      "bug_type": "missing_branch",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-r8ebyz9h/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: False != True\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 4,
+          "failed": 2,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-017",
+      "source_id": "authored-prototype-017",
+      "split": "train",
+      "bug_type": "missing_branch",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "E.\n======================================================================\nERROR: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-lmjmnshb/public_tests.py\", line 8, in test_public_01\n    actual = safe_divide(*[4, 0])\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-lmjmnshb/solution.py\", line 2, in safe_divide\n    return numerator / denominator\n           ~~~~~~~~~~^~~~~~~~~~~~~\nZeroDivisionError: division by zero\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (errors=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 4,
+          "failed": 2,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "ZeroDivisionError"
+            },
+            {
+              "id": "private-02",
+              "reason": "ZeroDivisionError"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-018",
+      "source_id": "authored-prototype-018",
+      "split": "train",
+      "bug_type": "missing_branch",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-72yg9t7h/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: 10 != 0\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 5,
+          "failed": 1,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-019",
+      "source_id": "authored-prototype-019",
+      "split": "dev",
+      "bug_type": "missing_branch",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-rfd5kc34/public_tests.py\", line 10, in test_public_01\n    self.assertIs(type(actual), type(expected))\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: <class 'NoneType'> is not <class 'bool'>\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 7,
+          "passed": 4,
+          "failed": 3,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-03",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    },
+    {
+      "task_id": "repair-020",
+      "source_id": "authored-prototype-020",
+      "split": "dev",
+      "bug_type": "missing_branch",
+      "starter": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 1,
+          "failed": 1,
+          "failures": [
+            "test_public_01 (public_tests.PublicTests.test_public_01)"
+          ],
+          "log": "F.\n======================================================================\nFAIL: test_public_01 (public_tests.PublicTests.test_public_01)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/var/folders/x1/3pkd0l5x7xg42r31mzs2nxww0000gn/T/code-repair-verify-ybi4h00c/public_tests.py\", line 11, in test_public_01\n    self.assertEqual(actual, expected)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nAssertionError: Lists differ: [1, 2, 1, 3] != [1, 2, 3]\n\nFirst differing element 2:\n1\n3\n\nFirst list contains 1 additional elements.\nFirst extra element 3:\n3\n\n- [1, 2, 1, 3]\n?        ---\n\n+ [1, 2, 3]\n\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nFAILED (failures=1)\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 2,
+          "failed": 4,
+          "failures": [
+            {
+              "id": "private-01",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-02",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-04",
+              "reason": "wrong_result"
+            },
+            {
+              "id": "private-06",
+              "reason": "wrong_result"
+            }
+          ],
+          "log": ""
+        }
+      },
+      "reference": {
+        "public": {
+          "completed": true,
+          "tests": 2,
+          "passed": 2,
+          "failed": 0,
+          "failures": [],
+          "log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+        },
+        "private": {
+          "completed": true,
+          "tests": 6,
+          "passed": 6,
+          "failed": 0,
+          "failures": [],
+          "log": ""
+        }
+      },
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-015",
+  "source_id": "authored-prototype-015",
+  "split": "dev",
+  "title": "统计相邻相同元素分段数",
+  "instruction": "输入整数列表 items，每一段连续相等元素算一段，返回段数；例如 [1,1,2,1] 有 3 段，空列表为 0 段。",
+  "entrypoint": "count_runs",
+  "signature": "count_runs(items)",
+  "bug_type": "initialization",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

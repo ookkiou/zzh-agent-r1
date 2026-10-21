@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-874-x03",
+  "source_id": "mbpp-874",
+  "split": "train",
+  "entrypoint": "check_Concat",
+  "instruction": "Write a python function to check if the string is a concatenation of another string.\n\n精确输入域与验收约定：两个ASCII字符串str1和非空str2；str1是否由str2重复整数次组成，允许重复0次得到空串。\n修复 solution.py 中的 check_Concat 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      3,
+      "iter",
+      "args",
+      0
+    ],
+    "line": 6,
+    "column": 19,
+    "before": "Name(id='N', ctx=Load())",
+    "after": "BinOp(left=Name(id='N', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 874,
+    "raw_code_sha256": "cf4cf4b3a9dd4dad12943d34f4b5e3dad7dcf7d4b7f6aa0cb1dfc945fc47f3e8",
+    "reference_sha256": "c67344f66485a6ed03fa6b63b3406c23b25766c7cfcc0a0629b090a3f46de6d1"
+  },
+  "domain": "两个ASCII字符串str1和非空str2；str1是否由str2重复整数次组成，允许重复0次得到空串。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

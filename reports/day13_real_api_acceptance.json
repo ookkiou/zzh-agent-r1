@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "protocol_sha256": "ae96b0f262c0facf3a034198e605ff50af852ceb49df6cd5d21809089cee2818",
+  "source_report_sha256": "63b9882328c0524e9b6b32bff60954e0854f61cbaec4a07e054ffd3691d69624",
+  "valid_episodes": 2,
+  "successes": 1,
+  "invalid_attempts": 0,
+  "all_observed_actions_contract_valid": true,
+  "initial_token_fingerprint_checked_by_frozen_runner": true,
+  "model_inference_performed": true,
+  "training_performed": false,
+  "final_test": false,
+  "scope": "API integration smoke, not an ability comparison",
+  "finished_at": "2026-10-21T05:59:51.833840+00:00"
+}

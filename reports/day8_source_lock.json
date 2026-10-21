@@ -1,0 +1,17 @@
+{
+  "purpose": "actual Day8 sources after pre-execution startup fixes",
+  "files": {
+    "scripts/day8_prepare.py": "3ac5876e3e559aa30692333e6f49950cb941ad930c30564adb37265ad3488585",
+    "scripts/day8_baseline.py": "ba6c1cedd1709052177a54c180e4a7147e22f8b9aaa99514fac8d54593caf54e",
+    "scripts/day8_control.py": "0264da6190be81682f44435e9e325d1adfb0ba52616f038b865e0d9d924cef69",
+    "scripts/day8_credit_probe.py": "951baa1ee73d313a1c65c933ece1ae80982d609e073b26217fd86d71da1ea7d3",
+    "scripts/day8_smoke.py": "2ad514c8b51d6419b12269db47132b8274b71b0d182dd17d3ef53e37516286f0",
+    "scripts/day8_checkpoint_verify.py": "ad46c3c152ffefce75c73bc35159b2528c3cedeed1e5e8f69a72c480dfe57458",
+    "code_repair/day8_flow.py": "666340c460ce74b866f12d95dd8329c39a9418f6cc67c7e6750ebfe47a4219c2",
+    "code_repair/day8_audit.py": "5d906cd5b769ce40e79ba466788639b5a39c0064fb3528dc24dd3fb88ab9091f",
+    "training/code_repair/day8.yaml": "d01675e88e3b82c938ac13a7c43f021c6ee806382f39c6ca9e8f5b3ae9e2b424",
+    "runs/day8/evaluation_protocol.json": "078b36f56a85e1ef800da548ba042e7296fe6e79cb3b10dfb3c2d492f3338635",
+    "runs/day8/train_smoke.jsonl": "d01361bcdd3cf94cd36515166915a73c0ba43cae9cf44dc6872ad699b4b90c56",
+    "runs/day8/dev.jsonl": "f3a03b2969afbe23064cf2f7708f9e7f66b42652a63d5c10fe61cad2696b7d43"
+  }
+}

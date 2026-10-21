@@ -1,0 +1,82 @@
+{
+  "complete": true,
+  "algorithm": "GRPO, custom repair recipe, SFT initialization",
+  "updates": {
+    "1": {
+      "actor/pg_loss": 0.0008639257866889238,
+      "actor/kl_loss": 0.0,
+      "actor/grad_norm": 0.6394912600517273,
+      "critic/score/mean": 0.16249999403953552,
+      "critic/score/trajectory/mean": 0.8125,
+      "timing_s/gen": 33.66079733427614,
+      "timing_s/update_actor": 78.0619537383318,
+      "timing_s/step": 171.59479882754385
+    },
+    "2": {
+      "actor/pg_loss": -0.0013032036367803812,
+      "actor/kl_loss": 0.0001330421037422022,
+      "actor/grad_norm": 0.9891694784164429,
+      "critic/score/mean": 0.17499999701976776,
+      "critic/score/trajectory/mean": 0.875,
+      "timing_s/gen": 20.571781588718295,
+      "timing_s/update_actor": 29.40352035406977,
+      "timing_s/step": 98.91479999758303
+    },
+    "3": {
+      "actor/pg_loss": 0.03486890811473131,
+      "actor/kl_loss": 0.0003116437319639065,
+      "actor/grad_norm": 1.1456295251846313,
+      "critic/score/mean": 0.18518517911434174,
+      "critic/score/trajectory/mean": 0.9375,
+      "timing_s/gen": 22.82227527629584,
+      "timing_s/update_actor": 29.74459326453507,
+      "timing_s/step": 102.16864256653935
+    },
+    "4": {
+      "actor/pg_loss": 0.0011242181062698364,
+      "actor/kl_loss": 0.001424136830496017,
+      "actor/grad_norm": 1.078617811203003,
+      "critic/score/mean": 0.15000000596046448,
+      "critic/score/trajectory/mean": 0.75,
+      "timing_s/gen": 22.693352645263076,
+      "timing_s/update_actor": 29.36127450503409,
+      "timing_s/step": 101.03341604862362
+    },
+    "5": {
+      "actor/pg_loss": 0.0,
+      "actor/kl_loss": 0.0005635339207376473,
+      "actor/grad_norm": 0.00012319849338382483,
+      "critic/score/mean": 0.20000000298023224,
+      "critic/score/trajectory/mean": 1.0,
+      "timing_s/gen": 22.831416295841336,
+      "timing_s/update_actor": 29.235484482720494,
+      "timing_s/step": 101.00713873747736
+    }
+  },
+  "audited_train_episode_success_rate_by_update": {
+    "1": 0.8125,
+    "2": 0.875,
+    "3": 0.9375,
+    "4": 0.75,
+    "5": 1.0
+  },
+  "mixed_reward_groups_by_update": {
+    "1": 1,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 0
+  },
+  "updates_without_relative_reward_signal": [
+    5
+  ],
+  "reward_metric_scope": "critic/score/mean is step-level; use audited episode rates or critic/score/trajectory/mean for whole episodes",
+  "sum_update_seconds": 574.7187961777672,
+  "mean_seconds_per_update": 114.94375923555344,
+  "mean_seconds_per_update_excluding_first": 100.78099933755584,
+  "first_update_seconds": 171.59479882754385,
+  "timing_scope": "Native timing_s/step; excludes initialization, checkpoint export and baseline evaluation",
+  "memory_scope": "Reported PyTorch worker counters; not whole-device NVML peak",
+  "formal_training": false,
+  "grpo_generalization_improvement_evaluated": false
+}

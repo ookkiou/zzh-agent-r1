@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-090-t01",
+  "source_id": "mbpp-090",
+  "split": "test",
+  "entrypoint": "len_log",
+  "instruction": "Write a python function to find the length of the longest word.\n\n精确输入域与验收约定：非空字符串列表，长度<=30，各字符串允许为空；返回最长字符串的字符数。\n修复 solution.py 中的 len_log 函数，保留签名。",
+  "domain": "非空字符串列表，长度<=30，各字符串允许为空；返回最长字符串的字符数。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "test"
+    ],
+    "line": 4,
+    "column": 11,
+    "before": "Compare(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='i', ctx=Load())]), ops=[Gt()], comparators=[Name(id='max', ctx=Load())])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 90,
+    "raw_code_sha256": "59aa698d50881aa440b2c6efb836ab5fdf633a5331ad6a8e9bc4535b31054242",
+    "reference_sha256": "5d1d8e7eb650e59e9bd76c1afd14a56f22d543b52768e4e32898a7676e74385e"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

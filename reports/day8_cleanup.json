@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "remaining_gpu_processes": [],
+  "gpu_jobs_exited": true,
+  "autodl_instance_stopped": false,
+  "autodl_instance_released": false,
+  "mac_project_service_stopped": true,
+  "mac_project_tunnel_stopped": true,
+  "disk": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/md0         50G   46G  4.4G  92% /root/autodl-tmp\n"
+}

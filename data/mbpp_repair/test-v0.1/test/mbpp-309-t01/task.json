@@ -1,0 +1,32 @@
+{
+  "task_id": "mbpp-309-t01",
+  "source_id": "mbpp-309",
+  "split": "test",
+  "entrypoint": "maximum",
+  "instruction": "Write a python function to find the maximum of two numbers.\n\n精确输入域与验收约定：两个整数，返回较大值；相等时返回该整数。\n修复 solution.py 中的 maximum 函数，保留签名。",
+  "domain": "两个整数，返回较大值；相等时返回该整数。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test"
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "Compare(left=Name(id='a', ctx=Load()), ops=[GtE()], comparators=[Name(id='b', ctx=Load())])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 309,
+    "raw_code_sha256": "d53144aa648ec4d923b0321713aaf7e110e41868451ee255c76bf03bd70f97fc",
+    "reference_sha256": "6ec93da443a12d6ed40d5801458b9a892d0debe3512e0c99bdafc0d35a66df50"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

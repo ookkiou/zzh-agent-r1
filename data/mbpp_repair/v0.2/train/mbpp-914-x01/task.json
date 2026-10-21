@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-914-x01",
+  "source_id": "mbpp-914",
+  "split": "train",
+  "entrypoint": "is_Two_Alter",
+  "instruction": "Write a python function to check whether the given string is made up of two alternating characters or not.\n\n精确输入域与验收约定：长度2..30的ASCII字符串；恰好两个不同字符交替出现返回True，其他情况False。\n修复 solution.py 中的 is_Two_Alter 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "iter",
+      "args",
+      0,
+      "op"
+    ],
+    "line": 2,
+    "column": 19,
+    "before": "Sub()",
+    "after": "Add()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 914,
+    "raw_code_sha256": "0942cbd30cf1ba4565059026383552d7993bdca0884a06bb08183f0ae5c22efa",
+    "reference_sha256": "9164923501c57dc293a4dc0df34f837ba601ba6ecea3b1b8857aef04df6c4901"
+  },
+  "domain": "长度2..30的ASCII字符串；恰好两个不同字符交替出现返回True，其他情况False。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

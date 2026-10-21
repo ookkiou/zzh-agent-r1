@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-675-x02",
+  "source_id": "mbpp-675",
+  "split": "train",
+  "entrypoint": "sum_nums",
+  "instruction": "Write a function to add two integers. however, if the sum is between the given range it will return 20.\n\n精确输入域与验收约定：整数 x,y,m,n，m<=n；若 x+y 位于左闭右开区间 [m,n) 则返回20，否则返回原和。\n修复 solution.py 中的 sum_nums 函数，保留签名。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "test"
+    ],
+    "line": 3,
+    "column": 7,
+    "before": "Compare(left=Name(id='sum_nums', ctx=Load()), ops=[In()], comparators=[Call(func=Name(id='range', ctx=Load()), args=[Name(id='m', ctx=Load()), Name(id='n', ctx=Load())])])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 675,
+    "raw_code_sha256": "5ade5d77d119e865efd4b5c0056b7017bf991b2e3d4030945af6c544e298f0ff",
+    "reference_sha256": "4f6266534718bf0013c2ecde1fb2fea88c5af444f32b1eeae5b4d590e99354cb"
+  },
+  "domain": "整数 x,y,m,n，m<=n；若 x+y 位于左闭右开区间 [m,n) 则返回20，否则返回原和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

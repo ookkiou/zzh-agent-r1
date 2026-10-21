@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-903-x03",
+  "source_id": "mbpp-903",
+  "split": "train",
+  "entrypoint": "count_Unset_Bits",
+  "instruction": "Write a python function to count the total unset bits from 1 to n.\n\n精确输入域与验收约定：整数0<=n<=100；统计1..n所有数的无前导零二进制表示中0的总数量，n=0返回0。\n修复 solution.py 中的 count_Unset_Bits 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "iter",
+      "args",
+      1
+    ],
+    "line": 3,
+    "column": 22,
+    "before": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "after": "BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1)), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 903,
+    "raw_code_sha256": "adf03409704a4f01989bdad40f3e12b8e54845bb14fa3adea48e6baa628085e3",
+    "reference_sha256": "bd1439d2d9c460d25904d434e6ae26f2ac884dd38dc42d47cec8ac057f5572f5"
+  },
+  "domain": "整数0<=n<=100；统计1..n所有数的无前导零二进制表示中0的总数量，n=0返回0。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

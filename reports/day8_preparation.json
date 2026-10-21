@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "day8_complete": false,
+  "dev_tasks": 32,
+  "dev_sources": 14,
+  "attempts_per_model": 96,
+  "baseline_models": [
+    "Base",
+    "SFT-only"
+  ],
+  "total_baseline_attempts": 192,
+  "smoke_train_tasks": [
+    {
+      "task_id": "mbpp-602-m01",
+      "source_id": "mbpp-602",
+      "split": "train"
+    },
+    {
+      "task_id": "mbpp-608-m01",
+      "source_id": "mbpp-608",
+      "split": "train"
+    },
+    {
+      "task_id": "mbpp-610-m01",
+      "source_id": "mbpp-610",
+      "split": "train"
+    },
+    {
+      "task_id": "mbpp-619-m01",
+      "source_id": "mbpp-619",
+      "split": "train"
+    }
+  ],
+  "smoke_only_repeats_four_train_tasks": true,
+  "evaluation_protocol_sha256": "078b36f56a85e1ef800da548ba042e7296fe6e79cb3b10dfb3c2d492f3338635",
+  "test_executed": false,
+  "private_materials_in_inputs": false
+}

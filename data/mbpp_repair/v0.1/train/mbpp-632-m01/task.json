@@ -1,0 +1,39 @@
+{
+  "task_id": "mbpp-632-m01",
+  "source_id": "mbpp-632",
+  "split": "train",
+  "entrypoint": "move_zero",
+  "instruction": "Write a python function to move all zeroes to the end of the given list.\n\n精确输入域与验收约定：整数列表，长度<=30；保持所有非零元素相对顺序，把全部零移到末尾。\n修复 solution.py 中的 move_zero 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "value",
+      "generators",
+      0,
+      "ifs",
+      0,
+      "ops",
+      0
+    ],
+    "line": 3,
+    "column": 32,
+    "before": "NotEq()",
+    "after": "Eq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 632,
+    "raw_code_sha256": "2ad4202cc8c0e89078279276ffee8132447169d3359e77ef6a2c403c729875b8",
+    "reference_sha256": "4bcabf17a874b84ec82b5ca17594722a1be7645aeeaedb032e2bab1c393c934d"
+  },
+  "domain": "整数列表，长度<=30；保持所有非零元素相对顺序，把全部零移到末尾。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

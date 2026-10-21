@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "experiment": "zzh_repair_grpo_v02",
+  "initialization": "day7 SFT-only merged checkpoint, not day8 smoke weights",
+  "train_tasks": 300,
+  "dev_tasks": 32,
+  "train_batch_size": 4,
+  "rollout_n": 4,
+  "ppo_mini_batch_size": 4,
+  "micro_batch_size_per_gpu": 1,
+  "ppo_epochs": 1,
+  "epochs": 3,
+  "total_updates": 225,
+  "learning_rate": 1e-06,
+  "lr_scheduler_type": "constant",
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_steps": 6,
+  "max_prompt_length": 4096,
+  "max_response_length": 512,
+  "checkpoint_every_updates": 10,
+  "checkpoint_save_contents": [
+    "model",
+    "extra"
+  ],
+  "checkpoint_keep": 2,
+  "checkpoint_retention": "pre-save retain latest one completed checkpoint of this run; native rotation disabled",
+  "minimum_free_gib": 22,
+  "storage_estimate": "Two measured Day8 FP32 model checkpoints (6.62GiB each), one BF16 export (~3.31GiB), and ~5GiB margin; optimizer states excluded.",
+  "phases": {
+    "pilot": {
+      "total_updates": 10,
+      "max_wall_seconds": 3600,
+      "resume": false
+    },
+    "formal": {
+      "total_updates": 225,
+      "max_wall_seconds": 28800,
+      "resume": true
+    },
+    "reload_probe": {
+      "total_updates": 11,
+      "max_wall_seconds": 1800,
+      "resume": true
+    }
+  },
+  "consecutive_zero_signal_limit": 5,
+  "evaluation": "Use frozen Day8 dev protocol and Transformers backend for comparable checkpoint evaluation; native training validation disabled.",
+  "test_executed": false,
+  "grpo_ability_improvement_proven": false,
+  "human_review_complete": false,
+  "checkpoint_root": "/root/zzh-day9-checkpoints",
+  "optimizer_state_saved": false,
+  "restart_semantics": "Restore model, data cursor, scheduler/RNG; Adam moments reset. Not full optimizer continuation."
+}

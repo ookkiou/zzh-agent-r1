@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-752-x03",
+  "source_id": "mbpp-752",
+  "split": "train",
+  "entrypoint": "jacobsthal_num",
+  "instruction": "Write a function to find the nth jacobsthal number.\n\n精确输入域与验收约定：整数 1<=n<=12；Jacobsthal数满足J0=0、J1=1、Jn=J(n-1)+2*J(n-2)，返回Jn。\n修复 solution.py 中的 jacobsthal_num 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "right",
+      "op"
+    ],
+    "line": 2,
+    "column": 16,
+    "before": "Add()",
+    "after": "Sub()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 752,
+    "raw_code_sha256": "9920f62a7e52d20c4926d308eac20543330140af2202a432505b5dbc9e795d61",
+    "reference_sha256": "f373f1f56206ef8255c029990669d35e84faba790d5d5acb24fb35a27228d7ee"
+  },
+  "domain": "整数 1<=n<=12；Jacobsthal数满足J0=0、J1=1、Jn=J(n-1)+2*J(n-2)，返回Jn。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

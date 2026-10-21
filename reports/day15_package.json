@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "archive": "artifacts/day15/zzh-repair-evidence.tar.gz",
+  "bytes": 711111,
+  "sha256": "b341ea5a1e5ea8e1fb1295b29031e8a8e1bef9a5127ae4bb30c4eef153e67b92",
+  "files": 74,
+  "allowlisted": true,
+  "credential_value_scan_passed": true,
+  "uploaded": false,
+  "model_weights_included": false,
+  "private_test_inputs_included": false
+}

@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-803-x04",
+  "source_id": "mbpp-803",
+  "split": "train",
+  "entrypoint": "is_Perfect_Square",
+  "instruction": "Write a python function to check whether the given number is a perfect square or not.\n\n精确输入域与验收约定：正整数1<=n<=1000；是完全平方数则返回True，否则False；本任务不定义零或负数输入。\n修复 solution.py 中的 is_Perfect_Square 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      1,
+      "value",
+      "op"
+    ],
+    "line": 6,
+    "column": 12,
+    "before": "Add()",
+    "after": "Sub()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 803,
+    "raw_code_sha256": "992629277c4e501e35a3cd05be721e12bf31d97a4d2b5dce7c1cfbe75331e811",
+    "reference_sha256": "941306bd6d149b76bbee7d85c680e3c2bb7a6f19750af39f79c8b869e85ff74b"
+  },
+  "domain": "正整数1<=n<=1000；是完全平方数则返回True，否则False；本任务不定义零或负数输入。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

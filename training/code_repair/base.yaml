@@ -1,0 +1,2 @@
+- name: zzh_code_repair
+  _target_: code_repair.agent_r1_flow.CodeRepairFlow

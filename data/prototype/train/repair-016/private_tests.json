@@ -1,0 +1,44 @@
+[
+  {
+    "id": "private-01",
+    "args": [
+      1600
+    ],
+    "expected": true
+  },
+  {
+    "id": "private-02",
+    "args": [
+      2400
+    ],
+    "expected": true
+  },
+  {
+    "id": "private-03",
+    "args": [
+      2024
+    ],
+    "expected": true
+  },
+  {
+    "id": "private-04",
+    "args": [
+      2023
+    ],
+    "expected": false
+  },
+  {
+    "id": "private-05",
+    "args": [
+      2100
+    ],
+    "expected": false
+  },
+  {
+    "id": "private-06",
+    "args": [
+      1
+    ],
+    "expected": false
+  }
+]

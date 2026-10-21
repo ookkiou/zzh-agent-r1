@@ -1,0 +1,2 @@
+- name: zzh_code_repair_day8
+  _target_: code_repair.day8_flow.AuditedCodeRepairFlow

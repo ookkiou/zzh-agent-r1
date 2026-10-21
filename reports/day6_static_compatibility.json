@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "agent_r1_commit": "b124aa46534cbf2fb8bc8af11405774984c42ac7",
+  "verl_commit": "f9c855f7cf04d603c9546bc01776c74806a879c1",
+  "scope": "top-level imports in four entry modules; static only, does not prove runtime compatibility",
+  "checked": [
+    {
+      "importer": "agent_r1/trainer/main_agent_ppo.py",
+      "line": 26,
+      "module": "verl.trainer.constants_ppo",
+      "names": [
+        "get_ppo_ray_runtime_env"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/main_agent_ppo.py",
+      "line": 27,
+      "module": "verl.trainer.ppo.reward",
+      "names": [
+        "load_reward_manager"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/main_agent_ppo.py",
+      "line": 28,
+      "module": "verl.trainer.ppo.utils",
+      "names": [
+        "need_reference_policy"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/main_agent_ppo.py",
+      "line": 29,
+      "module": "verl.utils.config",
+      "names": [
+        "validate_config"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/main_agent_ppo.py",
+      "line": 30,
+      "module": "verl.utils.device",
+      "names": [
+        "auto_set_device",
+        "is_cuda_available"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 38,
+      "module": "verl",
+      "names": [
+        "DataProto"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 39,
+      "module": "verl.experimental.dataset.sampler",
+      "names": [
+        "AbstractCurriculumSampler"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 40,
+      "module": "verl.protocol",
+      "names": [
+        "pad_dataproto_to_divisor"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 41,
+      "module": "verl.single_controller.ray",
+      "names": [
+        "RayClassWithInitArgs"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 42,
+      "module": "verl.single_controller.ray.base",
+      "names": [
+        "create_colocated_worker_cls"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 43,
+      "module": "verl.trainer.config",
+      "names": [
+        "AlgoConfig"
+      ],
+      "module_present": true,
+      "names_not_found_statically": [
+        "AlgoConfig"
+      ]
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 44,
+      "module": "verl.trainer.ppo.core_algos",
+      "names": [
+        "agg_loss"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 45,
+      "module": "verl.trainer.ppo.metric_utils",
+      "names": [
+        "compute_throughout_metrics",
+        "compute_timing_metrics",
+        "process_validation_metrics"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 50,
+      "module": "verl.trainer.ppo.ray_trainer",
+      "names": [
+        "RayPPOTrainer",
+        "apply_kl_penalty",
+        "compute_response_mask"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 55,
+      "module": "verl.trainer.ppo.reward",
+      "names": [
+        "compute_reward_async"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 56,
+      "module": "verl.trainer.ppo.utils",
+      "names": [
+        "Role"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 57,
+      "module": "verl.utils.checkpoint.checkpoint_manager",
+      "names": [
+        "should_save_ckpt_esi"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 58,
+      "module": "verl.utils.config",
+      "names": [
+        "omega_conf_to_dataclass"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 59,
+      "module": "verl.utils.debug",
+      "names": [
+        "marked_timer"
+      ],
+      "module_present": true,
+      "names_not_found_statically": [
+        "marked_timer"
+      ]
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 60,
+      "module": "verl.utils.metric",
+      "names": [
+        "reduce_metrics"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 61,
+      "module": "verl.utils.rollout_skip",
+      "names": [
+        "RolloutSkip"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 32,
+      "module": "verl.experimental.agent_loop.agent_loop",
+      "names": [
+        "AsyncLLMServerManager",
+        "DictConfigWrap"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 36,
+      "module": "verl.experimental.agent_loop.prometheus_utils",
+      "names": [
+        "update_prometheus_config"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 37,
+      "module": "verl.experimental.agent_loop.utils",
+      "names": [
+        "resolve_config_path"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 38,
+      "module": "verl.protocol",
+      "names": [
+        "DataProto"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 39,
+      "module": "verl.single_controller.ray.base",
+      "names": [
+        "RayResourcePool",
+        "RayWorkerGroup"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 40,
+      "module": "verl.utils",
+      "names": [
+        "hf_processor",
+        "hf_tokenizer"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 41,
+      "module": "verl.utils.chat_template",
+      "names": [
+        "initialize_system_prompt"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 42,
+      "module": "verl.utils.dataset.rl_dataset",
+      "names": [
+        "RLHFDataset",
+        "get_dataset_class"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 43,
+      "module": "verl.utils.fs",
+      "names": [
+        "copy_to_local"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 44,
+      "module": "verl.utils.model",
+      "names": [
+        "compute_position_id_with_mask"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 45,
+      "module": "verl.utils.ray_utils",
+      "names": [
+        "get_event_loop"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 46,
+      "module": "verl.utils.rollout_trace",
+      "names": [
+        "RolloutTraceConfig",
+        "rollout_trace_attr"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 50,
+      "module": "verl.utils.transferqueue_utils",
+      "names": [
+        "tqbridge"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/agent_flow/agent_flow.py",
+      "line": 51,
+      "module": "verl.workers.rollout.replica",
+      "names": [
+        "get_rollout_replica_class"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/config/config.py",
+      "line": 18,
+      "module": "verl.base_config",
+      "names": [
+        "BaseConfig"
+      ],
+      "module_present": true,
+      "names_not_found_statically": []
+    },
+    {
+      "importer": "agent_r1/config/config.py",
+      "line": 19,
+      "module": "verl.workers.config",
+      "names": [
+        "CustomAsyncServerConfig"
+      ],
+      "module_present": true,
+      "names_not_found_statically": [
+        "CustomAsyncServerConfig"
+      ]
+    }
+  ],
+  "missing_modules": [],
+  "possible_missing_symbols": [
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 43,
+      "module": "verl.trainer.config",
+      "names": [
+        "AlgoConfig"
+      ],
+      "module_present": true,
+      "names_not_found_statically": [
+        "AlgoConfig"
+      ]
+    },
+    {
+      "importer": "agent_r1/trainer/ppo/ray_trainer.py",
+      "line": 59,
+      "module": "verl.utils.debug",
+      "names": [
+        "marked_timer"
+      ],
+      "module_present": true,
+      "names_not_found_statically": [
+        "marked_timer"
+      ]
+    },
+    {
+      "importer": "agent_r1/config/config.py",
+      "line": 19,
+      "module": "verl.workers.config",
+      "names": [
+        "CustomAsyncServerConfig"
+      ],
+      "module_present": true,
+      "names_not_found_statically": [
+        "CustomAsyncServerConfig"
+      ]
+    }
+  ],
+  "runtime_verified": false,
+  "manual_star_export_review": {
+    "AlgoConfig": {
+      "definition": [
+        "verl/trainer/config/algorithm.py"
+      ],
+      "export_chain": [
+        "verl.trainer.config",
+        "verl.trainer.config.algorithm"
+      ]
+    },
+    "marked_timer": {
+      "definition": [
+        "verl/utils/profiler/mstx_profile.py",
+        "verl/utils/profiler/nvtx_profile.py",
+        "verl/utils/profiler/performance.py"
+      ],
+      "export_chain": [
+        "verl.utils.debug",
+        "verl.utils.profiler",
+        "verl.utils.profiler.performance"
+      ]
+    },
+    "CustomAsyncServerConfig": {
+      "definition": [
+        "verl/workers/config/rollout.py"
+      ],
+      "export_chain": [
+        "verl.workers.config",
+        "verl.workers.config.rollout"
+      ]
+    }
+  }
+}

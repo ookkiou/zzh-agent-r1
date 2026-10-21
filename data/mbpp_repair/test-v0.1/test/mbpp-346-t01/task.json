@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-346-t01",
+  "source_id": "mbpp-346",
+  "split": "test",
+  "entrypoint": "zigzag",
+  "instruction": "Write a function to find entringer number e(n, k).\n\n精确输入域与验收约定：整数0<=k<=n<=6；返回Entringer数E(n,k)：E(0,0)=1，n>0时E(n,0)=0，E(n,k)=E(n,k-1)+E(n-1,n-k)。\n修复 solution.py 中的 zigzag 函数，保留签名。",
+  "domain": "整数0<=k<=n<=6；返回Entringer数E(n,k)：E(0,0)=1，n>0时E(n,0)=0，E(n,k)=E(n,k-1)+E(n-1,n-k)。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "values",
+      0,
+      "ops",
+      0
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 346,
+    "raw_code_sha256": "85be2400a29233e7312fbc0e614c196e3c48f683df1e953c067e3c54b49187c6",
+    "reference_sha256": "fd85a2144652c87a964274dbc137b78e4e6eb14942974346e881fcaecfa2d7ef"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

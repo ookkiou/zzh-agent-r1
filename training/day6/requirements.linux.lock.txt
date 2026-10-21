@@ -1,0 +1,300 @@
+# AutoDL Linux Python 3.12; includes inherited torch/CUDA base packages.
+# Inventory snapshot; editable verl path is host-specific.
+absl-py==2.3.1
+accelerate==1.15.0
+agent-detector==2.0.0
+aiohappyeyeballs==2.7.1
+aiohttp==3.14.5
+aiohttp-cors==0.8.1
+aiosignal==1.4.0
+anaconda-anon-usage @ file:///croot/anaconda-anon-usage_1710965072196/work
+annotated-doc==0.0.5
+annotated-types==0.8.0
+antlr4-python3-runtime==4.9.3
+anyio==4.10.0
+archspec @ file:///croot/archspec_1709217642129/work
+argon2-cffi==25.1.0
+argon2-cffi-bindings==25.1.0
+arrow==1.3.0
+astor==0.8.1
+asttokens==3.0.0
+async-lru==2.0.5
+attrs==25.3.0
+babel==2.17.0
+beautifulsoup4==4.13.4
+blake3==1.0.11
+bleach==6.2.0
+boltons @ file:///work/perseverance-python-buildout/croot/boltons_1698851177130/work
+Brotli @ file:///croot/brotli-split_1714483155106/work
+cachetools==7.2.1
+cbor2==6.1.5
+certifi @ file:///croot/certifi_1707229174982/work/certifi
+cffi @ file:///croot/cffi_1714483155441/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.5.0
+cloudpickle==3.1.2
+codetiming==1.4.0
+colorful==0.5.8
+comm==0.2.3
+compressed-tensors==0.11.0
+conda @ file:///croot/conda_1714403036266/work
+conda-content-trust @ file:///croot/conda-content-trust_1714483159009/work
+conda-libmamba-solver @ file:///croot/conda-libmamba-solver_1706733287605/work/src
+conda-package-handling @ file:///croot/conda-package-handling_1714483155348/work
+conda_package_streaming @ file:///work/perseverance-python-buildout/croot/conda-package-streaming_1698847176583/work
+contourpy==1.3.3
+cryptography @ file:///croot/cryptography_1714660666131/work
+cupy-cuda12x==13.6.0
+cycler==0.12.1
+datasets==4.2.0
+debugpy==1.8.16
+decorator==5.2.1
+defusedxml==0.7.1
+depyf==0.19.0
+detect-installer==0.2.1
+dill==0.4.0
+diskcache==5.6.3
+distlib==0.4.3
+distro @ file:///croot/distro_1714488253808/work
+dnspython==2.9.0
+einops==0.8.2
+email-validator==2.3.0
+executing==2.2.0
+fastapi==0.115.12
+fastapi-cli==0.0.32
+fastapi-cloud-cli==0.26.0
+fastar==0.12.0
+fastjsonschema==2.21.1
+fastrlock==0.8.3
+filelock==4.1.1
+flash_attn @ file:///root/autodl-tmp/agent-r1-day6/wheels/flash_attn-2.8.1%2Bcu12torch2.8cxx11abiTRUE-cp312-cp312-linux_x86_64.whl#sha256=55331d797171973c8babf2b5e5fce5f78859b1cd298d54a136e8994147fe9e95
+fonttools==4.59.0
+fqdn==1.5.1
+frozendict==2.4.7
+frozenlist==1.8.0
+fsspec==2025.7.0
+gguf==0.19.0
+google-api-core==2.42.0
+google-auth==2.62.0
+googleapis-common-protos==1.75.5
+grpcio==1.74.0
+h11==0.16.0
+hf-xet==1.7.0
+httpcore==1.0.9
+httptools==0.9.0
+httpx==0.28.1
+huggingface_hub==0.36.2
+hydra-core==1.3.2
+idna @ file:///croot/idna_1714398848350/work
+importlib_metadata==9.0.1
+interegular==0.3.3
+ipykernel==6.30.1
+ipython==9.4.0
+ipython_pygments_lexers==1.1.1
+ipywidgets==8.1.7
+isoduration==20.11.0
+jedi==0.19.2
+Jinja2==3.1.6
+jiter==0.17.0
+json5==0.12.0
+jsonpatch @ file:///croot/jsonpatch_1714483231291/work
+jsonpointer==2.1
+jsonschema==4.25.0
+jsonschema-specifications==2025.4.1
+jupyter-events==0.12.0
+jupyter-lsp==2.2.6
+jupyter_client==8.6.3
+jupyter_core==5.8.1
+jupyter_server==2.16.0
+jupyter_server_terminals==0.5.3
+jupyterlab==4.4.5
+jupyterlab-language-pack-zh-CN==4.4.post0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.27.3
+jupyterlab_widgets==3.0.15
+kiwisolver==1.4.8
+lark==1.2.2
+libmambapy @ file:///croot/mamba-split_1714483352891/work/libmambapy
+liger_kernel==0.8.4
+llguidance==0.7.30
+llvmlite==0.44.0
+lm-format-enforcer==0.11.3
+Markdown==3.8.2
+markdown-it-py==4.2.0
+MarkupSafe==3.0.2
+mathruler==0.1.0
+matplotlib==3.10.5
+matplotlib-inline==0.1.7
+mdurl==0.1.2
+menuinst @ file:///croot/menuinst_1714510563922/work
+mistral_common==1.12.0
+mistune==3.1.3
+mpmath==1.3.0
+msgpack==1.2.3
+msgspec==0.22.0
+multidict==7.1.0
+multiprocess==0.70.16
+nbclient==0.10.2
+nbconvert==7.16.6
+nbformat==5.10.4
+nest-asyncio==1.6.0
+networkx==3.5
+ninja==1.13.2
+notebook_shim==0.2.4
+numba==0.61.2
+numpy==1.26.4
+nvidia-cublas-cu12==12.8.4.1
+nvidia-cuda-cupti-cu12==12.8.90
+nvidia-cuda-nvrtc-cu12==12.8.93
+nvidia-cuda-runtime-cu12==12.8.90
+nvidia-cudnn-cu12==9.10.2.21
+nvidia-cufft-cu12==11.3.3.83
+nvidia-cufile-cu12==1.13.1.3
+nvidia-curand-cu12==10.3.9.90
+nvidia-cusolver-cu12==11.7.3.90
+nvidia-cusparse-cu12==12.5.8.93
+nvidia-cusparselt-cu12==0.7.1
+nvidia-nccl-cu12==2.27.3
+nvidia-nvjitlink-cu12==12.8.93
+nvidia-nvtx-cu12==12.8.90
+omegaconf==2.3.0
+openai==1.109.1
+openai-harmony==0.0.8
+opencensus==0.11.4
+opencensus-context==0.1.3
+opencv-python-headless==4.11.0.86
+opentelemetry-api==1.45.1
+opentelemetry-exporter-http-transport==0.66b1
+opentelemetry-exporter-otlp-common==0.66b1
+opentelemetry-exporter-otlp-proto-common==1.45.1
+opentelemetry-exporter-otlp-proto-http==1.45.1
+opentelemetry-exporter-prometheus==0.66b1
+opentelemetry-proto==1.45.1
+opentelemetry-sdk==1.45.1
+opentelemetry-semantic-conventions==0.66b1
+orjson==3.13.0
+outlines_core==0.2.11
+overrides==7.7.0
+packaging==25.0
+pandas==2.3.3
+pandocfilters==1.5.1
+parso==0.8.4
+partial-json-parser==0.2.1.1.post7
+peft==0.17.1
+pexpect==4.9.0
+pillow==11.3.0
+pip==24.0
+platformdirs @ file:///work/perseverance-python-buildout/croot/platformdirs_1701732573265/work
+pluggy @ file:///work/perseverance-python-buildout/croot/pluggy_1698805497733/work
+prometheus-fastapi-instrumentator==7.1.0
+prometheus_client==0.22.1
+prompt_toolkit==3.0.51
+propcache==0.5.4
+proto-plus==1.29.0
+protobuf==7.36.2
+psutil==7.0.0
+ptyprocess==0.7.0
+pure_eval==0.2.3
+py-cpuinfo==9.0.0
+py-spy==0.4.2
+pyarrow==21.0.0
+pyasn1==0.6.4
+pyasn1_modules==0.4.2
+pybase64==1.5.1
+pybind11==3.1.0
+pycosat @ file:///croot/pycosat_1714510623388/work
+pycountry==26.2.16
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic==2.11.10
+pydantic-extra-types==2.11.1
+pydantic_core==2.33.2
+Pygments==2.19.2
+pylatexenc==2.11
+pyparsing==3.2.3
+PySocks @ file:///work/perseverance-python-buildout/croot/pysocks_1698845478203/work
+python-dateutil==2.9.0.post0
+python-discovery==1.6.2
+python-dotenv==1.2.4
+python-json-logger==3.3.0
+python-multipart==0.0.32
+pytz==2026.5
+pyvers==0.1.0
+PyYAML==6.0.2
+pyzmq==27.0.1
+ray==2.48.0
+referencing==0.36.2
+regex==2026.9.29
+requests==2.34.2
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rfc3987-syntax==1.1.0
+rich==15.0.0
+rich-toolkit==0.20.6
+rignore==0.8.1
+rpds-py==0.26.0
+ruamel.yaml @ file:///work/perseverance-python-buildout/croot/ruamel.yaml_1698863605521/work
+safetensors==0.8.0
+scipy==1.17.1
+Send2Trash==1.8.3
+sentencepiece==0.2.2
+sentry-sdk==2.72.0
+setproctitle==1.3.8
+setuptools==79.0.1
+shellingham==1.5.4
+six==1.17.0
+smart_open==8.0.3
+sniffio==1.3.1
+soundfile==0.14.0
+soupsieve==2.7
+soxr==1.1.0
+stack-data==0.6.3
+starlette==0.46.2
+supervisor==4.2.5
+sympy==1.14.0
+tensorboard==2.20.0
+tensorboard-data-server==0.7.2
+tensordict==0.10.0
+terminado==0.18.1
+tiktoken==0.14.0
+tinycss2==1.4.0
+tokenizers==0.22.2
+torch @ https://download.pytorch.org/whl/cu128/torch-2.8.0%2Bcu128-cp312-cp312-manylinux_2_28_x86_64.whl#sha256=4354fc05bb79b208d6995a04ca1ceef6a9547b1c4334435574353d381c55087c
+torchaudio==2.8.0
+torchdata==0.11.0
+torchvision @ https://download.pytorch.org/whl/cu128/torchvision-0.23.0%2Bcu128-cp312-cp312-manylinux_2_28_x86_64.whl#sha256=9cb3c13997afcb44057ca10d943c6c4cba3068afde0f370965abce9c89fcffa9
+tornado==6.5.1
+tqdm==4.70.1
+traitlets==5.14.3
+transformers==4.57.1
+triton==3.4.0
+truststore @ file:///work/perseverance-python-buildout/croot/truststore_1701735771625/work
+typer==0.27.3
+types-python-dateutil==2.9.0.20250708
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+tzdata==2026.5
+uri-template==1.3.0
+urllib3 @ file:///croot/urllib3_1707770551213/work
+uvicorn==0.54.0
+uvloop==0.23.0
+# Editable install with no version control (verl==0.7.0.dev0)
+-e /root/autodl-tmp/agent-r1-day6/runs/day6/verl
+virtualenv==21.14.5
+vllm==0.11.0
+wandb==0.30.0
+watchfiles==1.3.0
+wcwidth==0.2.13
+webcolors==24.11.1
+webencodings==0.5.1
+websocket-client==1.8.0
+websockets==17.2
+Werkzeug==3.1.3
+wheel==0.43.0
+widgetsnbextension==4.0.14
+wrapt==2.5.1
+xformers==0.0.32.post1
+xgrammar==0.1.25
+xxhash==4.0.1
+yarl==1.25.1
+zipp==4.1.1
+zstandard @ file:///croot/zstandard_1714677652653/work

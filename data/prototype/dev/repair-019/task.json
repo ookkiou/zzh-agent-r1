@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-019",
+  "source_id": "authored-prototype-019",
+  "split": "dev",
+  "title": "解析布尔字符串",
+  "instruction": "输入字符串 text，先去掉两端空白并转小写。true/yes/1 返回布尔 True；false/no/0 返回布尔 False；其他值返回 None。",
+  "entrypoint": "parse_bool",
+  "signature": "parse_bool(text)",
+  "bug_type": "missing_branch",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 7
+}

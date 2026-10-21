@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "training_performed": false,
+  "steps": [
+    {
+      "name": "flash_attention",
+      "returncode": 0
+    },
+    {
+      "name": "imports_and_cuda",
+      "returncode": 0
+    },
+    {
+      "name": "gsm8k_data",
+      "returncode": 0
+    },
+    {
+      "name": "single_hydra",
+      "returncode": 0
+    }
+  ],
+  "current_step": "single_hydra"
+}

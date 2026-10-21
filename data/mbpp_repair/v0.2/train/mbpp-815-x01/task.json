@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-815-x01",
+  "source_id": "mbpp-815",
+  "split": "train",
+  "entrypoint": "sort_by_dnf",
+  "instruction": "Write a function to sort the given array without using any sorting algorithm. the given array consists of only 0, 1, and 2.\n\n精确输入域与验收约定：数组元素只含0、1、2，n=len(arr)<=30；返回非递减排列，允许空数组和原地修改。\n修复 solution.py 中的 sort_by_dnf 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "value",
+      "op"
+    ],
+    "line": 4,
+    "column": 11,
+    "before": "Sub()",
+    "after": "Add()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 815,
+    "raw_code_sha256": "b9b1657965ba93af51d184cb1fa16a5f360d87ce0f41d109e9996d5f63dd6192",
+    "reference_sha256": "87c87d609e53cd47fe52bc0e1d3bfbf8ac0c3c9d8da509b200358b02e4cb9009"
+  },
+  "domain": "数组元素只含0、1、2，n=len(arr)<=30；返回非递减排列，允许空数组和原地修改。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

@@ -1,0 +1,20 @@
+{
+  "complete": false,
+  "static_checks_passed": true,
+  "dataset_manifest_sha256": "46de09ae5b37c40a2a06f2a40ddf455b9195628ae96e0840a31955de8a7ea109",
+  "candidate_freeze_sha256": "ce5af7ebbcdb850d5e5e9951224acf365a27336ec6cd8e81bfc09702d84d3822",
+  "construction_policy_sha256": "ba5bb2b9e0dbdbf68caa1a400f6168b029e57726093244d2f331458c1451fa8e",
+  "cohort_sources": 50,
+  "included_sources": 42,
+  "excluded_sources": 8,
+  "train_dev_unchanged": true,
+  "source_disjointness_verified": true,
+  "single_location_mutations_verified": true,
+  "private_public_cases_separate": true,
+  "default_train_dev_loader_still_rejects_test": true,
+  "models_involved": false,
+  "model_test_executed": false,
+  "fixture_test_references_executed": false,
+  "human_review_complete": false,
+  "docker_executions": 0
+}

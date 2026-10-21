@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-15T05:42:00.615777+00:00",
+  "local_preparation_complete": true,
+  "day7_complete": false,
+  "checks": {
+    "adapter_tests_pass_no_skips": true,
+    "public_104_tasks_exported": true,
+    "eight_distinct_diagnostic_sources": true,
+    "selection_frozen_before_model_results": true,
+    "real_agentenv_docker_fixture_roundtrip": true,
+    "bundle_bytes_verified": true,
+    "frozen_pipeline_unchanged": true,
+    "test_sources_not_executed_or_exported": true
+  },
+  "tests": {
+    "run": 13,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "gpu_diagnostics_performed": false,
+  "learning_signal_verified": false,
+  "remaining": [
+    "actual pinned trainer tensor path on Linux",
+    "original model autonomous train/dev diagnostics",
+    "format/reward distribution and SFT decision from real outputs"
+  ]
+}

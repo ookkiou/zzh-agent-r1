@@ -1,0 +1,38 @@
+{
+  "task_id": "mbpp-506-t01",
+  "source_id": "mbpp-506",
+  "split": "test",
+  "entrypoint": "permutation_coefficient",
+  "instruction": "Write a function to calculate the permutation coefficient of given p(n, k).\n\n精确输入域与验收约定：整数0<=k<=n<=20；返回排列数P(n,k)=n!/(n-k)!，P(n,0)=1。\n修复 solution.py 中的 permutation_coefficient 函数，保留签名。",
+  "domain": "整数0<=k<=n<=20；返回排列数P(n,k)=n!/(n-k)!，P(n,0)=1。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 5,
+    "column": 15,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 506,
+    "raw_code_sha256": "1bf368d85b99cbff27b46f516ae6994aaad03fbe57a71b869d5bff295061abf9",
+    "reference_sha256": "18400ff00f0a7affceaf381a5ffe5a46e231db74fde0ca7482f6baf364ab02c0"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

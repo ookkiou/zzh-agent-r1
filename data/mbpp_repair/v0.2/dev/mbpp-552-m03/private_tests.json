@@ -1,0 +1,78 @@
+[
+  {
+    "id": "upstream_holdout",
+    "args": [
+      [
+        1,
+        5,
+        2
+      ]
+    ],
+    "expected": "Non Linear Sequence"
+  },
+  {
+    "id": "regression_01",
+    "args": [
+      [
+        1,
+        2
+      ]
+    ],
+    "expected": "Linear Sequence"
+  },
+  {
+    "id": "regression_02",
+    "args": [
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "expected": "Linear Sequence"
+  },
+  {
+    "id": "regression_03",
+    "args": [
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "expected": "Linear Sequence"
+  },
+  {
+    "id": "regression_04",
+    "args": [
+      [
+        1,
+        2,
+        4
+      ]
+    ],
+    "expected": "Non Linear Sequence"
+  },
+  {
+    "id": "regression_05",
+    "args": [
+      [
+        -2,
+        0,
+        2
+      ]
+    ],
+    "expected": "Linear Sequence"
+  },
+  {
+    "id": "regression_06",
+    "args": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "expected": "Non Linear Sequence"
+  }
+]

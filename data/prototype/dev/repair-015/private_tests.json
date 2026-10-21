@@ -1,0 +1,70 @@
+[
+  {
+    "id": "private-01",
+    "args": [
+      [
+        9
+      ]
+    ],
+    "expected": 1
+  },
+  {
+    "id": "private-02",
+    "args": [
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "expected": 1
+  },
+  {
+    "id": "private-03",
+    "args": [
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "expected": 3
+  },
+  {
+    "id": "private-04",
+    "args": [
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    "expected": 3
+  },
+  {
+    "id": "private-05",
+    "args": [
+      [
+        -1,
+        -1,
+        -2
+      ]
+    ],
+    "expected": 2
+  },
+  {
+    "id": "private-06",
+    "args": [
+      [
+        1,
+        2,
+        1,
+        2
+      ]
+    ],
+    "expected": 4
+  }
+]

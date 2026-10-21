@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-13",
+  "agent_r1": {
+    "repository": "https://github.com/AgentR1/Agent-R1",
+    "commit": "b124aa46534cbf2fb8bc8af11405774984c42ac7",
+    "archive_url": "https://codeload.github.com/AgentR1/Agent-R1/tar.gz/b124aa46534cbf2fb8bc8af11405774984c42ac7",
+    "archive_sha256": "07e6a35a159e7ed148d1e4b2b47d5e0158e3b8f60a71e5626f911477dfc7d57b",
+    "source_status": "pinned source executed on AutoDL via source directory; official diagnostic updates passed",
+    "reviewed_files_sha256": {
+      "README.md": "4a5d87aeb5d7c2303bcf37e24aae48100cdee4fa5501ec1002a5c1d04aa086ba",
+      "LICENSE": "323e4d01208240469c516e1d7d7bcc37eb1c8a2a18470532df6b612b099e3a9d",
+      "agent_r1/trainer/main_agent_ppo.py": "735591ac67dee83169394e6a04823e90b7ccab182be33537aebfd78809f4e40d",
+      "agent_r1/agent_flow/agent_flow.py": "b74920069693776d2723e7402f0090f8ff071daf9a102e7654679c459684e4f4",
+      "agent_r1/config/agent_ppo_trainer.yaml": "c3ed4143a741d0b1c28bd1b738648c0f102783f44adf229e61e5b96872eef6af",
+      "examples/gsm8k/run_steppo.sh": "a548ce9f5e6dfdef2daf032c771e0b5ec7df53e3fb6c31bfecd8690c926f6a63",
+      "examples/gsm8k/run_steppo_tool.sh": "000b627f05a45e0f9248235810cc95ab16d9c5624735e6e6de82524ce29ebf4e",
+      "recipes/gsm8k/base.yaml": "43c43d93bb95159c884ad324b0f1c4825c5b7bbe96b769d122d7ee5a612c4437",
+      "recipes/gsm8k/data_preprocess/process_gsm8k.py": "ea9505c8ca9904c61f5468a0eca8e3ee08dcb17de66b5a1b5e40df255a298a66",
+      "recipes/gsm8k/data_preprocess/process_gsm8k_tool.py": "30538efb1e2361b1e73f2e0f3413b5d6d46ec41cc4ced7fcbe14f8ef2112389b"
+    }
+  },
+  "verl": {
+    "repository": "https://github.com/verl-project/verl",
+    "requested_version": "0.7.0",
+    "requested_ref": "v0.7.0",
+    "commit": "f9c855f7cf04d603c9546bc01776c74806a879c1",
+    "status": "pinned source installed editable; core imports and two independent two-update diagnostic runs passed",
+    "resolution_method": "official codeload tag archive git pax comment",
+    "archive_url": "https://codeload.github.com/verl-project/verl/tar.gz/refs/tags/v0.7.0",
+    "archive_sha256": "a05752a92355eff13a4666fa144d2f0f41c6a6665e92ab2d7fea4a12d2fd8030",
+    "source_package_version": "0.7.0.dev",
+    "version_file_sha256": "27bbee83f581fad8661471ffa58a384cc04e1e236cb813cb1f430c68b44018b7",
+    "normalized_package_version": "0.7.0.dev0"
+  },
+  "model": {
+    "repository": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+    "revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+    "resolution_url": "https://huggingface.co/api/models/Qwen/Qwen2.5-Coder-1.5B-Instruct",
+    "weights_downloaded": true,
+    "download_host": "AutoDL",
+    "download_path": "/root/autodl-tmp/agent-r1-day6/models/qwen-coder-1.5b-2e1fd397ee46e1388853d2af2c993145b0f1098a",
+    "verification_report": "reports/day6_model_download_status.json",
+    "official_file_metadata": "reports/day6_model_files.lock.json"
+  },
+  "training_environment": {
+    "python_target": "3.12",
+    "runtime_dependency_versions": {
+      "torch": "2.8.0+cu128",
+      "vllm": "0.11.0",
+      "verl": "0.7.0.dev0",
+      "ray": "2.48.0",
+      "transformers": "4.57.1",
+      "hydra-core": "1.3.2",
+      "omegaconf": "2.3.0",
+      "datasets": "4.2.0",
+      "pandas": "2.3.3",
+      "pyarrow": "21.0.0",
+      "flash-attn": "2.8.1",
+      "tensordict": "0.10.0"
+    },
+    "status": "environment and diagnostic training verified; custom code-repair recipe and ability evaluation remain pending",
+    "inventory_report": "reports/day6_server_inventory.json",
+    "target_gpu": "NVIDIA GeForce RTX 4080 SUPER 32GB",
+    "cuda_toolkit": "12.8",
+    "base_torch": "2.8.0+cu128",
+    "environment_lock_report": "reports/day6_environment.lock.json",
+    "acceptance_report": "reports/day6_acceptance.json",
+    "source_package_version_note": "Official v0.7.0 archive version 0.7.0.dev normalizes to 0.7.0.dev0"
+  },
+  "complete": true,
+  "updated_date": "2026-10-14",
+  "complete_scope": "source/model/environment lock with official diagnostic runtime verification; not code-repair training completion"
+}

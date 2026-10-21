@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-199-t01",
+  "source_id": "mbpp-199",
+  "split": "test",
+  "entrypoint": "highest_Power_of_2",
+  "instruction": "Write a python function to find highest power of 2 less than or equal to given number.\n\n精确输入域与验收约定：非负整数n<=10000；返回不超过n的最大2的幂；n=0时返回0。\n修复 solution.py 中的 highest_Power_of_2 函数，保留签名。",
+  "domain": "非负整数n<=10000；返回不超过n的最大2的幂；n=0时返回0。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 4,
+    "column": 11,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 199,
+    "raw_code_sha256": "762289d7645105250ff8c2a1df2a09ba6038d380aba43bc9d6450c6dbcd2dc83",
+    "reference_sha256": "23dc3cd475e8f40a3121fe0170be670eaaedc9c21f390cff9bbc6b39dfd1b716"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

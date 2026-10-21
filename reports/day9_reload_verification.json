@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "checkpoint_root": "/root/zzh-day9-checkpoints",
+  "run_fingerprint": "b9f93ec5dadf42c1199427e5ba425cc2a864daad30caae599aa27d22a6092f32",
+  "checkpoints": {
+    "10": {
+      "saved_bytes": 7124418711,
+      "scheduler_last_epoch": 10,
+      "rng_state_present": true,
+      "data_state_bytes": 7316
+    },
+    "11": {
+      "saved_bytes": 7124418711,
+      "scheduler_last_epoch": 11,
+      "rng_state_present": true,
+      "data_state_bytes": 7316
+    }
+  },
+  "only_update_11_executed_after_restart": true,
+  "native_worker_evidence_sha256": "4593d14562162d6e13c5aec7a627aba1df4e7f6d7cbd88fd5790fdae3366e45d",
+  "model_scheduler_rng_and_data_files_present": true,
+  "optimizer_state_saved": false,
+  "optimizer_continuation_verified": false,
+  "restart_semantics": "Weights/data/extra restored; Adam moments rebuilt. Not equivalent to uninterrupted training.",
+  "bitwise_resume_guaranteed": false,
+  "formal_225_updates_completed": false
+}

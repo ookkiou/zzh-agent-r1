@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-092-t01",
+  "source_id": "mbpp-092",
+  "split": "test",
+  "entrypoint": "is_undulating",
+  "instruction": "Write a function to check whether the given number is undulating or not.\n\n精确输入域与验收约定：十进制数字字符串，长度0..30；长度必须至少3且每个i>=2均满足s[i]==s[i-2]才返回True。两个周期字符允许相同。\n修复 solution.py 中的 is_undulating 函数，保留签名。",
+  "domain": "十进制数字字符串，长度0..30；长度必须至少3且每个i>=2均满足s[i]==s[i-2]才返回True。两个周期字符允许相同。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "iter",
+      "args",
+      1
+    ],
+    "line": 4,
+    "column": 22,
+    "before": "Call(func=Name(id='len', ctx=Load()), args=[Name(id='n', ctx=Load())])",
+    "after": "BinOp(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='n', ctx=Load())]), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 92,
+    "raw_code_sha256": "6b7af381eeb180a34bb0edb8b67ccdd5353271cc54ebe64a4aed4a004f063a46",
+    "reference_sha256": "c384ee4232224374bc0ab06c5ae915b30d77027d36d367af8b922f6315992464"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

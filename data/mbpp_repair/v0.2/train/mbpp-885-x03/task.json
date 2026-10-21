@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-885-x03",
+  "source_id": "mbpp-885",
+  "split": "train",
+  "entrypoint": "is_Isomorphic",
+  "instruction": "Write a python function to check whether the two given strings are isomorphic to each other or not.\n\n精确输入域与验收约定：两个ASCII字符串，长度<=30；是否存在字符间一一映射使第一串逐位变为第二串，允许空串。\n修复 solution.py 中的 is_Isomorphic 函数，保留签名。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      4,
+      "test"
+    ],
+    "line": 8,
+    "column": 7,
+    "before": "Compare(left=Call(func=Name(id='sorted', ctx=Load()), args=[Call(func=Attribute(value=Name(id='dict_str1', ctx=Load()), attr='values', ctx=Load()))]), ops=[Eq()], comparators=[Call(func=Name(id='sorted', ctx=Load()), args=[Call(func=Attribute(value=Name(id='dict_str2', ctx=Load()), attr='values', ctx=Load()))])])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 885,
+    "raw_code_sha256": "30a6e283f9c8b33a6535819578ed900b805cad2683aca162655074797aa4a62e",
+    "reference_sha256": "f9c8fe84ca933207f7b926dc61020e9d28da39c5ee03ae5c5f4dcf2f467b4cc0"
+  },
+  "domain": "两个ASCII字符串，长度<=30；是否存在字符间一一映射使第一串逐位变为第二串，允许空串。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

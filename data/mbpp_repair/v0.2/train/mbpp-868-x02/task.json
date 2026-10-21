@@ -1,0 +1,37 @@
+{
+  "task_id": "mbpp-868-x02",
+  "source_id": "mbpp-868",
+  "split": "train",
+  "entrypoint": "length_Of_Last_Word",
+  "instruction": "Write a python function to find the length of the last word in a given string.\n\n精确输入域与验收约定：ASCII 字符串，以普通空格分词，首尾空白可忽略；返回最后一个词长度，无词返回0。\n修复 solution.py 中的 length_Of_Last_Word 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 5,
+    "column": 11,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 868,
+    "raw_code_sha256": "a2fa7c0af78f76e16555dc0d844f0764e8bb9e5d19b698ddd9e9c3e3eccbe9c9",
+    "reference_sha256": "6356640313b9f768d9e13a8bae78d3fbd7d4601ba5d96cae5fd783250801bb3f"
+  },
+  "domain": "ASCII 字符串，以普通空格分词，首尾空白可忽略；返回最后一个词长度，无词返回0。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

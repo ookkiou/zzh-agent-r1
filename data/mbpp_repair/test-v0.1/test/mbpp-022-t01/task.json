@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-022-t01",
+  "source_id": "mbpp-022",
+  "split": "test",
+  "entrypoint": "find_first_duplicate",
+  "instruction": "Write a function to find the first duplicate element in a given array of integers.\n\n精确输入域与验收约定：整数列表，长度0..30；按从左到右扫描，返回第一次再次出现的整数，无重复返回整数-1。\n修复 solution.py 中的 find_first_duplicate 函数，保留签名。",
+  "domain": "整数列表，长度0..30；按从左到右扫描，返回第一次再次出现的整数，无重复返回整数-1。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "iter",
+      "args",
+      0
+    ],
+    "line": 4,
+    "column": 19,
+    "before": "Call(func=Name(id='len', ctx=Load()), args=[Name(id='nums', ctx=Load())])",
+    "after": "BinOp(left=Call(func=Name(id='len', ctx=Load()), args=[Name(id='nums', ctx=Load())]), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 22,
+    "raw_code_sha256": "289ba4f5177a874a94a8e419546b4ec8c9512c32968a92226a203e62fc9c8d3c",
+    "reference_sha256": "ed91bd0f4b5e76f1bcfc4bfa1ebc11058b13cdc5c4be98d90847bdd31e9a3014"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

@@ -1,0 +1,39 @@
+{
+  "task_id": "mbpp-572-m01",
+  "source_id": "mbpp-572",
+  "split": "dev",
+  "entrypoint": "two_unique_nums",
+  "instruction": "Write a python function to remove two duplicate numbers from a given number of lists.\n\n精确输入域与验收约定：整数列表，长度<=30；只保留在原列表恰好出现一次的元素，保持原顺序。\n修复 solution.py 中的 two_unique_nums 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "generators",
+      0,
+      "ifs",
+      0,
+      "ops",
+      0
+    ],
+    "line": 2,
+    "column": 31,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 572,
+    "raw_code_sha256": "0c7da4bc7e5b42da43a5456e3545f8c6187d8ecaa47ddb7188f620a6a87cad80",
+    "reference_sha256": "d2e2f697cf40e3e218956c21761283c435377a0aed93c0bc43a34c14b11f9912"
+  },
+  "domain": "整数列表，长度<=30；只保留在原列表恰好出现一次的元素，保持原顺序。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

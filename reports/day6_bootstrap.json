@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "bundle": "runs/day6/day6-bootstrap.tar.gz",
+  "sha256": "2c46683b2c87466652a050e936bbd4293d28a3dc2daebbc8a319a146fb303d58",
+  "bytes": 4278885,
+  "file_count": 1382,
+  "source_archives_and_commit_verified": true,
+  "all_packaged_bytes_verified": true,
+  "includes_model_weights": false,
+  "includes_private_repair_tests": false,
+  "training_runtime_verified": false,
+  "day6_complete": false
+}

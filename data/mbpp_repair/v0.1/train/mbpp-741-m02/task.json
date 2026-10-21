@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-741-m02",
+  "source_id": "mbpp-741",
+  "split": "train",
+  "entrypoint": "all_Characters_Same",
+  "instruction": "Write a python function to check whether all the characters are same or not.\n\n精确输入域与验收约定：字符串，长度<=30；全部字符相同时返回 True，空串也返回 True。\n修复 solution.py 中的 all_Characters_Same 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "iter",
+      "args",
+      1
+    ],
+    "line": 3,
+    "column": 22,
+    "before": "Name(id='n', ctx=Load())",
+    "after": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 741,
+    "raw_code_sha256": "b3e1776993c44763d9c0ffeb4eb993cbf5c605c7e2cb278eb316ad899131a872",
+    "reference_sha256": "d9ec1dfa837c46803cd7dbe63a09b71250323ad539fdc64d333d8a1c97ecda80"
+  },
+  "domain": "字符串，长度<=30；全部字符相同时返回 True，空串也返回 True。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

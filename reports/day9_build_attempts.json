@@ -1,0 +1,28 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "accepted": false,
+      "archive": "runs/day9/rejected_v02_dedup",
+      "reason": "Independent verifier caught near-duplicate source mbpp-644 / mbpp-610; never trained or model-evaluated."
+    },
+    {
+      "attempt": 2,
+      "builder_completed": true,
+      "validation_pending": false,
+      "task_counts": {
+        "dev": 32,
+        "train": 300
+      },
+      "source_counts": {
+        "train": 74,
+        "dev": 14
+      },
+      "reason": "Apply dedup to every non-inherited source, including reviewed-but-previously-excluded candidates.",
+      "accepted": true,
+      "independent_validation_complete": true,
+      "docker_validation_complete": true,
+      "manifest_sha256": "37b846babd6d9949e2247752042c3669d618d0f367212b65ba32e39717da9555"
+    }
+  ]
+}

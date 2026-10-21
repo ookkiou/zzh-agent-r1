@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-202-t01",
+  "source_id": "mbpp-202",
+  "split": "test",
+  "entrypoint": "remove_even",
+  "instruction": "Write a function to remove even characters in a string.\n\n精确输入域与验收约定：ASCII字符串，允许空串；删除1-based偶数位置的字符，保留原顺序。\n修复 solution.py 中的 remove_even 函数，保留签名。",
+  "domain": "ASCII字符串，允许空串；删除1-based偶数位置的字符，保留原顺序。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 4,
+    "column": 11,
+    "before": "NotEq()",
+    "after": "Eq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 202,
+    "raw_code_sha256": "73800dd4cfb74183d14e60cfdf01ecc6b68695106b719696aafc077f5a6414c2",
+    "reference_sha256": "8b20b613d9fae648c9c1394000f9e8837e16da2473d9b0a1a774d665c58578a5"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

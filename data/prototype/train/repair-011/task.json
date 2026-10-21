@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-011",
+  "source_id": "authored-prototype-011",
+  "split": "train",
+  "title": "计算整数连乘",
+  "instruction": "输入整数列表 values，返回所有元素的乘积；空列表的乘积定义为 1。",
+  "entrypoint": "product",
+  "signature": "product(values)",
+  "bug_type": "initialization",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

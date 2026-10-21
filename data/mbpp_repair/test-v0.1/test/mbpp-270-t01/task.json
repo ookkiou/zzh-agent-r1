@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-270-t01",
+  "source_id": "mbpp-270",
+  "split": "test",
+  "entrypoint": "sum_even_and_even_index",
+  "instruction": "Write a python function to find the sum of even numbers at even positions.\n\n精确输入域与验收约定：整数列表arr，n=len(arr)<=30；累加0-based偶数下标处的偶数元素。\n修复 solution.py 中的 sum_even_and_even_index 函数，保留签名。",
+  "domain": "整数列表arr，n=len(arr)<=30；累加0-based偶数下标处的偶数元素。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 5,
+    "column": 11,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 270,
+    "raw_code_sha256": "eca1556e923fc610ec04844e9687c2a0b4df95786a46a0f8b6ac24c3a4f1d5f4",
+    "reference_sha256": "767d8df23c79f80ff3defa10173f6803c4dab1709a77c33e85da44034415a36d"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

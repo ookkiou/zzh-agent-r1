@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-626-x01",
+  "source_id": "mbpp-626",
+  "split": "train",
+  "entrypoint": "triangle_area",
+  "instruction": "Write a python function to find the largest triangle that can be inscribed in the semicircle.\n\n精确输入域与验收约定：整数半径 -10<=r<=100；负半径返回 -1，非负半径返回半圆内最大内接三角形面积 r*r。\n修复 solution.py 中的 triangle_area 函数，保留签名。",
+  "bug_type": "numeric_constant",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "operand"
+    ],
+    "line": 3,
+    "column": 16,
+    "before": "Constant(value=1)",
+    "after": "Constant(value=0)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 626,
+    "raw_code_sha256": "2a46e72fb495afad70a77b570a2f4a9caa169cf3d0f52c8b51631c5de04582d9",
+    "reference_sha256": "4cb8317a87edaff9c9f54e731372e26cfcef137a567e97ee3229be63872422c7"
+  },
+  "domain": "整数半径 -10<=r<=100；负半径返回 -1，非负半径返回半圆内最大内接三角形面积 r*r。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

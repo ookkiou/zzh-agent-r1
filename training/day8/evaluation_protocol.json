@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "protocol_version": "repair-json-v1",
+  "split": "dev",
+  "purpose": "complete development baseline, not final test",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "max_steps": 6,
+  "max_prompt_length": 4096,
+  "max_response_length": 512,
+  "episode_timeout": 240,
+  "test_timeout": 10,
+  "infra_retries": 2,
+  "generation_backend": "Transformers SDPA BF16; sequential single-episode generation",
+  "metric": "all valid single episodes; not best-of-three/pass@3",
+  "source_manifest_sha256": "beec8194a427209447791e4ff4708b47a898e08bea436531f0ea70f86caafec2",
+  "core_files_sha256": {
+    "code_repair/agent_protocol.py": "98f9e89ceeb2229a4e4039e4ce563bc21adce199792f5130aef0584acbfe572f",
+    "code_repair/agent_session.py": "95172d41174600b5e716ad752714b1651c5aa5c41081265b54abcef3e5595d37",
+    "code_repair/contracts.py": "8c24abdf6442e0fa2939f88050db78bf86ee497a6fca7f310f3f5733852444da",
+    "code_repair/environment.py": "a5d12f589201191ed957449fbf2e699ee159affe74f2e7cb6cbc679d687c11f8"
+  },
+  "tasks": [
+    {
+      "task_id": "mbpp-526-m01",
+      "source_id": "mbpp-526",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-526-m02",
+      "source_id": "mbpp-526",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-527-m01",
+      "source_id": "mbpp-527",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-527-m02",
+      "source_id": "mbpp-527",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-527-m03",
+      "source_id": "mbpp-527",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-537-m01",
+      "source_id": "mbpp-537",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-543-m01",
+      "source_id": "mbpp-543",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-546-m01",
+      "source_id": "mbpp-546",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-546-m02",
+      "source_id": "mbpp-546",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-546-m03",
+      "source_id": "mbpp-546",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-547-m01",
+      "source_id": "mbpp-547",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-547-m02",
+      "source_id": "mbpp-547",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-548-m01",
+      "source_id": "mbpp-548",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-548-m02",
+      "source_id": "mbpp-548",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-548-m03",
+      "source_id": "mbpp-548",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-552-m01",
+      "source_id": "mbpp-552",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-552-m02",
+      "source_id": "mbpp-552",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-552-m03",
+      "source_id": "mbpp-552",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-564-m01",
+      "source_id": "mbpp-564",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-564-m02",
+      "source_id": "mbpp-564",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-564-m03",
+      "source_id": "mbpp-564",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-566-m01",
+      "source_id": "mbpp-566",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-566-m02",
+      "source_id": "mbpp-566",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-568-m01",
+      "source_id": "mbpp-568",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-568-m02",
+      "source_id": "mbpp-568",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-572-m01",
+      "source_id": "mbpp-572",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-577-m01",
+      "source_id": "mbpp-577",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-577-m02",
+      "source_id": "mbpp-577",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-577-m03",
+      "source_id": "mbpp-577",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-589-m01",
+      "source_id": "mbpp-589",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-589-m02",
+      "source_id": "mbpp-589",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-589-m03",
+      "source_id": "mbpp-589",
+      "split": "dev"
+    }
+  ]
+}

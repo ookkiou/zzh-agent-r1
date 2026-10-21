@@ -1,0 +1,37 @@
+{
+  "task_id": "mbpp-762-x04",
+  "source_id": "mbpp-762",
+  "split": "train",
+  "entrypoint": "check_monthnumber_number",
+  "instruction": "Write a function to check whether the given month number contains 30 days or not.\n\n精确输入域与验收约定：整数月份1..12；月份为4、6、9、11时返回True，否则False。\n修复 solution.py 中的 check_monthnumber_number 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "values",
+      2,
+      "ops",
+      0
+    ],
+    "line": 2,
+    "column": 43,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 762,
+    "raw_code_sha256": "42cf9a9fe74c6ee1d3228d65265714c91c84b3e3dccae54cf882d7ad16337179",
+    "reference_sha256": "aa358db0cda90b9eaefd02e8f8c0153de70f188524ead8e41d37a7fbc3b40f1b"
+  },
+  "domain": "整数月份1..12；月份为4、6、9、11时返回True，否则False。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

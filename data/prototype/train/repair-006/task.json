@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-006",
+  "source_id": "authored-prototype-006",
+  "split": "train",
+  "title": "取列表末尾元素",
+  "instruction": "输入整数列表 items 和非负整数 n，返回最后 n 个元素组成的新列表；n 为 0 返回空列表，n 超过长度时返回整个列表。",
+  "entrypoint": "tail_items",
+  "signature": "tail_items(items, n)",
+  "bug_type": "index_slice",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

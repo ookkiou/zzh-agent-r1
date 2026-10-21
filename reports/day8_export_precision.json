@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "changed_elements_after_bfloat16_reload": 69350135,
+  "changed_tensors_after_bfloat16_reload": 282,
+  "saved_weight_dtypes": [
+    "torch.bfloat16"
+  ],
+  "optimizer_state_saved": false,
+  "note": "Full-parameter GRPO; only model and extra state saved, no exact optimizer resume."
+}

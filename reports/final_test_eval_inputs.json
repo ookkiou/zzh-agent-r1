@@ -1,0 +1,14 @@
+{
+  "protocol_sha256": "4b5fde7d02ac238d26fc4ed4cebcbb4d882ddfc0e85a530ab333cadc311742eb",
+  "dataset_manifest_sha256": "46de09ae5b37c40a2a06f2a40ddf455b9195628ae96e0840a31955de8a7ea109",
+  "public_manifest_sha256": "01fd9f254ca2b6f8032078a31922f517e32445e9a64e9c7ba29c59c94ec487ee",
+  "candidate_freeze_sha256": "ce5af7ebbcdb850d5e5e9951224acf365a27336ec6cd8e81bfc09702d84d3822",
+  "model_sha256": {
+    "sft": "f507ccbddb9881ae7bdd841cd2ba8fdf02e54661d04e83fad7e97d2f545be346",
+    "step70": "40915da114c198d947b2b99482fdb3b96ba8bade9cb0b7fb33c53e79e1bb986d"
+  },
+  "script_sha256": "7531cff27fe68ef2a80e43f79af2ee8fbed0b4430783c23c16a27abe48418445",
+  "test_loader_sha256": "d27be636b5de2f6b59dadeddec720c7f6d2ec107b4f9fbcb137d6d7ca808cf07",
+  "tasks": 42,
+  "episodes_per_model": 126
+}

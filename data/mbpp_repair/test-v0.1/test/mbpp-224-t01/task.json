@@ -1,0 +1,32 @@
+{
+  "task_id": "mbpp-224-t01",
+  "source_id": "mbpp-224",
+  "split": "test",
+  "entrypoint": "count_Set_Bits",
+  "instruction": "Write a python function to count set bits of a given number.\n\n精确输入域与验收约定：非负整数n<=1000000；返回二进制中1的数量。\n修复 solution.py 中的 count_Set_Bits 函数，保留签名。",
+  "domain": "非负整数n<=1000000；返回二进制中1的数量。",
+  "bug_type": "initialization",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value"
+    ],
+    "line": 2,
+    "column": 12,
+    "before": "Constant(value=0)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 224,
+    "raw_code_sha256": "6be4174552360bb015a3d0cc99599b70d0fe7c278ce43b051ce5784be02f5ffa",
+    "reference_sha256": "030a855a72111921c982f858bf0281c71ba80fad54f5d2809f7127bbb00a5b3a"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

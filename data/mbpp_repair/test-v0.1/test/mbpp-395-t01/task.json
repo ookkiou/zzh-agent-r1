@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-395-t01",
+  "source_id": "mbpp-395",
+  "split": "test",
+  "entrypoint": "first_non_repeating_character",
+  "instruction": "Write a python function to find the first non-repeated character in a given string.\n\n精确输入域与验收约定：ASCII字符串，长度0..30；返回按原顺序第一个只出现一次的字符，无则None。区分大小写和空白。\n修复 solution.py 中的 first_non_repeating_character 函数，保留签名。",
+  "domain": "ASCII字符串，长度0..30；返回按原顺序第一个只出现一次的字符，无则None。区分大小写和空白。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      3,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 11,
+    "column": 11,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 395,
+    "raw_code_sha256": "2ee5d5627bf5e22701d5e802a7639b324e4968e886bcbbcbd47c33c31c942e8e",
+    "reference_sha256": "e633e555c5f1ff9d0bffcb12bdf55d671b9d86d26e0bb9c103a0e1649bbb02f4"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

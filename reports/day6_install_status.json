@@ -1,0 +1,26 @@
+{
+  "started_at": "2026-10-14T13:05:23.256966+00:00",
+  "steps": [
+    {
+      "name": "resolve",
+      "returncode": 0
+    },
+    {
+      "name": "install",
+      "returncode": 0
+    },
+    {
+      "name": "verl",
+      "returncode": 0
+    },
+    {
+      "name": "pip_check",
+      "returncode": 0
+    }
+  ],
+  "complete": true,
+  "training_performed": false,
+  "runtime_compatibility_verified": false,
+  "current_step": "pip_check",
+  "finished_at": "2026-10-14T13:12:48.349835+00:00"
+}

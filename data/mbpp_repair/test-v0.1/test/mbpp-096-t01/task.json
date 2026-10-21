@@ -1,0 +1,41 @@
+{
+  "task_id": "mbpp-096-t01",
+  "source_id": "mbpp-096",
+  "split": "test",
+  "entrypoint": "divisor",
+  "instruction": "Write a python function to find the number of divisors of a given integer.\n\n精确输入域与验收约定：整数1<=n<=200；返回正因子的个数。\n修复 solution.py 中的 divisor 函数，保留签名。",
+  "domain": "整数1<=n<=200；返回正因子的个数。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "args",
+      0,
+      "generators",
+      0,
+      "iter",
+      "args",
+      1
+    ],
+    "line": 3,
+    "column": 37,
+    "before": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "after": "BinOp(left=BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1)), op=Sub(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 96,
+    "raw_code_sha256": "9efae9672355c0736c43da9393129b5c28c1607bb896b4c97ab090d5cc35bc63",
+    "reference_sha256": "929d5382824d0f2b061e9f0bc4130547a16520f376e7e64740adfe6886776446"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

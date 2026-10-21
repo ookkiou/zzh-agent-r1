@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "status": "sealed_before_first_model_test",
+  "split": "test",
+  "purpose": "independent held-out report after dev-only checkpoint selection",
+  "candidate_freeze_sha256": "ce5af7ebbcdb850d5e5e9951224acf365a27336ec6cd8e81bfc09702d84d3822",
+  "dataset_manifest_sha256": "46de09ae5b37c40a2a06f2a40ddf455b9195628ae96e0840a31955de8a7ea109",
+  "public_manifest_sha256": "01fd9f254ca2b6f8032078a31922f517e32445e9a64e9c7ba29c59c94ec487ee",
+  "construction_policy_sha256": "ba5bb2b9e0dbdbf68caa1a400f6168b029e57726093244d2f331458c1451fa8e",
+  "cohort_sources": 50,
+  "included_sources": 42,
+  "excluded_sources": 8,
+  "tasks": [
+    {
+      "task_id": "mbpp-022-t01",
+      "source_id": "mbpp-022",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-034-t01",
+      "source_id": "mbpp-034",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-036-t01",
+      "source_id": "mbpp-036",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-047-t01",
+      "source_id": "mbpp-047",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-072-t01",
+      "source_id": "mbpp-072",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-090-t01",
+      "source_id": "mbpp-090",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-092-t01",
+      "source_id": "mbpp-092",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-096-t01",
+      "source_id": "mbpp-096",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-147-t01",
+      "source_id": "mbpp-147",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-149-t01",
+      "source_id": "mbpp-149",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-199-t01",
+      "source_id": "mbpp-199",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-202-t01",
+      "source_id": "mbpp-202",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-224-t01",
+      "source_id": "mbpp-224",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-228-t01",
+      "source_id": "mbpp-228",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-235-t01",
+      "source_id": "mbpp-235",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-239-t01",
+      "source_id": "mbpp-239",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-240-t01",
+      "source_id": "mbpp-240",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-241-t01",
+      "source_id": "mbpp-241",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-247-t01",
+      "source_id": "mbpp-247",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-270-t01",
+      "source_id": "mbpp-270",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-281-t01",
+      "source_id": "mbpp-281",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-286-t01",
+      "source_id": "mbpp-286",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-304-t01",
+      "source_id": "mbpp-304",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-309-t01",
+      "source_id": "mbpp-309",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-322-t01",
+      "source_id": "mbpp-322",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-325-t01",
+      "source_id": "mbpp-325",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-331-t01",
+      "source_id": "mbpp-331",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-334-t01",
+      "source_id": "mbpp-334",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-346-t01",
+      "source_id": "mbpp-346",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-351-t01",
+      "source_id": "mbpp-351",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-371-t01",
+      "source_id": "mbpp-371",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-378-t01",
+      "source_id": "mbpp-378",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-392-t01",
+      "source_id": "mbpp-392",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-395-t01",
+      "source_id": "mbpp-395",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-420-t01",
+      "source_id": "mbpp-420",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-431-t01",
+      "source_id": "mbpp-431",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-433-t01",
+      "source_id": "mbpp-433",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-436-t01",
+      "source_id": "mbpp-436",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-468-t01",
+      "source_id": "mbpp-468",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-469-t01",
+      "source_id": "mbpp-469",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-504-t01",
+      "source_id": "mbpp-504",
+      "split": "test"
+    },
+    {
+      "task_id": "mbpp-506-t01",
+      "source_id": "mbpp-506",
+      "split": "test"
+    }
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "max_steps": 6,
+  "max_prompt_length": 4096,
+  "max_response_length": 512,
+  "episode_timeout": 240,
+  "test_timeout": 10,
+  "infra_retries": 2,
+  "generation_backend": "Transformers SDPA BF16; sequential single-episode generation",
+  "core_files_sha256": {
+    "code_repair/agent_protocol.py": "98f9e89ceeb2229a4e4039e4ce563bc21adce199792f5130aef0584acbfe572f",
+    "code_repair/agent_session.py": "95172d41174600b5e716ad752714b1651c5aa5c41081265b54abcef3e5595d37",
+    "code_repair/contracts.py": "8c24abdf6442e0fa2939f88050db78bf86ee497a6fca7f310f3f5733852444da",
+    "code_repair/environment.py": "a5d12f589201191ed957449fbf2e699ee159affe74f2e7cb6cbc679d687c11f8"
+  },
+  "test_loader_sha256": "d27be636b5de2f6b59dadeddec720c7f6d2ec107b4f9fbcb137d6d7ca808cf07",
+  "models": {
+    "sft": {
+      "sha256": "f507ccbddb9881ae7bdd841cd2ba8fdf02e54661d04e83fad7e97d2f545be346",
+      "remote_path": "/root/autodl-tmp/agent-r1-day6/runs/day7/sft_warmup/merged"
+    },
+    "step70": {
+      "sha256": "40915da114c198d947b2b99482fdb3b96ba8bade9cb0b7fb33c53e79e1bb986d",
+      "remote_path": "/root/zzh-day9-eval/merged-step70"
+    }
+  },
+  "episodes_per_model": 126,
+  "metric": "mean single-episode strict private acceptance; not best-of-three/pass@3",
+  "reporting_unit": "42 distinct original sources; repeated seeds are correlated",
+  "report_all_failures": true,
+  "model_failure_resampling": false,
+  "use_test_for_further_tuning": false,
+  "model_test_executed_at_seal": false,
+  "original_225_update_target_complete": false
+}

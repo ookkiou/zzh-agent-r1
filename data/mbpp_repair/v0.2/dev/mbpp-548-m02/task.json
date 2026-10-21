@@ -1,0 +1,37 @@
+{
+  "task_id": "mbpp-548-m02",
+  "source_id": "mbpp-548",
+  "split": "dev",
+  "entrypoint": "longest_increasing_subsequence",
+  "instruction": "Write a function to find the length of the longest increasing subsequence of the given sequence.\n\n精确输入域与验收约定：非空整数列表，长度<=30；返回严格递增子序列的最大长度，子序列不要求连续。\n修复 solution.py 中的 longest_increasing_subsequence 函数，保留签名。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      0,
+      "body",
+      0,
+      "test"
+    ],
+    "line": 6,
+    "column": 15,
+    "before": "BoolOp(op=And(), values=[Compare(left=Subscript(value=Name(id='arr', ctx=Load()), slice=Name(id='i', ctx=Load()), ctx=Load()), ops=[Gt()], comparators=[Subscript(value=Name(id='arr', ctx=Load()), slice=Name(id='j', ctx=Load()), ctx=Load())]), Compare(left=Subscript(value=Name(id='longest_increasing_subsequence', ctx=Load()), slice=Name(id='i', ctx=Load()), ctx=Load()), ops=[Lt()], comparators=[BinOp(left=Subscript(value=Name(id='longest_increasing_subsequence', ctx=Load()), slice=Name(id='j', ctx=Load()), ctx=Load()), op=Add(), right=Constant(value=1))])])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 548,
+    "raw_code_sha256": "728f240a07184cfb417c2af68798afa9a679112e11dfaca1f064b2c656ac6b1b",
+    "reference_sha256": "55337108ee4d9bd0c0692c5e39adc191a8803f3d2a815b0e87b58813c67c4479"
+  },
+  "domain": "非空整数列表，长度<=30；返回严格递增子序列的最大长度，子序列不要求连续。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

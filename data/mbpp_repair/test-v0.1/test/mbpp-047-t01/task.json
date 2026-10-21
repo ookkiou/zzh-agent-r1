@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-047-t01",
+  "source_id": "mbpp-047",
+  "split": "test",
+  "entrypoint": "compute_Last_Digit",
+  "instruction": "Write a python function to find the last digit when factorial of a divides factorial of b.\n\n精确输入域与验收约定：整数0<=A<=B<=100；返回整数商B!/A!的十进制个位，0!=1。\n修复 solution.py 中的 compute_Last_Digit 函数，保留签名。",
+  "domain": "整数0<=A<=B<=100；返回整数商B!/A!的十进制个位，0!=1。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 3,
+    "column": 7,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 47,
+    "raw_code_sha256": "5055b3f04787c8e286cf3a664b1ced67e4af53270563563a1abb512167e0675e",
+    "reference_sha256": "99f87adf2a5f77fb09a9ebc88d6e2979777373927703daa558bbe77d2e6bfea8"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 8
+}

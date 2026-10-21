@@ -1,0 +1,37 @@
+{
+  "task_id": "mbpp-602-m01",
+  "source_id": "mbpp-602",
+  "split": "train",
+  "entrypoint": "first_repeated_char",
+  "instruction": "Write a python function to find the first repeated character in a given string.\n\n精确输入域与验收约定：字符串，区分大小写；返回扫描中第一个第二次出现的字符，无重复返回字符串 'None'。\n修复 solution.py 中的 first_repeated_char 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 3,
+    "column": 11,
+    "before": "Gt()",
+    "after": "GtE()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 602,
+    "raw_code_sha256": "8b270920884cb1f46cedf656d4421fdb5658d6598845fe04562a0d6f7813f306",
+    "reference_sha256": "ab0e83c9b0d856694f7dac5ecb3cd9be20307102a94496221d4e5bd6175a4beb"
+  },
+  "domain": "字符串，区分大小写；返回扫描中第一个第二次出现的字符，无重复返回字符串 'None'。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

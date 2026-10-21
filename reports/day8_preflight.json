@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "checks": {
+    "merged/added_tokens.json": true,
+    "merged/chat_template.jinja": true,
+    "merged/config.json": true,
+    "merged/generation_config.json": true,
+    "merged/merges.txt": true,
+    "merged/model.safetensors": true,
+    "merged/special_tokens_map.json": true,
+    "merged/tokenizer.json": true,
+    "merged/tokenizer_config.json": true,
+    "merged/vocab.json": true,
+    "code_repair/agent_protocol.py": true,
+    "code_repair/agent_session.py": true,
+    "code_repair/contracts.py": true,
+    "code_repair/environment.py": true
+  },
+  "disk": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/md0         50G   36G   15G  72% /root/autodl-tmp\n",
+  "test_executed": false,
+  "sft_checkpoint_unchanged_before_grpo": true
+}

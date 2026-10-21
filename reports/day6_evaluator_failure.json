@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "probe": "real connection refusal at reserved non-listening loopback port",
+  "active_tunnel_interrupted": false,
+  "terminal_reward": 0.0,
+  "terminal_info": {
+    "termination_reason": "infrastructure_error",
+    "step_index": 1,
+    "valid_episode": false,
+    "backend": "remote-docker",
+    "acceptance": null
+  }
+}

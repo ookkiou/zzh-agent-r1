@@ -1,0 +1,14 @@
+{
+  "local_preparation_complete": true,
+  "protocol_sha256": "ae96b0f262c0facf3a034198e605ff50af852ceb49df6cd5d21809089cee2818",
+  "zzhclaw_repo": "/Users/zzh/Documents/GitHub/zzhclaw",
+  "unit_and_regression_tests": 51,
+  "real_http_and_docker_scripted_check_complete": true,
+  "real_model_api_check_complete": true,
+  "paired_application_dev_complete": true,
+  "day13_14_complete": true,
+  "acceptance_scope": "restricted CLI repair profile and paired application dev migration",
+  "model_weights_download_required": false,
+  "test_reexecuted": false,
+  "training_performed": false
+}

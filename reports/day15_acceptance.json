@@ -1,0 +1,157 @@
+{
+  "complete": true,
+  "scope": "local evidence, documentation and recorded replay delivery",
+  "checks": [
+    {
+      "name": "three_evaluations_recomputed_from_paired_source_episodes",
+      "passed": true
+    },
+    {
+      "name": "frozen_final_test_and_application_results_remain_separate",
+      "passed": true
+    },
+    {
+      "name": "missing_grpo_metrics_left_blank_not_interpolated",
+      "passed": true
+    },
+    {
+      "name": "sft_has_80_actual_update_records",
+      "passed": true
+    },
+    {
+      "name": "case_improvement_equals_original_dev_trace",
+      "passed": true
+    },
+    {
+      "name": "recorded_demo_improvement_runs_offline",
+      "passed": true
+    },
+    {
+      "name": "case_regression_equals_original_dev_trace",
+      "passed": true
+    },
+    {
+      "name": "recorded_demo_regression_runs_offline",
+      "passed": true
+    },
+    {
+      "name": "case_shared-failure_equals_original_dev_trace",
+      "passed": true
+    },
+    {
+      "name": "recorded_demo_shared-failure_runs_offline",
+      "passed": true
+    },
+    {
+      "name": "standalone_figure_sft_training_png_and_pdf",
+      "passed": true
+    },
+    {
+      "name": "standalone_figure_training_diagnostics_png_and_pdf",
+      "passed": true
+    },
+    {
+      "name": "standalone_figure_evaluation_comparison_png_and_pdf",
+      "passed": true
+    },
+    {
+      "name": "project_reproduction_and_resume_docs_present",
+      "passed": true
+    },
+    {
+      "name": "all_allowlisted_bundle_inputs_match_manifest",
+      "passed": true
+    },
+    {
+      "name": "bundle_contains_only_regular_allowlisted_files",
+      "passed": true
+    },
+    {
+      "name": "all_archived_file_hashes_verified",
+      "passed": true
+    }
+  ],
+  "training_performed": false,
+  "live_model_invoked": false,
+  "fresh_gpu_reproduction_performed": false,
+  "video_recorded": false,
+  "model_weight_backup_verified": false,
+  "full_grpo_training_curve_available": false,
+  "formal_225_updates_complete": false,
+  "published": false,
+  "evidence_delivery_complete": true,
+  "source_evidence_sha256": {
+    "reports/day9_eval_step70_comparison.json": "9d6c06c533ff00ebe27f6b5a05d6a29cb2d28bce3c2dfe332fc748917bfcf017",
+    "reports/day9_eval_step70_sft.json": "5169107bfdef125b92337b390ba24d11e11ffd4b8cc6864eb55417894afc82e5",
+    "reports/day9_eval_step70_step70.json": "04033a5628445c13b8b6c8248d00b29ec19e307f6df34c07d9a01af5816d0cd6",
+    "reports/final_test_eval_comparison.json": "40f5397239b8392e25d23ef5dd179473fe1646907ae03a97c7da70fb1fec5170",
+    "reports/final_test_eval_sft.json": "4715f42728de6f79954f80f7b07b5f2ba8838dbca000dbc6056a0e291fcd8a75",
+    "reports/final_test_eval_step70.json": "e3fe3ef4bbc14103cf41e4ee68713790310dc34df5a1f3eb65e1f124454af0b1",
+    "reports/day14_application_comparison.json": "392cf9aeb669c20bbdd073fc99a3149fb121669e58265c5b48e069547db6d5a2",
+    "reports/day13_sft_dev.json": "ac83981b0b0ccb4a25a624d824e4cd295705e5937854df31cb34712b77dab50d",
+    "reports/day13_step70_dev.json": "bb6000e3ed9938b405ab1344931770bd9ffb48d74a967f2db2e8e8b683bdb203",
+    "reports/day14_acceptance.json": "ebd9531d51355fa9365584164853542acf7999e32a7956f9e3e9b548d1e28404",
+    "reports/day9_training_snapshot.json": "a34e1bef801e7881e8cc2dee5ef280aabc5e6d7f45e3c5def6a59e7a4807a52b",
+    "reports/day9_zero_signal_diagnosis.json": "1abb72e9a7db9e85dab620702c74aedfc12a10b9a2fc1c1a78e0a4a3e2e927eb",
+    "reports/day9_live_progress.json": "0b5eab93b8e87ae60d7440756b3bc6931e29cf1bcd504f6104d26864b82a7634",
+    "reports/day9_training_batch_audit_1_11.jsonl": "18fca6f278eeca3fdf0b3ec1c408bcef1d58dc7d78a69fa34a8b0a4f64766e16",
+    "training/integration/evaluation_protocol.json": "ae96b0f262c0facf3a034198e605ff50af852ceb49df6cd5d21809089cee2818",
+    "training/day7/sft_warmup.json": "8ab1bb6beffc0e329de4985de4ea6ac2ad2352d7868fe426433e5ae21d7f4603",
+    "reports/day7_sft_warmup.json": "38e70fe971a88fd79376a30932201dcd40aadb6af6bb728f9980b3ddf33a6548"
+  },
+  "evidence_archive_sha256": "b341ea5a1e5ea8e1fb1295b29031e8a8e1bef9a5127ae4bb30c4eef153e67b92",
+  "grpo_observed_batch_metric_steps": 23,
+  "grpo_missing_batch_metric_steps": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ]
+}

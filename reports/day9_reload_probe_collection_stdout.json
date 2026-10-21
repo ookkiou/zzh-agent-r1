@@ -1,0 +1,36 @@
+{
+  "complete": true,
+  "phase": "reload_probe",
+  "run_fingerprint": "b9f93ec5dadf42c1199427e5ba425cc2a864daad30caae599aa27d22a6092f32",
+  "taskrunner_pid": 17354,
+  "ray_logs_directory": "/tmp/ray/session_2026-10-15_17-09-32_235801_15915/logs",
+  "sources": [
+    {
+      "remote_source": "/tmp/ray/session_2026-10-15_17-09-32_235801_15915/logs/worker-716714f2bf824367256ab2fcd495b7d94dca6594721833a94851c22c-01000000-17354.out",
+      "copy": "reports/day9_reload_probe_worker_0.raw.log",
+      "sha256": "61cc7eb75e2bd204c1500cd2fa71b8de84de00ab43784da0e441eb0ede715a3d",
+      "bytes": 44185
+    },
+    {
+      "remote_source": "/tmp/ray/session_2026-10-15_17-09-32_235801_15915/logs/worker-d7b2504b4a69181acd5e90757e74ee98c61dd9c25515c6ab989085a3-01000000-17945.err",
+      "copy": "reports/day9_reload_probe_worker_1.raw.log",
+      "sha256": "a9b7ab2ca8a9c6a26a04b00bdbe1a0882ad4e43846fefafb58561b7942d8e7f0",
+      "bytes": 5013
+    },
+    {
+      "remote_source": "/tmp/ray/session_2026-10-15_17-09-32_235801_15915/logs/worker-d7b2504b4a69181acd5e90757e74ee98c61dd9c25515c6ab989085a3-01000000-17945.out",
+      "copy": "reports/day9_reload_probe_worker_2.raw.log",
+      "sha256": "4c4a96677e8741f51ac588cc2b6bc620bcb3b52670ea97ae2772251fd25daa50",
+      "bytes": 5299
+    }
+  ],
+  "evidence_log": "/root/autodl-tmp/agent-r1-day6/reports/day9_reload_probe_worker_evidence.log",
+  "evidence_sha256": "4593d14562162d6e13c5aec7a627aba1df4e7f6d7cbd88fd5790fdae3366e45d",
+  "actual_updates": [
+    11
+  ],
+  "missing_from_forwarded_console": [
+    11
+  ],
+  "evidence_origin": "Unmodified persisted native Ray worker stdout/stderr; separate from forwarded driver console."
+}

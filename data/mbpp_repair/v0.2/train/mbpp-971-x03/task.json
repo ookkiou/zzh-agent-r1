@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-971-x03",
+  "source_id": "mbpp-971",
+  "split": "train",
+  "entrypoint": "maximum_segments",
+  "instruction": "Write a function to find the maximum number of segments of lengths a, b and c that can be formed from n.\n\n精确输入域与验收约定：整数0<=n<=30，段长a,b,c均为1..30；必须完全分割长度n，返回最多段数，无法分割返回-1。\n修复 solution.py 中的 maximum_segments 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "targets",
+      0,
+      "slice"
+    ],
+    "line": 3,
+    "column": 7,
+    "before": "Constant(value=0)",
+    "after": "BinOp(left=Constant(value=0), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 971,
+    "raw_code_sha256": "ba3c5df78ceba866a55bbf3a7726322b478bd831f8961c3e86224c6c2bf256c2",
+    "reference_sha256": "df5e046ee54a404fe7ff46c499a3beacfbc4abd3dadcfc0ff207bd4b793404c7"
+  },
+  "domain": "整数0<=n<=30，段长a,b,c均为1..30；必须完全分割长度n，返回最多段数，无法分割返回-1。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-677-m02",
+  "source_id": "mbpp-677",
+  "split": "train",
+  "entrypoint": "validity_triangle",
+  "instruction": "Write a function to check if the triangle is valid or not.\n\n精确输入域与验收约定：三个 1–179 的整数角度；当且仅当总和为 180 时能构成三角形，返回布尔值。\n修复 solution.py 中的 validity_triangle 函数，保留签名。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "test"
+    ],
+    "line": 3,
+    "column": 7,
+    "before": "Compare(left=Name(id='total', ctx=Load()), ops=[Eq()], comparators=[Constant(value=180)])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 677,
+    "raw_code_sha256": "15a0f7d34fa569b89c5a36abacf290d5205b25d00c9195a71c658084ad624908",
+    "reference_sha256": "279bbd780f7f00a7aaef58047560a77b8cb12ab4a9d2b3281e38a21f30a529e5"
+  },
+  "domain": "三个 1–179 的整数角度；当且仅当总和为 180 时能构成三角形，返回布尔值。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

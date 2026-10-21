@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "stage": "step70",
+  "scope": "application dev",
+  "protocol_sha256": "ae96b0f262c0facf3a034198e605ff50af852ceb49df6cd5d21809089cee2818",
+  "source_report_sha256": "bb6000e3ed9938b405ab1344931770bd9ffb48d74a967f2db2e8e8b683bdb203",
+  "valid_episodes": 96,
+  "successes": 75,
+  "success_rate": 0.78125,
+  "invalid_attempts": 1,
+  "invalid_model_actions": 1,
+  "by_seed": {
+    "17": {
+      "successes": 24,
+      "episodes": 32
+    },
+    "29": {
+      "successes": 23,
+      "episodes": 32
+    },
+    "43": {
+      "successes": 28,
+      "episodes": 32
+    }
+  },
+  "episode_seconds": 467.5069481258979,
+  "finished_at": "2026-10-21T06:13:31.414715+00:00",
+  "sft_application_comparison_complete": false,
+  "day13_14_complete": false,
+  "final_test": false,
+  "training_performed": false
+}

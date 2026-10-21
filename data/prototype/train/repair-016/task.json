@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-016",
+  "source_id": "authored-prototype-016",
+  "split": "train",
+  "title": "判断公历闰年",
+  "instruction": "输入 1 至 9999 的整数 year。能被 400 整除，或能被 4 整除但不能被 100 整除的年份为闰年，返回布尔值。",
+  "entrypoint": "is_leap_year",
+  "signature": "is_leap_year(year)",
+  "bug_type": "missing_branch",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

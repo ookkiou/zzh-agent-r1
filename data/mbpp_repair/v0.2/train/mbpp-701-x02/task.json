@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-701-x02",
+  "source_id": "mbpp-701",
+  "split": "train",
+  "entrypoint": "equilibrium_index",
+  "instruction": "Write a function to find the equilibrium index of the given array.\n\n精确输入域与验收约定：整数列表，长度<=30；返回最左侧平衡下标，使左侧元素和等于右侧元素和；不存在返回 -1。\n修复 solution.py 中的 equilibrium_index 函数，保留签名。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      1,
+      "test"
+    ],
+    "line": 6,
+    "column": 11,
+    "before": "Compare(left=Name(id='left_sum', ctx=Load()), ops=[Eq()], comparators=[Name(id='total_sum', ctx=Load())])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 701,
+    "raw_code_sha256": "cae1267862a10368c924bd6b0d063596b92fe05d133813044a4bc56220951131",
+    "reference_sha256": "06f75faee8d59d8dab7d6b57540655c01be70feb27d7f849574536850de8a596"
+  },
+  "domain": "整数列表，长度<=30；返回最左侧平衡下标，使左侧元素和等于右侧元素和；不存在返回 -1。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

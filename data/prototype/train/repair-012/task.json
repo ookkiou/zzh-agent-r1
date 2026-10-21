@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-012",
+  "source_id": "authored-prototype-012",
+  "split": "train",
+  "title": "统计空白分隔词数",
+  "instruction": "输入字符串 text，按任意连续空白字符分词，返回词数；空字符串或全空白字符串返回 0。",
+  "entrypoint": "count_words",
+  "signature": "count_words(text)",
+  "bug_type": "initialization",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

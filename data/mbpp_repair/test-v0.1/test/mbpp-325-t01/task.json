@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-325-t01",
+  "source_id": "mbpp-325",
+  "split": "test",
+  "entrypoint": "get_Min_Squares",
+  "instruction": "Write a python function to find the minimum number of squares whose sum is equal to a given number.\n\n精确输入域与验收约定：整数0<=n<=15；返回和为n所需完全平方数的最少数量，0返回0。\n修复 solution.py 中的 get_Min_Squares 函数，保留签名。",
+  "domain": "整数0<=n<=15；返回和为n所需完全平方数的最少数量，0返回0。",
+  "bug_type": "missing_branch",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      1,
+      "test"
+    ],
+    "line": 7,
+    "column": 11,
+    "before": "Compare(left=Name(id='temp', ctx=Load()), ops=[Gt()], comparators=[Name(id='n', ctx=Load())])",
+    "after": "Constant(value=False)",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 325,
+    "raw_code_sha256": "b74f946f4dd855a5fdd32ccb84a48c0ed81bf2c140c4d2b12490c3607eed410e",
+    "reference_sha256": "4e20c3476eaaa1b85ecc871c0c3e5a83b2554e06534a61d75f21c7564acedc08"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

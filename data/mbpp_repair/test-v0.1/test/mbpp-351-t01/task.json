@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-351-t01",
+  "source_id": "mbpp-351",
+  "split": "test",
+  "entrypoint": "first_Element",
+  "instruction": "Write a python function to find the first element occurring k times in a given array.\n\n精确输入域与验收约定：整数数组arr，n=len(arr)<=30，k>=1；返回按原顺序第一个总出现次数恰好为k的值，无则-1。\n修复 solution.py 中的 first_Element 函数，保留签名。",
+  "domain": "整数数组arr，n=len(arr)<=30，k>=1；返回按原顺序第一个总出现次数恰好为k的值，无则-1。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 10,
+    "column": 11,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 351,
+    "raw_code_sha256": "6d1e0feea3b16794180bf56fcef1037693bb7c0fd21a66db499a8edd53296737",
+    "reference_sha256": "dc8853a2c238b2b98d7039297fc8340d8fd427139398d0af0246628ee794b6d3"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

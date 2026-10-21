@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-770-x03",
+  "source_id": "mbpp-770",
+  "split": "train",
+  "entrypoint": "odd_Num_Sum",
+  "instruction": "Write a python function to find the sum of fourth power of first n odd natural numbers.\n\n精确输入域与验收约定：整数0<=n<=8；返回前n个正奇数的四次方之和。\n修复 solution.py 中的 odd_Num_Sum 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      0,
+      "value",
+      "op"
+    ],
+    "line": 5,
+    "column": 12,
+    "before": "Sub()",
+    "after": "Add()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 770,
+    "raw_code_sha256": "48fbccba709a352967d2ea7d1ab81d156572a9da0aaadb56993022cbff33cebc",
+    "reference_sha256": "774c3b28baa9aa4f059133c5e545b6252ec16e42758e13b2438c07e543ce3283"
+  },
+  "domain": "整数0<=n<=8；返回前n个正奇数的四次方之和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

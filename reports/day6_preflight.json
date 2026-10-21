@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "stage": "day6-preflight",
+  "recorded_at": "2026-10-14T13:27:03.060415+00:00",
+  "host": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.12.3",
+    "cpu_count": 128,
+    "host_meminfo": "MemTotal:       527978516 kB",
+    "project_disk_free_bytes": 39895166976
+  },
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "vllm": "0.11.0",
+    "verl": "0.7.0.dev0",
+    "ray": "2.48.0",
+    "transformers": "4.57.1",
+    "hydra-core": "1.3.2",
+    "omegaconf": "2.3.0",
+    "datasets": "4.2.0",
+    "pandas": "2.3.3",
+    "pyarrow": "21.0.0",
+    "flash-attn": "2.8.1",
+    "tensordict": "0.10.0"
+  },
+  "verl_source_install": {
+    "package_version": "0.7.0.dev0",
+    "direct_url": {
+      "dir_info": {
+        "editable": true
+      },
+      "url": "file:///root/autodl-tmp/agent-r1-day6/runs/day6/verl"
+    },
+    "source_version": "0.7.0.dev",
+    "version_file_sha256": "27bbee83f581fad8661471ffa58a384cc04e1e236cb813cb1f430c68b44018b7",
+    "verified": true
+  },
+  "nvidia_smi": {
+    "ok": true,
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 4080 SUPER, 32760 MiB, 595.71.05\n",
+    "stderr": ""
+  },
+  "source_checks": {
+    "README.md": true,
+    "LICENSE": true,
+    "agent_r1/trainer/main_agent_ppo.py": true,
+    "agent_r1/agent_flow/agent_flow.py": true,
+    "agent_r1/config/agent_ppo_trainer.yaml": true,
+    "examples/gsm8k/run_steppo.sh": true,
+    "examples/gsm8k/run_steppo_tool.sh": true,
+    "recipes/gsm8k/base.yaml": true,
+    "recipes/gsm8k/data_preprocess/process_gsm8k.py": true,
+    "recipes/gsm8k/data_preprocess/process_gsm8k_tool.py": true
+  },
+  "imports": {
+    "torch": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "vllm": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "verl": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "ray": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "transformers": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "hydra": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "omegaconf": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "datasets": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "pandas": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "pyarrow": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "agent_r1.trainer.main_agent_ppo": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "agent_r1.agent_flow.agent_flow": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "agent_r1.env.base": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "recipes.gsm8k": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  },
+  "cuda_probe": {
+    "ok": true,
+    "returncode": 0,
+    "stdout": "{\"available\": true, \"torch_cuda\": \"12.8\", \"device_count\": 1}\n",
+    "stderr": ""
+  },
+  "checks": {
+    "linux_host": true,
+    "python_312_selected": true,
+    "nvidia_driver_accessible": true,
+    "pinned_agent_r1_reviewed_files": true,
+    "pinned_verl_source_install": true,
+    "core_package_versions_present": true,
+    "core_imports_passed": true,
+    "cuda_tensor_operation": true
+  },
+  "preflight_complete": true,
+  "day6_complete": false,
+  "not_covered": [
+    "dependency source revision validation on installed host",
+    "model inference and three-tool protocol roundtrip",
+    "remote executor tunnel and isolation verification",
+    "official training updates and checkpoint evidence"
+  ],
+  "installs_performed": false,
+  "weights_downloaded": false,
+  "training_performed": false
+}

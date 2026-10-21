@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-334-t01",
+  "source_id": "mbpp-334",
+  "split": "test",
+  "entrypoint": "check_Validity",
+  "instruction": "Write a python function to check whether the triangle is valid or not if sides are given.\n\n精确输入域与验收约定：非负整数a,b,c<=100；三条边均为正且满足严格三角不等式时返回True，否则False。\n修复 solution.py 中的 check_Validity 函数，保留签名。",
+  "domain": "非负整数a,b,c<=100；三条边均为正且满足严格三角不等式时返回True，否则False。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "values",
+      0,
+      "ops",
+      0
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "LtE()",
+    "after": "Lt()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 334,
+    "raw_code_sha256": "b9a310d8b6179388e58c7caae2687800669023484a29f47296fd79be94b4c135",
+    "reference_sha256": "8203112203b30805ed0bd37c095469f411329db10cf133e91d37307446a6ecf8"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

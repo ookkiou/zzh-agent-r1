@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/ookkiou/Zzh-Claw",
+  "base_commit": "a6831bcfa6c2cc0fade3c10da52e9203904d1cda",
+  "patch_sha256": "7737c4247a666e6bd7b3ddababf8009e758f28fd98f03c7594509e598e55bcd5",
+  "scope": "Restricted repair CLI; unchanged general Agent behavior",
+  "files": [
+    "README.md",
+    "zzhclaw/__main__.py",
+    "zzhclaw/agent/repair.py",
+    "zzhclaw/agent/repair_cli.py",
+    "tests/test_repair_profile.py"
+  ]
+}

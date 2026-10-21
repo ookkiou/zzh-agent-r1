@@ -1,0 +1,37 @@
+{
+  "task_id": "mbpp-610-x02",
+  "source_id": "mbpp-610",
+  "split": "train",
+  "entrypoint": "remove_kth_element",
+  "instruction": "Write a python function to remove the k'th element from a given list.\n\n精确输入域与验收约定：非空整数列表，1<=L<=len(list1)<=30；删除第 L 个元素，L 是 1-based 位置，保持其余顺序。\n修复 solution.py 中的 remove_kth_element 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "left",
+      "slice",
+      "upper",
+      "op"
+    ],
+    "line": 2,
+    "column": 18,
+    "before": "Sub()",
+    "after": "Add()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 610,
+    "raw_code_sha256": "96af3bf9e0dac3cee72eed5ab1b835f724c2d029d7787a34b035cc2bc2f0f23d",
+    "reference_sha256": "d2f20db0656cab3dd82797d16be757b2e88f778a761e751a43f8976c584aa490"
+  },
+  "domain": "非空整数列表，1<=L<=len(list1)<=30；删除第 L 个元素，L 是 1-based 位置，保持其余顺序。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

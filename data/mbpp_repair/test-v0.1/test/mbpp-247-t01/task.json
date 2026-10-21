@@ -1,0 +1,40 @@
+{
+  "task_id": "mbpp-247-t01",
+  "source_id": "mbpp-247",
+  "split": "test",
+  "entrypoint": "lps",
+  "instruction": "Write a function to find the longest palindromic subsequence in the given string.\n\n精确输入域与验收约定：非空ASCII字符串，长度<=30；返回最长回文子序列的长度，子序列不要求连续。\n修复 solution.py 中的 lps 函数，保留签名。",
+  "domain": "非空ASCII字符串，长度<=30；返回最长回文子序列的长度，子序列不要求连续。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      3,
+      "body",
+      0,
+      "body",
+      1,
+      "test",
+      "values",
+      0,
+      "ops",
+      0
+    ],
+    "line": 9,
+    "column": 15,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 247,
+    "raw_code_sha256": "25a78ad179336b7a805f4962eeb915617923ea2867037115b8ee96033a5bc107",
+    "reference_sha256": "f5ab94cd2e3e8eed1a2e276e69f0da6368f194f5f937301e4fc28d0d702351a3"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 9
+}

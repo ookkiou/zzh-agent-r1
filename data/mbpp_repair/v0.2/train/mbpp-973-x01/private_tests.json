@@ -1,0 +1,58 @@
+[
+  {
+    "id": "upstream_holdout",
+    "args": [
+      "hadoop",
+      1
+    ],
+    "expected": "adooph"
+  },
+  {
+    "id": "regression_01",
+    "args": [
+      "",
+      0
+    ],
+    "expected": ""
+  },
+  {
+    "id": "regression_02",
+    "args": [
+      "a",
+      0
+    ],
+    "expected": "a"
+  },
+  {
+    "id": "regression_03",
+    "args": [
+      "a",
+      1
+    ],
+    "expected": "a"
+  },
+  {
+    "id": "regression_04",
+    "args": [
+      "abc",
+      0
+    ],
+    "expected": "abc"
+  },
+  {
+    "id": "regression_05",
+    "args": [
+      "abc",
+      3
+    ],
+    "expected": "abc"
+  },
+  {
+    "id": "regression_06",
+    "args": [
+      "abcd",
+      1
+    ],
+    "expected": "bcda"
+  }
+]

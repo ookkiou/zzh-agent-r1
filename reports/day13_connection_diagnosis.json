@@ -1,0 +1,30 @@
+{
+  "observed_at": "2026-10-21T06:08:50.508741+00:00",
+  "complete": false,
+  "stage": "step70",
+  "scope": "dev",
+  "completed_valid_episodes": 55,
+  "expected_episodes": 96,
+  "remaining_episodes": 41,
+  "invalid_attempts": [
+    {
+      "task_id": "mbpp-564-m01",
+      "seed": 29,
+      "error_type": "ConnectionResetError",
+      "observed_at": "2026-10-21T06:07:04.672747+00:00"
+    }
+  ],
+  "local_api_port_18000_listening": false,
+  "local_models_api_reachable": false,
+  "remote_models_api_reachable": true,
+  "remote_served_model": "zzh-repair-step70",
+  "remote_model_path": "/root/zzh-day9-eval/merged-step70",
+  "remote_api_pid": 16534,
+  "remote_engine_pid": 16615,
+  "remote_gpu_memory_mib": 19714,
+  "diagnosis": "Mac SSH local-forward listener is absent; the remote vLLM server is still running. Restore the tunnel and resume the unchanged command.",
+  "source_report_sha256": "19f2f2a8b1b17763494ff3ea28d68545c1ac0b8c70e67bfddc3631ee51955c96",
+  "training_performed": false,
+  "final_test": false,
+  "remote_processes_modified": false
+}

@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-036-t01",
+  "source_id": "mbpp-036",
+  "split": "test",
+  "entrypoint": "find_Nth_Digit",
+  "instruction": "Write a python function to find the nth digit in the proper fraction of two given numbers.\n\n精确输入域与验收约定：整数0<=p<q<=100、1<=N<=12；返回p/q小数点后第N位十进制数字，有限小数后补0。\n修复 solution.py 中的 find_Nth_Digit 函数，保留签名。",
+  "domain": "整数0<=p<q<=100、1<=N<=12；返回p/q小数点后第N位十进制数字，有限小数后补0。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 2,
+    "column": 10,
+    "before": "Gt()",
+    "after": "GtE()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 36,
+    "raw_code_sha256": "f0dbe44983963ec096eb993ea6a5802513e91077fcddcbaa24b6704035bf9fae",
+    "reference_sha256": "5fd85b4e5b96437c88d8936378a1c3a451525aa53db88c0ba7e9e5d5d88610a6"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_id": "repair-002",
+  "source_id": "authored-prototype-002",
+  "split": "train",
+  "title": "校验服务端口",
+  "instruction": "输入整数 port，当且仅当 1 <= port <= 65535 时返回布尔 True，否则返回布尔 False。",
+  "entrypoint": "valid_port",
+  "signature": "valid_port(port)",
+  "bug_type": "boundary",
+  "readable_files": [
+    "solution.py",
+    "public_tests.py"
+  ],
+  "writable_files": [
+    "solution.py"
+  ],
+  "provenance": {
+    "kind": "repository_authored_prototype",
+    "version": "0.1.0"
+  },
+  "public_case_count": 2,
+  "private_case_count": 6
+}

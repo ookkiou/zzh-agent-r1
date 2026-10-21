@@ -1,0 +1,108 @@
+{
+  "complete": true,
+  "uses_model": false,
+  "uses_reference_patches": true,
+  "actual_agent_r1_env": true,
+  "backend": "docker",
+  "episodes": [
+    {
+      "task_id": "mbpp-602-m01",
+      "repaired_fixture": false,
+      "reward": 0.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-602-m01",
+      "repaired_fixture": true,
+      "reward": 1.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-608-m01",
+      "repaired_fixture": false,
+      "reward": 0.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-608-m01",
+      "repaired_fixture": true,
+      "reward": 1.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-610-m01",
+      "repaired_fixture": false,
+      "reward": 0.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-610-m01",
+      "repaired_fixture": true,
+      "reward": 1.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-619-m01",
+      "repaired_fixture": false,
+      "reward": 0.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-619-m01",
+      "repaired_fixture": true,
+      "reward": 1.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-526-m01",
+      "repaired_fixture": false,
+      "reward": 0.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-526-m01",
+      "repaired_fixture": true,
+      "reward": 1.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-527-m01",
+      "repaired_fixture": false,
+      "reward": 0.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-527-m01",
+      "repaired_fixture": true,
+      "reward": 1.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-537-m01",
+      "repaired_fixture": false,
+      "reward": 0.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-537-m01",
+      "repaired_fixture": true,
+      "reward": 1.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-543-m01",
+      "repaired_fixture": false,
+      "reward": 0.0,
+      "workspace_removed": true
+    },
+    {
+      "task_id": "mbpp-543-m01",
+      "repaired_fixture": true,
+      "reward": 1.0,
+      "workspace_removed": true
+    }
+  ],
+  "task_count": 8,
+  "episode_count": 16,
+  "day7_complete": false
+}

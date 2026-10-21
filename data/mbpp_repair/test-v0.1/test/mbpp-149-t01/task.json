@@ -1,0 +1,40 @@
+{
+  "task_id": "mbpp-149-t01",
+  "source_id": "mbpp-149",
+  "split": "test",
+  "entrypoint": "longest_subseq_with_diff_one",
+  "instruction": "Write a function to find the longest subsequence such that the difference between adjacents is one for the given array.\n\n精确输入域与验收约定：非空整数数组arr，n=len(arr)<=30；求保持原顺序、相邻值差的绝对值为1的最长子序列长度。\n修复 solution.py 中的 longest_subseq_with_diff_one 函数，保留签名。",
+  "domain": "非空整数数组arr，n=len(arr)<=30；求保持原顺序、相邻值差的绝对值为1的最长子序列长度。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "values",
+      0,
+      "ops",
+      0
+    ],
+    "line": 5,
+    "column": 15,
+    "before": "Eq()",
+    "after": "NotEq()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 149,
+    "raw_code_sha256": "c0f8a1bfc2a013bee765abd3ba2c033ebbb373bad64065491c99370fabdb8ee3",
+    "reference_sha256": "dd47e2fa1dc0e4e3ab76d7dd87806fbd89ab1f5769744ba6b58395930c92727e"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

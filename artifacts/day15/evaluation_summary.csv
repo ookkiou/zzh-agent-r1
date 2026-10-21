@@ -1,0 +1,4 @@
+evaluation,backend,episodes_per_model,sft_successes,step70_successes,sft_rate,step70_rate,delta_pp,paired_improved,paired_regressed
+frozen_dev,Transformers SDPA BF16,96,63,72,0.65625,0.75,9.375,11,2
+independent_test,Transformers SDPA BF16,126,90,93,0.7142857142857143,0.7380952380952381,2.380952380952381,7,4
+application_dev,ZzhClaw + vLLM 0.11 BF16,96,69,75,0.71875,0.78125,6.25,9,3

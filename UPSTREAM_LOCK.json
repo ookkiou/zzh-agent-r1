@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-12",
+  "agent_r1": {
+    "repository": "https://github.com/AgentR1/Agent-R1.git",
+    "ref": "refs/heads/main",
+    "commit": "b124aa46534cbf2fb8bc8af11405774984c42ac7",
+    "resolution_method": "git ls-remote",
+    "checkout_status": "not cloned or installed"
+  },
+  "model": {
+    "repository": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+    "selection_status": "fixed for first experiment",
+    "weights_revision": null,
+    "weights_status": "resolve immutable revision before downloading; no weights downloaded"
+  },
+  "algorithm": "grpo",
+  "prototype_dataset": "code-repair-prototype@0.1.0",
+  "tool_contract": "v0.1"
+}

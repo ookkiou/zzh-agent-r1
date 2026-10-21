@@ -1,0 +1,98 @@
+{
+  "recorded_at": "2026-10-15T05:57:05.200806+00:00",
+  "checks": {
+    "local_adapter_and_docker_acceptance": true,
+    "linux_gpu_stack_checks": true,
+    "actual_trainer_response_mask_contract": true,
+    "autonomous_original_model_not_training": true,
+    "fixed_selection_unchanged": true,
+    "all_32_selected_attempts_complete": true,
+    "all_traces_available_and_consistent": true,
+    "all_attempts_valid_infrastructure": true,
+    "eight_reward_groups_recorded": true,
+    "train_group_reward_variation_present": false
+  },
+  "diagnostic_execution_complete": true,
+  "complete": false,
+  "ready_for_grpo_smoke": false,
+  "training_performed": false,
+  "full_dev_baseline": false,
+  "model_ability_improvement_proven": false,
+  "train": {
+    "valid_episodes": 16,
+    "success_rate": 0.0,
+    "parsed_action_rate": 0.6805555555555556,
+    "contract_valid_action_rate": 0.5694444444444444,
+    "mixed_reward_groups": 0,
+    "groups": 4
+  },
+  "dev": {
+    "valid_episodes": 16,
+    "success_rate": 0.0,
+    "parsed_action_rate": 0.6964285714285714,
+    "contract_valid_action_rate": 0.625,
+    "mixed_reward_groups": 0,
+    "groups": 4
+  },
+  "tool_counts": {
+    "unparseable_model_decisions": 40,
+    "requested/TOOL_NAME": 5,
+    "requested/read_file": 23,
+    "successful/read_file": 23,
+    "requested/write_file": 37,
+    "requested/run_tests": 4,
+    "successful/run_tests": 4,
+    "requested/remove_kth_element": 1,
+    "requested/get_pairs_count": 1,
+    "requested/count_digits": 1
+  },
+  "error_counts": {
+    "invalid_action": 40,
+    "invalid_arguments": 12,
+    "invalid_source": 33
+  },
+  "termination_counts": {
+    "step_limit": 16,
+    "agent_final": 16
+  },
+  "next_step_decision": "Do not start formal GRPO. Inspect protocol/tool failures; prepare supervised tool trajectories if exploration is insufficient. Keep SFT-only comparison.",
+  "trace_sha256": {
+    "runs/day7/diagnostic/mbpp-602-m01-17.json": "bec7b4bb371728f0d250a22461d88169a95e4e3b4b054a8be4bd50f4058892b3",
+    "runs/day7/diagnostic/mbpp-602-m01-29.json": "31176bfd473897f538cb70f3fa218a4d144e707cad6970f73ae15be246a58380",
+    "runs/day7/diagnostic/mbpp-602-m01-43.json": "2a66ebc4aa79b659c6808417014a96801be2b771e7a0f913d749b91ae7023b5b",
+    "runs/day7/diagnostic/mbpp-602-m01-59.json": "3da49ebea57082c4a5d637ee084845a5f87373cdab6b3a583f47bce9eb29571d",
+    "runs/day7/diagnostic/mbpp-608-m01-17.json": "0987b1b4bbbd147ff5cce0e9ae98ef6dd833347e82629ceed36b1b14b326c37b",
+    "runs/day7/diagnostic/mbpp-608-m01-29.json": "90d6eac560d374d7204d4f4917ca9fd46c3c05e1755f5ecfe11a3418972a3707",
+    "runs/day7/diagnostic/mbpp-608-m01-43.json": "622896d7260209b288280d4fa84205ee671be43995ec070d45416442ca207bd0",
+    "runs/day7/diagnostic/mbpp-608-m01-59.json": "76e148f0024c9dd7dff299fbc53ef9dd805841f5bc2b887923680ba44378633d",
+    "runs/day7/diagnostic/mbpp-610-m01-17.json": "9fa7f7e6b36d50048483de47397373815ee404e70eeec314d8e905e8c2b799fd",
+    "runs/day7/diagnostic/mbpp-610-m01-29.json": "8a1343574b769efaf6b9039e07f6ed0522790c513a5f18523fe0575cf1929d4c",
+    "runs/day7/diagnostic/mbpp-610-m01-43.json": "cc92818c2ed6549417bfaacc1bcd70e483843c7d33ee95c1cd26cca09ce1fde1",
+    "runs/day7/diagnostic/mbpp-610-m01-59.json": "85079c0b14ee111c9ee8fb1e1dd9609c075d6d34661352f5ff10da9cfbdf11bf",
+    "runs/day7/diagnostic/mbpp-619-m01-17.json": "7f4825536347a6e5cf96eb745768a3a54e3a15dc3477542d6e89232986294933",
+    "runs/day7/diagnostic/mbpp-619-m01-29.json": "7b47f69405f5549489fa0dcc133d4f3a92444226ece8151a3e37369b36c55297",
+    "runs/day7/diagnostic/mbpp-619-m01-43.json": "3649251dc6ee04eaf408d2c58ff68e465287c51644d7b27280c96dc91985db1e",
+    "runs/day7/diagnostic/mbpp-619-m01-59.json": "ddd6c26811e8076f121e7c9721b377a483ef078c8ad721cf485b7e92b1e7e042",
+    "runs/day7/diagnostic/mbpp-526-m01-17.json": "2e9e1a38c41225d49971e95d611f6539a0e9a98c439bf876c553d116b78f0fbc",
+    "runs/day7/diagnostic/mbpp-526-m01-29.json": "47d28da4c41c38dc23d9fbd3212d88162c9cf57def766a2921d2b96a2cb1f7ba",
+    "runs/day7/diagnostic/mbpp-526-m01-43.json": "fc604be3fecfe4e3998425dafd01d58fdf82054eb12be66d4ddececb76342b04",
+    "runs/day7/diagnostic/mbpp-526-m01-59.json": "16d1e02abb45c410db6cec5be3f26f6cb9fdbc232cb62c50bf6c1603908ca9fe",
+    "runs/day7/diagnostic/mbpp-527-m01-17.json": "d2f17a41be1058d3049ed1e0257c9dca3ecc239fc31892cf55264a6df73753c2",
+    "runs/day7/diagnostic/mbpp-527-m01-29.json": "8cb65fab3ac36a58ab47a1ebd11945c8a10acac93130f1944f1cd739dbd0e0a6",
+    "runs/day7/diagnostic/mbpp-527-m01-43.json": "e3294a9ecd39dabeb2ef63238925c75c0e65ef27d1c7d7500a57b0f3d20b390d",
+    "runs/day7/diagnostic/mbpp-527-m01-59.json": "9c71b725179f14ddaea52e4821b025b86d6c2194ef6a62231aa312e30cab9c42",
+    "runs/day7/diagnostic/mbpp-537-m01-17.json": "d167c797a16d5e1db0f96ddd0a91cf54829d66711ab7ca70787683ebd47d8845",
+    "runs/day7/diagnostic/mbpp-537-m01-29.json": "7f06e362514573d3214e58f522afb603739b963bbf1e3349cc451e30e2d2fb7b",
+    "runs/day7/diagnostic/mbpp-537-m01-43.json": "a77674e358d313269e6ed0154a05d6469d01a00de13788863f1e82627a03354a",
+    "runs/day7/diagnostic/mbpp-537-m01-59.json": "67df5131188ace5f8c0b042c161ef272511a4bb37dac96ae00559707b8973c47",
+    "runs/day7/diagnostic/mbpp-543-m01-17.json": "72ad2f09b6fb60b284d646a0da7b06698d1e8aab85607e1d07fd2fb080c0ee69",
+    "runs/day7/diagnostic/mbpp-543-m01-29.json": "7bbdeff370dceaeb0c5b1581e9ab3fae6036491b68a528ebcfc5a595122e8643",
+    "runs/day7/diagnostic/mbpp-543-m01-43.json": "fcda4b396cf8661da8c2389b9cd600dc8d1bf4c91023fa9abc209e412de2d7ff",
+    "runs/day7/diagnostic/mbpp-543-m01-59.json": "476b8e5724a3b316cc471f21d912e8d6d74d78f885d72796beaf1a38bc34fd96"
+  },
+  "limitations": [
+    "Eight-source diagnostics only, not complete dev/test evaluation.",
+    "Model generation uses Transformers; real Agent-R1 tensor path tested separately with scripted actions.",
+    "No code-repair optimizer updates or post-training improvement claimed."
+  ]
+}

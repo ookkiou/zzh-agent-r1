@@ -1,0 +1,39 @@
+{
+  "task_id": "mbpp-241-t01",
+  "source_id": "mbpp-241",
+  "split": "test",
+  "entrypoint": "array_3d",
+  "instruction": "Write a function to generate a 3d array having each element as '*'.\n\n精确输入域与验收约定：整数0<=m,n,o<=6；生成[o][n][m]形状的嵌套列表，元素均为字符串'*'。\n修复 solution.py 中的 array_3d 函数，保留签名。",
+  "domain": "整数0<=m,n,o<=6；生成[o][n][m]形状的嵌套列表，元素均为字符串'*'。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value",
+      "elt",
+      "elt",
+      "generators",
+      0,
+      "iter",
+      "args",
+      0
+    ],
+    "line": 2,
+    "column": 39,
+    "before": "Name(id='m', ctx=Load())",
+    "after": "BinOp(left=Name(id='m', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 241,
+    "raw_code_sha256": "0be6565ad8908c2d26b1cbccebaa7a9de758aca5f802ee8ec2cd868e92a4dce8",
+    "reference_sha256": "5e713f6f78e16333b433d0f81f1bf708a80aa70140ac2b35014fdbe5d93c3575"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

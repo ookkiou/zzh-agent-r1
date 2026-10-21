@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "scripted_fixture": true,
+  "model_inference_performed": false,
+  "training_performed": false,
+  "final_test_executed": false,
+  "real_docker": true,
+  "real_http_transport": true,
+  "token_ids_are_scripted_fixture_ids": true,
+  "episodes": [
+    {
+      "fixture": "unchanged",
+      "reward": 0.0,
+      "decisions": 4,
+      "terminal": {
+        "termination_reason": "agent_final",
+        "step_index": 4,
+        "valid_episode": true,
+        "backend": "remote-docker",
+        "acceptance": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 2,
+          "failed": 5
+        }
+      },
+      "zzhclaw_session_persisted": true
+    },
+    {
+      "fixture": "known_reference",
+      "reward": 1.0,
+      "decisions": 4,
+      "terminal": {
+        "termination_reason": "agent_final",
+        "step_index": 4,
+        "valid_episode": true,
+        "backend": "remote-docker",
+        "acceptance": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0
+        }
+      },
+      "zzhclaw_session_persisted": true
+    }
+  ],
+  "http_requests": 24,
+  "profile_sha256": "d9e565b0d02a72856a0f2b31b79dfd38330234ad4f2740e8bf4c53a0689cfa06"
+}

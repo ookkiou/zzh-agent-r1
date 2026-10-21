@@ -1,0 +1,36 @@
+{
+  "task_id": "mbpp-734-x02",
+  "source_id": "mbpp-734",
+  "split": "train",
+  "entrypoint": "sum_Of_Subarray_Prod",
+  "instruction": "Write a python function to find sum of products of all possible subarrays.\n\n精确输入域与验收约定：整数列表 arr，n=len(arr)<=10；返回所有非空连续子数组的元素乘积之和。\n修复 solution.py 中的 sum_Of_Subarray_Prod 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      3,
+      "body",
+      0,
+      "value",
+      "op"
+    ],
+    "line": 6,
+    "column": 15,
+    "before": "Mult()",
+    "after": "Add()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 734,
+    "raw_code_sha256": "5f2addab15f0b5e21189ddf01f24fdb31ec6cee082a154d4c2abf72e7a03047d",
+    "reference_sha256": "dbb49e5a6545b9202e91d88cb412bf3c2bca827d2885cfafadd7536af5439d91"
+  },
+  "domain": "整数列表 arr，n=len(arr)<=10；返回所有非空连续子数组的元素乘积之和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

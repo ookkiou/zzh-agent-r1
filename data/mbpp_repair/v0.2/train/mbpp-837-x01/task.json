@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-837-x01",
+  "source_id": "mbpp-837",
+  "split": "train",
+  "entrypoint": "cube_Sum",
+  "instruction": "Write a python function to find the cube sum of first n odd natural numbers.\n\n精确输入域与验收约定：整数0<=n<=8；返回前n个正奇数的立方和。\n修复 solution.py 中的 cube_Sum 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "op"
+    ],
+    "line": 4,
+    "column": 8,
+    "before": "Add()",
+    "after": "Sub()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 837,
+    "raw_code_sha256": "d2d51e94bf5a9499739f8e925b6651e7991219e0914d70d39e760fff79fe8c2c",
+    "reference_sha256": "7d4572c438a4dd3b5d50cdbb58fddec11e0e05ffa302e28f62c1e27477f9b18f"
+  },
+  "domain": "整数0<=n<=8；返回前n个正奇数的立方和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

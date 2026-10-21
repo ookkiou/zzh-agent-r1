@@ -1,0 +1,10 @@
+{
+  "gpu_compute_processes_observed": [],
+  "gpu_probe_success": true,
+  "local_evaluator_stopped": true,
+  "local_port_8765_closed": true,
+  "project_reverse_tunnel_stopped": true,
+  "docker_app_closed": false,
+  "remote_instance_shutdown": false,
+  "checkpoint_weights_location": "AutoDL data disk only; small diagnostic artifacts backed up locally"
+}

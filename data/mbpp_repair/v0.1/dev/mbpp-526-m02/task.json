@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-526-m02",
+  "source_id": "mbpp-526",
+  "split": "dev",
+  "entrypoint": "capitalize_first_last_letters",
+  "instruction": "Write a python function to capitalize first and last letters of each word of a given string.\n\n精确输入域与验收约定：ASCII 单词字符串，允许空串和空白；按空白分词，以单个空格连接，首尾字母大写，其余字母小写。\n修复 solution.py 中的 capitalize_first_last_letters 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      3,
+      "value",
+      "slice",
+      "upper"
+    ],
+    "line": 6,
+    "column": 19,
+    "before": "UnaryOp(op=USub(), operand=Constant(value=1))",
+    "after": "BinOp(left=UnaryOp(op=USub(), operand=Constant(value=1)), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 526,
+    "raw_code_sha256": "9363988c5c03fae7ce865bec8fab34b9f991d5b5548b4b2756db59500f77c18f",
+    "reference_sha256": "0ac0254f73ea37d6c2704a1bfc9c24fd6c58b794625bd2c4998ce9361c8ec4e5"
+  },
+  "domain": "ASCII 单词字符串，允许空串和空白；按空白分词，以单个空格连接，首尾字母大写，其余字母小写。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

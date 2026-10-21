@@ -1,0 +1,37 @@
+{
+  "task_id": "mbpp-777-x02",
+  "source_id": "mbpp-777",
+  "split": "train",
+  "entrypoint": "find_Sum",
+  "instruction": "Write a python function to find the sum of non-repeated elements in a given array.\n\n精确输入域与验收约定：非空整数数组，n=len(arr)<=30；每个不同的值只计一次，返回这些值的和；输入修改允许。\n修复 solution.py 中的 find_Sum 函数，保留签名。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      2,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 5,
+    "column": 11,
+    "before": "NotEq()",
+    "after": "Eq()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 777,
+    "raw_code_sha256": "b3832b57cfb07991df2f97ed511989053a324d23f5baeeb517d1fbe5410f5bb8",
+    "reference_sha256": "6f406f12e0e457aa3aa78a58340374d3099c74006d96f71386605c47e1d04b64"
+  },
+  "domain": "非空整数数组，n=len(arr)<=30；每个不同的值只计一次，返回这些值的和；输入修改允许。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

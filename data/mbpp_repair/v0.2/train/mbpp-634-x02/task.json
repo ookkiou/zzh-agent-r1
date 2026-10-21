@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-634-x02",
+  "source_id": "mbpp-634",
+  "split": "train",
+  "entrypoint": "even_Power_Sum",
+  "instruction": "Write a python function to find the sum of fourth power of first n even natural numbers.\n\n精确输入域与验收约定：整数 0<=n<=8；返回前 n 个正偶数的四次方之和。\n修复 solution.py 中的 even_Power_Sum 函数，保留签名。",
+  "bug_type": "initialization",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value"
+    ],
+    "line": 2,
+    "column": 10,
+    "before": "Constant(value=0)",
+    "after": "Constant(value=1)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 634,
+    "raw_code_sha256": "fb1d84317aa12d5533832c0cdbb9e210664cd41272e5eead6fa401066222b86a",
+    "reference_sha256": "b710fa2a9089043ee45ab1ec075a446ac9810e3271cf6892e118142535ce5dbb"
+  },
+  "domain": "整数 0<=n<=8；返回前 n 个正偶数的四次方之和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

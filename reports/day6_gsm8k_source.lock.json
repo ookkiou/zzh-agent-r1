@@ -1,0 +1,34 @@
+{
+  "repository": "openai/gsm8k",
+  "revision": "740312add88f781978c0658806c59bc2815b9866",
+  "source_url": "https://huggingface.co/api/datasets/openai/gsm8k?blobs=true",
+  "files": [
+    {
+      "name": "README.md",
+      "size": 7935,
+      "lfs": null,
+      "git_blob_id": "ad25b2c451d0fcd2793678b2baa917c962acf281"
+    },
+    {
+      "name": "main/test-00000-of-00001.parquet",
+      "size": 419088,
+      "lfs": {
+        "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+        "size": 419088,
+        "pointerSize": 131
+      },
+      "git_blob_id": "861005fb045993f46d198aa797440f4096f9aa17"
+    },
+    {
+      "name": "main/train-00000-of-00001.parquet",
+      "size": 2306545,
+      "lfs": {
+        "sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+        "size": 2306545,
+        "pointerSize": 132
+      },
+      "git_blob_id": "61b47c916c27533feaa3763484ae0ea58f92b056"
+    }
+  ],
+  "purpose": "official GSM8K training-stack diagnostic; unrelated to frozen repair test sources"
+}

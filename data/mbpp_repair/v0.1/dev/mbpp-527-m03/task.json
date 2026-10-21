@@ -1,0 +1,37 @@
+{
+  "task_id": "mbpp-527-m03",
+  "source_id": "mbpp-527",
+  "split": "dev",
+  "entrypoint": "get_pairs_count",
+  "instruction": "Write a function to find all pairs in an integer array whose sum is equal to a given number.\n\n精确输入域与验收约定：整数列表 arr，n=len(arr)，0<=n<=30；返回下标 i<j 且元素和等于 sum 的无序下标对数量。\n修复 solution.py 中的 get_pairs_count 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "iter",
+      "args",
+      1
+    ],
+    "line": 4,
+    "column": 30,
+    "before": "Name(id='n', ctx=Load())",
+    "after": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 527,
+    "raw_code_sha256": "da24d34d7446f3e77aef803a15a7250edfc010523dbddc7423778fa01758f5a7",
+    "reference_sha256": "8eaa131b765f47ba51a7eb3ca777cebbf37bf0bb31b0589c644efcb3ebb49ef2"
+  },
+  "domain": "整数列表 arr，n=len(arr)，0<=n<=30；返回下标 i<j 且元素和等于 sum 的无序下标对数量。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

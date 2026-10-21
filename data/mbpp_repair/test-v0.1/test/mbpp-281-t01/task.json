@@ -1,0 +1,34 @@
+{
+  "task_id": "mbpp-281-t01",
+  "source_id": "mbpp-281",
+  "split": "test",
+  "entrypoint": "all_unique",
+  "instruction": "Write a python function to check if the elements of a given list are unique or not.\n\n精确输入域与验收约定：整数列表，长度0..30；所有元素互异返回True，否则False。\n修复 solution.py 中的 all_unique 函数，保留签名。",
+  "domain": "整数列表，长度0..30；所有元素互异返回True，否则False。",
+  "bug_type": "boundary",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "test",
+      "ops",
+      0
+    ],
+    "line": 2,
+    "column": 7,
+    "before": "Gt()",
+    "after": "GtE()",
+    "single_location": true
+  },
+  "source": {
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 281,
+    "raw_code_sha256": "b4d891a1a6c1bef09cfe4776e56c275a7b9c9e6ff197db6c10e85fe70243bdf2",
+    "reference_sha256": "6e0b6b49028cfae0e24583c4ceae63354909a11a873fa9138f5bf409b45d5e21"
+  },
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

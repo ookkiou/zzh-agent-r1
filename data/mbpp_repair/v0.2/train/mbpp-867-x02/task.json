@@ -1,0 +1,35 @@
+{
+  "task_id": "mbpp-867-x02",
+  "source_id": "mbpp-867",
+  "split": "train",
+  "entrypoint": "min_Num",
+  "instruction": "Write a python function to add a minimum number such that the sum of array becomes even.\n\n精确输入域与验收约定：整数数组，n=len(arr)<=30；返回使元素和成为偶数的最小严格正整数加数，和为奇数时1、偶数时2。\n修复 solution.py 中的 min_Num 函数，保留签名。",
+  "bug_type": "index_slice",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "iter",
+      "args",
+      0
+    ],
+    "line": 3,
+    "column": 19,
+    "before": "Name(id='n', ctx=Load())",
+    "after": "BinOp(left=Name(id='n', ctx=Load()), op=Add(), right=Constant(value=1))",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 867,
+    "raw_code_sha256": "4fed50713ed0713cb38448d4d8ffbc95f99d71c27959a84fadbfc01c6c90faf9",
+    "reference_sha256": "5a588d0f1770ce6159e58e9b4ae7fed16b327086b962bd1f688114bbf7605827"
+  },
+  "domain": "整数数组，n=len(arr)<=30；返回使元素和成为偶数的最小严格正整数加数，和为奇数时1、偶数时2。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

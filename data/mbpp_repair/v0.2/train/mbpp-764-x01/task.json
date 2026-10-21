@@ -1,0 +1,37 @@
+{
+  "task_id": "mbpp-764-x01",
+  "source_id": "mbpp-764",
+  "split": "train",
+  "entrypoint": "number_ctr",
+  "instruction": "Write a python function to count numeric values in a given string.\n\n精确输入域与验收约定：ASCII 字符串，允许空串；只统计字符0..9的出现数量。\n修复 solution.py 中的 number_ctr 函数，保留签名。",
+  "bug_type": "arithmetic",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      1,
+      "body",
+      0,
+      "body",
+      0,
+      "op"
+    ],
+    "line": 5,
+    "column": 12,
+    "before": "Add()",
+    "after": "Sub()",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 764,
+    "raw_code_sha256": "2390d60b0cca620f57a2827b3d78369fdb3531c6711231464fadcac862d5118a",
+    "reference_sha256": "e84af49686b4bb81ef804b501f412c8d2e3fa9cfc0c62d4cccbf667b8312303d"
+  },
+  "domain": "ASCII 字符串，允许空串；只统计字符0..9的出现数量。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}

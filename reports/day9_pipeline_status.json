@@ -1,0 +1,22 @@
+{
+  "run_fingerprint": "b9f93ec5dadf42c1199427e5ba425cc2a864daad30caae599aa27d22a6092f32",
+  "status": "paused_by_user",
+  "formal_225_updates_complete": false,
+  "optimizer_state_saved": false,
+  "optimizer_continuation_verified": false,
+  "grpo_ability_improvement_proven": false,
+  "test_executed": false,
+  "recorded_at": "2026-10-15T09:37:07.722122+00:00",
+  "elapsed_seconds": 527.18,
+  "pilot_mean_seconds_per_update": 111.21,
+  "rough_remaining_update_hours_excluding_initialization_and_checkpoint_io": 6.61,
+  "weight_reload_verified": true,
+  "user_requested_pause": true,
+  "resume_checkpoint_step": 11,
+  "uncheckpointed_completed_updates": [
+    12,
+    13,
+    14
+  ],
+  "automatic_restart": false
+}

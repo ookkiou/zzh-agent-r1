@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "profile": "code-repair-v1",
+  "candidate_step": 70,
+  "split": "dev",
+  "final_test": false,
+  "training_performed": false,
+  "purpose": "ZzhClaw application migration, separate from the frozen Transformers evaluation",
+  "backend": "vllm-0.11-token-completions",
+  "dtype": "bfloat16",
+  "max_steps": 6,
+  "max_prompt_length": 4096,
+  "max_response_length": 512,
+  "episode_timeout": 240,
+  "test_timeout": 10,
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "top_k": 20,
+  "repetition_penalty": 1.1,
+  "stop_token_ids": [
+    151645,
+    151643
+  ],
+  "seed_rule": "episode_seed + zero_based_decision_index",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "tasks": [
+    {
+      "task_id": "mbpp-526-m01",
+      "source_id": "mbpp-526",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-526-m02",
+      "source_id": "mbpp-526",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-527-m01",
+      "source_id": "mbpp-527",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-527-m02",
+      "source_id": "mbpp-527",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-527-m03",
+      "source_id": "mbpp-527",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-537-m01",
+      "source_id": "mbpp-537",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-543-m01",
+      "source_id": "mbpp-543",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-546-m01",
+      "source_id": "mbpp-546",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-546-m02",
+      "source_id": "mbpp-546",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-546-m03",
+      "source_id": "mbpp-546",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-547-m01",
+      "source_id": "mbpp-547",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-547-m02",
+      "source_id": "mbpp-547",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-548-m01",
+      "source_id": "mbpp-548",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-548-m02",
+      "source_id": "mbpp-548",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-548-m03",
+      "source_id": "mbpp-548",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-552-m01",
+      "source_id": "mbpp-552",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-552-m02",
+      "source_id": "mbpp-552",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-552-m03",
+      "source_id": "mbpp-552",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-564-m01",
+      "source_id": "mbpp-564",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-564-m02",
+      "source_id": "mbpp-564",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-564-m03",
+      "source_id": "mbpp-564",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-566-m01",
+      "source_id": "mbpp-566",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-566-m02",
+      "source_id": "mbpp-566",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-568-m01",
+      "source_id": "mbpp-568",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-568-m02",
+      "source_id": "mbpp-568",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-572-m01",
+      "source_id": "mbpp-572",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-577-m01",
+      "source_id": "mbpp-577",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-577-m02",
+      "source_id": "mbpp-577",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-577-m03",
+      "source_id": "mbpp-577",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-589-m01",
+      "source_id": "mbpp-589",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-589-m02",
+      "source_id": "mbpp-589",
+      "split": "dev"
+    },
+    {
+      "task_id": "mbpp-589-m03",
+      "source_id": "mbpp-589",
+      "split": "dev"
+    }
+  ],
+  "smoke_tasks": [
+    "mbpp-526-m01",
+    "mbpp-527-m01"
+  ],
+  "public_manifest_sha256": "59eb1edb9c7f7ce19e0afa9c441a868d251ba7c704938e620a6584a2fd18c196",
+  "dataset_manifest_sha256": "37b846babd6d9949e2247752042c3669d618d0f367212b65ba32e39717da9555",
+  "original_dev_protocol_sha256": "078b36f56a85e1ef800da548ba042e7296fe6e79cb3b10dfb3c2d492f3338635",
+  "candidate_freeze_sha256": "ce5af7ebbcdb850d5e5e9951224acf365a27336ec6cd8e81bfc09702d84d3822",
+  "model_sha256": {
+    "sft": "f507ccbddb9881ae7bdd841cd2ba8fdf02e54661d04e83fad7e97d2f545be346",
+    "step70": "40915da114c198d947b2b99482fdb3b96ba8bade9cb0b7fb33c53e79e1bb986d"
+  },
+  "core_files_sha256": {
+    "code_repair/agent_protocol.py": "98f9e89ceeb2229a4e4039e4ce563bc21adce199792f5130aef0584acbfe572f",
+    "code_repair/agent_session.py": "95172d41174600b5e716ad752714b1651c5aa5c41081265b54abcef3e5595d37",
+    "code_repair/contracts.py": "8c24abdf6442e0fa2939f88050db78bf86ee497a6fca7f310f3f5733852444da",
+    "code_repair/environment.py": "a5d12f589201191ed957449fbf2e699ee159affe74f2e7cb6cbc679d687c11f8"
+  },
+  "app_files_sha256": {
+    "zzhclaw/agent/repair.py": "d9e565b0d02a72856a0f2b31b79dfd38330234ad4f2740e8bf4c53a0689cfa06",
+    "zzhclaw/agent/repair_cli.py": "2524b42f9f1835869dc57e4a332cfa68b586194d287cc7a722d66cd2c1f3f81d",
+    "zzhclaw/agent/core.py": "6d44dd3b2815ab2e9b2ec5fc1806947ac3edcbe948dc77dc398ffa111116fc14",
+    "zzhclaw/coding/session/manager.py": "72672172c5075b257716396b5792ac4f2711faccae58349c5175c834ee1c7172",
+    "zzhclaw/__main__.py": "b5472ad9e0fcec6604746994d17e0f519cc6d6ae29c08eaad2818bf6169e0cb1"
+  },
+  "local_files_sha256": {
+    "scripts/day13_serve_model.py": "754c23dbede9e3c238976558f43cc9c4d444629683a83e86601d87a76aa5dd56",
+    "scripts/run_zzhclaw_repair.py": "c23045b529f9962676f82d2dac4e1f0767bccc4c3ecb1e8966a81137deb35448",
+    "scripts/compare_zzhclaw_repair.py": "4900cda62e5b79bc5c8d01a67b3be74ef3c7bb6ff6f0937b229b441e646d038a"
+  },
+  "migration_caveat": "Backend and random stream differ from Transformers; both app models use this same recipe",
+  "metric": "96 valid single episodes per model; not pass@3; repeated seeds are correlated"
+}

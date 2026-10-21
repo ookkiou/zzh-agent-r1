@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/google-research/google-research",
+  "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+  "files": {
+    "mbpp.jsonl": {
+      "path": "mbpp/mbpp.jsonl",
+      "url": "https://raw.githubusercontent.com/google-research/google-research/f46ca8374b4cddef97ca4208ad986049d74d296a/mbpp/mbpp.jsonl",
+      "sha256": "ccf64ceae9c5403bf50a044cb6d505bfd2a2963ee58338ba268fd65beab92a9f",
+      "bytes": 563743
+    },
+    "sanitized-mbpp.json": {
+      "path": "mbpp/sanitized-mbpp.json",
+      "url": "https://raw.githubusercontent.com/google-research/google-research/f46ca8374b4cddef97ca4208ad986049d74d296a/mbpp/sanitized-mbpp.json",
+      "sha256": "ca95deaa9a01ef0a6f439f88bcf0dd3db3563d22f22aad6cae04ebb9a8d8c8e9",
+      "bytes": 255053
+    },
+    "README.md": {
+      "path": "mbpp/README.md",
+      "url": "https://raw.githubusercontent.com/google-research/google-research/f46ca8374b4cddef97ca4208ad986049d74d296a/mbpp/README.md",
+      "sha256": "02d63a4ffdad806c3c87b5ea2aa91e946f6eec0c2869643b09831650883f41be",
+      "bytes": 1422
+    },
+    "LICENSE": {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/google-research/google-research/f46ca8374b4cddef97ca4208ad986049d74d296a/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    }
+  },
+  "raw_records": 974,
+  "sanitized_records": 427,
+  "downloaded_code_executed": false,
+  "upstream_repository_license": "Apache-2.0; exact upstream LICENSE included"
+}

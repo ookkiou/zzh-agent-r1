@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "scope": "Exact saved LoRA adapter backed up locally; full merged weights remain remote",
+  "checks": {
+    "adapter/README.md": true,
+    "adapter/adapter_config.json": true,
+    "adapter/adapter_model.safetensors": true
+  },
+  "base_revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+  "archive_path": "runs/day7/sft_warmup/adapter-backup.tar.gz",
+  "archive_sha256": "b7430597643d38d5b6a237ca9e0c2f3ca3272cd2c892dd1f5bfba3372aac9cba",
+  "adapter_weight_bytes": 73911112,
+  "merged_weights_location": "remote data disk only",
+  "remote_directory": "/root/autodl-tmp/agent-r1-day6/runs/day7/sft_warmup",
+  "credentials_included": false
+}

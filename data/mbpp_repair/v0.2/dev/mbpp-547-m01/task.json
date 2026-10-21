@@ -1,0 +1,33 @@
+{
+  "task_id": "mbpp-547-m01",
+  "source_id": "mbpp-547",
+  "split": "dev",
+  "entrypoint": "Total_Hamming_Distance",
+  "instruction": "Write a python function to find the sum of hamming distances of all consecutive numbers from o to n.\n\n精确输入域与验收约定：整数 0<=n<=100；求相邻整数对 (0,1)、(1,2)、…、(n-1,n) 的二进制汉明距离之和。\n修复 solution.py 中的 Total_Hamming_Distance 函数，保留签名。",
+  "bug_type": "initialization",
+  "mutation": {
+    "ast_path": [
+      "body",
+      0,
+      "body",
+      0,
+      "value"
+    ],
+    "line": 2,
+    "column": 8,
+    "before": "Constant(value=1)",
+    "after": "Constant(value=0)",
+    "single_location": true
+  },
+  "source": {
+    "repository": "https://github.com/google-research/google-research",
+    "commit": "f46ca8374b4cddef97ca4208ad986049d74d296a",
+    "task_id": 547,
+    "raw_code_sha256": "cb92722ed2f6fe36d339f27f5160afc440731a466c814217246e20d6216d1417",
+    "reference_sha256": "61f28fbbc6e0e8732e18362af26a549af487f685fe9fc46448d98aee4eca3ad4"
+  },
+  "domain": "整数 0<=n<=100；求相邻整数对 (0,1)、(1,2)、…、(n-1,n) 的二进制汉明距离之和。",
+  "review_status": "agent_reviewed_not_human_signed_off",
+  "public_cases": 2,
+  "private_cases": 7
+}
