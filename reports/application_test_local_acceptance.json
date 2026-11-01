@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "protocol_sha256": "d65db1859c3c7a34a191118ba0ef2ea22d5e4767786387b358e92f346a9fd4a6",
+  "scripted_fixture": true,
+  "model_inference_performed": false,
+  "application_model_test_complete": false,
+  "test_dataset_used": true,
+  "diagnostic_task": "mbpp-022-t01",
+  "real_docker": true,
+  "real_http_transport": true,
+  "token_ids_are_scripted_fixture_ids": true,
+  "test_profile_sha256": "022912aafd765c2b4a1d2beb9b6ffd6d58e2fef108b1da61b306613d58e2913f",
+  "http_requests": 24,
+  "episodes": [
+    {
+      "fixture": "unchanged",
+      "reward": 0.0,
+      "decisions": 4,
+      "terminal": {
+        "termination_reason": "agent_final",
+        "step_index": 4,
+        "valid_episode": true,
+        "backend": "remote-docker",
+        "acceptance": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 5,
+          "failed": 2
+        }
+      },
+      "application_session_persisted": true
+    },
+    {
+      "fixture": "known_reference",
+      "reward": 1.0,
+      "decisions": 4,
+      "terminal": {
+        "termination_reason": "agent_final",
+        "step_index": 4,
+        "valid_episode": true,
+        "backend": "remote-docker",
+        "acceptance": {
+          "status": "completed",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0
+        }
+      },
+      "application_session_persisted": true
+    }
+  ],
+  "training_performed": false
+}

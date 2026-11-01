@@ -1,0 +1,12 @@
+{
+  "local_preparation_complete": true,
+  "protocol_sha256": "d65db1859c3c7a34a191118ba0ef2ea22d5e4767786387b358e92f346a9fd4a6",
+  "tasks": 42,
+  "episodes_per_model": 126,
+  "total_episodes": 252,
+  "test_results_previously_observed": true,
+  "fresh_blind_test": false,
+  "application_test_complete": false,
+  "model_inference_performed": false,
+  "training_performed": false
+}
